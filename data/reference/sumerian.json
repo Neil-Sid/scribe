@@ -1,0 +1,292 @@
+{
+  "sounds": {
+    "intro": "Sumerian stopped being spoken around 1800 BC, so its sounds reach us through Akkadian scribes. Their sign lists spell out each sign's Sumerian reading in Akkadian syllables, their bilingual word lists give the meanings, and Akkadian borrowed hundreds of Sumerian words. All of it passed through Akkadian ears, which lacked some Sumerian sounds and may have missed others. What follows is the convention scholars share: close, but not a recording.",
+    "groups": [
+      { "h": "Vowels", "rows": [
+        { "t": "a", "g": "𒀀", "ipa": "a", "like": "as in 'father', never as in 'cat'", "ex": "ama" },
+        { "t": "e", "g": "𒂊", "ipa": "e", "like": "as in 'pet' or 'play'", "ex": "en" },
+        { "t": "i", "g": "𒄿", "ipa": "i", "like": "as in 'tip' or 'tree'", "ex": "iri" },
+        { "t": "u", "g": "𒌋", "ipa": "u", "like": "as in 'put' or 'who'", "ex": "dumu", "note": "A few scholars have argued for an o as well. Most do not accept it." }
+      ] },
+      { "h": "Consonants close to English", "rows": [
+        { "t": "b, d, g", "ipa": "b d g (or p t k)", "like": "written b, d, g, but perhaps plain unaspirated p, t, k as in French", "ex": "dumu", "note": "Sumerian may have contrasted a puff of air (aspiration) rather than voicing. Akkadian heard the difference as voicing, which is why 'peg' appears as both gag and kak." },
+        { "t": "p, t, k", "ipa": "p t k (or pʰ tʰ kʰ)", "like": "like English p, t, k with a puff of air", "ex": "kur" },
+        { "t": "m, n, l", "ipa": "m n l", "like": "as in English", "ex": "nin" },
+        { "t": "r", "ipa": "r", "like": "probably trilled or flapped as in Spanish, not the English r", "ex": "iri" },
+        { "t": "s, z", "ipa": "s, ts?", "like": "s as in 'sun'; z perhaps ts as in 'cats'", "ex": "zu", "note": "Jagersma reconstructs z as the affricate ts. Many books simply read it as English z." }
+      ] },
+      { "h": "Special letters", "rows": [
+        { "t": "š", "g": "𒋀", "ipa": "ʃ", "like": "sh as in 'ship'", "ex": "šeš" },
+        { "t": "ĝ", "g": "𒀭", "ipa": "ŋ", "like": "ng as in 'sing', even at the start of a word", "ex": "diĝir", "note": "Akkadian had no such sound, so its scribes wrote g, n, m or ng. That is why older books spell diĝir as dingir and -ĝu₁₀ as -mu." },
+        { "t": "ḫ", "g": "𒈤", "ipa": "x", "like": "kh, the ch of Scottish 'loch' or German 'Bach'", "ex": "maḫ", "note": "Some books leave off the mark and write h." }
+      ] },
+      { "h": "Uncertain sounds", "rows": [
+        { "t": "ř (dr)", "g": "𒆕", "ipa": "?", "like": "unknown: something between d and r, perhaps an affricate like tsh", "ex": "du₃", "note": "Proposed because some words swing between d and r: du₃ 'build' is also read ru. When gud 'ox' takes a vowel it is written gud-ra₂ with the DU sign. Some scholars think no extra sound is needed." },
+        { "t": "h", "ipa": "h? ʔ?", "like": "possibly a plain h or a catch in the throat between vowels", "ex": "a-a", "note": "Edzard and Jagersma argue for it from spelling patterns. The script has no sign that shows it." }
+      ] },
+      { "h": "Signs, numbers and labels", "rows": [
+        { "t": "du, du₃, du₁₁", "g": "𒁺 𒆕 𒅗", "like": "the same sound du; the small number says which sign was written", "ex": "du₃", "note": "Indices are modern bookkeeping from sign lists, roughly in order of frequency. Older books mark them with accents: dú for du₂, dù for du₃. ETCSL writes du₁₁ as dug₄." },
+        { "t": "ₓ", "like": "a reading whose sign has no agreed number yet", "ex": "šegₓ" },
+        { "t": "silent labels", "g": "𒀭 𒆠", "like": "not read aloud: 𒀭 marks a god's name, 𒆠 a place", "ex": "en-lil₂", "note": "Editions write them raised, like {d}en-lil₂ and unug{ki}. In this course you do not type them." }
+      ] }
+    ],
+    "tips": [
+      { "h": "How we know", "p": "Babylonian school lists such as Proto-Ea pair each sign with its reading spelled in small syllables, and bilingual lists add the Akkadian meaning. Loanwords help too: e₂-gal became Akkadian ekallum 'palace', and dub-sar became ṭupšarrum 'scribe'." },
+      { "h": "One sign, many readings", "p": "A sign can stand for a whole word or just a syllable, and often for several unrelated words. 𒀭 is an 'sky', diĝir 'god' and the silent god label. Context, and the endings around it, tell you which." },
+      { "h": "Two dialects", "p": "The main dialect, eme-gi₇, sits beside Emesal, used for goddesses' speech and temple laments. Emesal changes many sounds: 'my' is -ĝu₁₀ in eme-gi₇ but -mu in Emesal." },
+      { "h": "What stays unknown", "p": "Nobody knows where Sumerian put its stress, whether it had tones, or how long its vowels were. The exact sounds of ĝ, ř and h are debated, and some common words have disputed readings: 7 is read imin or umun. Treat the pronunciation here as a shared convention." }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "The noun chain",
+      "unit": 1,
+      "note": "A noun phrase keeps a fixed order. Every slot is optional, but the order never changes.",
+      "head": ["Slot", "Example", "Meaning"],
+      "rows": [
+        ["noun", { "t": "lugal", "g": "𒈗" }, "king"],
+        ["adjective", { "t": "lugal gal", "g": "𒈗 𒃲" }, "great king"],
+        ["possessive", { "t": "lugal gal-ĝu₁₀", "g": "𒈗 𒃲𒈬" }, "my great king"],
+        ["plural", { "t": "lugal-e-ne", "g": "𒈗𒂊𒉈" }, "kings"],
+        ["case", { "t": "lugal-ĝu₁₀-ra", "g": "𒈗𒈬𒊏" }, "to my king"],
+        ["copula", { "t": "lugal gal-am₃", "g": "𒈗 𒃲𒀀𒀭" }, "he is a great king"]
+      ]
+    },
+    {
+      "title": "Making plurals",
+      "unit": 1,
+      "note": "Only people take a plural ending. Animals and things stay as they are, and the verb or a number shows how many.",
+      "head": ["Kind", "One", "Many", "Meaning"],
+      "rows": [
+        ["people: -e-ne", { "t": "lugal", "g": "𒈗" }, { "t": "lugal-e-ne", "g": "𒈗𒂊𒉈" }, "kings"],
+        ["gods: -e-ne", { "t": "diĝir", "g": "𒀭" }, { "t": "diĝir-re-e-ne", "g": "𒀭𒊑𒂊𒉈" }, "gods"],
+        ["doubling: all of them", { "t": "kur", "g": "𒆳" }, { "t": "kur-kur", "g": "𒆳𒆳" }, "all lands"],
+        ["animals and things", { "t": "udu", "g": "𒇻" }, { "t": "5(diš) udu", "g": "𒐊 𒇻" }, "five sheep"]
+      ]
+    },
+    {
+      "title": "'To be' in the singular",
+      "unit": 2,
+      "note": "The copula is a suffix on the last word of what something is. The pronoun is usually left out.",
+      "head": ["Person", "Ending", "Example", "Meaning"],
+      "rows": [
+        ["I", "-me-en", { "t": "lugal-me-en", "g": "𒈗𒈨𒂗" }, "I am king"],
+        ["you", "-me-en", { "t": "dub-sar-me-en", "g": "𒁾𒊬𒈨𒂗" }, "you are a scribe"],
+        ["he, she, it", "-am₃", { "t": "iri gal-am₃", "g": "𒌷 𒃲𒀀𒀭" }, "the city is great"]
+      ]
+    },
+    {
+      "title": "Possessive suffixes",
+      "unit": 3,
+      "note": "They follow any adjective. -bi and -a-ne-ne are taught in unit 8; plural owners are rare in living Sumerian.",
+      "head": ["Owner", "Suffix", "Example", "Meaning"],
+      "rows": [
+        ["my", "-ĝu₁₀", { "t": "ama-ĝu₁₀", "g": "𒂼𒈬" }, "my mother"],
+        ["your", "-zu", { "t": "dumu-zu", "g": "𒌉𒍪" }, "your son"],
+        ["his, her", "-a-ni, -ni", { "t": "e₂-a-ni", "g": "𒂍𒀀𒉌" }, "his house"],
+        ["its, their (things)", "-bi", { "t": "bad₃-bi", "g": "𒂦𒁉" }, "its wall"],
+        ["their (people)", "-a-ne-ne", { "t": "e₂-a-ne-ne", "g": "𒂍𒀀𒉈𒉈" }, "their house"]
+      ]
+    },
+    {
+      "title": "The genitive -ak 'of'",
+      "unit": 4,
+      "note": "The owner comes second. How -ak is written depends on what stands around it.",
+      "head": ["Where", "Written", "Example", "Meaning"],
+      "rows": [
+        ["after a consonant", "-a, repeating the consonant", { "t": "e₂ lugal-la", "g": "𒂍 𒈗𒆷" }, "the king's house"],
+        ["after a vowel", "often nothing", { "t": "lugal ki-en-gi ki-uri", "g": "𒈗 𒆠𒂗𒄀 𒆠𒌵" }, "king of Sumer and Akkad"],
+        ["before the doer's -e", "-ke₄", { "t": "lugal urim₅-ma-ke₄", "g": "𒈗 𒋀𒀊𒆠𒈠𒆤" }, "the king of Ur (did it)"],
+        ["silent label in between", "after 𒆠", { "t": "lugal unug-ga", "g": "𒈗 𒀕𒆠𒂵" }, "king of Uruk"]
+      ]
+    },
+    {
+      "title": "Case endings",
+      "unit": 5,
+      "note": "The case comes last in the noun chain. -ta, -še₃ and -gin₇ turn up in units 6, 10 and 12.",
+      "head": ["Case", "Ending", "Job", "Example"],
+      "rows": [
+        ["absolutive", "none", "who goes or stands; what is built or given", { "t": "lugal ba-gub", "g": "𒈗 𒁀𒁺" }],
+        ["ergative", "-e", "who does something to something", { "t": "lugal-e e₂ in-du₃", "g": "𒈗𒂊 𒂍 𒅔𒆕" }],
+        ["dative", "-ra", "to or for a person", { "t": "lugal-ra", "g": "𒈗𒊏" }],
+        ["genitive", "-ak", "of", { "t": "e₂ diĝir-ra", "g": "𒂍 𒀭𒊏" }],
+        ["ablative", "-ta", "from", { "t": "šag₄-ta", "g": "𒊮𒋫" }],
+        ["terminative", "-še₃", "to, toward", { "t": "kur lu₂ til₃-la-še₃", "g": "𒆳 𒇽 𒋾𒆷𒂠" }],
+        ["equative", "-gin₇", "like", { "t": "ušumgal-gin₇", "g": "𒃲𒁔𒁶" }]
+      ]
+    },
+    {
+      "title": "Inside a verb",
+      "unit": 5,
+      "note": "The root comes last. Small prefixes before it say who did it and for whom.",
+      "head": ["Form", "Opening", "For whom", "Doer", "Root", "Meaning"],
+      "rows": [
+        [{ "t": "in-du₃", "g": "𒅔𒆕" }, "i₃-", "—", "-n-", "du₃", "he built"],
+        [{ "t": "mu-na-du₃", "g": "𒈬𒈾𒆕" }, "mu-", "-na-", "(-n-)", "du₃", "he built for him"],
+        [{ "t": "in-na-an-šum₂", "g": "𒅔𒈾𒀭𒋧" }, "i₃-", "-na-", "-n-", "šum₂", "he gave him"],
+        [{ "t": "ba-gub", "g": "𒁀𒁺" }, "ba-", "—", "—", "gub", "he stood"]
+      ]
+    },
+    {
+      "title": "Royal titles",
+      "unit": 6,
+      "note": "Kings of the Third Dynasty of Ur stacked titles on their bricks and statues (RIME 3/2).",
+      "head": ["Title", "Meaning", "Used by"],
+      "rows": [
+        [{ "t": "nitaḫ kalag-ga", "g": "𒍑 𒆗𒂵" }, "mighty man", "Ur-Namma"],
+        [{ "t": "lugal urim₅-ma", "g": "𒈗 𒋀𒀊𒆠𒈠" }, "king of Ur", "Ur-Namma, Šulgi"],
+        [{ "t": "lugal ki-en-gi ki-uri", "g": "𒈗 𒆠𒂗𒄀 𒆠𒌵" }, "king of Sumer and Akkad", "Ur-Namma, Šulgi"],
+        [{ "t": "lugal an ub-da limmu₂-ba", "g": "𒈗 𒀭 𒌒𒁕 𒇹𒁀" }, "king of the four quarters", "Šulgi"]
+      ]
+    },
+    {
+      "title": "ḫamṭu and marû stems",
+      "unit": 7,
+      "note": "Four ways a verb makes its marû stem. Most verbs simply add -e.",
+      "head": ["How", "ḫamṭu", "marû", "Meaning"],
+      "rows": [
+        ["add -e", { "t": "du₃", "g": "𒆕" }, { "t": "du₃-e", "g": "𒆕𒂊" }, "build"],
+        ["add -e, echoing the vowel", { "t": "šum₂", "g": "𒋧" }, { "t": "šum₂-mu", "g": "𒋧𒈬" }, "give"],
+        ["double", { "t": "ĝar", "g": "𒃻" }, { "t": "ĝa₂-ĝa₂", "g": "𒂷𒂷" }, "place"],
+        ["double", { "t": "naĝ", "g": "𒅘" }, { "t": "na₈-na₈", "g": "𒅘𒅘" }, "drink"],
+        ["new root", { "t": "ĝen", "g": "𒁺" }, { "t": "du", "g": "𒁺" }, "go"],
+        ["new root", { "t": "dug₄", "g": "𒅗" }, { "t": "e", "g": "𒂊" }, "say"]
+      ]
+    },
+    {
+      "title": "Who did it: ḫamṭu against marû",
+      "unit": 7,
+      "note": "In ḫamṭu the doer is a prefix; in marû it is the ending. The doer noun keeps its -e either way.",
+      "head": ["", "ḫamṭu: done", "marû: doing, will do"],
+      "rows": [
+        ["build it", { "t": "in-du₃", "g": "𒅔𒆕" }, { "t": "i₃-du₃-e", "g": "𒉌𒆕𒂊" }],
+        ["eat it", { "t": "in-gu₇", "g": "𒅔𒅥" }, { "t": "i₃-gu₇-e", "g": "𒉌𒅥𒂊" }],
+        ["the doer noun", { "t": "lugal-e", "g": "𒈗𒂊" }, { "t": "lugal-e", "g": "𒈗𒂊" }]
+      ]
+    },
+    {
+      "title": "Pronouns and 'to be'",
+      "unit": 8,
+      "note": "'We' and 'you all' are really 'it is we', 'it is you': the same words as the copula endings.",
+      "head": ["Person", "Pronoun", "am, are, is", "Example"],
+      "rows": [
+        ["I", { "t": "ĝe₂₆-e", "g": "𒂷𒂊" }, "-me-en", { "t": "lugal-me-en", "g": "𒈗𒈨𒂗" }],
+        ["you", { "t": "za-e", "g": "𒍝𒂊" }, "-me-en", { "t": "dub-sar-me-en", "g": "𒁾𒊬𒈨𒂗" }],
+        ["he, she", { "t": "e-ne", "g": "𒂊𒉈" }, "-am₃", { "t": "lugal-am₃", "g": "𒈗𒀀𒀭" }],
+        ["we", { "t": "me-en-de₃-en", "g": "𒈨𒂗𒉈𒂗" }, "-me-en-de₃-en", { "t": "šeš-me-en-de₃-en", "g": "𒋀𒈨𒂗𒉈𒂗" }],
+        ["you all", { "t": "me-en-ze₂-en", "g": "𒈨𒂗𒍢𒂗" }, "-me-en-ze₂-en", "—"],
+        ["they", { "t": "e-ne-ne", "g": "𒂊𒉈𒉈" }, "-me-eš", { "t": "dub-sar-me-eš", "g": "𒁾𒊬𒈨𒌍" }]
+      ]
+    },
+    {
+      "title": "Plural verbs",
+      "unit": 8,
+      "note": "Several doers are marked at the end of the verb.",
+      "head": ["", "One doer", "Several doers"],
+      "rows": [
+        ["ḫamṭu", { "t": "mu-na-du₃", "g": "𒈬𒈾𒆕" }, { "t": "mu-na-an-du₃-uš", "g": "𒈬𒈾𒀭𒆕𒍑" }],
+        ["marû", { "t": "i₃-na₈-na₈", "g": "𒉌𒅘𒅘" }, { "t": "i₃-na₈-na₈-ne", "g": "𒉌𒅘𒅘𒉈" }],
+        ["to be", { "t": "-am₃", "g": "𒀀𒀭" }, { "t": "-me-eš", "g": "𒈨𒌍" }]
+      ]
+    },
+    {
+      "title": "Numbers",
+      "unit": 9,
+      "note": "The spoken names come from Babylonian word lists, and several are uncertain. Accounts write only the wedges.",
+      "head": ["Value", "Wedges", "Spoken"],
+      "rows": [
+        ["1", { "t": "1(diš)", "g": "𒁹" }, "diš, aš"],
+        ["2", { "t": "2(diš)", "g": "𒈫" }, "min"],
+        ["3", { "t": "3(diš)", "g": "𒐈" }, "eš₅"],
+        ["4", { "t": "4(diš)", "g": "𒐉" }, "limmu"],
+        ["5", { "t": "5(diš)", "g": "𒐊" }, "ia₂"],
+        ["6", { "t": "6(diš)", "g": "𒐋" }, "aš₃"],
+        ["7", { "t": "7(diš)", "g": "𒐌" }, "imin or umun"],
+        ["8", { "t": "8(diš)", "g": "𒐍" }, "ussu"],
+        ["9", { "t": "9(diš)", "g": "𒐎" }, "ilimmu"],
+        ["10", { "t": "1(u)", "g": "𒌋" }, "u"],
+        ["60", { "t": "1(ĝeš₂)", "g": "𒐕" }, "ĝeš₂"]
+      ]
+    },
+    {
+      "title": "Weights and measures",
+      "unit": 9,
+      "note": "Values for the Ur III period, around 2100–2000 BC. Sizes shifted over time and place.",
+      "head": ["Unit", "Measures", "Equals", "About"],
+      "rows": [
+        [{ "t": "sila₃", "g": "𒋡" }, "grain, beer, oil", "—", "1 litre"],
+        [{ "t": "gur", "g": "𒄥" }, "grain", "300 sila₃", "300 litres"],
+        [{ "t": "gin₂", "g": "𒂆" }, "silver", "—", "8 grams"],
+        [{ "t": "ma-na", "g": "𒈠𒈾" }, "silver, wool", "60 gin₂", "half a kilo"],
+        [{ "t": "gu₂", "g": "𒄘" }, "metal, wool", "60 ma-na", "30 kilos"]
+      ]
+    },
+    {
+      "title": "Verb prefixes",
+      "unit": 10,
+      "note": "One of these opens most finite verbs. ga- is taught in unit 12.",
+      "head": ["Prefix", "Use", "Example", "Meaning"],
+      "rows": [
+        ["i₃-", "neutral", { "t": "i₃-dab₅", "g": "𒉌𒆪" }, "he took charge"],
+        ["mu-", "toward someone, often with -na-", { "t": "mu-na-du₃", "g": "𒈬𒈾𒆕" }, "he built for him"],
+        ["ba-", "it happened, no doer named", { "t": "ba-ḫul", "g": "𒁀𒅆𒌨" }, "it was destroyed"],
+        ["ḫe₂-, ḫa-", "may, let; or surely", { "t": "lugal-ĝu₁₀ ḫe₂-en-zu", "g": "𒈗𒈬 𒃶𒂗𒍪" }, "may my king know it"],
+        ["nu-", "not", { "t": "nu-un-gu₇", "g": "𒉡𒌦𒅥" }, "he did not eat"],
+        ["na-", "do not, with marû", { "t": "na-an-du", "g": "𒈾𒀭𒁺" }, "do not go"],
+        ["ga-", "let me", { "t": "ga-am₃-ĝar", "g": "𒂵𒀀𒀭𒃻" }, "let me set up"]
+      ]
+    },
+    {
+      "title": "Reading an Ur III receipt",
+      "unit": 10,
+      "note": "Receipts follow a fixed order. This one is BIN 3, 268 (CDLI P106074) from Puzriš-Dagan.",
+      "head": ["Part", "Example", "Meaning"],
+      "rows": [
+        ["what and how many", { "t": "7(diš) udu", "g": "𒐌 𒇻" }, "7 sheep"],
+        ["day", { "t": "u₄ 2(u) 4(diš)-kam", "g": "𒌓 𒎙 𒐉𒄰" }, "the 24th day"],
+        ["from whom", { "t": "ki ab-ba-sa₆-ga-ta", "g": "𒆠 𒀊𒁀𒊷𒂵𒋫" }, "from Abbasaga"],
+        ["who took it", { "t": "a-ḫu-we-er i₃-dab₅", "g": "𒀀𒄷𒉿𒅕 𒉌𒆪" }, "Aḫu-wer took charge"],
+        ["month", { "t": "iti ezem-an-na", "g": "𒌗 𒂡𒀭𒈾" }, "month of the Festival of An"],
+        ["year", { "t": "mu ša-aš-ru ba-ḫul", "g": "𒈬 𒊭𒀸𒊒𒆠 𒁀𒅆𒌨" }, "year Šašru was destroyed"]
+      ]
+    },
+    {
+      "title": "Genitive chains",
+      "unit": 11,
+      "note": "Each extra 'of' adds another -ak at the very end. A third one is never written.",
+      "head": ["Chain", "Built from", "Meaning"],
+      "rows": [
+        [{ "t": "e₂ lugal-la", "g": "𒂍 𒈗𒆷" }, "house + king-ak", "the king's house"],
+        [{ "t": "e₂ dumu lugal-la-ka", "g": "𒂍 𒌉 𒈗𒆷𒅗" }, "house + son + king-ak-ak", "the house of the king's son"],
+        [{ "t": "e₂ dumu lugal urim₅-ma-ka", "g": "𒂍 𒌉 𒈗 𒋀𒀊𒆠𒈠𒅗" }, "house + son + king + Ur-ak-ak-ak", "the house of the son of the king of Ur"],
+        [{ "t": "lugal kalam-ma-ke₄", "g": "𒈗 𒌦𒈠𒆤" }, "king + land-ak + doer -e", "the king of the land (did it)"]
+      ]
+    },
+    {
+      "title": "Great gods and their homes",
+      "unit": 11,
+      "note": "Every city belonged to a god, who lived in its main temple.",
+      "head": ["God", "Domain", "City", "Temple"],
+      "rows": [
+        [{ "t": "an", "g": "𒀭" }, "sky, king of the gods", { "t": "unug", "g": "𒀕𒆠" }, { "t": "e₂-an-na", "g": "𒂍𒀭𒈾" }],
+        [{ "t": "en-lil₂", "g": "𒀭𒂗𒆤" }, "wind, ruler of the earth", { "t": "nibru", "g": "𒂗𒆤𒆠" }, { "t": "e₂-kur", "g": "𒂍𒆳" }],
+        [{ "t": "en-ki", "g": "𒀭𒂗𒆠" }, "sweet water, crafts, cunning", { "t": "eridug", "g": "𒉣𒆠" }, { "t": "e₂-abzu", "g": "𒂍𒍪𒀊" }],
+        [{ "t": "nanna", "g": "𒀭𒋀𒆠" }, "moon", { "t": "urim₅", "g": "𒋀𒀊𒆠" }, { "t": "e₂-kiš-nu-ĝal₂", "g": "𒂍𒆧𒉡𒅅" }],
+        [{ "t": "inana", "g": "𒀭𒈹" }, "love and war", { "t": "unug", "g": "𒀕𒆠" }, { "t": "e₂-an-na", "g": "𒂍𒀭𒈾" }]
+      ]
+    },
+    {
+      "title": "Tools of poetry",
+      "unit": 12,
+      "note": "Features you meet again and again in hymns, epics and proverbs.",
+      "head": ["Tool", "Example", "Meaning"],
+      "rows": [
+        ["-gin₇ 'like'", { "t": "ušumgal-gin₇", "g": "𒃲𒁔𒁶" }, "like a dragon"],
+        ["ga- 'let me'", { "t": "mu-ĝu₁₀ ga-am₃-ĝar", "g": "𒈬𒈬 𒂵𒀀𒀭𒃻" }, "let me set up my name"],
+        ["-e- 'you did'", { "t": "me mu-e-il₂", "g": "𒈨 𒈬𒂊𒅍" }, "you have taken up the divine powers"],
+        ["repetition", { "t": "ud 7-am₃ ĝi₆ 7-am₃", "g": "𒌓 𒐌𒀀𒀭 𒈪 𒐌𒀀𒀭" }, "seven days, seven nights"],
+        ["closing praise", { "t": "nisaba za₃-mi₂", "g": "𒀭𒊺𒉀 𒍠𒊩" }, "praise be to Nisaba"]
+      ]
+    }
+  ]
+}

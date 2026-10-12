@@ -1,0 +1,326 @@
+{
+  "sounds": {
+    "intro": "Akkadian has been dead for two thousand years, so every sound here is a reconstruction. Scholars work it out from how scribes used the cuneiform signs, from related Semitic languages such as Hebrew, Aramaic and Arabic, from Akkadian words borrowed into other languages, and from a few late tablets that spell Akkadian in Greek letters. The consonants and vowel lengths are fairly secure; the emphatic sounds, the exact value of š and the stress are not.",
+    "groups": [
+      { "h": "Vowels", "rows": [
+        { "t": "a, e, i, u", "ipa": "a, e, i, u", "like": "short and pure, as in Spanish or Italian", "ex": "abum, ilum, ummum" },
+        { "t": "ā, ē, ī, ū", "ipa": "aː, eː, iː, uː", "like": "the same vowels held longer: 'father', 'they', 'machine', 'rule'", "ex": "mārum, bēlum, awīlum, šū" },
+        { "t": "â, ê, î, û", "ipa": "aː, eː, iː, uː", "like": "long vowels formed when two vowels ran together", "ex": "rabûm, iddâk, šâmum", "note": "rabûm 'great' comes from older rabium." }
+      ] },
+      { "h": "Familiar consonants", "rows": [
+        { "t": "b, d, g, k, l, m, n, p, t, z", "ipa": "b, d, ɡ, k, l, m, n, p, t, z", "like": "roughly as in English; g is always hard, as in 'go'", "ex": "bītum, dannum, kaspum" },
+        { "t": "r", "ipa": "r or ʁ", "like": "a trilled r, or perhaps one made at the back of the mouth", "ex": "šarrum" },
+        { "t": "s", "ipa": "s, perhaps ts", "like": "'s' in 'sun'; some scholars think it was closer to 'ts'", "ex": "sinništum" },
+        { "t": "w, y", "ipa": "w, j", "like": "'we', 'yes'", "ex": "wardum, bēlīya", "note": "w disappeared after Old Babylonian: awīlum became amīlu." }
+      ] },
+      { "h": "Emphatics", "rows": [
+        { "t": "q", "ipa": "q or kʼ", "like": "a k made further back in the throat, or with a tight catch of breath", "ex": "qātum, eqlum" },
+        { "t": "ṣ", "ipa": "sʼ or tsʼ", "like": "an s or ts with the same tight catch", "ex": "ṣabat, ṣuḫārum" },
+        { "t": "ṭ", "ipa": "tʼ", "like": "a t with the same tight catch", "ex": "ṭuppum, ṭēmum" }
+      ] },
+      { "h": "š, ḫ and the glottal stop", "rows": [
+        { "t": "š", "ipa": "ʃ", "like": "'sh' in 'ship'", "ex": "šarrum, šumma", "note": "Some scholars argue Babylonian š was closer to a plain s." },
+        { "t": "ḫ", "ipa": "x", "like": "'kh', as in Scottish 'loch' or German 'Bach'", "ex": "aḫum, Ḫammurapi" },
+        { "t": "ʾ", "ipa": "ʔ", "like": "the catch in the middle of 'uh-oh'", "ex": "šeʾum" }
+      ] },
+      { "h": "Double consonants", "rows": [
+        { "t": "kk, ll, pp, rr, ...", "ipa": "kː, lː, pː, rː", "like": "held longer, as in 'bookcase' or Italian 'notte'", "ex": "šarrum, ekallum, ṭuppum", "note": "Doubling matters: iparras 'he decides' doubles the r, iprus 'he decided' does not." }
+      ] }
+    ],
+    "tips": [
+      { "h": "Emphatics", "p": "ṣ, ṭ and q are the 'emphatic' consonants, a feature of all Semitic languages. Arabic says its emphatics with the throat tightened; Ethiopian languages say them as ejectives, with a sharp pop of air. Which way Akkadian went is unknown. Most teachers simply say them as s, t and k." },
+      { "h": "Vowel length", "p": "Long and short vowels are different sounds, and a word is only right with the right length: awīlum, not awilum. A macron (ā) marks a long vowel. Length often carries grammar: išpurū 'they sent' differs from išpur 'he sent' only by its long -ū." },
+      { "h": "Contraction", "p": "When two vowels met, they merged into one long vowel, marked with a circumflex: rabium became rabûm 'great', and the vowel of iddâk 'he shall be killed' is two vowels run together. In transliteration the circumflex tells you two vowels once stood there." },
+      { "h": "Mimation", "p": "Old Babylonian nouns and adjectives end in -m: šarrum, šarram, šarrim. After about 1500 BC the -m fell away (šarru), so mimation is one way to tell an Old Babylonian text from a later one like the Standard Babylonian Gilgameš." },
+      { "h": "What the spelling hides", "p": "Cuneiform writes syllables, and scribes often skipped doubled consonants and long vowels: i-la-ku for illaku 'he goes', a-wi-lum for awīlum, iš-pu-ru for išpurū. Sometimes they spelled them out, with an extra vowel (ma-a-ad for mād 'much') or a doubled consonant (id-di-in for iddin). The forms in this course come from comparing many spellings with the grammar." },
+      { "h": "One sign, several sounds", "p": "Old Babylonian signs did not separate related sounds well: one sign writes ga and qá, another da and ṭa, another ki and qí, and ZA writes both za and ṣa. The reader chose the right value from the word." },
+      { "h": "Stress", "p": "No ancient source says where the stress fell. A common modern convention stresses the last long syllable before the end, one with a long vowel or ending in a consonant: a-WĪ-lum, i-PAR-ras. With no such syllable, stress the first: A-bum. A contracted vowel at the end takes the stress: ra-BÛM." },
+      { "h": "What is reconstructed", "p": "All of it, to some degree. Fairly sure: the consonants, vowel length and the case endings. Less sure: how the emphatics sounded, whether š and s were 'sh' and 's' or 's' and 'ts', how r was made, and where the stress fell." }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "Case endings: šarrum 'king'",
+      "unit": 2,
+      "note": "Old Babylonian nouns have three cases, shown by the ending. The final -m is mimation.",
+      "head": ["Case", "Ending", "Form", "Use"],
+      "rows": [
+        ["Nominative", "-um", "šarrum", "subject; 'X is Y'"],
+        ["Accusative", "-am", "šarram", "object of a verb"],
+        ["Genitive", "-im", "šarrim", "after 'of' and after prepositions"]
+      ]
+    },
+    {
+      "title": "Feminine nouns",
+      "unit": 2,
+      "note": "Feminine nouns and adjectives add -t-, -at- or -āt- before the case ending.",
+      "head": ["Masculine", "Feminine", "Meaning"],
+      "rows": [
+        ["mārum", "mārtum", "son, daughter"],
+        ["aḫum", "aḫātum", "brother, sister"],
+        ["šarrum", "šarratum", "king, queen"],
+        ["bēlum", "bēltum", "lord, lady"]
+      ]
+    },
+    {
+      "title": "The bound form",
+      "unit": 2,
+      "note": "A noun followed by a genitive ('X of Y') drops its case ending, and sometimes gains a vowel.",
+      "head": ["Full form", "Bound form", "Example"],
+      "rows": [
+        ["mārum", "mār", "mār awīlim 'son of a man'"],
+        ["mārtum", "mārat", "mārat awīlim 'daughter of a man'"],
+        ["aššatum", "aššat", "aššat awīlim 'wife of a man'"],
+        ["bītum", "bīt", "bīt šarrim 'the king's house'"],
+        ["bēlum", "bēl", "bēl Bābilim 'lord of Babylon'"],
+        ["šīmum", "šīm", "šīm eqlim 'the price of the field'"]
+      ]
+    },
+    {
+      "title": "Adjective and stative",
+      "unit": 3,
+      "note": "An adjective follows its noun and copies its ending. With no ending at all it becomes the stative, which says 'is'.",
+      "head": ["Adjective", "With a noun", "Stative 'is ...'"],
+      "rows": [
+        ["dannum 'strong'", "šarrum dannum", "šarrum dan"],
+        ["rabûm 'great'", "ilum rabûm", "ilum rabi"],
+        ["damqum 'good'", "bītum damqum", "bītum damiq"],
+        ["kabtum 'heavy'", "dullum kabtum", "dullum kabit"]
+      ]
+    },
+    {
+      "title": "Signs that are whole words",
+      "unit": 3,
+      "note": "Logograms are Sumerian words read in Akkadian. Determinatives are silent signs that say what kind of word follows or precedes.",
+      "head": ["Sign", "In Sumerian", "Read in Akkadian"],
+      "rows": [
+        [{ "t": "LUGAL", "g": "𒈗" }, "big man", "šarrum 'king'"],
+        [{ "t": "É", "g": "𒂍" }, "house", "bītum 'house'"],
+        [{ "t": "É.GAL", "g": "𒂍𒃲" }, "big house", "ekallum 'palace'"],
+        [{ "t": "DINGIR", "g": "𒀭" }, "god", "ilum 'god'"],
+        [{ "t": "DUMU", "g": "𒌉" }, "child", "mārum 'son'"],
+        [{ "t": "KÙ.BABBAR", "g": "𒆬𒌓" }, "white metal", "kaspum 'silver'"],
+        [{ "t": "A.ŠÀ", "g": "𒀀𒊮" }, "field", "eqlum 'field'"],
+        [{ "t": "ᵈ", "g": "𒀭" }, "god (silent)", "before gods' names: ᵈUTU Šamaš"],
+        [{ "t": "ᵏⁱ", "g": "𒆠" }, "place (silent)", "after place names: KÁ.DINGIR.RAᵏⁱ Bābilim"],
+        [{ "t": "ᵍⁱˢ", "g": "𒄑" }, "wood (silent)", "before wooden things: ᵍⁱˢMÁ eleppum 'boat'"]
+      ]
+    },
+    {
+      "title": "Pronoun suffixes",
+      "unit": 4,
+      "note": "Possessive endings attach to a noun's short form. A similar set marks the object of a verb, as in liballiṭka 'may he keep you well'.",
+      "head": ["Person", "Possessive", "Example", "Object of a verb"],
+      "rows": [
+        ["my / me", "-ī (-ya after a vowel)", "bēlī 'my lord'", "-ni"],
+        ["your (m.)", "-ka", "mārka 'your son'", "-ka"],
+        ["your (f.)", "-ki", "mārki 'your son'", "-ki"],
+        ["his / him", "-šu", "šumšu 'his name'", "-šu"],
+        ["her", "-ša", "šumša 'her name'", "-ši"],
+        ["our / us", "-ni", "bēlni 'our lord'", "-niāti"],
+        ["your (pl.)", "-kunu", "bēlkunu 'your lord'", "-kunūti"],
+        ["their (m.)", "-šunu", "abūšunu 'their father'", "-šunūti"],
+        ["their (f.)", "-šina", "bēlšina 'their lord'", "-šināti"]
+      ]
+    },
+    {
+      "title": "Independent pronouns",
+      "unit": 5,
+      "note": "The verb already shows who acts, so these are added only for emphasis or in verbless sentences.",
+      "head": ["Person", "Pronoun"],
+      "rows": [
+        ["I", "anāku"],
+        ["you (m.)", "atta"],
+        ["you (f.)", "atti"],
+        ["he", "šū"],
+        ["she", "šī"],
+        ["we", "nīnu"],
+        ["you (pl.)", "attunu"],
+        ["they (m.)", "šunu"],
+        ["they (f.)", "šina"]
+      ]
+    },
+    {
+      "title": "G-stem: šapārum 'to send'",
+      "unit": 7,
+      "note": "The preterite is the simple past, the present covers present and future, and the perfect means 'has done'.",
+      "head": ["Person", "Preterite", "Present", "Perfect"],
+      "rows": [
+        ["he, she", "išpur", "išappar", "ištapar"],
+        ["you (m.)", "tašpur", "tašappar", "taštapar"],
+        ["you (f.)", "tašpurī", "tašapparī", "taštaprī"],
+        ["I", "ašpur", "ašappar", "aštapar"],
+        ["they (m.)", "išpurū", "išapparū", "ištaprū"],
+        ["they (f.)", "išpurā", "išapparā", "ištaprā"],
+        ["you (pl.)", "tašpurā", "tašapparā", "taštaprā"],
+        ["we", "nišpur", "nišappar", "ništapar"]
+      ]
+    },
+    {
+      "title": "Vowel classes",
+      "unit": 7,
+      "note": "The first vowel of the class goes in the present and the perfect, the second in the preterite. In iṣṣabat the -t- of the perfect has merged with ṣ.",
+      "head": ["Class", "Infinitive", "Preterite", "Present", "Perfect"],
+      "rows": [
+        ["a/u", "šapārum 'send'", "išpur", "išappar", "ištapar"],
+        ["a/a", "ṣabātum 'seize'", "iṣbat", "iṣabbat", "iṣṣabat"],
+        ["i/i", "šarāqum 'steal'", "išriq", "išarriq", "ištariq"],
+        ["u/u", "maqātum 'fall'", "imqut", "imaqqut", "imtaqut"]
+      ]
+    },
+    {
+      "title": "Plural nouns",
+      "unit": 7,
+      "note": "Plurals drop the mimation. Accusative and genitive share one plural form.",
+      "head": ["", "Singular", "Plural"],
+      "rows": [
+        ["Nominative", "šarrum", "šarrū"],
+        ["Accusative", "šarram", "šarrī"],
+        ["Genitive", "šarrim", "šarrī"],
+        ["Feminine nominative", "šarratum", "šarrātum"],
+        ["Feminine acc. and gen.", "šarratam, šarratim", "šarrātim"]
+      ]
+    },
+    {
+      "title": "D-stem: balāṭum 'to keep alive'",
+      "unit": 8,
+      "note": "Doubled middle consonant and prefix u-. Imperative bulliṭ 'keep alive!', precative liballiṭ, infinitive bulluṭum.",
+      "head": ["Person", "Preterite", "Present", "Perfect"],
+      "rows": [
+        ["he, she, I", "uballiṭ", "uballaṭ", "ubtalliṭ"],
+        ["you", "tuballiṭ", "tuballaṭ", "tubtalliṭ"],
+        ["they (m.)", "uballiṭū", "uballaṭū", "ubtalliṭū"],
+        ["we", "nuballiṭ", "nuballaṭ", "nubtalliṭ"]
+      ]
+    },
+    {
+      "title": "Š-stem: maqātum 'to strike down'",
+      "unit": 8,
+      "note": "Prefix u- plus ša. Imperative šumqit, precative lišamqit, infinitive šumqutum.",
+      "head": ["Person", "Preterite", "Present", "Perfect"],
+      "rows": [
+        ["he, she, I", "ušamqit", "ušamqat", "uštamqit"],
+        ["you", "tušamqit", "tušamqat", "tuštamqit"],
+        ["they (m.)", "ušamqitū", "ušamqatū", "uštamqitū"],
+        ["we", "nušamqit", "nušamqat", "nuštamqit"]
+      ]
+    },
+    {
+      "title": "The three stems of p-r-s",
+      "unit": 8,
+      "note": "The same root in the basic, doubling and causative stems, all for 'he'.",
+      "head": ["Stem", "Preterite", "Present", "Perfect", "Imperative", "Infinitive"],
+      "rows": [
+        ["G", "iprus", "iparras", "iptaras", "purus", "parāsum"],
+        ["D", "uparris", "uparras", "uptarris", "purris", "purrusum"],
+        ["Š", "ušapris", "ušapras", "uštapris", "šupris", "šuprusum"]
+      ]
+    },
+    {
+      "title": "Numbers",
+      "unit": 9,
+      "note": "1 and 2 agree with their noun (feminine ištiat, šitta). From 3 to 10 the forms below go with feminine nouns, and masculine nouns take a form with -t (šalāšat). Numbers were rarely spelled out, so some readings are uncertain.",
+      "head": ["Number", "Sign", "Akkadian"],
+      "rows": [
+        ["1", { "t": "1", "g": "𒁹" }, "ištēn"],
+        ["2", { "t": "2", "g": "𒈫" }, "šina"],
+        ["3", { "t": "3", "g": "𒐈" }, "šalāš"],
+        ["4", { "t": "4", "g": "𒐉" }, "erbe"],
+        ["5", { "t": "5", "g": "𒐊" }, "ḫamiš"],
+        ["6", { "t": "6", "g": "𒐋" }, "šediš"],
+        ["7", { "t": "7", "g": "𒐌" }, "sebe"],
+        ["8", { "t": "8", "g": "𒐍" }, "samāne"],
+        ["9", { "t": "9", "g": "𒐎" }, "tiše"],
+        ["10", { "t": "10", "g": "𒌋" }, "ešer"],
+        ["60", { "t": "60", "g": "𒁹" }, "šūšum"]
+      ]
+    },
+    {
+      "title": "Weights and grain measures",
+      "unit": 9,
+      "note": "Silver was weighed and barley measured by volume. Modern values are approximate and varied over time.",
+      "head": ["Unit", "Sign", "Equals", "Roughly"],
+      "rows": [
+        ["šiqlum 'shekel'", { "t": "GÍN", "g": "𒂆" }, "180 grains", "8 grams"],
+        ["manûm 'mina'", { "t": "MA.NA", "g": "𒈠𒈾" }, "60 shekels", "500 grams"],
+        ["biltum 'talent'", { "t": "GÚ.UN", "g": "𒄘𒌦" }, "60 minas", "30 kilos"],
+        ["qûm", { "t": "SILA₃", "g": "𒋡" }, "the basic unit", "1 litre"],
+        ["kurrum 'kor'", { "t": "GUR", "g": "𒄥" }, "300 qû", "300 litres"]
+      ]
+    },
+    {
+      "title": "Prepositions and conjunctions",
+      "unit": 10,
+      "note": "Prepositions take the genitive. inūma, ištu, adi and aššum can also begin a clause, whose verb is then in the subjunctive.",
+      "head": ["Word", "Before a noun", "Before a clause"],
+      "rows": [
+        ["ina", "in, at, from", ""],
+        ["ana", "to, for", ""],
+        ["itti", "with, from (a seller)", ""],
+        ["kīma", "like", "as, that"],
+        ["ištu", "from", "after, since"],
+        ["adi", "up to", "until"],
+        ["aššum", "concerning", "because"],
+        ["inūma", "", "when"]
+      ]
+    },
+    {
+      "title": "The subjunctive",
+      "unit": 10,
+      "note": "A verb in a subordinate clause adds -u unless it already ends in a vowel. The negative there is lā, not ul.",
+      "head": ["Main clause", "Subordinate clause", "Meaning"],
+      "rows": [
+        ["īpuš", "ša īpušu", "who built"],
+        ["iddin", "ša iddinu", "which he gave"],
+        ["illik", "inūma illiku", "when he went"],
+        ["iṣbat", "ištu iṣbatu", "after he seized"],
+        ["udannin", "aššum lā udanninu", "because he did not strengthen"],
+        ["išpurū", "ša išpurū", "whom they sent"]
+      ]
+    },
+    {
+      "title": "Commands and wishes: šapārum",
+      "unit": 11,
+      "note": "The imperative is for 'you'; the precative (li-, lu-) for everyone else. A prohibition uses lā with the present.",
+      "head": ["Form", "Akkadian", "Meaning"],
+      "rows": [
+        ["Imperative, to a man", "šupur", "send!"],
+        ["Imperative, to a woman", "šuprī", "send!"],
+        ["Imperative, to a group", "šuprā", "send!"],
+        ["Precative, he", "lišpur", "let him send"],
+        ["Precative, I", "lušpur", "let me send"],
+        ["Precative, they", "lišpurū", "let them send"],
+        ["Prohibitive", "lā tašappar", "do not send"]
+      ]
+    },
+    {
+      "title": "The stative: šalāmum 'to be well'",
+      "unit": 11,
+      "note": "The stative describes a state. With lū it makes a wish: lū šalmāta 'may you be well'.",
+      "head": ["Person", "Stative", "Meaning"],
+      "rows": [
+        ["he", "šalim", "he is well"],
+        ["she", "šalmat", "she is well"],
+        ["you (m.)", "šalmāta", "you are well"],
+        ["you (f.)", "šalmāti", "you are well"],
+        ["I", "šalmāku", "I am well"],
+        ["they (m.)", "šalmū", "they are well"],
+        ["we", "šalmānu", "we are well"]
+      ]
+    },
+    {
+      "title": "Old and Standard Babylonian",
+      "unit": 12,
+      "note": "Standard Babylonian, the literary language of the Gilgameš epic, lost mimation and initial w-, and its case endings blur.",
+      "head": ["Old Babylonian", "Standard Babylonian", "Meaning"],
+      "rows": [
+        ["šarrum", "šarru", "king"],
+        ["mātim", "māti", "of the land"],
+        ["awīlum", "amēlu", "man"],
+        ["wardum", "ardu", "slave"],
+        ["ilū", "ilānū", "gods"],
+        ["inūma", "enūma", "when"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "scribe",
+  "version": "1.0.0",
+  "description": "A Duolingo-style course for dead languages: Latin, Sumerian, Akkadian, Ancient Egyptian, Ancient Greek, Old Norse, Sanskrit and Old English.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "python -m http.server 5330",
+    "check": "python tools/check.py",
+    "test": "node tools/play.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.12.0"
+  }
+}

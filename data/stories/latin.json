@@ -1,0 +1,333 @@
+[
+  {
+    "id": "gallic-war",
+    "title": "Gallia est omnis dīvīsa",
+    "source": "Caesar, Dē Bellō Gallicō 1.1 (c. 50 BC, trimmed)",
+    "about": "Caesar opens his memoir of the Gallic War with a quick tour of the land and its peoples, the most famous first line in Latin prose.",
+    "unit": 4,
+    "badge": { "name": "Three Parts", "about": "Read the opening of Caesar's Gallic War" },
+    "lines": [
+      {
+        "t": "Gallia est omnis dīvīsa in partēs trēs,",
+        "en": "Gaul as a whole is divided into three parts,",
+        "gloss": ["Gaul", "is", "as a whole", "divided", "into", "parts", "three"],
+        "q": { "prompt": "Into how many parts is Gaul divided?", "options": ["three", "two", "four"], "answer": 0 }
+      },
+      {
+        "t": "quārum ūnam incolunt Belgae,",
+        "en": "one of which the Belgae inhabit,",
+        "gloss": ["of which", "one", "inhabit", "the Belgae"]
+      },
+      {
+        "t": "aliam Aquītānī,",
+        "en": "another the Aquitani,",
+        "gloss": ["another", "the Aquitani"]
+      },
+      {
+        "t": "tertiam quī ipsōrum linguā Celtae, nostrā Gallī appellantur.",
+        "en": "and the third those who in their own language are called Celts, in ours Gauls.",
+        "gloss": ["the third", "those who", "their own", "in language", "Celts", "in ours", "Gauls", "are called"],
+        "q": { "prompt": "What do the Romans call the people who call themselves Celts?", "options": ["Gauls", "Belgae", "Aquitani"], "answer": 0 }
+      },
+      {
+        "t": "Hī omnēs linguā, īnstitūtīs, lēgibus inter sē differunt.",
+        "en": "All these differ from one another in language, customs and laws.",
+        "gloss": ["these", "all", "in language", "in customs", "in laws", "among", "themselves", "differ"],
+        "q": { "prompt": "How do these peoples differ?", "options": ["in language, customs and laws", "only in language", "in weapons and armour"], "answer": 0 }
+      },
+      {
+        "t": "Hōrum omnium fortissimī sunt Belgae.",
+        "en": "Of all these, the bravest are the Belgae.",
+        "gloss": ["of these", "of all", "the bravest", "are", "the Belgae"],
+        "q": { "prompt": "Who does Caesar call the bravest?", "options": ["the Belgae", "the Aquitani", "the Romans"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "pompeii-walls",
+    "title": "Admīror, pariēs",
+    "source": "Pompeii wall inscriptions: CIL IV 429, 1679, 2146, 2331, 1904 (before AD 79)",
+    "about": "Vesuvius buried Pompeii in AD 79 and preserved thousands of messages on its walls. Here are five: an election poster, a bar's price list, a lonely lover, a doodled maze and a word of pity for the wall itself. Abbreviations are written out.",
+    "unit": 3,
+    "badge": { "name": "Wall Scrawler", "about": "Read five messages from the walls of Pompeii" },
+    "lines": [
+      {
+        "t": "Gāium Iūlium Polybium aedīlem ōrō vōs faciātis.",
+        "en": "Elect Gaius Julius Polybius aedile, I beg you.",
+        "gloss": ["Gaius", "Julius", "Polybius", "aedile", "I beg", "you", "make (him)"]
+      },
+      {
+        "t": "Pānem bonum fert.",
+        "en": "He brings good bread.",
+        "gloss": ["bread", "good", "he brings"],
+        "q": { "prompt": "What does the poster promise about Polybius?", "options": ["he gives out free wine", "he brings good bread", "he builds new roads"], "answer": 1 }
+      },
+      {
+        "t": "Edone dīcit: assibus hīc bibitur;",
+        "en": "Edone says: here you can drink for one as;",
+        "gloss": ["Edone", "says", "for an as", "here", "one drinks"]
+      },
+      {
+        "t": "dipundium sī dederis, meliōra bibēs;",
+        "en": "if you pay two, you will drink better;",
+        "gloss": ["two asses", "if", "you give", "better wines", "you will drink"]
+      },
+      {
+        "t": "quattus sī dederis, vīna Falerna bibēs.",
+        "en": "if you pay four, you will drink Falernian.",
+        "gloss": ["four", "if", "you give", "wines", "Falernian", "you will drink"],
+        "q": { "prompt": "How much does the best wine cost at Edone's bar?", "options": ["one as", "two asses", "four asses"], "answer": 2 }
+      },
+      {
+        "t": "Vibius Restitūtus hīc sōlus dormīvit et Urbānam suam dēsīderābat.",
+        "en": "Vibius Restitutus slept here alone and missed his Urbana.",
+        "gloss": ["Vibius", "Restitutus", "here", "alone", "slept", "and", "Urbana", "his", "was missing"],
+        "q": { "prompt": "Why was Vibius unhappy?", "options": ["his bed was hard", "he missed his Urbana", "the wine was bad"], "answer": 1 }
+      },
+      {
+        "t": "Labyrinthus. Hīc habitat Mīnōtaurus.",
+        "en": "The Labyrinth. Here lives the Minotaur.",
+        "gloss": ["the Labyrinth", "here", "lives", "the Minotaur"]
+      },
+      {
+        "t": "Admīror, pariēs, tē nōn cecidisse ruīnīs,",
+        "en": "I am amazed, wall, that you have not collapsed in ruins,",
+        "gloss": ["I am amazed", "wall", "you", "not", "to have fallen", "in ruins"]
+      },
+      {
+        "t": "quī tot scrīptōrum taedia sustineās.",
+        "en": "you who hold up the tiresome scribbles of so many writers.",
+        "gloss": ["you who", "so many", "of writers", "tiresome scribbles", "hold up"],
+        "q": { "prompt": "Why is the writer amazed that the wall still stands?", "options": ["it carries so much graffiti", "an earthquake shook it", "it is made of wood"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "odi-et-amo",
+    "title": "Ōdī et amō",
+    "source": "Catullus 85 (c. 55 BC) and Martial, Epigrams 1.32 (c. AD 85)",
+    "about": "Two famous Roman epigrams about feelings that refuse to explain themselves: Catullus torn between love and hate, and Martial disliking a man for no reason he can name.",
+    "unit": 5,
+    "badge": { "name": "Lovesick", "about": "Read Catullus 85 and Martial 1.32" },
+    "lines": [
+      {
+        "t": "Ōdī et amō.",
+        "en": "I hate and I love.",
+        "gloss": ["I hate", "and", "I love"],
+        "q": { "prompt": "What does Catullus feel?", "options": ["only love", "hate and love at once", "only hate"], "answer": 1 }
+      },
+      {
+        "t": "Quārē id faciam, fortasse requīris.",
+        "en": "Why I do that, perhaps you ask.",
+        "gloss": ["why", "that", "I do", "perhaps", "you ask"]
+      },
+      {
+        "t": "Nesciō, sed fierī sentiō et excrucior.",
+        "en": "I don't know, but I feel it happening, and I am in torment.",
+        "gloss": ["I don't know", "but", "that it happens", "I feel", "and", "I am tormented"],
+        "q": { "prompt": "Can Catullus explain his feelings?", "options": ["no, he only feels them", "yes, he was betrayed", "yes, he is only joking"], "answer": 0 }
+      },
+      {
+        "t": "Nōn amō tē, Sabidī, nec possum dīcere quārē:",
+        "en": "I don't like you, Sabidius, and I can't say why:",
+        "gloss": ["not", "I like", "you", "Sabidius", "nor", "I can", "say", "why"],
+        "q": { "prompt": "Why does Martial dislike Sabidius?", "options": ["Sabidius owes him money", "Sabidius insulted his poems", "he can't say why"], "answer": 2 }
+      },
+      {
+        "t": "hoc tantum possum dīcere, nōn amō tē.",
+        "en": "all I can say is this: I don't like you.",
+        "gloss": ["this", "only", "I can", "say", "not", "I like", "you"]
+      }
+    ]
+  },
+  {
+    "id": "res-gestae",
+    "title": "Annōs ūndēvīgintī nātus",
+    "source": "Augustus, Rēs Gestae Dīvī Augustī 1–3 (AD 14, trimmed)",
+    "about": "Rome's first emperor wrote his own record of his deeds and had it set up on bronze pillars outside his tomb. The best copy survives on a temple wall in Ankara. It opens with a nineteen-year-old raising an army and avenging his adoptive father, Julius Caesar.",
+    "unit": 8,
+    "badge": { "name": "Princeps", "about": "Read the opening of Augustus' Res Gestae" },
+    "lines": [
+      {
+        "t": "Annōs ūndēvīgintī nātus exercitum prīvātō cōnsiliō et prīvātā impēnsā comparāvī,",
+        "en": "At nineteen years of age I raised an army on my own initiative and at my own expense,",
+        "gloss": ["years", "nineteen", "aged", "an army", "on my own", "decision", "and", "at my own", "expense", "I raised"],
+        "q": { "prompt": "How old was Augustus when he raised his army?", "options": ["nineteen", "thirty", "forty-five"], "answer": 0 }
+      },
+      {
+        "t": "per quem rem pūblicam ā dominātiōne factiōnis oppressam in lībertātem vindicāvī.",
+        "en": "and with it I set the Republic free from the tyranny of a faction that was crushing it.",
+        "gloss": ["through", "which", "the affairs", "public", "from", "the tyranny", "of a faction", "crushed", "into", "freedom", "I claimed"]
+      },
+      {
+        "t": "Quī parentem meum trucīdāvērunt, eōs in exilium expulī",
+        "en": "Those who butchered my father I drove into exile,",
+        "gloss": ["who", "parent", "my", "butchered", "them", "into", "exile", "I drove"],
+        "q": { "prompt": "What did Augustus do to his father's killers?", "options": ["drove them into exile", "forgave them", "made them consuls"], "answer": 0 }
+      },
+      {
+        "t": "iūdiciīs lēgitimīs ultus eōrum facinus,",
+        "en": "avenging their crime through lawful courts,",
+        "gloss": ["by courts", "lawful", "avenging", "their", "crime"]
+      },
+      {
+        "t": "et posteā bellum īnferentīs reī pūblicae vīcī bis aciē.",
+        "en": "and later, when they made war on the Republic, I defeated them twice in battle.",
+        "gloss": ["and", "afterwards", "war", "bringing", "on the affairs", "public", "I defeated", "twice", "in battle"],
+        "q": { "prompt": "How many times did he beat them in battle?", "options": ["twice", "once", "five times"], "answer": 0 }
+      },
+      {
+        "t": "Bella terrā et marī cīvīlia externaque tōtō in orbe terrārum saepe gessī,",
+        "en": "I often waged wars, civil and foreign, on land and sea, all over the world,",
+        "gloss": ["wars", "on land", "and", "on sea", "civil", "and foreign", "whole", "in", "the circle", "of lands", "often", "I waged"]
+      },
+      {
+        "t": "victorque omnibus veniam petentibus cīvibus pepercī.",
+        "en": "and as victor I spared all citizens who asked for mercy.",
+        "gloss": ["and as victor", "all", "pardon", "asking for", "citizens", "I spared"],
+        "q": { "prompt": "How did he treat citizens who asked for mercy?", "options": ["he spared them", "he exiled them", "he sold them as slaves"], "answer": 0 }
+      },
+      {
+        "t": "Externās gentēs, quibus tūtō ignōscī potuit, cōnservāre quam excīdere māluī.",
+        "en": "Foreign peoples who could safely be pardoned I preferred to spare rather than wipe out.",
+        "gloss": ["foreign", "peoples", "whom", "safely", "to be pardoned", "it was possible", "to preserve", "than", "to destroy", "I preferred"]
+      },
+      {
+        "t": "Nāvēs cēpī sescentās praeter eās, sī quae minōrēs quam trirēmēs fuērunt.",
+        "en": "I captured six hundred ships, not counting any smaller than triremes.",
+        "gloss": ["ships", "I captured", "six hundred", "besides", "those", "if", "any", "smaller", "than", "triremes", "were"],
+        "q": { "prompt": "How many ships did Augustus capture?", "options": ["six hundred", "sixty", "six thousand"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "daedalus",
+    "title": "Īcare, ubi es?",
+    "source": "Ovid, Metamorphōsēs 8.185–232 (AD 8, trimmed)",
+    "about": "The inventor Daedalus is trapped on Crete by King Minos. He builds wings of feathers and wax for himself and his son Icarus, and warns the boy to fly between the sea and the sun.",
+    "unit": 10,
+    "badge": { "name": "Wax Wings", "about": "Read Ovid's story of Daedalus and Icarus" },
+    "lines": [
+      {
+        "t": "Terrās licet, inquit, et undās obstruat:",
+        "en": "He may block the land and the sea, he said,",
+        "gloss": ["the lands", "granted", "he said", "and", "the waves", "he may block"]
+      },
+      {
+        "t": "et caelum certē patet; ībimus illāc:",
+        "en": "but the sky at least lies open; that is the way we will go.",
+        "gloss": ["but", "the sky", "surely", "lies open", "we will go", "that way"],
+        "q": { "prompt": "How does Daedalus plan to escape?", "options": ["through the sky", "by ship", "through a tunnel"], "answer": 0 }
+      },
+      {
+        "t": "omnia possideat, nōn possidet āera Mīnōs.",
+        "en": "Minos may own everything, but he does not own the air.",
+        "gloss": ["everything", "he may own", "not", "owns", "the air", "Minos"]
+      },
+      {
+        "t": "Inter utrumque volā.",
+        "en": "Fly between the two.",
+        "gloss": ["between", "each of the two", "fly"],
+        "q": { "prompt": "Daedalus tells Icarus to fly between which two dangers?", "options": ["the sea and the sun", "two mountains", "two warships"], "answer": 0 }
+      },
+      {
+        "t": "cum puer audācī coepit gaudēre volātū",
+        "en": "when the boy began to delight in his daring flight",
+        "gloss": ["when", "the boy", "daring", "began", "to delight", "in flight"]
+      },
+      {
+        "t": "dēseruitque ducem caelīque cupīdine tractus altius ēgit iter.",
+        "en": "and left his guide, and, drawn by longing for the sky, flew higher.",
+        "gloss": ["and left", "his guide", "and of the sky", "by longing", "drawn", "higher", "drove", "his course"],
+        "q": { "prompt": "Why did Icarus fly higher?", "options": ["he longed for the sky", "his father told him to", "a storm lifted him"], "answer": 0 }
+      },
+      {
+        "t": "rapidī vīcīnia sōlis mollit odōrātās, pennārum vincula, cērās;",
+        "en": "The nearness of the scorching sun softens the fragrant wax that bound the feathers;",
+        "gloss": ["of the scorching", "the nearness", "sun", "softens", "fragrant", "of the feathers", "the bonds", "the wax"]
+      },
+      {
+        "t": "tābuerant cērae: nūdōs quatit ille lacertōs,",
+        "en": "the wax had melted: he flaps his bare arms,",
+        "gloss": ["had melted", "the wax", "bare", "shakes", "he", "arms"],
+        "q": { "prompt": "What happened to the wax?", "options": ["it melted", "it froze", "it turned to stone"], "answer": 0 }
+      },
+      {
+        "t": "at pater īnfēlīx, nec iam pater, Īcare, dīxit,",
+        "en": "But the unhappy father, a father no longer, cried, 'Icarus!'",
+        "gloss": ["but", "father", "unhappy", "not", "any more", "a father", "Icarus", "said"],
+        "q": { "prompt": "Why is Daedalus 'a father no longer'?", "options": ["Icarus has fallen to his death", "Icarus has run away", "Minos has captured Icarus"], "answer": 0 }
+      },
+      {
+        "t": "Īcare, dīxit, ubi es? quā tē regiōne requīram?",
+        "en": "'Icarus,' he cried, 'where are you? Where in the world shall I look for you?'",
+        "gloss": ["Icarus", "he said", "where", "are you", "in what", "you", "region", "shall I seek"]
+      }
+    ]
+  },
+  {
+    "id": "vesuvius",
+    "title": "Fortēs fortūna iuvat",
+    "source": "Pliny the Younger, Epistulae 6.16.4–20 (c. AD 106, trimmed)",
+    "about": "The historian Tacitus asked Pliny how his uncle, Pliny the Elder, died. The uncle commanded the Roman fleet at Misenum when Vesuvius erupted in AD 79, and he sailed toward the mountain to rescue people on the shore.",
+    "unit": 12,
+    "badge": { "name": "Eyewitness", "about": "Read Pliny's letter on the eruption of Vesuvius" },
+    "lines": [
+      {
+        "t": "Erat Mīsēnī classemque imperiō praesēns regēbat.",
+        "en": "He was at Misenum, commanding the fleet in person.",
+        "gloss": ["he was", "at Misenum", "and the fleet", "with command", "in person", "was directing"],
+        "q": { "prompt": "What was the elder Pliny doing at Misenum?", "options": ["commanding the fleet", "running a vineyard", "visiting the baths"], "answer": 0 }
+      },
+      {
+        "t": "Nōnum Kal. Septembrēs hōrā ferē septimā māter mea indicat eī",
+        "en": "On 24 August, at about the seventh hour, my mother points out to him",
+        "gloss": ["ninth day before", "the Kalends", "of September", "at the hour", "about", "seventh", "mother", "my", "points out", "to him"]
+      },
+      {
+        "t": "appārēre nūbem inūsitātā et magnitūdine et speciē.",
+        "en": "a cloud of unusual size and shape.",
+        "gloss": ["appearing", "a cloud", "unusual", "both", "in size", "and", "in shape"],
+        "q": { "prompt": "What did Pliny's mother notice?", "options": ["a strange cloud", "a ship on fire", "a comet"], "answer": 0 }
+      },
+      {
+        "t": "Properat illūc unde aliī fugiunt,",
+        "en": "He hurries to the place that everyone else is fleeing,",
+        "gloss": ["he hurries", "to the place", "from where", "others", "flee"]
+      },
+      {
+        "t": "Iam nāvibus cinis incidēbat, quō propius accēderent, calidior et dēnsior;",
+        "en": "Ash was already falling on the ships, hotter and thicker the closer they came;",
+        "gloss": ["already", "on the ships", "ash", "was falling", "the more", "nearer", "they came", "hotter", "and", "thicker"]
+      },
+      {
+        "t": "Fortēs, inquit, fortūna iuvat: Pompōniānum pete.",
+        "en": "Fortune helps the brave, he said: make for Pomponianus.",
+        "gloss": ["the brave", "he said", "fortune", "helps", "Pomponianus", "head for"],
+        "q": { "prompt": "What does he say when the helmsman wants to turn back?", "options": ["fortune helps the brave", "save yourselves", "the gods are angry"], "answer": 0 }
+      },
+      {
+        "t": "Iam diēs alibī, illīc nox omnibus noctibus nigrior dēnsiorque;",
+        "en": "By now it was day elsewhere; there it was night, blacker and thicker than any night;",
+        "gloss": ["by now", "day", "elsewhere", "there", "night", "than all", "nights", "blacker", "and thicker"],
+        "q": { "prompt": "What was strange about the next morning?", "options": ["it stayed as dark as night", "the sun was unusually bright", "it snowed"], "answer": 0 }
+      },
+      {
+        "t": "Innītēns servolīs duōbus assurrēxit et statim concidit,",
+        "en": "Leaning on two slaves he stood up, and at once collapsed,",
+        "gloss": ["leaning on", "slaves", "two", "he stood up", "and", "at once", "collapsed"]
+      },
+      {
+        "t": "corpus inventum integrum illaesum opertumque ut fuerat indūtus:",
+        "en": "his body was found whole and unharmed, clothed just as he had been:",
+        "gloss": ["the body", "found", "whole", "unharmed", "and covered", "as", "he had been", "dressed"],
+        "q": { "prompt": "How was his body found?", "options": ["whole and unharmed", "burned", "buried under rock"], "answer": 0 }
+      },
+      {
+        "t": "habitus corporis quiēscentī quam dēfūnctō similior.",
+        "en": "he looked more like a man asleep than a dead one.",
+        "gloss": ["the look", "of the body", "to one resting", "than", "to one dead", "more like"]
+      }
+    ]
+  }
+]

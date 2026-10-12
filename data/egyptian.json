@@ -1,0 +1,426 @@
+{
+  "id": "egyptian",
+  "name": "Ancient Egyptian",
+  "native": "r n kmt",
+  "era": "c. 2000–1300 BC (Middle Egyptian)",
+  "place": "The Nile valley, from the Delta to Nubia",
+  "blurb": "The classical language of the pharaohs, spoken in the Middle Kingdom and carved on temples until Roman times.",
+  "emblem": "𓋹",
+  "script": { "name": "Hieroglyphs", "font": "hieroglyphs" },
+  "accent": "#127a6e",
+  "keys": ["ꜣ", "ꜥ", "ḥ", "ḫ", "ẖ", "š", "ṯ", "ḏ"],
+  "facts": [
+    "Egyptians called hieroglyphs mdw nṯr, 'the god's words'.",
+    "Hieroglyphs write no vowels, so 'Tutankhamun' is a modern way of saying twt-ꜥnḫ-jmn.",
+    "Champollion announced his decipherment in 1822, helped by the Greek text on the Rosetta Stone.",
+    "The last dated hieroglyphic inscription was carved at Philae in AD 394.",
+    "Egyptian lived on as Coptic, still heard in the services of the Coptic Church."
+  ],
+  "units": [
+    {
+      "title": "mdw nṯr",
+      "about": "The first half of the hieroglyphic alphabet",
+      "kind": "script",
+      "guide": [
+        { "h": "Consonants only", "p": "Hieroglyphs write consonants, never vowels. Egyptologists pronounce words by slipping in an e: nfr is 'nefer', nswt is 'nesut'." },
+        { "h": "ꜣ and ꜥ", "p": "The vulture ꜣ and the forearm ꜥ are consonants English lacks. Today both are simply said 'a': ꜥnḫ is 'ankh'." },
+        { "h": "j and w", "p": "The reed leaf j and the quail chick w are half-vowels, said 'i' and 'u' when a word needs a vowel." },
+        { "h": "Which way to read", "p": "Hieroglyphs run left to right, right to left, or down in columns. Read towards the faces of the people and animals." }
+      ],
+      "items": [
+        { "g": "𓄿", "t": "ꜣ", "en": "vulture" },
+        { "g": "𓇋", "t": "j", "en": "reed leaf" },
+        { "g": "𓂝", "t": "ꜥ", "en": "forearm" },
+        { "g": "𓅱", "t": "w", "en": "quail chick" },
+        { "g": "𓃀", "t": "b", "en": "foot" },
+        { "g": "𓊪", "t": "p", "en": "stool" },
+        { "g": "𓆑", "t": "f", "en": "horned viper" },
+        { "g": "𓅓", "t": "m", "en": "owl" },
+        { "g": "𓈖", "t": "n", "en": "water ripple" },
+        { "g": "𓂋", "t": "r", "en": "mouth" },
+        { "g": "𓉔", "t": "h", "en": "reed shelter" },
+        { "g": "𓎛", "t": "ḥ", "en": "twisted wick" }
+      ]
+    },
+    {
+      "title": "ḫ to ḏ",
+      "about": "The rest of the alphabet",
+      "kind": "script",
+      "guide": [
+        { "h": "Dotted letters", "p": "ḥ is a strong h from the throat. ḫ is the ch of Scottish loch, ẖ the ch of German ich. š is 'sh'." },
+        { "h": "ṯ and ḏ", "p": "Egyptologists say the underlined letters like the ch of church and the j of judge." },
+        { "h": "Two signs for s", "p": "The folded cloth 𓋴 and the door bolt 𓊃 were once different sounds, but by Middle Egyptian both are read s. This unit drills the cloth; you will meet the bolt in s 'man'." },
+        { "h": "Beyond the alphabet", "p": "Many signs write two or three consonants at once, and scribes add alphabet signs after them as a reading aid. In 𓋹𓈖𓐍 ꜥnḫ 'life', the ankh already says ꜥnḫ; n and ḫ just confirm it." }
+      ],
+      "items": [
+        { "g": "𓐍", "t": "ḫ", "en": "placenta" },
+        { "g": "𓄡", "t": "ẖ", "en": "animal belly" },
+        { "g": "𓋴", "t": "s", "en": "folded cloth" },
+        { "g": "𓈙", "t": "š", "en": "pool" },
+        { "g": "𓈎", "t": "q", "en": "hill slope" },
+        { "g": "𓎡", "t": "k", "en": "basket" },
+        { "g": "𓎼", "t": "g", "en": "jar stand" },
+        { "g": "𓏏", "t": "t", "en": "bread loaf" },
+        { "g": "𓍿", "t": "ṯ", "en": "tethering rope" },
+        { "g": "𓂧", "t": "d", "en": "hand" },
+        { "g": "𓆓", "t": "ḏ", "en": "cobra" }
+      ]
+    },
+    {
+      "title": "rmṯ",
+      "about": "Family, gods and the body",
+      "kind": "words",
+      "guide": [
+        { "h": "Silent endings", "p": "Determinatives end a word and are not read: 𓀀 for a man, 𓁐 for a woman. A stroke 𓏤 says the sign before it means what it shows." },
+        { "h": "-t is feminine", "p": "Feminine nouns end in t, the bread loaf.", "ex": [["sꜣ", "son"], ["sꜣt", "daughter"]] },
+        { "h": "Noun + noun = of", "p": "Put two nouns side by side and the second owns the first.", "ex": [["ḥmt s", "a man's wife"]] },
+        { "h": "My and his", "p": "Possessives are endings joined with =. =j 'my' is written with the determinative 𓀀, =f 'his' with the viper.", "ex": [["sꜣ=j", "my son"], ["ḥmt=f", "his wife"]] },
+        { "h": "And", "p": "ḥnꜥ, 'together with', is the usual way to join two nouns.", "ex": [["jt ḥnꜥ mwt", "father and mother"]] }
+      ],
+      "items": [
+        { "t": "sꜣ", "g": "𓅭𓏤", "en": "son", "note": "The pintail duck 𓅭 spells sꜣ by itself." },
+        { "t": "sꜣt", "g": "𓅭𓏏𓁐", "en": "daughter" },
+        { "t": "s", "g": "𓊃𓀀", "en": "man", "note": "Written with the door bolt, the other s sign." },
+        { "t": "ḥmt", "g": "𓈞𓏏𓁐", "en": "wife", "alt": ["woman"] },
+        { "t": "jt", "g": "𓇋𓏏𓆑𓀀", "en": "father", "note": "The viper is part of the usual spelling but is not read." },
+        { "t": "mwt", "g": "𓅐𓏏𓁐", "en": "mother", "note": "This vulture is not ꜣ: it stands for mwt itself." },
+        { "t": "nṯr", "g": "𓊹𓏤", "en": "god", "note": "The sign is a cloth on a pole, perhaps a temple flag." },
+        { "t": "nswt", "g": "𓇓𓏏𓈖", "en": "king" },
+        { "t": "jb", "g": "𓄣𓏤", "en": "heart", "alt": ["mind"] },
+        { "t": "tp", "g": "𓁶𓏤", "en": "head" },
+        { "t": "ꜥꜣ", "g": "𓉻𓂝𓄿𓏛", "en": "great", "alt": ["big"] },
+        { "t": "ḥnꜥ", "g": "𓎛𓈖𓂝", "en": "and", "alt": ["with", "together with"] }
+      ],
+      "sentences": [
+        { "t": "jt=j ḥnꜥ mwt=j", "g": "𓇋𓏏𓆑𓀀 𓎛𓈖𓂝 𓅐𓏏𓁐𓀀", "en": "my father and my mother", "alt": ["my father and mother"] },
+        { "t": "sꜣ=f ḥnꜥ sꜣt=f", "g": "𓅭𓆑 𓎛𓈖𓂝 𓅭𓏏𓁐𓆑", "en": "his son and his daughter", "alt": ["his son and daughter"] },
+        { "t": "s ḥnꜥ ḥmt=f", "g": "𓊃𓀀 𓎛𓈖𓂝 𓈞𓏏𓁐𓆑", "en": "a man and his wife", "alt": ["a man with his wife"] },
+        { "t": "ḥmt s", "g": "𓈞𓏏𓁐 𓊃𓀀", "en": "a man's wife", "alt": ["the wife of a man"] },
+        { "t": "nswt ḥnꜥ sꜣ=f", "g": "𓇓𓏏𓈖 𓎛𓈖𓂝 𓅭𓆑", "en": "the king and his son", "alt": ["the king with his son"] },
+        { "t": "nṯr ꜥꜣ", "g": "𓊹𓏤 𓉻𓂝𓄿𓏛", "en": "the great god" }
+      ]
+    },
+    {
+      "title": "kmt",
+      "about": "House, land, sky and river",
+      "kind": "words",
+      "guide": [
+        { "h": "Adjectives follow", "p": "An adjective comes after its noun and adds -t for a feminine noun.", "ex": [["pr nfr", "a good house"], ["njwt nfrt", "a beautiful town"]] },
+        { "h": "Black land, red land", "p": "Egyptians called their country kmt, 'the black land', after the dark Nile silt, and the desert dšrt, 'the red land'. The crossroads sign 𓊖 marks towns, and Egypt itself." },
+        { "h": "Pharaoh", "p": "pr ꜥꜣ, 'the great house', was the palace. In the New Kingdom it came to mean the king himself, and reached English through Hebrew and Greek as 'pharaoh'." },
+        { "h": "A good day", "p": "hrw nfr, 'a good day', was a feast day. Banquet songs urge the guests to make one." }
+      ],
+      "items": [
+        { "t": "pr", "g": "𓉐𓏤", "en": "house" },
+        { "t": "tꜣ", "g": "𓇾𓈇𓏤", "en": "land", "alt": ["earth"] },
+        { "t": "pt", "g": "𓊪𓏏𓇯", "en": "sky", "alt": ["heaven"] },
+        { "t": "mw", "g": "𓈗", "en": "water" },
+        { "t": "rꜥ", "g": "𓂋𓂝𓇳𓏤", "en": "sun", "alt": ["Ra", "Re"], "note": "Also the sun god Ra." },
+        { "t": "jtrw", "g": "𓇋𓏏𓂋𓅱𓈗", "en": "river", "note": "In Egypt, the river was the Nile." },
+        { "t": "kmt", "g": "𓆎𓅓𓏏𓊖", "en": "Egypt", "alt": ["black land"] },
+        { "t": "dšrt", "g": "𓂧𓈙𓂋𓏏𓈉", "en": "desert", "alt": ["red land"] },
+        { "t": "njwt", "g": "𓊖𓏏𓏤", "en": "town", "alt": ["city"] },
+        { "t": "hrw", "g": "𓉔𓂋𓅱𓇳𓏤", "en": "day" },
+        { "t": "grḥ", "g": "𓎼𓂋𓎛𓇰", "en": "night" },
+        { "t": "nfr", "g": "𓄤𓆑𓂋", "en": "good", "alt": ["beautiful", "perfect"], "note": "Feminine: nfrt." }
+      ],
+      "sentences": [
+        { "t": "pr nfr", "g": "𓉐𓏤 𓄤𓆑𓂋", "en": "a good house", "alt": ["a beautiful house"] },
+        { "t": "njwt nfrt", "g": "𓊖𓏏𓏤 𓄤𓆑𓂋𓏏", "en": "a beautiful town", "alt": ["a beautiful city", "a good town", "a good city"] },
+        { "t": "pr ꜥꜣ", "g": "𓉐 𓉻", "en": "the great house", "alt": ["the palace", "pharaoh"] },
+        { "t": "pt ḥnꜥ tꜣ", "g": "𓊪𓏏𓇯 𓎛𓈖𓂝 𓇾𓈇𓏤", "en": "sky and earth", "alt": ["heaven and earth", "sky and land"] },
+        { "t": "hrw nfr", "g": "𓉔𓂋𓅱𓇳𓏤 𓄤𓆑𓂋", "en": "a good day", "alt": ["a holiday", "a feast day", "a happy day"] },
+        { "t": "nṯr nfr", "g": "𓊹𓏤 𓄤𓆑𓂋", "en": "the good god", "alt": ["the perfect god"] },
+        { "t": "jtrw ꜥꜣ", "g": "𓇋𓏏𓂋𓅱𓈗 𓉻𓂝𓄿𓏛", "en": "the great river", "alt": ["the Nile"] }
+      ]
+    },
+    {
+      "title": "jnk",
+      "about": "Say where things are and who people are",
+      "kind": "words",
+      "guide": [
+        { "h": "No verb 'to be'", "p": "A noun followed by a place already makes a sentence. jw at the start marks it as a statement and is not translated.", "ex": [["jw rꜥ m pt", "the sun is in the sky"]] },
+        { "h": "Pronouns as endings", "p": "After jw the pronoun is a suffix: =j I, =k you, =f he, =s she. On a noun the same endings mean my, your, his, her.", "ex": [["jw=f m pr", "he is in the house"], ["pr=f", "his house"]] },
+        { "h": "I am, you are", "p": "To say who someone is, start with jnk 'I' or ntk 'you', or end with pw 'this'.", "ex": [["jnk sꜣ=k", "I am your son"], ["sꜣ=j pw", "he is my son"]] },
+        { "h": "A good name", "p": "Many Middle Kingdom people had a second, everyday name, their rn nfr or 'good name'." }
+      ],
+      "items": [
+        { "t": "jw", "g": "𓇋𓅱", "en": "is", "note": "Opens a statement. It has no tense and often no translation." },
+        { "t": "m", "g": "𓅓", "en": "in" },
+        { "t": "ḥr", "g": "𓁷𓏤", "en": "on", "alt": ["upon"], "note": "The sign is a face, ḥr." },
+        { "t": "jnk", "g": "𓇋𓏌𓎡", "en": "I" },
+        { "t": "ntk", "g": "𓈖𓏏𓎡", "en": "you", "note": "Said to a man. To a woman: ntṯ." },
+        { "t": "pw", "g": "𓊪𓅱", "en": "this", "alt": ["it"] },
+        { "t": "=k", "g": "𓎡", "en": "your", "note": "Said to a man. To a woman: =ṯ." },
+        { "t": "=s", "g": "𓋴", "en": "her", "alt": ["she"] },
+        { "t": "st", "g": "𓊨𓏏𓉐", "en": "seat", "alt": ["throne", "place"] },
+        { "t": "rn", "g": "𓂋𓈖", "en": "name" }
+      ],
+      "sentences": [
+        { "t": "jw=f m pr", "g": "𓇋𓅱𓆑 𓅓 𓉐𓏤", "en": "he is in the house" },
+        { "t": "jw rꜥ m pt", "g": "𓇋𓅱 𓂋𓂝𓇳𓏤 𓅓 𓊪𓏏𓇯", "en": "the sun is in the sky", "alt": ["Ra is in the sky", "Re is in the sky"] },
+        { "t": "jw sꜣ=k m njwt", "g": "𓇋𓅱 𓅭𓎡 𓅓 𓊖𓏏𓏤", "en": "your son is in the town", "alt": ["your son is in the city"] },
+        { "t": "jw=s ḥnꜥ sꜣt=s", "g": "𓇋𓅱𓋴 𓎛𓈖𓂝 𓅭𓏏𓁐𓋴", "en": "she is with her daughter" },
+        { "t": "jw nswt ḥr st=f", "g": "𓇋𓅱 𓇓𓏏𓈖 𓁷𓏤 𓊨𓏏𓉐𓆑", "en": "the king is on his throne", "alt": ["the king is on his seat"] },
+        { "t": "jnk sꜣ=k", "g": "𓇋𓏌𓎡 𓅭𓎡", "en": "I am your son" },
+        { "t": "ntk jt=j", "g": "𓈖𓏏𓎡 𓇋𓏏𓆑𓀀", "en": "you are my father" },
+        { "t": "sꜣ=j pw", "g": "𓅭𓀀 𓊪𓅱", "en": "he is my son", "alt": ["it is my son", "this is my son"] },
+        { "t": "rn=f nfr", "g": "𓂋𓈖𓆑 𓄤𓆑𓂋", "en": "his good name", "alt": ["his beautiful name"] }
+      ]
+    },
+    {
+      "title": "ḥtp dj nswt",
+      "about": "The offering formula and the titles of kings",
+      "kind": "words",
+      "guide": [
+        { "h": "The offering formula", "p": "ḥtp dj nswt, 'an offering that the king gives', opens the prayer on countless Middle Kingdom stelae, false doors and coffins. It names a god, usually Osiris or Anubis, and asks for bread, beer, cattle and fowl for the ka, the life force, of the dead. Allen's Middle Egyptian and Gardiner's Egyptian Grammar both discuss it." },
+        { "h": "Honour goes first", "p": "Words for the king and the gods are written first even when they are read later. ḥtp dj nswt is written nswt ḥtp dj (𓇓𓏏𓊵𓏙), mrj jmn is written jmn mrj. Such words share one tile here, joined by hyphens." },
+        { "h": "Shorthand", "p": "Stock phrases are often cut down to their key signs: ꜥnḫ wḏꜣ snb, said after a king's name, becomes 𓋹𓍑𓋴, and nṯr ꜥꜣ becomes 𓊹𓉻." },
+        { "h": "Royal titles", "p": "nṯr nfr 'the good god' and nb tꜣwj 'lord of the Two Lands', Upper and Lower Egypt, come before a king's name. dj ꜥnḫ 'given life' and mrj 'beloved of' a god come after it." }
+      ],
+      "items": [
+        { "t": "ḥtp", "g": "𓊵𓏏𓊪", "en": "offering", "note": "The sign is a loaf on a reed mat." },
+        { "t": "dj", "g": "𓏙", "en": "gives", "alt": ["given", "give"], "note": "A form of rḏj 'to give'." },
+        { "t": "ꜥnḫ", "g": "𓋹𓈖𓐍", "en": "life", "alt": ["to live"] },
+        { "t": "wḏꜣ", "g": "𓅱𓍑𓄿𓏛", "en": "prosperity", "alt": ["well-being"] },
+        { "t": "snb", "g": "𓋴𓈖𓃀", "en": "health" },
+        { "t": "nb", "g": "𓎟", "en": "lord", "alt": ["master"] },
+        { "t": "tꜣwj", "g": "𓇾𓇾", "en": "Two Lands", "note": "The dual of tꜣ 'land': Upper and Lower Egypt." },
+        { "t": "mrj", "g": "𓌻𓂋", "en": "beloved", "alt": ["loved"] },
+        { "t": "jmn", "g": "𓇋𓏠𓈖𓀭", "en": "Amun", "alt": ["Amon"], "note": "'The hidden one', god of Thebes." },
+        { "t": "wsjr", "g": "𓊨𓁹𓀭", "en": "Osiris" },
+        { "t": "ḏt", "g": "𓆓𓏏𓇾", "en": "forever", "alt": ["eternity"] },
+        { "t": "mj", "g": "𓏇𓇋", "en": "like", "alt": ["as"] }
+      ],
+      "sentences": [
+        { "t": "ḥtp-dj-nswt wsjr", "g": "𓇓𓏏𓊵𓏙 𓊨𓁹", "en": "an offering the king gives to Osiris", "alt": ["an offering which the king gives to Osiris", "an offering that the king gives to Osiris", "an offering given by the king to Osiris"] },
+        { "t": "wsjr nṯr ꜥꜣ", "g": "𓊨𓁹 𓊹 𓉻", "en": "Osiris, the great god" },
+        { "t": "ꜥnḫ wḏꜣ snb", "g": "𓋹 𓍑 𓋴", "en": "life, prosperity, health", "alt": ["life, prosperity and health"] },
+        { "t": "nb tꜣwj", "g": "𓎟 𓇾𓇾", "en": "lord of the Two Lands" },
+        { "t": "nṯr nfr nb tꜣwj", "g": "𓊹 𓄤𓆑𓂋 𓎟 𓇾𓇾", "en": "the good god, lord of the Two Lands", "alt": ["the perfect god, lord of the Two Lands"] },
+        { "t": "dj ꜥnḫ ḏt", "g": "𓏙 𓋹 𓆓𓏏𓇾", "en": "given life forever" },
+        { "t": "dj ꜥnḫ mj rꜥ ḏt", "g": "𓏙 𓋹 𓏇𓇋 𓂋𓂝𓇳𓏤 𓆓𓏏𓇾", "en": "given life like Ra forever", "alt": ["given life like Re forever"] },
+        { "t": "nb tꜣwj mrj-jmn", "g": "𓎟 𓇾𓇾 𓇋𓏠𓈖𓌻", "en": "lord of the Two Lands, beloved of Amun", "alt": ["lord of the Two Lands, beloved of Amon"] }
+      ]
+    },
+    {
+      "title": "sḏm.n=f",
+      "about": "Say what happened: the past tense",
+      "kind": "words",
+      "guide": [
+        { "h": "The past: add n", "p": "Put .n between the verb and its subject for something done: sḏm 'hear', sḏm.n=f 'he heard' or 'he has heard'. The n is the water ripple 𓈖, written straight after the verb.", "ex": [["sḏm.n=j", "I heard"], ["mꜣ.n=f", "he saw"]] },
+        { "h": "Verb first", "p": "Egyptian puts the verb first, then the subject, then the object, then everything else.", "ex": [["mꜣ.n=f nswt", "he saw the king"], ["sḏm.n nswt ḫrw=s", "the king heard her voice"]] },
+        { "h": "Silent j", "p": "Verbs ending in j drop it in writing: prj 'go out' gives pr.n=j, jrj 'do' gives jr.n=j, gmj 'find' gives gm.n=j. mꜣꜣ 'see' usually loses its second ꜣ: mꜣ.n=f." },
+        { "h": "Named after 'hear'", "p": "Egyptologists name every verb form after sḏm 'hear' with =f 'he'. 'The sḏm.n=f' means this past form of any verb." },
+        { "h": "To and from", "p": "n 'to, for' marks the person who receives something; r 'to, towards' marks where you go. After verbs of motion, m means 'from' as well as 'in'.", "ex": [["ḏd.n=f n=j", "he said to me"], ["pr.n=j m njwt=j", "I went out from my town"]] },
+        { "h": "Tomb biographies", "p": "Middle Kingdom officials filled their stelae with sḏm.n=f boasts such as pr.n=j m njwt=j and jr.n=j mꜣꜥt, 'I went out from my town … I did what is right'." }
+      ],
+      "items": [
+        { "t": "sḏm", "g": "𓄔𓅓", "en": "hear", "alt": ["listen"], "note": "The ear 𓄔 spells sḏm by itself; the owl confirms the m." },
+        { "t": "mꜣꜣ", "g": "𓌳𓁹𓄿𓄿", "en": "see", "alt": ["look at"] },
+        { "t": "jj", "g": "𓇍𓇋𓂻", "en": "come", "alt": ["arrive", "return"], "note": "The walking legs 𓂻 mark verbs of motion." },
+        { "t": "prj", "g": "𓉐𓂋𓂻", "en": "go out", "alt": ["go forth", "come out"] },
+        { "t": "rḏj", "g": "𓂋𓂝", "en": "give", "alt": ["put", "place"], "note": "dj in the offering formula is a form of this verb." },
+        { "t": "jrj", "g": "𓁹", "en": "do", "alt": ["make"], "note": "The eye 𓁹 spells jr." },
+        { "t": "ḏd", "g": "𓆓𓂧", "en": "say", "alt": ["speak", "tell"] },
+        { "t": "gmj", "g": "𓅠𓅓", "en": "find" },
+        { "t": "n", "g": "𓈖", "en": "to", "alt": ["for"] },
+        { "t": "r", "g": "𓂋", "en": "toward", "alt": ["towards", "to", "against"] },
+        { "t": "mꜣꜥt", "g": "𓌴𓐙𓂝𓏏𓏛", "en": "truth", "alt": ["what is right", "justice", "Maat", "right order"], "note": "Also the goddess Maat, who keeps the world in order." },
+        { "t": "ḫrw", "g": "𓊤𓅱𓀁", "en": "voice", "alt": ["sound"] }
+      ],
+      "sentences": [
+        { "t": "pr.n=j m njwt=j", "g": "𓉐𓂋𓂻𓈖𓀀 𓅓 𓊖𓏏𓏤𓀀", "en": "I went out from my town", "alt": ["I went forth from my town", "I went out from my city", "I went forth from my city", "I came out of my town", "I left my town"] },
+        { "t": "jr.n=j mꜣꜥt", "g": "𓁹𓈖𓀀 𓌴𓐙𓂝𓏏𓏛", "en": "I did what is right", "alt": ["I did right", "I have done what is right", "I did maat", "I did justice", "I did the truth"] },
+        { "t": "sḏm.n=j ḫrw=k", "g": "𓄔𓅓𓈖𓀀 𓊤𓅱𓀁𓎡", "en": "I heard your voice", "alt": ["I have heard your voice"] },
+        { "t": "mꜣ.n=f nswt", "g": "𓌳𓁹𓄿𓈖𓆑 𓇓𓏏𓈖", "en": "he saw the king", "alt": ["he has seen the king"] },
+        { "t": "jj.n=s r pr", "g": "𓇍𓇋𓂻𓈖𓋴 𓂋 𓉐𓏤", "en": "she came to the house", "alt": ["she has come to the house"] },
+        { "t": "ḏd.n=f n=j", "g": "𓆓𓂧𓈖𓆑 𓈖𓀀", "en": "he said to me", "alt": ["he spoke to me", "he told me", "he has said to me"] },
+        { "t": "gm.n=j sꜣ=j m pr", "g": "𓅠𓅓𓈖𓀀 𓅭𓀀 𓅓 𓉐𓏤", "en": "I found my son in the house", "alt": ["I have found my son in the house"] },
+        { "t": "rḏj.n nswt pr n sꜣ=f", "g": "𓂋𓂝𓈖 𓇓𓏏𓈖 𓉐𓏤 𓈖 𓅭𓆑", "en": "the king gave a house to his son", "alt": ["the king gave his son a house", "the king has given a house to his son"] },
+        { "t": "sḏm.n nswt ḫrw=s", "g": "𓄔𓅓𓈖 𓇓𓏏𓈖 𓊤𓅱𓀁𓋴", "en": "the king heard her voice", "alt": ["the king has heard her voice"] }
+      ]
+    },
+    {
+      "title": "nfr sw",
+      "about": "Describe people and states: adjectives, pronouns and the stative",
+      "kind": "words",
+      "guide": [
+        { "h": "Adjective first", "p": "Put an adjective at the start and it becomes the statement: nfr sw 'he is good'. The subject follows it.", "ex": [["nfr sw", "he is good"], ["nḏm jb=f", "he is happy (his heart is sweet)"]] },
+        { "h": "Dependent pronouns", "p": "After an adjective, and as the object of a verb, pronouns take a short 'dependent' form: wj 'me', ṯw 'you', sw 'him, he', sj or st 'her, it'.", "ex": [["mꜣ.n=f wj", "he saw me"], ["wꜥb sw", "he is pure"]] },
+        { "h": "The stative", "p": "The stative, also called the pseudoparticiple, describes a state. It has its own endings: .kw 'I', .tj 'you' or 'she', and .w 'he', which is often not written. It usually follows jw and a subject.", "ex": [["jw=j ḥms.kw", "I am sitting"], ["jw=k ꜥnḫ.tj", "you are alive"]] },
+        { "h": "Done and dusted", "p": "With verbs of motion the stative means the journey is over.", "ex": [["jw=s jj.tj", "she has come"]] },
+        { "h": "Adjectives as nouns", "p": "An adjective can stand alone for a person: ḥqr 'a hungry man', ḥꜣy 'a naked man'. Officials boasted on their tomb walls of feeding and clothing them.", "ex": [["rḏj.n=j t n ḥqr", "I gave bread to the hungry"]] }
+      ],
+      "items": [
+        { "t": "sw", "g": "𓇓𓅱", "en": "him", "alt": ["he", "it"] },
+        { "t": "wj", "g": "𓅱𓀀", "en": "me", "alt": ["I"] },
+        { "t": "ṯw", "g": "𓍿𓅱", "en": "you (object)", "alt": ["you"], "note": "Said to a man. To a woman: ṯn." },
+        { "t": "t", "g": "𓏏𓏐", "en": "bread", "alt": ["loaf"] },
+        { "t": "ḥqr", "g": "𓎛𓈎𓂋𓀁𓀀", "en": "hungry", "alt": ["hungry man", "the hungry"], "note": "The man with his hand to his mouth marks eating, speaking and feeling." },
+        { "t": "ḥbsw", "g": "𓎛𓃀𓋴𓅱𓋳𓏥", "en": "clothes", "alt": ["clothing"] },
+        { "t": "ḥꜣy", "g": "𓎛𓄂𓄿𓇋𓇋𓋳𓀀", "en": "naked", "alt": ["naked man", "the naked"], "note": "The double reed leaf 𓇋𓇋 is y." },
+        { "t": "ḥmsj", "g": "𓈞𓊃𓀉", "en": "sit", "alt": ["sit down", "dwell"] },
+        { "t": "ꜥḥꜥ", "g": "𓊢𓂝𓂻", "en": "stand", "alt": ["stand up"] },
+        { "t": "wꜥb", "g": "𓃂𓈗", "en": "pure", "alt": ["clean"], "note": "Also 'priest', the man who keeps the temple pure." },
+        { "t": "nḏm", "g": "𓇛𓅓", "en": "sweet", "alt": ["pleasant"] },
+        { "t": "bjn", "g": "𓃀𓇋𓈖𓅪", "en": "bad", "alt": ["evil"], "note": "The sparrow 𓅪 marks small, bad or weak things." }
+      ],
+      "sentences": [
+        { "t": "rḏj.n=j t n ḥqr ḥbsw n ḥꜣy", "g": "𓂋𓂝𓈖𓀀 𓏏𓏐 𓈖 𓎛𓈎𓂋𓀁𓀀 𓎛𓃀𓋴𓅱𓋳𓏥 𓈖 𓎛𓄂𓄿𓇋𓇋𓋳𓀀", "en": "I gave bread to the hungry and clothes to the naked", "alt": ["I gave bread to the hungry, clothes to the naked", "I gave bread to the hungry and clothing to the naked"] },
+        { "t": "nfr sw", "g": "𓄤𓆑𓂋 𓇓𓅱", "en": "he is good", "alt": ["he is beautiful", "it is good"] },
+        { "t": "nḏm jb=f", "g": "𓇛𓅓 𓄣𓏤𓆑", "en": "he is happy", "alt": ["his heart is glad", "his heart is happy", "he is glad", "his heart is sweet"] },
+        { "t": "jw=j ḥms.kw m pr=j", "g": "𓇋𓅱𓀀 𓈞𓊃𓀉𓎡𓅱 𓅓 𓉐𓏤𓀀", "en": "I am sitting in my house", "alt": ["I am seated in my house", "I sit in my house"] },
+        { "t": "jw=k ꜥḥꜥ.tj m pr", "g": "𓇋𓅱𓎡 𓊢𓂝𓂻𓏏𓏭 𓅓 𓉐𓏤", "en": "you are standing in the house", "alt": ["you stand in the house"] },
+        { "t": "jw=s jj.tj", "g": "𓇋𓅱𓋴 𓇍𓇋𓂻𓏏𓏭", "en": "she has come", "alt": ["she has arrived", "she is back", "she has returned"] },
+        { "t": "mꜣ.n=f wj", "g": "𓌳𓁹𓄿𓈖𓆑 𓅱𓀀", "en": "he saw me", "alt": ["he has seen me"] },
+        { "t": "wꜥb sw", "g": "𓃂𓈗 𓇓𓅱", "en": "he is pure", "alt": ["it is pure", "he is clean", "it is clean"] },
+        { "t": "jw=k ꜥnḫ.tj", "g": "𓇋𓅱𓎡 𓋹𓈖𓐍𓏏𓏭", "en": "you are alive", "alt": ["you live"] }
+      ]
+    },
+    {
+      "title": "ḫꜣ m t ḥnqt",
+      "about": "Count to a million and read the offering list",
+      "kind": "words",
+      "guide": [
+        { "h": "Counting signs", "p": "Numbers are tallies. A stroke 𓏺 is 1, a cattle hobble 𓎆 is 10, a coil of rope 𓍢 is 100, a lotus 𓆼 is 1,000, a finger 𓂭 is 10,000, a tadpole 𓆐 is 100,000 and the god Heh 𓁨, arms raised, is a million. Repeat signs to add them up: 𓎆𓎆𓎆 is 30." },
+        { "h": "Number after noun", "p": "The number follows its noun, and the noun usually stays singular. Egyptologists often just write the digits: hrw 10.", "ex": [["hrw mḏw", "ten days"]] },
+        { "h": "Plural and dual", "p": "Masculine plurals end in -w and feminine ones in -wt, written with three strokes 𓏥 or a sign drawn three times: 𓊹𓊹𓊹 nṯrw 'gods'. Pairs take the dual -wj or -tj, as in tꜣwj 'the Two Lands'. Adjectives agree.", "ex": [["nṯrw nbw", "all the gods"]] },
+        { "h": "A thousand of", "p": "A number can also come first, joined by m 'of'. The offering formula promises the dead ḫꜣ m t ḥnqt, 'a thousand of bread and beer'.", "ex": [["ḫꜣ m t ḥnqt", "a thousand of bread and beer"]] },
+        { "h": "Picture shorthand", "p": "Offering lists write each gift with one picture: 𓏐 a loaf, 𓏊 a beer jug, 𓃾 an ox head, 𓅿 a plucked bird." }
+      ],
+      "items": [
+        { "t": "wꜥ", "g": "𓌡𓂝𓏤", "en": "one", "alt": ["alone", "sole"], "note": "As a numeral just a stroke 𓏺." },
+        { "t": "snwj", "g": "𓏻", "en": "two", "note": "A dual: two strokes." },
+        { "t": "ḫmtw", "g": "𓏼", "en": "three" },
+        { "t": "mḏw", "g": "𓎆", "en": "ten", "note": "The sign is a hobble for tying cattle." },
+        { "t": "ḫꜣ", "g": "𓆼", "en": "thousand", "alt": ["a thousand", "one thousand"], "note": "The sign is a lotus plant." },
+        { "t": "ḥḥ", "g": "𓁨", "en": "million", "alt": ["a million", "millions"], "note": "Heh, god of endless time." },
+        { "t": "rnpt", "g": "𓆳𓏏𓏤", "en": "year", "note": "The sign is a palm rib, notched to count time." },
+        { "t": "ḥnqt", "g": "𓎛𓈎𓏏𓏊", "en": "beer", "note": "The n is usually left unwritten." },
+        { "t": "kꜣ", "g": "𓂓𓃒", "en": "ox", "alt": ["bull"], "note": "In offering lists just the head 𓃾." },
+        { "t": "ꜣpd", "g": "𓄿𓊪𓂧𓅬", "en": "bird", "alt": ["fowl", "duck"] },
+        { "t": "ḫt", "g": "𓐍𓏏𓏛", "en": "thing", "alt": ["things", "possessions"] },
+        { "t": "nb", "g": "𓎟", "en": "every", "alt": ["all", "any"], "note": "Same sign as nb 'lord'. Feminine nbt, plural nbw." }
+      ],
+      "sentences": [
+        { "t": "ḫꜣ m t ḥnqt", "g": "𓆼 𓅓 𓏐𓏥 𓏊𓏥", "en": "a thousand of bread and beer", "alt": ["a thousand loaves of bread and jugs of beer", "a thousand of bread and of beer"] },
+        { "t": "ḫꜣ m kꜣw ꜣpdw", "g": "𓆼 𓅓 𓃾𓏥 𓅿𓏥", "en": "a thousand of oxen and fowl", "alt": ["a thousand of oxen and birds", "a thousand of cattle and fowl", "a thousand of cattle and birds"] },
+        { "t": "ḫꜣ m ḫt nbt", "g": "𓆼 𓅓 𓐍𓏏 𓎟𓏏", "en": "a thousand of every thing", "alt": ["a thousand of everything", "a thousand of all things"] },
+        { "t": "ḫt nbt nfrt wꜥbt", "g": "𓐍𓏏𓏛𓏥 𓎟𓏏 𓄤𓆑𓂋𓏏 𓃂𓏏", "en": "every good and pure thing", "alt": ["everything good and pure", "all good and pure things"] },
+        { "t": "ḥḥ m rnpwt", "g": "𓁨 𓅓 𓆳𓏏𓏥", "en": "millions of years", "alt": ["a million years", "a million of years"] },
+        { "t": "nṯrw nbw", "g": "𓊹𓊹𓊹 𓎟𓅱", "en": "all the gods", "alt": ["all gods", "every god"] },
+        { "t": "hrw mḏw", "g": "𓉔𓂋𓅱𓇳𓏤 𓎆", "en": "ten days" }
+      ]
+    },
+    {
+      "title": "dj=f prt-ḫrw",
+      "about": "Wish, promise and foretell: the sḏm=f and the future",
+      "kind": "words",
+      "guide": [
+        { "h": "The sḏm=f", "p": "Verb plus suffix, with no .n, is the sḏm=f. At the start of a main clause it usually looks ahead: a wish, an urging or a promise. Context decides which.", "ex": [["dj=f prt-ḫrw", "may he give an invocation offering"], ["šm=n r ẖnw", "let us go home"]] },
+        { "h": "The offering formula, part two", "p": "After ḥtp dj nswt and the god's name comes dj=f prt-ḫrw, 'so that he may give an invocation offering': bread, beer, oxen and fowl, called up by the voice of a visitor for the ka of the dead." },
+        { "h": "The future: jw=f r sḏm", "p": "jw, the subject, r 'towards' and the infinitive say what will happen.", "ex": [["jw=j r jrt mꜣꜥt", "I will do what is right"], ["jw=f r šmt r ẖnw", "he will go to the Residence"]] },
+        { "h": "Infinitives", "p": "The infinitive is the verb's name. Most verbs just use their stem, but verbs ending in j, and šmj, add t: jrj → jrt, rḏj → rḏjt, jj → jjt, prj → prt, šmj → šmt." },
+        { "h": "Pronoun before noun", "p": "A dependent pronoun object jumps ahead of a noun subject.", "ex": [["ḥzj ṯw nswt", "may the king praise you"]] },
+        { "h": "One spelling, many forms", "p": "Grammarians split the sḏm=f into several forms (perfective, imperfective, prospective) that are often spelled alike. In stories it can also tell the past, as in Sinuhe's ꜥr nṯr r ꜣḫt=f, 'the god ascended to his horizon'." }
+      ],
+      "items": [
+        { "t": "šmj", "g": "𓈝𓅓𓂻", "en": "go", "alt": ["walk"], "note": "The j is not written: šm=k 'you will go'." },
+        { "t": "pḥ", "g": "𓄖𓂻", "en": "reach", "alt": ["arrive at"], "note": "The sign is a lion's hindquarters, pḥwj 'the end'." },
+        { "t": "dpt", "g": "𓂧𓊪𓏏𓊛", "en": "boat", "alt": ["ship"] },
+        { "t": "ẖnw", "g": "𓄚𓈖𓏌𓅱𓉐", "en": "home", "alt": ["Residence", "the Residence", "capital", "interior"], "note": "The royal Residence, and home for anyone abroad." },
+        { "t": "mwt", "g": "𓅓𓏏𓏱", "en": "die", "alt": ["death"], "note": "Spelled like mwt 'mother' in transliteration, but not in hieroglyphs." },
+        { "t": "=sn", "g": "𓋴𓈖𓏥", "en": "they", "alt": ["their", "them"] },
+        { "t": "=n", "g": "𓈖𓏥", "en": "we", "alt": ["our", "us"] },
+        { "t": "prt-ḫrw", "g": "𓉓", "en": "invocation offering", "alt": ["voice offering", "offering"], "note": "Literally 'going out of the voice'. One sign: a house with bread and beer." },
+        { "t": "kꜣ", "g": "𓂓𓏤", "en": "ka", "alt": ["life force", "spirit"], "note": "Two raised arms. Not the same word as kꜣ 'ox'." },
+        { "t": "jmꜣḫw", "g": "𓇋𓌳𓄪𓐍𓅱", "en": "honoured one", "alt": ["revered one", "the honoured"], "note": "A title of the respected dead." },
+        { "t": "ḥzj", "g": "𓎛𓎿𓊃𓀁", "en": "praise", "alt": ["bless", "favour", "favor"] }
+      ],
+      "sentences": [
+        { "t": "dj=f prt-ḫrw", "g": "𓂞𓆑 𓉓", "en": "may he give an invocation offering", "alt": ["so that he may give an invocation offering", "may he give a voice offering", "may he give an offering"] },
+        { "t": "dj=sn prt-ḫrw n kꜣ=f", "g": "𓂞𓋴𓈖𓏥 𓉓 𓈖 𓂓𓏤𓆑", "en": "may they give an invocation offering to his ka", "alt": ["may they give an invocation offering for his ka", "may they give a voice offering to his ka", "may they give an offering to his ka"] },
+        { "t": "jw=j r jrt mꜣꜥt", "g": "𓇋𓅱𓀀 𓂋 𓁹𓏏 𓌴𓐙𓂝𓏏𓏛", "en": "I will do what is right", "alt": ["I will do right", "I shall do what is right", "I will do maat"] },
+        { "t": "jw=f r šmt r ẖnw", "g": "𓇋𓅱𓆑 𓂋 𓈝𓅓𓏏𓂻 𓂋 𓄚𓈖𓏌𓅱𓉐", "en": "he will go to the Residence", "alt": ["he will go home", "he shall go to the Residence", "he will go to the capital"] },
+        { "t": "jw=n r mꜣꜣ nswt", "g": "𓇋𓅱𓈖𓏥 𓂋 𓌳𓁹𓄿𓄿 𓇓𓏏𓈖", "en": "we will see the king", "alt": ["we shall see the king"] },
+        { "t": "ḥzj ṯw nswt", "g": "𓎛𓎿𓊃𓀁 𓍿𓅱 𓇓𓏏𓈖", "en": "may the king praise you", "alt": ["the king will praise you", "may the king favour you", "may the king favor you"] },
+        { "t": "šm=n r ẖnw", "g": "𓈝𓅓𓂻𓈖𓏥 𓂋 𓄚𓈖𓏌𓅱𓉐", "en": "let us go home", "alt": ["let us go to the Residence", "we will go home"] },
+        { "t": "jw=sn r jjt", "g": "𓇋𓅱𓋴𓈖𓏥 𓂋 𓇍𓇋𓏏𓂻", "en": "they will come", "alt": ["they shall come", "they will return"] }
+      ]
+    },
+    {
+      "title": "n sḏm=f",
+      "about": "Say no, forbid and ask questions",
+      "kind": "words",
+      "guide": [
+        { "h": "n: not", "p": "The arms 𓂜 negate a verb. n sḏm=f means 'he did not hear', but n sḏm.n=f means 'he does not hear' or 'he cannot hear'. The forms seem swapped, a famous puzzle of Egyptian grammar.", "ex": [["n sḏm=f ḫrw=j", "he did not hear my voice"], ["n mdw.n=f", "he cannot speak"]] },
+        { "h": "nn: there is no", "p": "nn before a noun says it does not exist; before a dependent pronoun and a place it says someone is not there.", "ex": [["nn sw m pr", "he is not in the house"]] },
+        { "h": "m: don't", "p": "m before a verb forbids. It is a form of jmj, a verb meaning 'do not'.", "ex": [["m snḏ", "don't be afraid"], ["m ḏd grg", "do not tell lies"]] },
+        { "h": "Questions", "p": "jn at the start turns a statement into a yes-or-no question. Question words include nm 'who?' and jšst 'what?', often with pw 'it'.", "ex": [["jn ntk sꜣ=j", "are you my son?"], ["jšst pw", "what is it?"]] },
+        { "h": "A snake's question", "p": "In The Shipwrecked Sailor a giant snake roars at the castaway nm jn ṯw, 'who brought you?', three times before he can answer." },
+        { "h": "Before the judges", "p": "In Book of the Dead spell 125 the dead deny their sins one by one with n sḏm=f: n jr=j jsft, 'I have not done wrong'." }
+      ],
+      "items": [
+        { "t": "n", "g": "𓂜", "en": "not", "alt": ["no"], "note": "The sign is two arms held out empty." },
+        { "t": "nn", "g": "𓂜𓈖", "en": "there is no", "alt": ["not", "without"] },
+        { "t": "m", "g": "𓅓", "en": "don't", "alt": ["do not"], "note": "Looks like m 'in', but stands before a verb." },
+        { "t": "nm", "g": "𓈖𓅓𓂝", "en": "who?", "alt": ["who"] },
+        { "t": "jšst", "g": "𓇋𓍱𓋴𓏏𓀁", "en": "what?", "alt": ["what"] },
+        { "t": "rḫ", "g": "𓂋𓐍𓏛", "en": "know", "alt": ["learn", "knowledge"], "note": "rḫ means 'learn', so 'I have learned' is 'I know'." },
+        { "t": "grg", "g": "𓎼𓂋𓍅𓀁", "en": "lie", "alt": ["lies", "falsehood"] },
+        { "t": "snḏ", "g": "𓅾𓀁", "en": "fear", "alt": ["be afraid"], "note": "The sign is a goose being plucked." },
+        { "t": "jsft", "g": "𓇋𓋴𓆑𓏏𓅪𓏥", "en": "wrongdoing", "alt": ["wrong", "evil", "chaos"], "note": "The opposite of mꜣꜥt." },
+        { "t": "ḫm", "g": "𓐍𓅓𓂜𓀀", "en": "ignorant", "alt": ["ignorant man", "fool"] },
+        { "t": "jnj", "g": "𓏎𓈖", "en": "bring", "alt": ["fetch", "get"] },
+        { "t": "mdw", "g": "𓌃𓂧𓅱𓀁", "en": "speak", "alt": ["talk"] }
+      ],
+      "sentences": [
+        { "t": "m ḏd grg", "g": "𓅓 𓆓𓂧 𓎼𓂋𓍅𓀁", "en": "do not tell lies", "alt": ["don't tell lies", "do not lie", "don't lie", "do not speak falsehood"] },
+        { "t": "m snḏ", "g": "𓅓 𓅾𓀁", "en": "do not be afraid", "alt": ["don't be afraid", "do not fear", "don't fear", "fear not"] },
+        { "t": "n sḏm=f ḫrw=j", "g": "𓂜 𓄔𓅓𓆑 𓊤𓅱𓀁𓀀", "en": "he did not hear my voice", "alt": ["he didn't hear my voice"] },
+        { "t": "n mdw.n=f", "g": "𓂜 𓌃𓂧𓅱𓀁𓈖𓆑", "en": "he cannot speak", "alt": ["he does not speak", "he can't speak"] },
+        { "t": "nn sw m pr", "g": "𓂜𓈖 𓇓𓅱 𓅓 𓉐𓏤", "en": "he is not in the house", "alt": ["he isn't in the house", "it is not in the house"] },
+        { "t": "nm jn ṯw", "g": "𓈖𓅓𓂝 𓏎𓈖 𓍿𓅱", "en": "who brought you?", "alt": ["who has brought you?"] },
+        { "t": "jšst pw", "g": "𓇋𓍱𓋴𓏏𓀁 𓊪𓅱", "en": "what is it?", "alt": ["what is this?", "what is that?"] },
+        { "t": "jn ntk sꜣ=j", "g": "𓇋𓈖 𓈖𓏏𓎡 𓅭𓀀", "en": "are you my son?" },
+        { "t": "n jr=j jsft", "g": "𓂜 𓁹𓀀 𓇋𓋴𓆑𓏏𓅪𓏥", "en": "I have not done wrong", "alt": ["I did not do wrong", "I have done no wrong", "I have not done evil"] }
+      ]
+    },
+    {
+      "title": "sbꜣyt",
+      "about": "Read the classics: wisdom, Sinuhe and the Book of the Dead",
+      "kind": "words",
+      "guide": [
+        { "h": "Teachings", "p": "A sbꜣyt, 'teaching', is advice from a wise father to his son. The Instruction of Ptahhotep, copied on the Middle Kingdom Papyrus Prisse, is the most famous. Its maxims use the negative command m and the bare verb as an order.", "ex": [["ḏd mꜣꜥt jr mꜣꜥt", "speak truth, do truth"]] },
+        { "h": "Commands", "p": "The imperative is simply the verb stem: ḏd 'speak!', jr 'do!'. That line comes from The Eloquent Peasant, who lectures a high official in nine speeches." },
+        { "h": "Participles", "p": "A verb can act as an adjective, 'who does': šms nb=f 'who follows his lord'. Sinuhe introduces himself this way.", "ex": [["jnk šmsw šms nb=f", "I was a follower who followed his lord"]] },
+        { "h": "Sinuhe", "p": "The Story of Sinuhe is the masterpiece of Middle Egyptian prose. A courtier flees Egypt when King Amenemhat I dies, lives for decades in Syria, and is finally called home to be buried. It opens with his titles and sꜣ-nht ḏd=f, 'Sinuhe says'." },
+        { "h": "The Book of the Dead", "p": "Its own title is rꜣw nw prt m hrw, 'spells for going out by day'. In spell 125 the dead stand before Osiris and 42 judges, greet the god with jw=j rḫ.kw ṯw rḫ.kw rn=k, 'I know you, I know your name', and swear jw=j wꜥb.kw, 'I am pure'." },
+        { "h": "Of: n, nt, nw", "p": "When two nouns cannot sit side by side, n 'of' joins them. It agrees with the first noun: n after a masculine, nt after a feminine, nw after a plural.", "ex": [["rꜣw nw prt m hrw", "spells of going out by day"]] }
+      ],
+      "items": [
+        { "t": "sbꜣyt", "g": "𓋴𓇼𓃀𓇋𓇋𓏏𓏛", "en": "teaching", "alt": ["instruction", "lesson"], "note": "The star 𓇼 spells sbꜣ, 'teach'." },
+        { "t": "sꜣꜣ", "g": "𓋴𓐟𓄿𓄿𓀁", "en": "wise", "alt": ["be wise", "wise man"] },
+        { "t": "msj", "g": "𓄟𓋴𓁒", "en": "give birth", "alt": ["bear", "be born"], "note": "The sign is three fox skins tied together." },
+        { "t": "mdt", "g": "𓌃𓂧𓏏𓀁", "en": "speech", "alt": ["words", "matter"] },
+        { "t": "šmsw", "g": "𓌞𓅱𓀀", "en": "follower", "alt": ["retainer"] },
+        { "t": "šms", "g": "𓌞𓋴𓂻", "en": "follow", "alt": ["accompany"] },
+        { "t": "bꜣk", "g": "𓅡𓎡𓀀", "en": "servant", "alt": ["slave"], "note": "Also a polite 'I' when speaking to the king." },
+        { "t": "ꜣḫt", "g": "𓈌𓏏𓉐", "en": "horizon", "note": "Where the sun rises; a dead king 'goes to his horizon'." },
+        { "t": "rꜣ", "g": "𓂋𓏤", "en": "spell", "alt": ["mouth", "utterance", "speech"] },
+        { "t": "ḫpr", "g": "𓆣𓂋", "en": "become", "alt": ["happen", "come into being"], "note": "The scarab beetle, symbol of the rising sun." },
+        { "t": "ḥmww", "g": "𓍍𓅱𓅱𓀀", "en": "craftsman", "alt": ["artist", "artisan"] }
+      ],
+      "sentences": [
+        { "t": "jnk šmsw šms nb=f", "g": "𓇋𓏌𓎡 𓌞𓅱𓀀 𓌞𓋴𓂻 𓎟𓆑", "en": "I was a follower who followed his lord", "alt": ["I am a follower who follows his lord", "I was a follower who followed his master"] },
+        { "t": "sꜣ-nht ḏd=f", "g": "𓅭𓈖𓉔𓏏𓆭𓀀 𓆓𓂧𓆑", "en": "Sinuhe says", "alt": ["Sinuhe, he says"] },
+        { "t": "ḏd mꜣꜥt jr mꜣꜥt", "g": "𓆓𓂧 𓌴𓐙𓂝𓏏𓏛 𓁹 𓌴𓐙𓂝𓏏𓏛", "en": "speak truth, do truth", "alt": ["speak what is right, do what is right", "speak maat, do maat", "say what is right, do what is right"] },
+        { "t": "jw=j rḫ.kw ṯw rḫ.kw rn=k", "g": "𓇋𓅱𓀀 𓂋𓐍𓏛𓎡𓅱 𓍿𓅱 𓂋𓐍𓏛𓎡𓅱 𓂋𓈖𓎡", "en": "I know you, I know your name", "alt": ["I know you and I know your name"] },
+        { "t": "jn.n=j n=k mꜣꜥt", "g": "𓏎𓈖𓈖𓀀 𓈖𓎡 𓌴𓐙𓂝𓏏𓏛", "en": "I have brought you truth", "alt": ["I have brought truth to you", "I brought you truth", "I have brought you what is right", "I have brought you maat"] },
+        { "t": "jw=j wꜥb.kw", "g": "𓇋𓅱𓀀 𓃂𓈗𓎡𓅱", "en": "I am pure", "alt": ["I am clean"] },
+        { "t": "rꜣw nw prt m hrw", "g": "𓂋𓏤𓏥 𓏌𓏤 𓉐𓂋𓏏𓂻 𓅓 𓉔𓂋𓅱𓇳𓏤", "en": "spells for going out by day", "alt": ["spells of going out by day", "spells for coming forth by day", "spells of coming forth by day"] }
+      ]
+    }
+  ]
+}

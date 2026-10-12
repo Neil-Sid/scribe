@@ -1,0 +1,324 @@
+{
+  "sounds": {
+    "intro": "Nobody recorded Plato's voice, but the Attic of his day can be reconstructed closely. The evidence includes spellings and misspellings on Athenian inscriptions, the descriptions of ancient grammarians, how Greek words were written in Latin and other languages, the rhythms of verse, and even animal noises: the comic poet Cratinus has a sheep bleat βῆ βῆ. This guide follows W. Sidney Allen's Vox Graeca, the standard account. The vowels and consonants are well established; the exact melody of the accent is less certain.",
+    "groups": [
+      { "h": "Vowels", "rows": [
+        { "t": "a", "g": "α", "ipa": "a, aː", "like": "short as in northern English 'cat', long as in 'father'", "ex": "hē agora", "note": "Spelling does not show whether α, ι or υ is long or short." },
+        { "t": "e", "g": "ε", "ipa": "e", "like": "short, as in 'pet' but a little closer", "ex": "estin" },
+        { "t": "ē", "g": "η", "ipa": "ɛː", "like": "long and open, like 'air' without the r", "ex": "hē mētēr", "note": "It later narrowed to [iː], its sound in modern Greek." },
+        { "t": "i", "g": "ι", "ipa": "i, iː", "like": "short as in 'bit' but tenser, long as in 'machine'", "ex": "philos" },
+        { "t": "o", "g": "ο", "ipa": "o", "like": "short, as in 'pot' but a little closer", "ex": "ho logos" },
+        { "t": "ō", "g": "ω", "ipa": "ɔː", "like": "long and open, like 'saw' or 'awe'", "ex": "gnōthi" },
+        { "t": "y", "g": "υ", "ipa": "y, yː", "like": "like French 'tu' or German 'über'", "ex": "gynē", "note": "Originally [u]. Attic had fronted it by the classical period." }
+      ] },
+      { "h": "Diphthongs", "rows": [
+        { "t": "ai", "g": "αι", "ipa": "ai", "like": "as in 'high'", "ex": "chaire", "note": "Later [ɛ], which is why modern Greek says 'e'." },
+        { "t": "oi", "g": "οι", "ipa": "oi", "like": "as in 'boy'", "ex": "hē oikia" },
+        { "t": "au", "g": "αυ", "ipa": "au", "like": "as in 'how'", "ex": "hē naus" },
+        { "t": "eu", "g": "ευ", "ipa": "eu", "like": "e gliding into u, in one syllable", "ex": "Zeus" },
+        { "t": "ei", "g": "ει", "ipa": "eː", "like": "a long close e, like French 'été' held long", "ex": "eimi", "note": "Once a true diphthong, by Plato's time a plain long vowel. Later [iː]." },
+        { "t": "ou", "g": "ου", "ipa": "uː", "like": "as in 'food'", "ex": "ou", "note": "Earlier [oː]. It had reached [uː] by the 4th century BC." },
+        { "t": "ai, ēi, ōi", "g": "ᾳ ῃ ῳ", "ipa": "aːi, ɛːi, ɔːi", "like": "a long vowel gliding into a short i", "ex": "to zōion", "note": "In the 4th century BC ῃ was merging with ει. The i was later lost, and medieval scribes wrote it underneath." }
+      ] },
+      { "h": "Aspirates and double letters", "rows": [
+        { "t": "th", "g": "θ", "ipa": "tʰ", "like": "t with a puff of breath, as in 'top'", "ex": "ho theos", "note": "Not the 'th' of 'thin'. That sound came centuries later." },
+        { "t": "ph", "g": "φ", "ipa": "pʰ", "like": "p with a puff of breath, as in 'pot'", "ex": "ho adelphos", "note": "Not f. Romans heard p plus h and wrote ph." },
+        { "t": "ch", "g": "χ", "ipa": "kʰ", "like": "k with a puff of breath, as in 'kit'", "ex": "hē cheir", "note": "Later it became the sound of Scottish 'loch'." },
+        { "t": "z", "g": "ζ", "ipa": "zd", "like": "zd, as in 'wisdom'", "ex": "badizei", "note": "Allen's view for classical Attic. It later became a plain z." },
+        { "t": "x", "g": "ξ", "ipa": "ks", "like": "as in 'axe'", "ex": "hē nyx" },
+        { "t": "ps", "g": "ψ", "ipa": "ps", "like": "as in 'lapse', even at the start of a word", "ex": "egrapsa" }
+      ] },
+      { "h": "Other consonants", "rows": [
+        { "t": "p, t, k", "g": "π τ κ", "ipa": "p, t, k", "like": "with no puff of breath, as in 'spot', 'stop', 'skit'", "ex": "ho patēr", "note": "Keeping these apart from φ θ χ is the key to the Attic sound." },
+        { "t": "b, d, g", "g": "β δ γ", "ipa": "b, d, g", "like": "as in 'bad', 'dog', 'get'", "ex": "to biblion", "note": "Later they softened into the v, 'this' and gh sounds of modern Greek." },
+        { "t": "n", "g": "γ", "ipa": "ŋ", "like": "before γ, κ, ξ or χ: the ng of 'finger' or 'ink'", "ex": "angelos" },
+        { "t": "l, m, n", "g": "λ μ ν", "ipa": "l, m, n", "like": "as in English", "ex": "mikros" },
+        { "t": "r, rh", "g": "ρ ῥ", "ipa": "r, r̥", "like": "a rolled r; at the start of a word breathed, almost 'hr'", "ex": "rhei" },
+        { "t": "s", "g": "σ ς", "ipa": "s", "like": "s as in 'sea', even between vowels", "ex": "sophos", "note": "Before β, γ, δ or μ it was voiced, like z." }
+      ] },
+      { "h": "Breathings", "rows": [
+        { "t": "h", "g": "ἁ ἑ ὁ", "ipa": "h", "like": "the rough breathing is an h, as in 'hat'", "ex": "ho hippos", "note": "Lost in later antiquity. Modern Greek has no h." },
+        { "t": "no sound", "g": "ἀ ἐ ὀ", "like": "the smooth breathing marks a vowel with no h", "ex": "anēr" }
+      ] }
+    ],
+    "tips": [
+      { "h": "A pitch accent", "p": "The accent marks record melody, not stress: on the accented syllable the voice rose in pitch. Dionysius of Halicarnassus, writing in Rome in the late 1st century BC, says speech rose and fell within about a musical fifth (On Literary Composition 11). Rhythm came from vowel length instead, which is why Greek verse is built from long and short syllables." },
+      { "h": "Acute, circumflex, grave", "p": "The acute ά marks a rise. The circumflex ᾶ, found only on long vowels and diphthongs, is a rise and fall within one syllable. The grave ὰ replaces an acute on a final syllable when another word follows, and probably means the rise was cancelled or reduced." },
+      { "h": "Where the accent falls", "p": "Always on one of the last three syllables, and no further back than the second-to-last if the last syllable is long. Most modern readers say the accented syllable louder, as a stress. That is a practical compromise, not the ancient sound." },
+      { "h": "Long and short", "p": "η and ω are always long, ε and ο always short, while α, ι and υ can be either. Holding long vowels about twice as long as short ones lets you hear the rhythm of the poetry." },
+      { "h": "Erasmian and modern pronunciation", "p": "In 1528 Erasmus argued that Greek should be read as it once sounded. His 'Erasmian' system is still what most schools teach, usually with a stress accent and local habits: English speakers often say θ as in 'thin', φ as f and χ as in 'loch'. Greece reads ancient texts in modern pronunciation, where η, ι, υ, ει and οι all sound like 'ee', αι is 'e', β is v, δ is the 'th' of 'this', there is no h, no vowel length and the accent is a stress. Both work for reading, but neither is how Plato sounded." },
+      { "h": "How sure can we be?", "p": "The vowels and consonants rest on solid evidence. Less certain are the exact melody of the accent, the dates of changes such as ου becoming [uː], and whether ζ was zd or dz." }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "To be: εἰμί",
+      "unit": 2,
+      "note": "Every form except εἶ is enclitic: it leans on the word before and often loses its accent. The plurals arrive in unit 8.",
+      "head": ["", "Greek", "English"],
+      "rows": [
+        ["I", { "t": "eimi", "g": "εἰμί" }, "I am"],
+        ["you", { "t": "ei", "g": "εἶ" }, "you are"],
+        ["he, she, it", { "t": "esti(n)", "g": "ἐστί(ν)" }, "is"],
+        ["we", { "t": "esmen", "g": "ἐσμέν" }, "we are"],
+        ["you (plural)", { "t": "este", "g": "ἐστέ" }, "you are"],
+        ["they", { "t": "eisi(n)", "g": "εἰσί(ν)" }, "they are"]
+      ]
+    },
+    {
+      "title": "The article: ὁ, ἡ, τό",
+      "unit": 3,
+      "note": "Greek's word for 'the' shows gender, number and case. Unit 3 teaches the subject and object, unit 8 the genitive and plural subject, unit 11 the dative and plural object.",
+      "head": ["", "Masculine", "Feminine", "Neuter"],
+      "rows": [
+        ["Nominative", { "t": "ho", "g": "ὁ" }, { "t": "hē", "g": "ἡ" }, { "t": "to", "g": "τό" }],
+        ["Accusative", { "t": "ton", "g": "τόν" }, { "t": "tēn", "g": "τήν" }, { "t": "to", "g": "τό" }],
+        ["Genitive", { "t": "tou", "g": "τοῦ" }, { "t": "tēs", "g": "τῆς" }, { "t": "tou", "g": "τοῦ" }],
+        ["Dative", { "t": "tōi", "g": "τῷ" }, { "t": "tēi", "g": "τῇ" }, { "t": "tōi", "g": "τῷ" }],
+        ["Nom. plural", { "t": "hoi", "g": "οἱ" }, { "t": "hai", "g": "αἱ" }, { "t": "ta", "g": "τά" }],
+        ["Acc. plural", { "t": "tous", "g": "τούς" }, { "t": "tas", "g": "τάς" }, { "t": "ta", "g": "τά" }],
+        ["Gen. plural", { "t": "tōn", "g": "τῶν" }, { "t": "tōn", "g": "τῶν" }, { "t": "tōn", "g": "τῶν" }],
+        ["Dat. plural", { "t": "tois", "g": "τοῖς" }, { "t": "tais", "g": "ταῖς" }, { "t": "tois", "g": "τοῖς" }]
+      ]
+    },
+    {
+      "title": "Second declension: ὁ ἵππος, τὸ βιβλίον",
+      "unit": 3,
+      "note": "Mostly masculine nouns in -ος and neuters in -ον. Neuters look the same as subject and object, and their plural ends in -α.",
+      "head": ["", "horse", "horses", "book", "books"],
+      "rows": [
+        ["Nominative", { "t": "hippos", "g": "ἵππος" }, { "t": "hippoi", "g": "ἵπποι" }, { "t": "biblion", "g": "βιβλίον" }, { "t": "biblia", "g": "βιβλία" }],
+        ["Vocative", { "t": "hippe", "g": "ἵππε" }, { "t": "hippoi", "g": "ἵπποι" }, { "t": "biblion", "g": "βιβλίον" }, { "t": "biblia", "g": "βιβλία" }],
+        ["Accusative", { "t": "hippon", "g": "ἵππον" }, { "t": "hippous", "g": "ἵππους" }, { "t": "biblion", "g": "βιβλίον" }, { "t": "biblia", "g": "βιβλία" }],
+        ["Genitive", { "t": "hippou", "g": "ἵππου" }, { "t": "hippōn", "g": "ἵππων" }, { "t": "bibliou", "g": "βιβλίου" }, { "t": "bibliōn", "g": "βιβλίων" }],
+        ["Dative", { "t": "hippōi", "g": "ἵππῳ" }, { "t": "hippois", "g": "ἵπποις" }, { "t": "bibliōi", "g": "βιβλίῳ" }, { "t": "bibliois", "g": "βιβλίοις" }]
+      ]
+    },
+    {
+      "title": "First declension: ἀδελφή, οἰκία, θάλαττα",
+      "unit": 3,
+      "note": "Mostly feminine nouns in -η or -α. After ε, ι or ρ the α stays through the singular. Nouns in short -α, like θάλαττα, switch to η in the genitive and dative. All share one set of plural endings.",
+      "head": ["", "sister", "house", "sea"],
+      "rows": [
+        ["Nominative", { "t": "adelphē", "g": "ἀδελφή" }, { "t": "oikia", "g": "οἰκία" }, { "t": "thalatta", "g": "θάλαττα" }],
+        ["Accusative", { "t": "adelphēn", "g": "ἀδελφήν" }, { "t": "oikian", "g": "οἰκίαν" }, { "t": "thalattan", "g": "θάλατταν" }],
+        ["Genitive", { "t": "adelphēs", "g": "ἀδελφῆς" }, { "t": "oikias", "g": "οἰκίας" }, { "t": "thalattēs", "g": "θαλάττης" }],
+        ["Dative", { "t": "adelphēi", "g": "ἀδελφῇ" }, { "t": "oikiai", "g": "οἰκίᾳ" }, { "t": "thalattēi", "g": "θαλάττῃ" }],
+        ["Nom. plural", { "t": "adelphai", "g": "ἀδελφαί" }, { "t": "oikiai", "g": "οἰκίαι" }, { "t": "thalattai", "g": "θάλατται" }],
+        ["Acc. plural", { "t": "adelphas", "g": "ἀδελφάς" }, { "t": "oikias", "g": "οἰκίας" }, { "t": "thalattas", "g": "θαλάττας" }],
+        ["Gen. plural", { "t": "adelphōn", "g": "ἀδελφῶν" }, { "t": "oikiōn", "g": "οἰκιῶν" }, { "t": "thalattōn", "g": "θαλαττῶν" }],
+        ["Dat. plural", { "t": "adelphais", "g": "ἀδελφαῖς" }, { "t": "oikiais", "g": "οἰκίαις" }, { "t": "thalattais", "g": "θαλάτταις" }]
+      ]
+    },
+    {
+      "title": "Adjectives: καλός, καλή, καλόν",
+      "unit": 3,
+      "note": "An adjective takes the gender, number and case of its noun. After ε, ι or ρ the feminine has α: μικρός, μικρά, μικρόν.",
+      "head": ["", "Masculine", "Feminine", "Neuter"],
+      "rows": [
+        ["Nominative", { "t": "kalos", "g": "καλός" }, { "t": "kalē", "g": "καλή" }, { "t": "kalon", "g": "καλόν" }],
+        ["Accusative", { "t": "kalon", "g": "καλόν" }, { "t": "kalēn", "g": "καλήν" }, { "t": "kalon", "g": "καλόν" }],
+        ["Genitive", { "t": "kalou", "g": "καλοῦ" }, { "t": "kalēs", "g": "καλῆς" }, { "t": "kalou", "g": "καλοῦ" }],
+        ["Dative", { "t": "kalōi", "g": "καλῷ" }, { "t": "kalēi", "g": "καλῇ" }, { "t": "kalōi", "g": "καλῷ" }],
+        ["Nom. plural", { "t": "kaloi", "g": "καλοί" }, { "t": "kalai", "g": "καλαί" }, { "t": "kala", "g": "καλά" }],
+        ["Acc. plural", { "t": "kalous", "g": "καλούς" }, { "t": "kalas", "g": "καλάς" }, { "t": "kala", "g": "καλά" }]
+      ]
+    },
+    {
+      "title": "Present tense: λέγω 'I say'",
+      "unit": 4,
+      "note": "The ending shows the person, so no pronoun is needed. γράφω, ἔχω, βλέπω and most verbs in -ω work the same way.",
+      "head": ["", "Greek", "English"],
+      "rows": [
+        ["I", { "t": "legō", "g": "λέγω" }, "I say, I am saying"],
+        ["you", { "t": "legeis", "g": "λέγεις" }, "you say"],
+        ["he, she, it", { "t": "legei", "g": "λέγει" }, "he says"],
+        ["we", { "t": "legomen", "g": "λέγομεν" }, "we say"],
+        ["you (plural)", { "t": "legete", "g": "λέγετε" }, "you say"],
+        ["they", { "t": "legousi(n)", "g": "λέγουσι(ν)" }, "they say"]
+      ]
+    },
+    {
+      "title": "Asking and denying",
+      "unit": 4,
+      "note": "Printed Greek uses ; as its question mark.",
+      "head": ["Word", "Meaning", "How it is used"],
+      "rows": [
+        [{ "t": "tis", "g": "τίς" }, "who?", "Always keeps its acute accent"],
+        [{ "t": "ti", "g": "τί" }, "what? why?", "Always keeps its acute accent"],
+        [{ "t": "ara", "g": "ἆρα" }, "(question)", "Turns a statement into a yes-or-no question"],
+        [{ "t": "ou, ouk, ouch", "g": "οὐ οὐκ οὐχ" }, "not", "οὐ before a consonant, οὐκ before a smooth breathing, οὐχ before a rough one"],
+        [{ "t": "mē", "g": "μή" }, "not", "With commands"],
+        [{ "t": "ouden, mēden", "g": "οὐδέν μηδέν" }, "nothing", "οὐδέν in statements, μηδέν with commands"]
+      ]
+    },
+    {
+      "title": "Commands",
+      "unit": 6,
+      "note": "Orders to one person and to several. γνῶθι is an old aorist form; most verbs work like λέγω.",
+      "head": ["Verb", "To one", "To several", "Meaning"],
+      "rows": [
+        [{ "t": "chairō", "g": "χαίρω" }, { "t": "chaire", "g": "χαῖρε" }, { "t": "chairete", "g": "χαίρετε" }, "rejoice! hello!"],
+        [{ "t": "legō", "g": "λέγω" }, { "t": "lege", "g": "λέγε" }, { "t": "legete", "g": "λέγετε" }, "say!"],
+        [{ "t": "graphō", "g": "γράφω" }, { "t": "graphe", "g": "γράφε" }, { "t": "graphete", "g": "γράφετε" }, "write!"],
+        [{ "t": "gignōskō", "g": "γιγνώσκω" }, { "t": "gnōthi", "g": "γνῶθι" }, { "t": "gnōte", "g": "γνῶτε" }, "know!"]
+      ]
+    },
+    {
+      "title": "The aorist: ἔγραψα, ἔφυγον, εἶπον",
+      "unit": 7,
+      "note": "The augment ἐ- marks the past. First aorists add σ and -α endings; second aorists change the stem and take -ον endings. εἶπον serves as the past of λέγω.",
+      "head": ["", "I wrote", "I fled", "I said"],
+      "rows": [
+        ["I", { "t": "egrapsa", "g": "ἔγραψα" }, { "t": "ephygon", "g": "ἔφυγον" }, { "t": "eipon", "g": "εἶπον" }],
+        ["you", { "t": "egrapsas", "g": "ἔγραψας" }, { "t": "ephyges", "g": "ἔφυγες" }, { "t": "eipes", "g": "εἶπες" }],
+        ["he, she, it", { "t": "egrapse(n)", "g": "ἔγραψε(ν)" }, { "t": "ephyge(n)", "g": "ἔφυγε(ν)" }, { "t": "eipe(n)", "g": "εἶπε(ν)" }],
+        ["we", { "t": "egrapsamen", "g": "ἐγράψαμεν" }, { "t": "ephygomen", "g": "ἐφύγομεν" }, { "t": "eipomen", "g": "εἴπομεν" }],
+        ["you (plural)", { "t": "egrapsate", "g": "ἐγράψατε" }, { "t": "ephygete", "g": "ἐφύγετε" }, { "t": "eipete", "g": "εἴπετε" }],
+        ["they", { "t": "egrapsan", "g": "ἔγραψαν" }, { "t": "ephygon", "g": "ἔφυγον" }, { "t": "eipon", "g": "εἶπον" }]
+      ]
+    },
+    {
+      "title": "Third declension: παῖς, σῶμα, πόλις, βασιλεύς",
+      "unit": 8,
+      "note": "The nominative often hides the stem, and the genitive shows it. In Plato's day the plural of βασιλεύς was βασιλῆς; βασιλεῖς replaced it after about 350 BC.",
+      "head": ["", "boy", "body", "city", "king"],
+      "rows": [
+        ["Nominative", { "t": "pais", "g": "παῖς" }, { "t": "sōma", "g": "σῶμα" }, { "t": "polis", "g": "πόλις" }, { "t": "basileus", "g": "βασιλεύς" }],
+        ["Vocative", { "t": "pai", "g": "παῖ" }, { "t": "sōma", "g": "σῶμα" }, { "t": "poli", "g": "πόλι" }, { "t": "basileu", "g": "βασιλεῦ" }],
+        ["Accusative", { "t": "paida", "g": "παῖδα" }, { "t": "sōma", "g": "σῶμα" }, { "t": "polin", "g": "πόλιν" }, { "t": "basilea", "g": "βασιλέα" }],
+        ["Genitive", { "t": "paidos", "g": "παιδός" }, { "t": "sōmatos", "g": "σώματος" }, { "t": "poleōs", "g": "πόλεως" }, { "t": "basileōs", "g": "βασιλέως" }],
+        ["Dative", { "t": "paidi", "g": "παιδί" }, { "t": "sōmati", "g": "σώματι" }, { "t": "polei", "g": "πόλει" }, { "t": "basilei", "g": "βασιλεῖ" }],
+        ["Nom. plural", { "t": "paides", "g": "παῖδες" }, { "t": "sōmata", "g": "σώματα" }, { "t": "poleis", "g": "πόλεις" }, { "t": "basilēs", "g": "βασιλῆς" }],
+        ["Acc. plural", { "t": "paidas", "g": "παῖδας" }, { "t": "sōmata", "g": "σώματα" }, { "t": "poleis", "g": "πόλεις" }, { "t": "basileas", "g": "βασιλέας" }],
+        ["Gen. plural", { "t": "paidōn", "g": "παίδων" }, { "t": "sōmatōn", "g": "σωμάτων" }, { "t": "poleōn", "g": "πόλεων" }, { "t": "basileōn", "g": "βασιλέων" }],
+        ["Dat. plural", { "t": "paisi(n)", "g": "παισί(ν)" }, { "t": "sōmasi(n)", "g": "σώμασι(ν)" }, { "t": "polesi(n)", "g": "πόλεσι(ν)" }, { "t": "basileusi(n)", "g": "βασιλεῦσι(ν)" }]
+      ]
+    },
+    {
+      "title": "Middle voice: γίγνομαι 'I become'",
+      "unit": 9,
+      "note": "Middle-only verbs such as βούλομαι, ἔρχομαι and μάχομαι use these endings. Attic prose spells 'you' with -ει; some editions print -ῃ.",
+      "head": ["", "Present", "Aorist"],
+      "rows": [
+        ["I", { "t": "gignomai", "g": "γίγνομαι" }, { "t": "egenomēn", "g": "ἐγενόμην" }],
+        ["you", { "t": "gignei", "g": "γίγνει" }, { "t": "egenou", "g": "ἐγένου" }],
+        ["he, she, it", { "t": "gignetai", "g": "γίγνεται" }, { "t": "egeneto", "g": "ἐγένετο" }],
+        ["we", { "t": "gignometha", "g": "γιγνόμεθα" }, { "t": "egenometha", "g": "ἐγενόμεθα" }],
+        ["you (plural)", { "t": "gignesthe", "g": "γίγνεσθε" }, { "t": "egenesthe", "g": "ἐγένεσθε" }],
+        ["they", { "t": "gignontai", "g": "γίγνονται" }, { "t": "egenonto", "g": "ἐγένοντο" }],
+        ["to become", { "t": "gignesthai", "g": "γίγνεσθαι" }, { "t": "genesthai", "g": "γενέσθαι" }]
+      ]
+    },
+    {
+      "title": "Infinitives",
+      "unit": 9,
+      "note": "Active infinitives end in -ειν or -αι, middle ones in -σθαι. The present describes an ongoing action, the aorist a single one; the course uses the present.",
+      "head": ["Verb", "Present", "Aorist", "Meaning"],
+      "rows": [
+        [{ "t": "graphō", "g": "γράφω" }, { "t": "graphein", "g": "γράφειν" }, { "t": "grapsai", "g": "γράψαι" }, "to write"],
+        [{ "t": "akouō", "g": "ἀκούω" }, { "t": "akouein", "g": "ἀκούειν" }, { "t": "akousai", "g": "ἀκοῦσαι" }, "to hear"],
+        [{ "t": "legō", "g": "λέγω" }, { "t": "legein", "g": "λέγειν" }, { "t": "eipein", "g": "εἰπεῖν" }, "to say"],
+        [{ "t": "eimi", "g": "εἰμί" }, { "t": "einai", "g": "εἶναι" }, "—", "to be"],
+        [{ "t": "gignomai", "g": "γίγνομαι" }, { "t": "gignesthai", "g": "γίγνεσθαι" }, { "t": "genesthai", "g": "γενέσθαι" }, "to become"]
+      ]
+    },
+    {
+      "title": "Participles",
+      "unit": 10,
+      "note": "Participles decline like adjectives. The masculine and neuter of λέγων and ὤν follow the third declension (stem λεγοντ-, ὀντ-), the feminine the first.",
+      "head": ["", "Masculine", "Feminine", "Neuter"],
+      "rows": [
+        ["Present active", { "t": "legōn", "g": "λέγων" }, { "t": "legousa", "g": "λέγουσα" }, { "t": "legon", "g": "λέγον" }],
+        ["the same, genitive", { "t": "legontos", "g": "λέγοντος" }, { "t": "legousēs", "g": "λεγούσης" }, { "t": "legontos", "g": "λέγοντος" }],
+        ["being", { "t": "ōn", "g": "ὤν" }, { "t": "ousa", "g": "οὖσα" }, { "t": "on", "g": "ὄν" }],
+        ["Present middle", { "t": "boulomenos", "g": "βουλόμενος" }, { "t": "boulomenē", "g": "βουλομένη" }, { "t": "boulomenon", "g": "βουλόμενον" }],
+        ["First aorist", { "t": "akousas", "g": "ἀκούσας" }, { "t": "akousasa", "g": "ἀκούσασα" }, { "t": "akousan", "g": "ἀκοῦσαν" }],
+        ["Second aorist", { "t": "idōn", "g": "ἰδών" }, { "t": "idousa", "g": "ἰδοῦσα" }, { "t": "idon", "g": "ἰδόν" }]
+      ]
+    },
+    {
+      "title": "Prepositions and their cases",
+      "unit": 11,
+      "note": "Roughly: motion away takes the genitive, rest the dative, motion towards the accusative.",
+      "head": ["", "+ genitive", "+ dative", "+ accusative"],
+      "rows": [
+        [{ "t": "en", "g": "ἐν" }, "—", "in, among", "—"],
+        [{ "t": "eis", "g": "εἰς" }, "—", "—", "into, to"],
+        [{ "t": "ek (ex)", "g": "ἐκ (ἐξ)" }, "out of", "—", "—"],
+        [{ "t": "apo", "g": "ἀπό" }, "away from", "—", "—"],
+        [{ "t": "meta", "g": "μετά" }, "with", "among (poetry)", "after"],
+        [{ "t": "para", "g": "παρά" }, "from (a person)", "beside, at the house of", "to (a person)"],
+        [{ "t": "dia", "g": "διά" }, "through", "—", "because of"],
+        [{ "t": "pros", "g": "πρός" }, "from, by", "near, in addition to", "towards, against"],
+        [{ "t": "peri", "g": "περί" }, "about, concerning", "around (rare in prose)", "around"]
+      ]
+    },
+    {
+      "title": "Numbers 1 to 10",
+      "unit": 11,
+      "note": "One to four change with gender and case; five upwards never change. Greeks also wrote numbers with letters marked by a stroke. Early Attic prose and most other Greeks said τέσσαρες for four.",
+      "head": ["", "Greek", "Written", "Hence"],
+      "rows": [
+        ["1", { "t": "heis, mia, hen", "g": "εἷς μία ἕν" }, "αʹ", "hendiadys"],
+        ["2", { "t": "dyo", "g": "δύο" }, "βʹ", "dyad"],
+        ["3", { "t": "treis, tria", "g": "τρεῖς τρία" }, "γʹ", "tripod"],
+        ["4", { "t": "tettares, tettara", "g": "τέτταρες τέτταρα" }, "δʹ", "tetralogy"],
+        ["5", { "t": "pente", "g": "πέντε" }, "εʹ", "pentagon"],
+        ["6", { "t": "hex", "g": "ἕξ" }, "ϛʹ", "hexagon"],
+        ["7", { "t": "hepta", "g": "ἑπτά" }, "ζʹ", "heptathlon"],
+        ["8", { "t": "oktō", "g": "ὀκτώ" }, "ηʹ", "octopus"],
+        ["9", { "t": "ennea", "g": "ἐννέα" }, "θʹ", "ennead"],
+        ["10", { "t": "deka", "g": "δέκα" }, "ιʹ", "decade"]
+      ]
+    },
+    {
+      "title": "The future: γράψω, ὄψομαι",
+      "unit": 12,
+      "note": "The future adds σ to the stem and uses the present endings. Several common verbs have middle futures, such as ὄψομαι 'I will see' and ἀκούσομαι 'I will hear'.",
+      "head": ["", "I will write", "I will see"],
+      "rows": [
+        ["I", { "t": "grapsō", "g": "γράψω" }, { "t": "opsomai", "g": "ὄψομαι" }],
+        ["you", { "t": "grapseis", "g": "γράψεις" }, { "t": "opsei", "g": "ὄψει" }],
+        ["he, she, it", { "t": "grapsei", "g": "γράψει" }, { "t": "opsetai", "g": "ὄψεται" }],
+        ["we", { "t": "grapsomen", "g": "γράψομεν" }, { "t": "opsometha", "g": "ὀψόμεθα" }],
+        ["you (plural)", { "t": "grapsete", "g": "γράψετε" }, { "t": "opsesthe", "g": "ὄψεσθε" }],
+        ["they", { "t": "grapsousi(n)", "g": "γράψουσι(ν)" }, { "t": "opsontai", "g": "ὄψονται" }]
+      ]
+    },
+    {
+      "title": "To be: present, past and future",
+      "unit": 12,
+      "note": "The past is an imperfect, 'was, used to be'. The future is middle in form; ἔσται has no vowel before its ending.",
+      "head": ["", "Present", "Past", "Future"],
+      "rows": [
+        ["I", { "t": "eimi", "g": "εἰμί" }, { "t": "ē (ēn)", "g": "ἦ (ἦν)" }, { "t": "esomai", "g": "ἔσομαι" }],
+        ["you", { "t": "ei", "g": "εἶ" }, { "t": "ēstha", "g": "ἦσθα" }, { "t": "esei", "g": "ἔσει" }],
+        ["he, she, it", { "t": "esti(n)", "g": "ἐστί(ν)" }, { "t": "ēn", "g": "ἦν" }, { "t": "estai", "g": "ἔσται" }],
+        ["we", { "t": "esmen", "g": "ἐσμέν" }, { "t": "ēmen", "g": "ἦμεν" }, { "t": "esometha", "g": "ἐσόμεθα" }],
+        ["you (plural)", { "t": "este", "g": "ἐστέ" }, { "t": "ēte", "g": "ἦτε" }, { "t": "esesthe", "g": "ἔσεσθε" }],
+        ["they", { "t": "eisi(n)", "g": "εἰσί(ν)" }, { "t": "ēsan", "g": "ἦσαν" }, { "t": "esontai", "g": "ἔσονται" }]
+      ]
+    },
+    {
+      "title": "Principal parts",
+      "unit": 12,
+      "note": "Dictionaries list these key forms because so many verbs change stem between tenses. In Attic the future of 'go' is εἶμι, and λέγω's future is usually ἐρῶ.",
+      "head": ["Present", "Future", "Aorist", "Meaning"],
+      "rows": [
+        [{ "t": "graphō", "g": "γράφω" }, { "t": "grapsō", "g": "γράψω" }, { "t": "egrapsa", "g": "ἔγραψα" }, "write"],
+        [{ "t": "pempō", "g": "πέμπω" }, { "t": "pempsō", "g": "πέμψω" }, { "t": "epempsa", "g": "ἔπεμψα" }, "send"],
+        [{ "t": "didaskō", "g": "διδάσκω" }, { "t": "didaxō", "g": "διδάξω" }, { "t": "edidaxa", "g": "ἐδίδαξα" }, "teach"],
+        [{ "t": "archō", "g": "ἄρχω" }, { "t": "arxō", "g": "ἄρξω" }, { "t": "ērxa", "g": "ἦρξα" }, "rule, begin"],
+        [{ "t": "nikaō", "g": "νικάω" }, { "t": "nikēsō", "g": "νικήσω" }, { "t": "enikēsa", "g": "ἐνίκησα" }, "win"],
+        [{ "t": "akouō", "g": "ἀκούω" }, { "t": "akousomai", "g": "ἀκούσομαι" }, { "t": "ēkousa", "g": "ἤκουσα" }, "hear"],
+        [{ "t": "legō", "g": "λέγω" }, { "t": "erō", "g": "ἐρῶ" }, { "t": "eipon", "g": "εἶπον" }, "say"],
+        [{ "t": "horaō", "g": "ὁράω" }, { "t": "opsomai", "g": "ὄψομαι" }, { "t": "eidon", "g": "εἶδον" }, "see"],
+        [{ "t": "erchomai", "g": "ἔρχομαι" }, { "t": "eimi", "g": "εἶμι" }, { "t": "ēlthon", "g": "ἦλθον" }, "come, go"],
+        [{ "t": "pheugō", "g": "φεύγω" }, { "t": "pheuxomai", "g": "φεύξομαι" }, { "t": "ephygon", "g": "ἔφυγον" }, "flee"],
+        [{ "t": "apothnēiskō", "g": "ἀποθνῄσκω" }, { "t": "apothanoumai", "g": "ἀποθανοῦμαι" }, { "t": "apethanon", "g": "ἀπέθανον" }, "die"],
+        [{ "t": "gignomai", "g": "γίγνομαι" }, { "t": "genēsomai", "g": "γενήσομαι" }, { "t": "egenomēn", "g": "ἐγενόμην" }, "become"]
+      ]
+    }
+  ]
+}

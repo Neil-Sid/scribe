@@ -1,0 +1,344 @@
+[
+  {
+    "id": "anabasis",
+    "title": "Paides dyo",
+    "source": "Xenophon, Anabasis 1.1.1–3 (c. 370 BC, trimmed)",
+    "about": "Xenophon opens his story of the Ten Thousand, the Greek army that marched into Persia, with a royal family feud: two brothers, one throne, and a mother with a favourite.",
+    "unit": 3,
+    "badge": { "name": "Sibling Rivalry", "about": "Read the opening of Xenophon's Anabasis" },
+    "lines": [
+      {
+        "g": "Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο",
+        "t": "Dareiou kai Parysatidos gignontai paides dyo,",
+        "en": "Darius and Parysatis had two sons,",
+        "gloss": ["of Darius", "and", "of Parysatis", "are born", "sons", "two"],
+        "q": { "prompt": "How many sons did Darius and Parysatis have?", "options": ["three", "two", "one"], "answer": 1 }
+      },
+      {
+        "g": "πρεσβύτερος μὲν Ἀρταξέρξης νεώτερος δὲ Κῦρος",
+        "t": "presbyteros men Artaxerxēs, neōteros de Kyros.",
+        "en": "the elder Artaxerxes, the younger Cyrus.",
+        "gloss": ["the elder", "on one side", "Artaxerxes", "the younger", "and", "Cyrus"],
+        "q": { "prompt": "Which son was the elder?", "options": ["Artaxerxes", "Cyrus", "they were twins"], "answer": 0 }
+      },
+      {
+        "g": "ἐπεὶ δὲ ἠσθένει Δαρεῖος καὶ ὑπώπτευε τελευτὴν τοῦ βίου",
+        "t": "epei de ēsthenei Dareios kai hypōpteue teleutēn tou biou,",
+        "en": "When Darius fell ill and sensed that the end of his life was near,",
+        "gloss": ["when", "and", "was ill", "Darius", "and", "suspected", "the end", "of his", "life"]
+      },
+      {
+        "g": "ἐβούλετο τὼ παῖδε ἀμφοτέρω παρεῖναι",
+        "t": "ebouleto tō paide amphoterō pareinai.",
+        "en": "he wanted both his sons to be with him.",
+        "gloss": ["he wanted", "his two", "sons", "both", "to be with him"],
+        "q": { "prompt": "What did the sick king want?", "options": ["a Greek doctor", "to crown Cyrus", "both sons at his side"], "answer": 2 }
+      },
+      {
+        "g": "ὁ μὲν οὖν πρεσβύτερος παρὼν ἐτύγχανε",
+        "t": "ho men oun presbyteros parōn etynchane;",
+        "en": "The elder happened to be there already;",
+        "gloss": ["the", "on one side", "so", "elder", "being there", "happened"]
+      },
+      {
+        "g": "Κῦρον δὲ μεταπέμπεται ἀπὸ τῆς ἀρχῆς ἧς αὐτὸν σατράπην ἐποίησε",
+        "t": "Kyron de metapempetai apo tēs archēs hēs auton satrapēn epoiēse.",
+        "en": "Cyrus he sent for from the province he had made him satrap of.",
+        "gloss": ["Cyrus", "but", "he sends for", "from", "the", "province", "of which", "him", "satrap", "he had made"],
+        "q": { "prompt": "Where was Cyrus when his father sent for him?", "options": ["governing his province", "at the palace", "in Athens"], "answer": 0 }
+      },
+      {
+        "g": "ἐπεὶ δὲ ἐτελεύτησε Δαρεῖος καὶ κατέστη εἰς τὴν βασιλείαν Ἀρταξέρξης",
+        "t": "epei de eteleutēse Dareios kai katestē eis tēn basileian Artaxerxēs,",
+        "en": "When Darius died and Artaxerxes was installed as king,",
+        "gloss": ["when", "and", "died", "Darius", "and", "was set", "into", "the", "kingship", "Artaxerxes"]
+      },
+      {
+        "g": "Τισσαφέρνης διαβάλλει τὸν Κῦρον πρὸς τὸν ἀδελφὸν ὡς ἐπιβουλεύοι αὐτῷ",
+        "t": "Tissaphernēs diaballei ton Kyron pros ton adelphon hōs epibouleuoi autōi.",
+        "en": "Tissaphernes slandered Cyrus to his brother, claiming he was plotting against him.",
+        "gloss": ["Tissaphernes", "slanders", "(the)", "Cyrus", "to", "his", "brother", "saying that", "he was plotting", "against him"],
+        "q": { "prompt": "What did Tissaphernes tell the new king?", "options": ["that their mother was ill", "that Cyrus was plotting against him", "that the Greeks were coming"], "answer": 1 }
+      },
+      {
+        "g": "ὁ δὲ πείθεται καὶ συλλαμβάνει Κῦρον ὡς ἀποκτενῶν",
+        "t": "ho de peithetai kai syllambanei Kyron hōs apoktenōn;",
+        "en": "The king believed it and arrested Cyrus, meaning to put him to death;",
+        "gloss": ["he", "and", "is persuaded", "and", "arrests", "Cyrus", "meaning", "to kill him"]
+      },
+      {
+        "g": "ἡ δὲ μήτηρ ἐξαιτησαμένη αὐτὸν ἀποπέμπει πάλιν ἐπὶ τὴν ἀρχήν",
+        "t": "hē de mētēr exaitēsamenē auton apopempei palin epi tēn archēn.",
+        "en": "but their mother begged for his life and sent him back to his province.",
+        "gloss": ["the", "but", "mother", "begging him off", "him", "sends away", "back", "to", "the", "province"],
+        "q": { "prompt": "Who saved Cyrus?", "options": ["Tissaphernes", "his brother", "his mother"], "answer": 2 }
+      }
+    ]
+  },
+  {
+    "id": "fox-and-grapes",
+    "title": "Alōpēx kai botrys",
+    "source": "Aesop, Fables 15a Hausrath (Perry 15), Collectio Augustana",
+    "about": "Aesop's fable of the fox and the grapes, the origin of 'sour grapes'. The fables circulated for centuries before being written down in plain prose like this.",
+    "unit": 4,
+    "badge": { "name": "Sour Grapes", "about": "Read Aesop's fable of the fox and the grapes" },
+    "lines": [
+      {
+        "g": "ἀλώπηξ λιμώττουσα ὡς ἐθεάσατο ἀπό τινος ἀναδενδράδος βότρυας κρεμαμένους",
+        "t": "alōpēx limōttousa, hōs etheasato apo tinos anadendrados botryas kremamenous,",
+        "en": "A hungry fox, when she saw bunches of grapes hanging from a vine on a tree,",
+        "gloss": ["a fox", "starving", "when", "she saw", "from", "some", "tree-climbing vine", "bunches of grapes", "hanging"],
+        "q": { "prompt": "Why did the fox want the grapes?", "options": ["she was hungry", "she was bored", "they were a gift"], "answer": 0 }
+      },
+      {
+        "g": "ἠβουλήθη αὐτῶν περιγενέσθαι καὶ οὐκ ἠδύνατο",
+        "t": "ēboulēthē autōn perigenesthai kai ouk ēdynato.",
+        "en": "wanted to get hold of them, but could not.",
+        "gloss": ["wanted", "them", "to get hold of", "and", "not", "was able"],
+        "q": { "prompt": "Did the fox get the grapes?", "options": ["yes, all of them", "no, she could not", "yes, but she shared them"], "answer": 1 }
+      },
+      {
+        "g": "ἀπαλλαττομένη δὲ πρὸς ἑαυτὴν εἶπεν",
+        "t": "apallattomenē de pros heautēn eipen:",
+        "en": "As she went away, she said to herself:",
+        "gloss": ["going away", "and", "to", "herself", "she said"]
+      },
+      {
+        "g": "ὄμφακές εἰσιν",
+        "t": "omphakes eisin.",
+        "en": "“They're unripe.”",
+        "gloss": ["unripe grapes", "they are"],
+        "q": { "prompt": "What does the fox tell herself?", "options": ["the grapes are poisoned", "she was never hungry", "the grapes are unripe"], "answer": 2 }
+      },
+      {
+        "g": "οὕτω καὶ τῶν ἀνθρώπων ἔνιοι τῶν πραγμάτων ἐφικέσθαι μὴ δυνάμενοι",
+        "t": "houtō kai tōn anthrōpōn enioi tōn pragmatōn ephikesthai mē dynamenoi",
+        "en": "So too some people, when they cannot achieve what they want",
+        "gloss": ["so", "too", "of", "people", "some", "(the)", "things", "to reach", "not", "being able"]
+      },
+      {
+        "g": "δι᾽ ἀσθένειαν τοὺς καιροὺς αἰτιῶνται",
+        "t": "di' astheneian tous kairous aitiōntai.",
+        "en": "through their own weakness, blame the circumstances.",
+        "gloss": ["through", "weakness", "the", "circumstances", "they blame"],
+        "q": { "prompt": "What is the moral?", "options": ["never trust a fox", "foxes cannot climb", "people blame circumstances for their own failures"], "answer": 2 }
+      }
+    ]
+  },
+  {
+    "id": "iliad",
+    "title": "Mēnin aeide",
+    "source": "Homer, Iliad 1.1–7 (c. 8th century BC)",
+    "about": "The first lines of European literature. Homer asks the Muse to sing of the anger of Achilles and the deaths it caused. His Greek is older than Attic, so expect some strange forms.",
+    "unit": 6,
+    "badge": { "name": "Rhapsode", "about": "Read the opening of Homer's Iliad" },
+    "lines": [
+      {
+        "g": "μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος",
+        "t": "mēnin aeide, thea, Pēlēiadeō Achilēos",
+        "en": "Sing, goddess, the wrath of Achilles, son of Peleus,",
+        "gloss": ["the wrath", "sing", "goddess", "of Peleus' son", "of Achilles"],
+        "q": { "prompt": "Who is asked to sing the story?", "options": ["a goddess", "Achilles", "Peleus"], "answer": 0 }
+      },
+      {
+        "g": "οὐλομένην ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε",
+        "t": "oulomenēn, hē myri' Achaiois alge' ethēke,",
+        "en": "the ruinous wrath that brought countless sorrows on the Achaeans,",
+        "gloss": ["ruinous", "which", "countless", "on the Achaeans", "sorrows", "laid"],
+        "q": { "prompt": "What did the wrath bring the Achaeans?", "options": ["glory", "countless sorrows", "a quick victory"], "answer": 1 }
+      },
+      {
+        "g": "πολλὰς δ᾽ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν",
+        "t": "pollas d' iphthimous psychas Aidi proiapsen",
+        "en": "and hurled many mighty souls down to Hades,",
+        "gloss": ["many", "and", "mighty", "souls", "to Hades", "hurled"]
+      },
+      {
+        "g": "ἡρώων αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν",
+        "t": "hērōōn, autous de helōria teuche kynessin",
+        "en": "souls of heroes, and made the men themselves a feast for dogs",
+        "gloss": ["of heroes", "the men themselves", "and", "prey", "made", "for dogs"],
+        "q": { "prompt": "What happened to the bodies of the dead?", "options": ["they were buried with honour", "dogs and birds fed on them", "they were carried home"], "answer": 1 }
+      },
+      {
+        "g": "οἰωνοῖσί τε πᾶσι Διὸς δ᾽ ἐτελείετο βουλή",
+        "t": "oiōnoisi te pasi, Dios d' eteleieto boulē,",
+        "en": "and for all the birds, and the will of Zeus was being done,",
+        "gloss": ["for birds", "and", "all", "of Zeus", "and", "was being fulfilled", "the will"]
+      },
+      {
+        "g": "ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε",
+        "t": "ex hou dē ta prōta diastētēn erisante",
+        "en": "from the moment the two first quarrelled and parted,",
+        "gloss": ["from", "the time when", "indeed", "(the)", "first", "the two parted", "having quarrelled"]
+      },
+      {
+        "g": "Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς",
+        "t": "Atreidēs te anax andrōn kai dios Achilleus.",
+        "en": "Atreus' son, lord of men, and godlike Achilles.",
+        "gloss": ["Atreus' son", "both", "lord", "of men", "and", "godlike", "Achilles"],
+        "q": { "prompt": "Who quarrelled?", "options": ["Zeus and Hades", "the son of Atreus and Achilles", "Achilles and his father Peleus"], "answer": 1 }
+      }
+    ]
+  },
+  {
+    "id": "herodotus",
+    "title": "Historiēs apodexis",
+    "source": "Herodotus, Histories 1.0 (c. 430 BC)",
+    "about": "Herodotus opens the first great work of Greek history by saying why he wrote it. He writes in Ionic, not Attic: notice ἱστορίης for ἱστορίας, θωμαστά for θαυμαστά and datives in -οισι. A 'barbarian' was simply anyone who did not speak Greek.",
+    "unit": 8,
+    "badge": { "name": "Father of History", "about": "Read the opening of Herodotus' Histories" },
+    "lines": [
+      {
+        "g": "Ἡροδότου Ἁλικαρνησσέος ἱστορίης ἀπόδεξις ἥδε",
+        "t": "Hērodotou Halikarnēsseos historiēs apodexis hēde,",
+        "en": "This is the presentation of the inquiry of Herodotus of Halicarnassus,",
+        "gloss": ["of Herodotus", "of Halicarnassus", "of the inquiry", "the presentation", "this (is)"]
+      },
+      {
+        "g": "ὡς μήτε τὰ γενόμενα ἐξ ἀνθρώπων τῷ χρόνῳ ἐξίτηλα γένηται",
+        "t": "hōs mēte ta genomena ex anthrōpōn tōi chronōi exitēla genētai,",
+        "en": "so that what people have done may not fade with time,",
+        "gloss": ["so that", "neither", "the things", "that happened", "from", "people", "by", "time", "faded", "may become"],
+        "q": { "prompt": "Why does Herodotus write?", "options": ["so that the past is not forgotten", "to win a prize at Olympia", "to praise his home town"], "answer": 0 }
+      },
+      {
+        "g": "μήτε ἔργα μεγάλα τε καὶ θωμαστά",
+        "t": "mēte erga megala te kai thōmasta,",
+        "en": "and so that great and marvellous deeds,",
+        "gloss": ["nor", "deeds", "great", "both", "and", "marvellous"]
+      },
+      {
+        "g": "τὰ μὲν Ἕλλησι τὰ δὲ βαρβάροισι ἀποδεχθέντα ἀκλεᾶ γένηται",
+        "t": "ta men Hellēsi ta de barbaroisi apodechthenta, aklea genētai,",
+        "en": "some performed by Greeks and some by barbarians, may not lose their fame,",
+        "gloss": ["some", "on one side", "by Greeks", "others", "on the other", "by barbarians", "performed", "unsung", "may become"],
+        "q": { "prompt": "Whose achievements will he record?", "options": ["only those of the Greeks", "only those of the Persians", "those of Greeks and barbarians alike"], "answer": 2 }
+      },
+      {
+        "g": "τά τε ἄλλα καὶ δι᾽ ἣν αἰτίην ἐπολέμησαν ἀλλήλοισι",
+        "t": "ta te alla kai di' hēn aitiēn epolemēsan allēloisi.",
+        "en": "and above all, the reason why they went to war with each other.",
+        "gloss": ["the", "both", "other things", "and especially", "for", "what", "reason", "they went to war", "with each other"],
+        "q": { "prompt": "What question will the work answer above all?", "options": ["who built the pyramids", "why Greeks and barbarians went to war", "how to sail to Egypt"], "answer": 1 }
+      }
+    ]
+  },
+  {
+    "id": "memorabilia",
+    "title": "Pollakis ethaumasa",
+    "source": "Xenophon, Memorabilia 1.1.1 (4th century BC)",
+    "about": "Xenophon, who had known Socrates as a young man, sets out to defend his teacher's memory. He begins with the charges on which Athens condemned Socrates to death in 399 BC. Watch the participles: Socrates 'does wrong' by not recognising, bringing in and corrupting.",
+    "unit": 10,
+    "badge": { "name": "Character Witness", "about": "Read the opening of Xenophon's Memorabilia" },
+    "lines": [
+      {
+        "g": "πολλάκις ἐθαύμασα τίσι ποτὲ λόγοις Ἀθηναίους ἔπεισαν",
+        "t": "pollakis ethaumasa tisi pote logois Athēnaious epeisan",
+        "en": "I have often wondered by what arguments they persuaded the Athenians,",
+        "gloss": ["often", "I wondered", "what", "ever", "arguments", "the Athenians", "they persuaded"],
+        "q": { "prompt": "What does Xenophon say about the verdict?", "options": ["he has often wondered how it happened", "he was glad of it", "he never heard about it"], "answer": 0 }
+      },
+      {
+        "g": "οἱ γραψάμενοι Σωκράτην ὡς ἄξιος εἴη θανάτου τῇ πόλει",
+        "t": "hoi grapsamenoi Sōkratēn hōs axios eiē thanatou tēi polei.",
+        "en": "those who indicted Socrates, that he deserved death at the city's hands.",
+        "gloss": ["those", "having indicted", "Socrates", "that", "deserving", "he was", "of death", "from the", "city"]
+      },
+      {
+        "g": "ἡ μὲν γὰρ γραφὴ κατ᾽ αὐτοῦ τοιάδε τις ἦν",
+        "t": "hē men gar graphē kat' autou toiade tis ēn:",
+        "en": "The indictment against him ran something like this:",
+        "gloss": ["the", "on one side", "for", "indictment", "against", "him", "like this", "something", "was"]
+      },
+      {
+        "g": "ἀδικεῖ Σωκράτης οὓς μὲν ἡ πόλις νομίζει θεοὺς οὐ νομίζων",
+        "t": "adikei Sōkratēs hous men hē polis nomizei theous ou nomizōn,",
+        "en": "Socrates does wrong by not recognising the gods the city recognises,",
+        "gloss": ["does wrong", "Socrates", "which", "on one side", "the", "city", "recognises", "gods", "not", "recognising"],
+        "q": { "prompt": "What is the first charge?", "options": ["not recognising the city's gods", "stealing temple funds", "dodging military service"], "answer": 0 }
+      },
+      {
+        "g": "ἕτερα δὲ καινὰ δαιμόνια εἰσφέρων",
+        "t": "hetera de kaina daimonia eispherōn;",
+        "en": "and by bringing in other, new divine powers;",
+        "gloss": ["other", "and", "new", "divine powers", "bringing in"]
+      },
+      {
+        "g": "ἀδικεῖ δὲ καὶ τοὺς νέους διαφθείρων",
+        "t": "adikei de kai tous neous diaphtheirōn.",
+        "en": "he also does wrong by corrupting the young.",
+        "gloss": ["does wrong", "and", "also", "the", "young", "corrupting"],
+        "q": { "prompt": "What is the second charge?", "options": ["teaching for money", "corrupting the young", "insulting the generals"], "answer": 1 }
+      }
+    ]
+  },
+  {
+    "id": "apology",
+    "title": "Ho anexetastos bios",
+    "source": "Plato, Apology 37e–38a (set in 399 BC)",
+    "about": "Plato's version of Socrates' speech at his trial. Found guilty, Socrates must propose his own penalty. Why not go into exile and live quietly? This is his answer, and it ends in his most famous line.",
+    "unit": 12,
+    "badge": { "name": "Gadfly", "about": "Read Socrates on the unexamined life" },
+    "lines": [
+      {
+        "g": "ἐάντε γὰρ λέγω ὅτι τῷ θεῷ ἀπειθεῖν τοῦτ᾽ ἐστὶν",
+        "t": "eante gar legō hoti tōi theōi apeithein tout' estin",
+        "en": "For if I say that this would mean disobeying the god",
+        "gloss": ["if", "for", "I say", "that", "the", "god", "to disobey", "this", "is"]
+      },
+      {
+        "g": "καὶ διὰ τοῦτ᾽ ἀδύνατον ἡσυχίαν ἄγειν",
+        "t": "kai dia tout' adynaton hēsychian agein,",
+        "en": "and that this is why I cannot keep quiet,",
+        "gloss": ["and", "because of", "this", "impossible", "quiet", "to keep"],
+        "q": { "prompt": "Why does Socrates say he cannot keep quiet?", "options": ["it would mean disobeying the god", "his friends would mock him", "he would get bored"], "answer": 0 }
+      },
+      {
+        "g": "οὐ πείσεσθέ μοι ὡς εἰρωνευομένῳ",
+        "t": "ou peisesthe moi hōs eirōneuomenōi;",
+        "en": "you will not believe me, thinking I am being ironic;",
+        "gloss": ["not", "you will believe", "me", "as if", "being ironic"]
+      },
+      {
+        "g": "ἐάντ᾽ αὖ λέγω ὅτι καὶ τυγχάνει μέγιστον ἀγαθὸν ὂν ἀνθρώπῳ τοῦτο",
+        "t": "eant' au legō hoti kai tynchanei megiston agathon on anthrōpōi touto,",
+        "en": "and if instead I say that this really is the greatest good for a human being,",
+        "gloss": ["and if", "instead", "I say", "that", "really", "it happens", "greatest", "good", "being", "for a human", "this"]
+      },
+      {
+        "g": "ἑκάστης ἡμέρας περὶ ἀρετῆς τοὺς λόγους ποιεῖσθαι",
+        "t": "hekastēs hēmeras peri aretēs tous logous poieisthai",
+        "en": "to discuss virtue every day,",
+        "gloss": ["every", "day", "about", "virtue", "the", "discussions", "to hold"],
+        "q": { "prompt": "What does Socrates call the greatest good?", "options": ["wealth and honour", "discussing virtue every day", "a quiet life abroad"], "answer": 1 }
+      },
+      {
+        "g": "καὶ τῶν ἄλλων περὶ ὧν ὑμεῖς ἐμοῦ ἀκούετε διαλεγομένου",
+        "t": "kai tōn allōn peri hōn hymeis emou akouete dialegomenou",
+        "en": "and the other things you hear me talking about",
+        "gloss": ["and", "the", "other things", "about", "which", "you", "me", "hear", "conversing"]
+      },
+      {
+        "g": "καὶ ἐμαυτὸν καὶ ἄλλους ἐξετάζοντος",
+        "t": "kai emauton kai allous exetazontos,",
+        "en": "as I examine myself and others,",
+        "gloss": ["both", "myself", "and", "others", "examining"]
+      },
+      {
+        "g": "ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ",
+        "t": "ho de anexetastos bios ou biōtos anthrōpōi,",
+        "en": "and that the unexamined life is not worth living for a human being,",
+        "gloss": ["the", "and", "unexamined", "life", "not", "worth living", "for a human"],
+        "q": { "prompt": "Which life is not worth living?", "options": ["a life in exile", "a life without examination", "a life without money"], "answer": 1 }
+      },
+      {
+        "g": "ταῦτα δ᾽ ἔτι ἧττον πείσεσθέ μοι λέγοντι",
+        "t": "tauta d' eti hētton peisesthe moi legonti.",
+        "en": "you will believe me even less when I say this.",
+        "gloss": ["these things", "and", "still", "less", "you will believe", "me", "saying"],
+        "q": { "prompt": "How does Socrates expect the jury to react?", "options": ["they will agree at last", "they will believe him even less", "they will let him go free"], "answer": 1 }
+      }
+    ]
+  }
+]

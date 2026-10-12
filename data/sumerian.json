@@ -1,0 +1,445 @@
+{
+  "id": "sumerian",
+  "name": "Sumerian",
+  "native": "eme-gi₇",
+  "era": "c. 2600 – 1700 BC (Old Sumerian to Old Babylonian)",
+  "place": "Sumer, southern Mesopotamia (modern Iraq)",
+  "blurb": "One of the first languages ever written, pressed into clay by the scribes of Ur, Uruk and Lagash.",
+  "emblem": "𒅴𒂠",
+  "script": { "name": "Cuneiform", "font": "cuneiform" },
+  "accent": "#8a5a2b",
+  "keys": ["š", "ĝ", "ḫ", "₀", "₁", "₂", "₃", "₄", "₅", "₆", "₇"],
+  "facts": [
+    "Sumerian is a language isolate: no relative of it has ever been found.",
+    "Cuneiform means 'wedge-shaped'. Scribes pressed the cut end of a reed into wet clay.",
+    "Sumerian died out as an everyday language around 2000–1800 BC, but scribes kept copying it for nearly two thousand years more, much as Europe kept Latin.",
+    "Students learned it in the e₂-dub-ba-a, the 'tablet house'. Their practice tablets, mistakes and all, still survive.",
+    "The sign 𒀭 began as a picture of a star. It reads an 'sky' and diĝir 'god'.",
+    "Sumerians called their country ki-en-gi and themselves saĝ gig₂-ga, 'the black-headed people'."
+  ],
+  "units": [
+    {
+      "title": "Lu₂",
+      "about": "Kings, gods and family",
+      "kind": "words",
+      "guide": [
+        { "h": "No gender, no articles", "p": "Sumerian has no word for 'the' or 'a', and nouns are neither masculine nor feminine.", "ex": [["lugal", "king, a king, the king"]] },
+        { "h": "Adjectives follow", "p": "The adjective comes after its noun. lugal itself is lu₂ 'man' + gal 'big': the big man.", "ex": [["lugal gal", "great king"], ["šeš gal", "big brother"]] },
+        { "h": "-e-ne for people", "p": "Add -e-ne to a word for people to make it plural. Things and animals stay as they are.", "ex": [["lugal-e-ne", "kings"], ["en-e-ne", "lords"]] },
+        { "h": "One sign, one piece", "p": "Each hyphenated piece is one cuneiform sign. Small numbers tell apart signs that sound alike: du 'go' and du₃ 'build' are different signs." }
+      ],
+      "items": [
+        { "t": "lugal", "g": "𒈗", "en": "king" },
+        { "t": "nin", "g": "𒎏", "en": "lady", "alt": ["queen"] },
+        { "t": "en", "g": "𒂗", "en": "lord", "alt": ["high priest"] },
+        { "t": "diĝir", "g": "𒀭", "en": "god", "alt": ["deity"], "note": "Often written dingir. The sign began as a star." },
+        { "t": "lu₂", "g": "𒇽", "en": "man", "alt": ["person"] },
+        { "t": "munus", "g": "𒊩", "en": "woman" },
+        { "t": "dumu", "g": "𒌉", "en": "child", "alt": ["son"] },
+        { "t": "ama", "g": "𒂼", "en": "mother" },
+        { "t": "a-a", "g": "𒀀𒀀", "en": "father" },
+        { "t": "šeš", "g": "𒋀", "en": "brother" },
+        { "t": "gal", "g": "𒃲", "en": "great", "alt": ["big", "large"] },
+        { "t": "u₃", "g": "𒅇", "en": "and", "note": "Borrowed from Akkadian. Older texts simply list things side by side." }
+      ],
+      "sentences": [
+        { "t": "lugal gal", "g": "𒈗 𒃲", "en": "great king", "alt": ["big king"] },
+        { "t": "nin gal", "g": "𒎏 𒃲", "en": "great lady", "alt": ["great queen"] },
+        { "t": "diĝir gal", "g": "𒀭 𒃲", "en": "great god" },
+        { "t": "šeš gal", "g": "𒋀 𒃲", "en": "big brother", "alt": ["elder brother", "great brother"] },
+        { "t": "ama u₃ a-a", "g": "𒂼 𒅇 𒀀𒀀", "en": "mother and father" },
+        { "t": "lu₂ u₃ munus", "g": "𒇽 𒅇 𒊩", "en": "man and woman" },
+        { "t": "en-e-ne u₃ lugal-e-ne", "g": "𒂗𒂊𒉈 𒅇 𒈗𒂊𒉈", "en": "lords and kings" }
+      ]
+    },
+    {
+      "title": "Iri",
+      "about": "City, temple and land, and saying what is",
+      "kind": "words",
+      "guide": [
+        { "h": "The big house", "p": "e₂ is any house, and a god's house is a temple. e₂-gal, the 'big house', is the palace.", "ex": [["e₂-gal", "palace"]] },
+        { "h": "-am₃ means 'is'", "p": "Put -am₃ on the end of what something is. It comes last, after the adjective.", "ex": [["iri gal-am₃", "the city is great"], ["e₂ kug-am₃", "the temple is holy"]] },
+        { "h": "Land and mountains", "p": "kalam 'the Land' was Sumer seen from inside. kur, the mountains around the flat plain, meant foreign country. kur gal, 'Great Mountain', is a title of the god Enlil." },
+        { "h": "One sign, many words", "p": "A sign can stand for several words. -am₃ is written with two signs, A and AN, and 𒀭 alone is both diĝir 'god' and an 'sky'." }
+      ],
+      "items": [
+        { "t": "iri", "g": "𒌷", "en": "city", "alt": ["town"] },
+        { "t": "e₂", "g": "𒂍", "en": "house", "alt": ["temple"] },
+        { "t": "e₂-gal", "g": "𒂍𒃲", "en": "palace" },
+        { "t": "eš₃", "g": "𒀊", "en": "shrine", "alt": ["sanctuary"] },
+        { "t": "kalam", "g": "𒌦", "en": "land", "alt": ["the Land", "country"] },
+        { "t": "kur", "g": "𒆳", "en": "mountain", "alt": ["foreign land"] },
+        { "t": "ki", "g": "𒆠", "en": "earth", "alt": ["place", "ground"] },
+        { "t": "ki-en-gi", "g": "𒆠𒂗𒄀", "en": "Sumer" },
+        { "t": "bad₃", "g": "𒂦", "en": "wall", "alt": ["city wall"] },
+        { "t": "kug", "g": "𒆬", "en": "holy", "alt": ["pure", "shining"], "note": "On its own it can also mean silver." },
+        { "t": "maḫ", "g": "𒈤", "en": "lofty", "alt": ["exalted", "supreme"] }
+      ],
+      "sentences": [
+        { "t": "iri gal", "g": "𒌷 𒃲", "en": "great city", "alt": ["big city"] },
+        { "t": "e₂ kug", "g": "𒂍 𒆬", "en": "holy house", "alt": ["holy temple", "pure house"] },
+        { "t": "eš₃ maḫ", "g": "𒀊 𒈤", "en": "lofty shrine", "alt": ["exalted shrine"] },
+        { "t": "kur gal", "g": "𒆳 𒃲", "en": "great mountain" },
+        { "t": "iri gal-am₃", "g": "𒌷 𒃲𒀀𒀭", "en": "the city is great", "alt": ["it is a great city", "the city is big"] },
+        { "t": "e₂ kug-am₃", "g": "𒂍 𒆬𒀀𒀭", "en": "the temple is holy", "alt": ["the house is holy"] },
+        { "t": "e₂-gal maḫ-am₃", "g": "𒂍𒃲 𒈤𒀀𒀭", "en": "the palace is lofty", "alt": ["the palace is exalted"] },
+        { "t": "bad₃ gal-am₃", "g": "𒂦 𒃲𒀀𒀭", "en": "the wall is great", "alt": ["the wall is big"] },
+        { "t": "ki-en-gi kalam gal-am₃", "g": "𒆠𒂗𒄀 𒌦 𒃲𒀀𒀭", "en": "Sumer is a great land", "alt": ["Sumer is a great country"] }
+      ]
+    },
+    {
+      "title": "Ĝe₂₆-e",
+      "about": "My, your, and saying who you are",
+      "kind": "words",
+      "guide": [
+        { "h": "Possessives go last", "p": "-ĝu₁₀ 'my', -zu 'your' and -a-ni 'his, her' close the noun chain, after any adjective.", "ex": [["ama-ĝu₁₀", "my mother"], ["e₂ gal-zu", "your big house"]] },
+        { "h": "-a-ni after a vowel", "p": "After a vowel -a-ni usually shrinks to -ni. e₂ 'house' keeps the a.", "ex": [["dumu-ni", "his son"], ["e₂-a-ni", "his house"]] },
+        { "h": "I am, you are", "p": "-am₃ is only 'he, she or it is'. For 'I am' and 'you are' use -me-en. The pronoun can be left out.", "ex": [["ĝe₂₆-e lugal-me-en", "I am king"], ["za-e dub-sar-me-en", "you are a scribe"]] }
+      ],
+      "items": [
+        { "t": "ĝe₂₆-e", "g": "𒂷𒂊", "en": "I" },
+        { "t": "za-e", "g": "𒍝𒂊", "en": "you" },
+        { "t": "-ĝu₁₀", "g": "𒈬", "en": "my" },
+        { "t": "-zu", "g": "𒍪", "en": "your" },
+        { "t": "-a-ni", "g": "𒀀𒉌", "en": "his", "alt": ["her"] },
+        { "t": "-me-en", "g": "𒈨𒂗", "en": "am", "alt": ["are"], "note": "'I am' or 'you are'." },
+        { "t": "arad₂", "g": "𒀵", "en": "servant", "alt": ["slave"] },
+        { "t": "dub-sar", "g": "𒁾𒊬", "en": "scribe", "note": "dub 'tablet' + sar 'write'." },
+        { "t": "ur-saĝ", "g": "𒌨𒊕", "en": "hero", "alt": ["warrior"] },
+        { "t": "a-ba", "g": "𒀀𒁀", "en": "who" }
+      ],
+      "sentences": [
+        { "t": "ĝe₂₆-e lugal-me-en", "g": "𒂷𒂊 𒈗𒈨𒂗", "en": "I am king", "alt": ["I am a king"] },
+        { "t": "za-e dub-sar-me-en", "g": "𒍝𒂊 𒁾𒊬𒈨𒂗", "en": "you are a scribe" },
+        { "t": "e₂-ĝu₁₀ gal-am₃", "g": "𒂍𒈬 𒃲𒀀𒀭", "en": "my house is big", "alt": ["my house is great"] },
+        { "t": "lugal-ĝu₁₀ ur-saĝ-am₃", "g": "𒈗𒈬 𒌨𒊕𒀀𒀭", "en": "my king is a hero", "alt": ["my lord is a hero"] },
+        { "t": "dumu-zu dub-sar-am₃", "g": "𒌉𒍪 𒁾𒊬𒀀𒀭", "en": "your son is a scribe", "alt": ["your child is a scribe"] },
+        { "t": "ĝe₂₆-e arad₂-zu-me-en", "g": "𒂷𒂊 𒀵𒍪𒈨𒂗", "en": "I am your servant", "talt": ["arad₂-zu-me-en"] },
+        { "t": "za-e a-ba-me-en", "g": "𒍝𒂊 𒀀𒁀𒈨𒂗", "en": "who are you?", "talt": ["a-ba-me-en"] },
+        { "t": "ama-ni u₃ a-a-ni", "g": "𒂼𒉌 𒅇 𒀀𒀀𒉌", "en": "his mother and his father", "alt": ["her mother and her father", "his mother and father", "her mother and father"] }
+      ]
+    },
+    {
+      "title": "E₂ lugal-la",
+      "about": "The king's house, the god's city",
+      "kind": "words",
+      "guide": [
+        { "h": "-ak means 'of'", "p": "The owner comes second and takes -ak: e₂ lugal-ak, 'house of the king'.", "ex": [["e₂ lugal-la", "the king's house"]] },
+        { "h": "How -ak is written", "p": "At the end of a phrase the k drops, and the a is written with a sign that repeats the owner's last consonant.", "ex": [["e₂ diĝir-ra", "house of the god"], ["lugal kalam-ma", "king of the land"], ["lugal unug-ga", "king of Uruk"]] },
+        { "h": "After a vowel", "p": "After a vowel the genitive often disappears from writing. Ur-Namma's bricks call him lugal ki-en-gi ki-uri, 'king of Sumer and Akkad'." },
+        { "h": "Silent signs", "p": "Gods' names start with a silent 𒀭 and cities end with a silent 𒆠. Scribes wrote them as labels; you do not type them." }
+      ],
+      "items": [
+        { "t": "unug", "g": "𒀕𒆠", "en": "Uruk", "note": "Gilgameš's city." },
+        { "t": "ki-uri", "g": "𒆠𒌵", "en": "Akkad", "note": "The north, where Akkadian was spoken." },
+        { "t": "en-lil₂", "g": "𒀭𒂗𒆤", "en": "Enlil", "note": "King of the gods, 'Lord Wind'." },
+        { "t": "inana", "g": "𒀭𒈹", "en": "Inanna", "note": "Goddess of love and war. Scholars spell her inana." },
+        { "t": "utu", "g": "𒀭𒌓", "en": "Utu", "alt": ["sun god"], "note": "The sun god and judge." },
+        { "t": "en-ki", "g": "𒀭𒂗𒆠", "en": "Enki", "note": "God of fresh water and cunning, 'Lord Earth'." },
+        { "t": "e₂-an-na", "g": "𒂍𒀭𒈾", "en": "Eanna", "note": "'House of heaven', Inanna's temple at Uruk. an 'heaven' + -ak." },
+        { "t": "nam-lugal", "g": "𒉆𒈗", "en": "kingship", "note": "nam- turns a noun into an idea: king, kingship." },
+        { "t": "kur-kur", "g": "𒆳𒆳", "en": "all lands", "alt": ["the lands"], "note": "Doubling a noun means 'all of them'." },
+        { "t": "dub", "g": "𒁾", "en": "tablet" },
+        { "t": "dumu-munus", "g": "𒌉𒊩", "en": "daughter", "note": "'Child' + 'woman'." }
+      ],
+      "sentences": [
+        { "t": "e₂ lugal-la", "g": "𒂍 𒈗𒆷", "en": "the king's house", "alt": ["house of the king"] },
+        { "t": "dumu-munus lugal-la", "g": "𒌉𒊩 𒈗𒆷", "en": "the king's daughter", "alt": ["daughter of the king", "princess"] },
+        { "t": "e₂ diĝir-ra", "g": "𒂍 𒀭𒊏", "en": "house of the god", "alt": ["the god's house", "temple of the god", "the god's temple"] },
+        { "t": "lugal kalam-ma", "g": "𒈗 𒌦𒈠", "en": "king of the land", "alt": ["the land's king"] },
+        { "t": "lugal unug-ga", "g": "𒈗 𒀕𒆠𒂵", "en": "king of Uruk" },
+        { "t": "nam-lugal kalam-ma", "g": "𒉆𒈗 𒌦𒈠", "en": "kingship of the land", "alt": ["the land's kingship"] },
+        { "t": "dub dub-sar-ra", "g": "𒁾 𒁾𒊬𒊏", "en": "the scribe's tablet", "alt": ["tablet of the scribe"] },
+        { "t": "en-lil₂ lugal kur-kur-ra", "g": "𒀭𒂗𒆤 𒈗 𒆳𒆳𒊏", "en": "Enlil, king of all lands", "alt": ["Enlil, king of the lands"] },
+        { "t": "lugal ki-en-gi ki-uri", "g": "𒈗 𒆠𒂗𒄀 𒆠𒌵", "en": "king of Sumer and Akkad" }
+      ]
+    },
+    {
+      "title": "Mu-na-du₃",
+      "about": "Building, giving and who did it",
+      "kind": "words",
+      "guide": [
+        { "h": "The doer takes -e", "p": "When a verb has an object, the one doing it takes -e. Someone who only stands or goes takes nothing.", "ex": [["lugal-e e₂ in-du₃", "the king built the house"], ["lugal ba-gub", "the king stood"]] },
+        { "h": "Verb last", "p": "The order is doer, object, verb. The plain form tells of something done, so in-du₃ is 'he built'." },
+        { "h": "Reading a verb", "p": "The root comes last, with small prefixes before it. In in-du₃ the n means 'he or she did it'. -na- means 'for him' or 'to her'.", "ex": [["mu-na-du₃", "he built for him"], ["in-na-an-šum₂", "he gave to him"]] },
+        { "h": "-ra 'to, for'", "p": "The person something is given to or done for takes -ra, and the verb repeats it with -na-.", "ex": [["lugal-ra e₂ mu-na-du₃", "he built a house for the king"]] }
+      ],
+      "items": [
+        { "t": "du₃", "g": "𒆕", "en": "build", "note": "Written with the sign for a peg." },
+        { "t": "šum₂", "g": "𒋧", "en": "give" },
+        { "t": "gub", "g": "𒁺", "en": "stand" },
+        { "t": "in-du₃", "g": "𒅔𒆕", "en": "he built", "alt": ["she built"] },
+        { "t": "mu-na-du₃", "g": "𒈬𒈾𒆕", "en": "he built for him", "alt": ["she built for him", "he built for her", "she built for her"] },
+        { "t": "in-na-an-šum₂", "g": "𒅔𒈾𒀭𒋧", "en": "he gave him", "alt": ["he gave to him", "she gave him", "she gave to him", "he gave her"] },
+        { "t": "ba-gub", "g": "𒁀𒁺", "en": "he stood", "alt": ["she stood", "it stood", "he stood up"] },
+        { "t": "-ra", "g": "𒊏", "en": "to", "alt": ["for"] },
+        { "t": "ninda", "g": "𒃻", "en": "bread" },
+        { "t": "kug-babbar", "g": "𒆬𒌓", "en": "silver", "note": "'White metal': kug + babbar 'white'." }
+      ],
+      "sentences": [
+        { "t": "lugal-e e₂ in-du₃", "g": "𒈗𒂊 𒂍 𒅔𒆕", "en": "the king built the house", "alt": ["the king built a house", "the king built the temple"] },
+        { "t": "lugal-e bad₃ in-du₃", "g": "𒈗𒂊 𒂦 𒅔𒆕", "en": "the king built the wall", "alt": ["the king built a wall"] },
+        { "t": "nin-e e₂-gal in-du₃", "g": "𒎏𒂊 𒂍𒃲 𒅔𒆕", "en": "the queen built the palace", "alt": ["the lady built the palace", "the queen built a palace"] },
+        { "t": "lugal ba-gub", "g": "𒈗 𒁀𒁺", "en": "the king stood", "alt": ["the king stood up"] },
+        { "t": "lugal-ra e₂ mu-na-du₃", "g": "𒈗𒊏 𒂍 𒈬𒈾𒆕", "en": "he built a house for the king", "alt": ["he built the house for the king", "he built a temple for the king"] },
+        { "t": "e₂-a-ni mu-na-du₃", "g": "𒂍𒀀𒉌 𒈬𒈾𒆕", "en": "he built his house for him", "alt": ["he built his temple for him", "he built her house for her", "he built her temple for her"] },
+        { "t": "lugal-e dumu-ni-ra ninda in-na-an-šum₂", "g": "𒈗𒂊 𒌉𒉌𒊏 𒃻 𒅔𒈾𒀭𒋧", "en": "the king gave bread to his son", "alt": ["the king gave his son bread"] },
+        { "t": "nin-e kug-babbar in-na-an-šum₂", "g": "𒎏𒂊 𒆬𒌓 𒅔𒈾𒀭𒋧", "en": "the queen gave him silver", "alt": ["the lady gave him silver", "the queen gave silver to him"] }
+      ]
+    },
+    {
+      "title": "Mu-sar-ra",
+      "about": "Lines that kings and scribes really wrote",
+      "kind": "words",
+      "guide": [
+        { "h": "Royal titles", "p": "Ur-Namma of Ur (c. 2112–2095 BC) called himself nitaḫ kalag-ga 'mighty man', king of Ur, king of Sumer and Akkad. Other bricks add lu₂ e₂ en-lil₂-la₂ in-du₃-a: the -a turns 'he built' into 'who built'. Source: RIME 3/2.1.1." },
+        { "h": "Šulgi's boast", "p": "Šulgi Hymn A opens lugal-me-en šag₄-ta ur-saĝ-me-en. -ta means 'from'. Šulgi also styled himself lugal an ub-da limmu₂-ba, 'king of the four quarters' of the world." },
+        { "h": "Dear king", "p": "Letters open lugal-ĝu₁₀-ra u₃-na-a-dug₄, 'say to my king', because a messenger read them aloud (Royal Correspondence of Ur, ETCSL 3.1.01)." },
+        { "h": "A father's advice", "p": "ud re-a ud su₃-ra₂ re-a opens the Instructions of Šuruppag and Gilgameš, Enkidu and the Netherworld. The Instructions go on with dumu-ĝu₁₀ na ga-de₅ (line 9; ga- is 'let me') and na de₅ ab-ba niĝ₂ kal-la-am₃ (line 13). kal-la 'precious' is the same sign as kalag." },
+        { "h": "The scribe's proverb", "p": "Proverb Collection 2.47 (ETCSL 6.1.02) mocks a scribe who does not know eme-gi₇, Sumerian. nu- means 'not'." }
+      ],
+      "items": [
+        { "t": "urim₅", "g": "𒋀𒀊𒆠", "en": "Ur", "note": "One word written with two signs, ŠEŠ and AB, plus silent 𒆠." },
+        { "t": "nitaḫ", "g": "𒍑", "en": "male", "alt": ["man"] },
+        { "t": "kalag-ga", "g": "𒆗𒂵", "en": "mighty", "alt": ["strong"] },
+        { "t": "šag₄", "g": "𒊮", "en": "womb", "alt": ["heart", "inside"] },
+        { "t": "limmu₂", "g": "𒇹", "en": "four" },
+        { "t": "ud", "g": "𒌓", "en": "day", "note": "Also read u₄." },
+        { "t": "na", "g": "𒈾", "en": "advice", "alt": ["instructions"] },
+        { "t": "ab-ba", "g": "𒀊𒁀", "en": "old man", "alt": ["elder"] },
+        { "t": "eme-gi₇", "g": "𒅴𒂠", "en": "Sumerian", "alt": ["native tongue"], "note": "'Native tongue'. ETCSL reads it eme-gir₁₅." },
+        { "t": "a-na", "g": "𒀀𒈾", "en": "what" }
+      ],
+      "sentences": [
+        { "t": "ur-namma nitaḫ kalag-ga lugal urim₅-ma", "g": "𒌨𒀭𒇉 𒍑 𒆗𒂵 𒈗 𒋀𒀊𒆠𒈠", "en": "Ur-Namma, mighty man, king of Ur", "alt": ["Ur-Namma, the mighty man, king of Ur"] },
+        { "t": "lu₂ e₂ en-lil₂-la₂ in-du₃-a", "g": "𒇽 𒂍 𒀭𒂗𒆤𒇲 𒅔𒆕𒀀", "en": "the one who built Enlil's temple", "alt": ["the one who built the temple of Enlil", "the man who built Enlil's temple", "who built the temple of Enlil"] },
+        { "t": "lugal an ub-da limmu₂-ba", "g": "𒈗 𒀭 𒌒𒁕 𒇹𒁀", "en": "king of the four quarters", "alt": ["king of the four corners"] },
+        { "t": "lugal-me-en šag₄-ta ur-saĝ-me-en", "g": "𒈗𒈨𒂗 𒊮𒋫 𒌨𒊕𒈨𒂗", "en": "I am king, a hero from the womb", "alt": ["I am a king, a hero from the womb", "I am king, from the womb I am a hero"] },
+        { "t": "lugal-ĝu₁₀-ra u₃-na-a-dug₄", "g": "𒈗𒈬𒊏 𒅇𒈾𒀀𒅗", "en": "say to my king", "alt": ["speak to my king", "say to my lord"] },
+        { "t": "ud re-a ud su₃-ra₂ re-a", "g": "𒌓 𒊑𒀀 𒌓 𒋤𒁺 𒊑𒀀", "en": "in those days, in those far-off days", "alt": ["in those days, in those far remote days", "in those days, in those distant days"] },
+        { "t": "dumu-ĝu₁₀ na ga-de₅", "g": "𒌉𒈬 𒈾 𒂵𒊑", "en": "my son, let me give you advice", "alt": ["my son, let me give you instructions"] },
+        { "t": "na de₅ ab-ba niĝ₂ kal-la-am₃", "g": "𒈾 𒊑 𒀊𒁀 𒃻 𒆗𒆷𒀀𒀭", "en": "an old man's advice is precious", "alt": ["the instructions of an old man are precious", "the advice of an old man is precious"] },
+        { "t": "dub-sar eme-gi₇ nu-mu-un-zu-a a-na-am₃ nam-dub-sar-ra-ni", "g": "𒁾𒊬 𒅴𒂠 𒉡𒈬𒌦𒍪𒀀 𒀀𒈾𒀀𒀭 𒉆𒁾𒊬𒊏𒉌", "en": "what kind of scribe is a scribe who does not know Sumerian?", "alt": ["a scribe who does not know Sumerian, what kind of scribe is he?"] }
+      ]
+    },
+    {
+      "title": "I₃-du₃-e",
+      "about": "Did or does: the two verb stems",
+      "kind": "words",
+      "guide": [
+        { "h": "Two stems", "p": "Every verb has a ḫamṭu stem for an action seen as done and whole, usually past, and a marû stem for an action still going on or still to come. Babylonian teachers called them 'quick' and 'slow' in Akkadian, and 'short' and 'long' in Sumerian, because marû forms are often longer.", "ex": [["in-gu₇", "he ate"], ["i₃-gu₇-e", "he eats, he will eat"]] },
+        { "h": "The doer moves to the end", "p": "In ḫamṭu the doer is the n prefix. In marû it moves to the end as -e, and the verb opens with the plain prefix i₃-. The noun doing it still takes -e in both.", "ex": [["lugal-e e₂ in-du₃", "the king built the house"], ["lugal-e e₂ i₃-du₃-e", "the king will build the house"]] },
+        { "h": "Doubled and swapped", "p": "Some verbs double instead: ĝar 'place' becomes ĝa₂-ĝa₂, and naĝ 'drink' becomes na₈-na₈, the same sign read na₈. A few swap roots: ĝen 'go' has the marû stem du, and dug₄ 'say' has e.", "ex": [["i₃-na₈-na₈", "he drinks"], ["i₃-ĝa₂-ĝa₂", "he places"]] },
+        { "h": "Going needs no doer", "p": "A verb without an object, like ĝen 'go', has no doer marker in either stem. Enlil and Ninlil (ETCSL 1.2.1, line 63) says simply en-lil₂ i₃-ĝen, 'Enlil went'." },
+        { "h": "Time from context", "p": "Sumerian marks aspect, not tense. A marû verb can mean 'is doing', 'does' or 'will do', and the story around it decides." }
+      ],
+      "items": [
+        { "t": "ĝar", "g": "𒃻", "en": "place", "alt": ["put", "set"], "note": "Same sign as ninda 'bread'. marû: ĝa₂-ĝa₂." },
+        { "t": "gu₇", "g": "𒅥", "en": "eat", "note": "A head with bread inside its mouth." },
+        { "t": "naĝ", "g": "𒅘", "en": "drink", "note": "A head with water inside its mouth. marû: na₈-na₈." },
+        { "t": "ĝen", "g": "𒁺", "en": "go", "alt": ["come", "walk"], "note": "The foot sign, also read gub 'stand'. marû: du." },
+        { "t": "dug₄", "g": "𒅗", "en": "say", "alt": ["speak"], "note": "The mouth sign. marû: e." },
+        { "t": "ak", "g": "𒀝", "en": "do", "alt": ["make"] },
+        { "t": "kaš", "g": "𒁉", "en": "beer", "note": "The sign began as a beer jar. It is also read bi." },
+        { "t": "a", "g": "𒀀", "en": "water" },
+        { "t": "i₃-du₃-e", "g": "𒉌𒆕𒂊", "en": "he builds", "alt": ["he will build", "she builds", "she will build", "he is building"] },
+        { "t": "i₃-gu₇-e", "g": "𒉌𒅥𒂊", "en": "he eats", "alt": ["he will eat", "she eats", "she will eat", "he is eating"] },
+        { "t": "i₃-na₈-na₈", "g": "𒉌𒅘𒅘", "en": "he drinks", "alt": ["he will drink", "she drinks", "she will drink", "he is drinking"] },
+        { "t": "i₃-ĝen", "g": "𒉌𒁺", "en": "he went", "alt": ["she went", "he came", "she came"] }
+      ],
+      "sentences": [
+        { "t": "lugal-e e₂ i₃-du₃-e", "g": "𒈗𒂊 𒂍 𒉌𒆕𒂊", "en": "the king will build the house", "alt": ["the king builds the house", "the king will build a house", "the king builds a house", "the king is building the house", "the king will build the temple", "the king builds the temple"] },
+        { "t": "lugal-e ninda in-gu₇", "g": "𒈗𒂊 𒃻 𒅔𒅥", "en": "the king ate bread", "alt": ["the king ate the bread"] },
+        { "t": "dumu-munus-e ninda i₃-gu₇-e", "g": "𒌉𒊩𒂊 𒃻 𒉌𒅥𒂊", "en": "the daughter eats bread", "alt": ["the daughter will eat bread", "the daughter is eating bread"] },
+        { "t": "lugal-e kaš i₃-na₈-na₈", "g": "𒈗𒂊 𒁉 𒉌𒅘𒅘", "en": "the king drinks beer", "alt": ["the king will drink beer", "the king is drinking beer"] },
+        { "t": "dub-sar-e a i₃-na₈-na₈", "g": "𒁾𒊬𒂊 𒀀 𒉌𒅘𒅘", "en": "the scribe drinks water", "alt": ["the scribe will drink water", "the scribe is drinking water"] },
+        { "t": "nin-e ninda i₃-ĝa₂-ĝa₂", "g": "𒎏𒂊 𒃻 𒉌𒂷𒂷", "en": "the lady sets out bread", "alt": ["the queen sets out bread", "the lady places bread", "the queen places bread", "the lady will set out bread", "the queen will set out bread"] },
+        { "t": "en-lil₂ i₃-ĝen", "g": "𒀭𒂗𒆤 𒉌𒁺", "en": "Enlil went", "alt": ["Enlil came", "Enlil walked"] },
+        { "t": "ur-saĝ i₃-ĝen", "g": "𒌨𒊕 𒉌𒁺", "en": "the hero went", "alt": ["the warrior went", "the hero came", "the warrior came"] }
+      ]
+    },
+    {
+      "title": "E-ne-ne",
+      "about": "We, they, and verbs for many",
+      "kind": "words",
+      "guide": [
+        { "h": "He, she, they", "p": "e-ne is 'he' or 'she' and e-ne-ne 'they', for people only. The verb already shows who acts, so pronouns are mostly for emphasis, and they never add the doer's -e.", "ex": [["e-ne lugal-am₃", "he is king"]] },
+        { "h": "We are, they are", "p": "The plural of 'to be' is -me-en-de₃-en 'we are', -me-en-ze₂-en 'you are' and -me-eš 'they are'. 'We' and 'you all' are just the first two standing alone. A proverb (ETCSL 6.1.08) begins ĝe₂₆-e u₃ za-e šeš-me-en-de₃-en.", "ex": [["e-ne-ne dub-sar-me-eš", "they are scribes"], ["ĝe₂₆-e u₃ za-e šeš-me-en-de₃-en", "you and I are brothers"]] },
+        { "h": "They did it", "p": "In ḫamṭu a plural doer adds -eš at the end, written -uš after u, and keeps the n prefix. In the singular that n is often not written.", "ex": [["mu-na-du₃", "he built for him"], ["mu-na-an-du₃-uš", "they built for him"]] },
+        { "h": "They do it", "p": "In marû the plural doer is the ending -ene, often written -ne. Enki's Journey to Nibru (ETCSL 1.1.4, line 110) has lu₂-e-ne kaš i₃-na₈-na₈-ne, 'they are drinking beer'." },
+        { "h": "Their and its", "p": "-a-ne-ne is 'their' for people. -bi is 'its' or 'their' for things and animals, and it can also mean 'that'.", "ex": [["e₂-a-ne-ne", "their house"], ["bad₃-bi", "its wall"]] }
+      ],
+      "items": [
+        { "t": "e-ne", "g": "𒂊𒉈", "en": "he", "alt": ["she", "him", "her"] },
+        { "t": "e-ne-ne", "g": "𒂊𒉈𒉈", "en": "they", "alt": ["them"] },
+        { "t": "me-en-de₃-en", "g": "𒈨𒂗𒉈𒂗", "en": "we", "alt": ["we are", "us"] },
+        { "t": "me-en-ze₂-en", "g": "𒈨𒂗𒍢𒂗", "en": "you all", "alt": ["all of you", "you are"] },
+        { "t": "-me-eš", "g": "𒈨𒌍", "en": "they are" },
+        { "t": "-a-ne-ne", "g": "𒀀𒉈𒉈", "en": "their" },
+        { "t": "-bi", "g": "𒁉", "en": "its", "alt": ["their", "that"], "note": "For things and animals." },
+        { "t": "ki-sikil", "g": "𒆠𒂖", "en": "young woman", "alt": ["maiden", "girl"] },
+        { "t": "mu-na-an-du₃-uš", "g": "𒈬𒈾𒀭𒆕𒍑", "en": "they built for him", "alt": ["they built for her"] },
+        { "t": "i₃-na₈-na₈-ne", "g": "𒉌𒅘𒅘𒉈", "en": "they drink", "alt": ["they will drink", "they are drinking"] }
+      ],
+      "sentences": [
+        { "t": "ĝe₂₆-e u₃ za-e šeš-me-en-de₃-en", "g": "𒂷𒂊 𒅇 𒍝𒂊 𒋀𒈨𒂗𒉈𒂗", "en": "you and I are brothers", "alt": ["I and you are brothers"] },
+        { "t": "e-ne lugal-am₃", "g": "𒂊𒉈 𒈗𒀀𒀭", "en": "he is king", "alt": ["he is the king", "he is a king"] },
+        { "t": "e-ne-ne dub-sar-me-eš", "g": "𒂊𒉈𒉈 𒁾𒊬𒈨𒌍", "en": "they are scribes", "talt": ["dub-sar-me-eš"] },
+        { "t": "me-en-de₃-en arad₂-zu-me-en-de₃-en", "g": "𒈨𒂗𒉈𒂗 𒀵𒍪𒈨𒂗𒉈𒂗", "en": "we are your servants", "alt": ["we are your slaves"], "talt": ["arad₂-zu-me-en-de₃-en"] },
+        { "t": "lu₂-e-ne kaš i₃-na₈-na₈-ne", "g": "𒇽𒂊𒉈 𒁉 𒉌𒅘𒅘𒉈", "en": "the people drink beer", "alt": ["people drink beer", "the people are drinking beer", "the men drink beer", "they drink beer"] },
+        { "t": "ki-sikil-e-ne kaš i₃-na₈-na₈-ne", "g": "𒆠𒂖𒂊𒉈 𒁉 𒉌𒅘𒅘𒉈", "en": "the young women drink beer", "alt": ["the young women are drinking beer", "the maidens drink beer", "the girls drink beer"] },
+        { "t": "e-ne-ne e₂ mu-na-an-du₃-uš", "g": "𒂊𒉈𒉈 𒂍 𒈬𒈾𒀭𒆕𒍑", "en": "they built a house for him", "alt": ["they built the house for him", "they built a temple for him", "they built him a house", "they built a house for her"] },
+        { "t": "e₂-a-ne-ne gal-am₃", "g": "𒂍𒀀𒉈𒉈 𒃲𒀀𒀭", "en": "their house is big", "alt": ["their house is great", "their temple is big"] },
+        { "t": "bad₃-bi maḫ-am₃", "g": "𒂦𒁉 𒈤𒀀𒀭", "en": "its wall is lofty", "alt": ["its wall is high", "its wall is exalted"] }
+      ]
+    },
+    {
+      "title": "Udu",
+      "about": "Numbers, sheep and silver in the temple economy",
+      "kind": "words",
+      "guide": [
+        { "h": "Tens and sixties", "p": "Sumerians counted in tens and sixties. An upright wedge 𒁹 is one, a corner wedge 𒌋 is ten, and a bigger upright wedge 𒐕 is sixty. Our 60 minutes and 360 degrees go back to this Mesopotamian system.", "ex": [["min", "two"], ["u", "ten"]] },
+        { "h": "Spoken numbers", "p": "Babylonian word lists give the spoken names: diš 1, min 2, eš₅ 3, limmu 4, ia₂ 5, aš₃ 6, imin 7, ussu 8, ilimmu 9, u 10, ĝeš₂ 60. Some readings are uncertain, so editions of accounts write the wedges instead." },
+        { "h": "Accounts put the number first", "p": "Tablets write the number in wedges before the noun. Editions spell it as count and wedge: 5(diš) is five DIŠ wedges, 1(u) one ten. Literary editions often use plain digits instead.", "ex": [["5(diš) udu", "5 sheep"], ["1(u) 2(diš) udu", "12 sheep"]] },
+        { "h": "Weights and measures", "p": "Barley was measured in sila₃, about a litre; in Ur III 300 sila₃ made one gur. Silver was weighed in gin₂ 'shekels' of about 8 grams, and 60 shekels made a ma-na 'mina'. A messenger's ration list (ABTR 15, CDLI P100203) gives 5(diš) sila₃ kaš 5(diš) sila₃ ninda." },
+        { "h": "-kam: the second, the third", "p": "Add -kam, the genitive plus 'is', to a number to make an ordinal: ud 2(diš)-kam 'the second day'. Receipts date themselves this way." },
+        { "h": "Years of kings", "p": "The Sumerian King List (ETCSL 2.1.1) gives each reign as mu N i₃-ak, 'he made N years'. Its early kings rule for thousands of years; Gilgameš gets 126." }
+      ],
+      "items": [
+        { "t": "min", "g": "𒈫", "en": "two" },
+        { "t": "eš₅", "g": "𒐈", "en": "three" },
+        { "t": "ia₂", "g": "𒐊", "en": "five" },
+        { "t": "u", "g": "𒌋", "en": "ten", "note": "A corner wedge." },
+        { "t": "mu", "g": "𒈬", "en": "year", "alt": ["name"], "note": "Also 'name'. Same sign as -ĝu₁₀ 'my'." },
+        { "t": "udu", "g": "𒇻", "en": "sheep" },
+        { "t": "gu₄", "g": "𒄞", "en": "ox", "alt": ["cattle", "bull", "cow"], "note": "ETCSL reads it gud." },
+        { "t": "maš₂", "g": "𒈧", "en": "goat", "alt": ["billy goat"] },
+        { "t": "še", "g": "𒊺", "en": "barley", "alt": ["grain"] },
+        { "t": "sila₃", "g": "𒋡", "en": "sila", "alt": ["litre", "liter"], "note": "A measure of about one litre." },
+        { "t": "gin₂", "g": "𒂆", "en": "shekel", "note": "About 8 grams of silver." },
+        { "t": "ma-na", "g": "𒈠𒈾", "en": "mina", "note": "60 shekels, about half a kilo." }
+      ],
+      "sentences": [
+        { "t": "5(diš) udu", "g": "𒐊 𒇻", "en": "5 sheep", "alt": ["five sheep"] },
+        { "t": "1(u) gu₄", "g": "𒌋 𒄞", "en": "10 oxen", "alt": ["ten oxen", "10 cattle", "ten cattle"] },
+        { "t": "1(u) 2(diš) udu", "g": "𒌋 𒈫 𒇻", "en": "12 sheep", "alt": ["twelve sheep"] },
+        { "t": "1(diš) ma-na kug-babbar", "g": "𒁹 𒈠𒈾 𒆬𒌓", "en": "1 mina of silver", "alt": ["one mina of silver", "a mina of silver"] },
+        { "t": "1(diš) sila₃ še", "g": "𒁹 𒋡 𒊺", "en": "1 sila of barley", "alt": ["one sila of barley", "a sila of barley", "1 litre of barley"] },
+        { "t": "5(diš) sila₃ kaš 5(diš) sila₃ ninda", "g": "𒐊 𒋡 𒁉 𒐊 𒋡 𒃻", "en": "5 sila of beer, 5 sila of bread", "alt": ["five sila of beer, five sila of bread"] },
+        { "t": "ud 2(diš)-kam", "g": "𒌓 𒈫𒄰", "en": "the second day", "alt": ["second day", "day two", "the 2nd day"] },
+        { "t": "1(u) 2(diš) lugal", "g": "𒌋 𒈫 𒈗", "en": "12 kings", "alt": ["twelve kings"] },
+        { "t": "ur-nun-gal dumu gilgameš₂ mu 3(u) i₃-ak", "g": "𒌨𒀭𒉣𒃲 𒌉 𒀭𒄑𒉋𒂵𒈩 𒈬 𒌍 𒉌𒀝", "en": "Ur-Nungal, son of Gilgamesh, ruled 30 years", "alt": ["Ur-Nungal, son of Gilgamesh, ruled for 30 years", "Ur-Nungal, son of Gilgamesh, ruled thirty years", "Ur-Nungal, son of Gilgamesh, reigned 30 years", "Ur-Nungal, son of Gilgameš, ruled 30 years"] }
+      ]
+    },
+    {
+      "title": "Ba-ḫul",
+      "about": "More verb prefixes, and saying no",
+      "kind": "words",
+      "guide": [
+        { "h": "ba-: it happened", "p": "ba- often marks something that happens to the subject with no doer named, much like an English passive. Ur III years were named after such events.", "ex": [["ba-ḫul", "it was destroyed"], ["mu ša-aš-ru ba-ḫul", "the year Šašru was destroyed"]] },
+        { "h": "i₃-: the plain prefix", "p": "i₃- is the most neutral opening for a verb. Livestock receipts end with i₃-dab₅, 'he took charge'." },
+        { "h": "ḫe₂-: may it be", "p": "ḫe₂- (ḫa- before a) makes a wish or a firm statement. Letters to the kings of Ur often close with lugal-ĝu₁₀ ḫe₂-en-zu, 'may my king know it'. ḫe₂-ĝal₂, 'may there be', became the word for abundance.", "ex": [["ḫe₂-ĝal₂", "abundance"]] },
+        { "h": "nu-: not", "p": "nu- negates a verb and merges with the next prefix: nu + in-gu₇ is written nu-un-gu₇, 'he did not eat'. Before ba- it becomes la-.", "ex": [["lugal-e ninda nu-un-gu₇", "the king did not eat bread"]] },
+        { "h": "Receipts", "p": "A receipt says what, from whom and who took it. ki X-ta is 'from X', literally 'from the place of X'. šu ba-ti, 'he received', joins šu 'hand' and ti 'come near'." }
+      ],
+      "items": [
+        { "t": "ba-ḫul", "g": "𒁀𒅆𒌨", "en": "was destroyed", "alt": ["it was destroyed", "destroyed"] },
+        { "t": "ba-uš₂", "g": "𒁀𒌀", "en": "he died", "alt": ["she died", "died", "it died"] },
+        { "t": "ba-šub", "g": "𒁀𒊒", "en": "it fell", "alt": ["fell", "it was abandoned"] },
+        { "t": "i₃-dab₅", "g": "𒉌𒆪", "en": "he took charge", "alt": ["took charge", "he took over", "took over"] },
+        { "t": "šu ba-ti", "g": "𒋗 𒁀𒋾", "en": "he received", "alt": ["received", "she received"], "note": "šu 'hand' + ti 'come near'." },
+        { "t": "nu-", "g": "𒉡", "en": "not" },
+        { "t": "ḫe₂-", "g": "𒃶", "en": "may", "alt": ["let"], "note": "ḫa- before a." },
+        { "t": "ĝal₂", "g": "𒅅", "en": "be there", "alt": ["exist", "be present"] },
+        { "t": "ḫe₂-ĝal₂", "g": "𒃶𒅅", "en": "abundance", "alt": ["plenty"], "note": "Literally 'may there be'." },
+        { "t": "-ta", "g": "𒋫", "en": "from", "alt": ["out of"] },
+        { "t": "itud", "g": "𒌗", "en": "month", "alt": ["moon"], "note": "Also read iti." },
+        { "t": "ezem", "g": "𒂡", "en": "festival", "alt": ["feast"] }
+      ],
+      "sentences": [
+        { "t": "mu ša-aš-ru ba-ḫul", "g": "𒈬 𒊭𒀸𒊒𒆠 𒁀𒅆𒌨", "en": "the year Šašru was destroyed", "alt": ["year Šašru was destroyed", "the year when Šašru was destroyed", "the year Shashru was destroyed"] },
+        { "t": "eridug ba-šub", "g": "𒉣𒆠 𒁀𒊒", "en": "Eridu fell", "alt": ["Eridug fell", "Eridu was abandoned"] },
+        { "t": "lu₂ ba-uš₂", "g": "𒇽 𒁀𒌀", "en": "the man died", "alt": ["a man died", "a man dies", "a person died"] },
+        { "t": "lugal-e ninda nu-un-gu₇", "g": "𒈗𒂊 𒃻 𒉡𒌦𒅥", "en": "the king did not eat bread", "alt": ["the king did not eat the bread", "the king ate no bread", "the king didn't eat bread"] },
+        { "t": "lugal-ĝu₁₀ ḫe₂-en-zu", "g": "𒈗𒈬 𒃶𒂗𒍪", "en": "may my king know it", "alt": ["may my king know", "let my king know", "let my king know it", "my king should know"] },
+        { "t": "ḫe₂-ĝal₂ kalam-ma", "g": "𒃶𒅅 𒌦𒈠", "en": "the abundance of the land", "alt": ["abundance of the land", "the land's abundance"] },
+        { "t": "5(diš) udu i₃-dab₅", "g": "𒐊 𒇻 𒉌𒆪", "en": "he took charge of 5 sheep", "alt": ["he took charge of five sheep", "he took over 5 sheep", "he took over five sheep"] },
+        { "t": "ki lugal-ta dub-sar šu ba-ti", "g": "𒆠 𒈗𒋫 𒁾𒊬 𒋗 𒁀𒋾", "en": "the scribe received it from the king", "alt": ["the scribe received from the king", "from the king, the scribe received it"] }
+      ]
+    },
+    {
+      "title": "Diĝir-re-e-ne",
+      "about": "Gods and myth, and chains of 'of'",
+      "kind": "words",
+      "guide": [
+        { "h": "The great gods", "p": "An, the sky, was king of the gods. His son Enlil ruled the earth from the Ekur at Nippur. Enki lived in the Abzu, the sweet water under the earth, at Eridu. Nanna the moon god was Enlil's firstborn and Inana's father." },
+        { "h": "Of the of", "p": "One 'of' phrase can sit inside another. The genitives pile up at the end of the chain, so -ak + -ak after lugal is written -la-ka.", "ex": [["e₂ dumu lugal-la-ka", "the house of the king's son"]] },
+        { "h": "-ke₄: 'of' plus the doer", "p": "When an 'of' phrase does the action, -ak and the doer's -e merge into -ke₄, as in Ur-Namma's bricks: lugal urim₅-ma-ke₄.", "ex": [["lugal kalam-ma-ke₄ e₂ in-du₃", "the king of the land built the house"]] },
+        { "h": "Hidden after a vowel", "p": "After a vowel the genitive often vanishes from writing, so 'An, king of the gods' is just an lugal diĝir-re-e-ne. diĝir-re-e-ne is diĝir + -e-ne, with the r written again." },
+        { "h": "The me", "p": "me are the divine powers that make civilisation work: kingship, priesthood, the crafts, the scribal art. In one myth Inana gets Enki drunk and carries them off from Eridu to Uruk (ETCSL 1.3.1)." }
+      ],
+      "items": [
+        { "t": "an", "g": "𒀭", "en": "heaven", "alt": ["sky", "An"], "note": "Also An, the sky god." },
+        { "t": "diĝir-re-e-ne", "g": "𒀭𒊑𒂊𒉈", "en": "gods", "alt": ["deities"] },
+        { "t": "me", "g": "𒈨", "en": "divine power", "alt": ["divine powers", "me"] },
+        { "t": "abzu", "g": "𒍪𒀊", "en": "Abzu", "alt": ["the deep", "apsu"], "note": "The sweet water under the earth, Enki's home. Written ZU.AB; Akkadian borrowed it as apsû." },
+        { "t": "eridug", "g": "𒉣𒆠", "en": "Eridu", "alt": ["Eridug"], "note": "Enki's city, where the King List puts the first kings." },
+        { "t": "e₂-kur", "g": "𒂍𒆳", "en": "Ekur", "note": "'Mountain house', Enlil's temple at Nippur." },
+        { "t": "nanna", "g": "𒀭𒋀𒆠", "en": "Nanna", "alt": ["moon god", "Suen"], "note": "The moon god of Ur." },
+        { "t": "dumu-saĝ", "g": "𒌉𒊕", "en": "firstborn", "alt": ["eldest son", "firstborn son"], "note": "'Head child'." },
+        { "t": "nin-lil₂", "g": "𒀭𒎏𒆤", "en": "Ninlil", "note": "Enlil's wife, 'Lady Wind'." },
+        { "t": "dam", "g": "𒁮", "en": "spouse", "alt": ["wife", "husband"] },
+        { "t": "ki aĝ₂", "g": "𒆠 𒉘", "en": "beloved", "alt": ["loved", "love"] }
+      ],
+      "sentences": [
+        { "t": "an lugal diĝir-re-e-ne", "g": "𒀭 𒈗 𒀭𒊑𒂊𒉈", "en": "An, king of the gods", "alt": ["An, the king of the gods"] },
+        { "t": "en-ki lugal eridug-ga", "g": "𒀭𒂗𒆠 𒈗 𒉣𒆠𒂵", "en": "Enki, king of Eridu", "alt": ["Enki, the king of Eridu", "Enki, king of Eridug"] },
+        { "t": "e₂-kur e₂ en-lil₂-la₂", "g": "𒂍𒆳 𒂍 𒀭𒂗𒆤𒇲", "en": "the Ekur, Enlil's house", "alt": ["the Ekur, the house of Enlil", "the Ekur, Enlil's temple", "the Ekur, the temple of Enlil"] },
+        { "t": "nanna dumu-saĝ en-lil₂-la₂", "g": "𒀭𒋀𒆠 𒌉𒊕 𒀭𒂗𒆤𒇲", "en": "Nanna, firstborn of Enlil", "alt": ["Nanna, Enlil's firstborn", "Nanna, the firstborn son of Enlil", "Nanna, eldest son of Enlil", "Nanna, Enlil's eldest son"] },
+        { "t": "nin-lil₂ dam ki aĝ₂ en-lil₂-la₂", "g": "𒀭𒎏𒆤 𒁮 𒆠 𒉘 𒀭𒂗𒆤𒇲", "en": "Ninlil, beloved wife of Enlil", "alt": ["Ninlil, Enlil's beloved wife", "Ninlil, the beloved wife of Enlil", "Ninlil, beloved spouse of Enlil"] },
+        { "t": "me nam-lugal-la", "g": "𒈨 𒉆𒈗𒆷", "en": "the divine powers of kingship", "alt": ["divine powers of kingship", "the me of kingship"] },
+        { "t": "e₂ dumu lugal-la-ka", "g": "𒂍 𒌉 𒈗𒆷𒅗", "en": "the house of the king's son", "alt": ["the house of the son of the king", "the king's son's house"] },
+        { "t": "lugal kalam-ma-ke₄ e₂ in-du₃", "g": "𒈗 𒌦𒈠𒆤 𒂍 𒅔𒆕", "en": "the king of the land built the house", "alt": ["the king of the land built a house", "the king of the land built the temple"] },
+        { "t": "en-lil₂ en za-e-me-en lugal za-e-me-en", "g": "𒀭𒂗𒆤 𒂗 𒍝𒂊𒈨𒂗 𒈗 𒍝𒂊𒈨𒂗", "en": "Enlil, you are lord, you are king", "alt": ["Enlil, you are lord! You are king!", "Enlil, you are the lord, you are the king"] }
+      ]
+    },
+    {
+      "title": "Gilgameš",
+      "about": "Proverbs, hymns and the Gilgameš poems",
+      "kind": "words",
+      "guide": [
+        { "h": "Gilgameš", "p": "Five Sumerian poems tell of Gilgameš, lord of Kulaba in Uruk. They survive in Old Babylonian school copies, and later poets reworked them into the Akkadian Epic of Gilgameš. ETCSL writes his name gilgameš₂; ePSD2 reads the same signs as Bilgames." },
+        { "h": "ga-: let me", "p": "ga- on a ḫamṭu verb means 'let me' or 'I will'. In Gilgameš and Ḫuwawa he tells Enkidu kur-ra ga-an-kur₉ mu-ĝu₁₀ ga-am₃-ĝar (ETCSL 1.8.1.5, line 5).", "ex": [["mu-ĝu₁₀ ga-am₃-ĝar", "let me set up my name"]] },
+        { "h": "-gin₇: like", "p": "-gin₇ makes a simile. Enheduana sings to Inana ušumgal-gin₇ kur-re uš₁₁ ba-e-šum₂, 'like a dragon you have deposited venom on the foreign lands' (ETCSL 4.07.2, line 9).", "ex": [["ušumgal-gin₇", "like a dragon"]] },
+        { "h": "-e-: you did it", "p": "In ḫamṭu an -e- before the root means 'you did it': ba-e-šum₂ 'you gave', mu-e-il₂ 'you raised'." },
+        { "h": "Say it twice", "p": "Poetry repeats a line with one change. The Flood story has ud 7-am₃ ĝi₆ 7-am₃, 'seven days, seven nights' (ETCSL 1.7.4, segment D, line 3). The -am₃ means 'it is': 'it was seven'." },
+        { "h": "Praise be", "p": "Hymns end with a name and za₃-mi₂, 'praise'. Many school texts close with nisaba za₃-mi₂, 'praise be to Nisaba', the goddess of writing." },
+        { "h": "Reading the poems", "p": "-še₃ means 'toward'. A verb can describe a noun: e₂ an-ta ed₃-de₃ is 'the house coming down from heaven'. na- on the opening verb of a poem often marks a story being told." }
+      ],
+      "items": [
+        { "t": "gilgameš₂", "g": "𒀭𒄑𒉋𒂵𒈩", "en": "Gilgamesh", "alt": ["Gilgameš", "Bilgames"], "note": "ePSD2 reads the name bilgames." },
+        { "t": "en-ki-du₁₀", "g": "𒂗𒆠𒄭", "en": "Enkidu", "note": "Gilgameš's servant in the Sumerian poems, his friend in the later epic." },
+        { "t": "ḫu-wa-wa", "g": "𒄷𒉿𒉿", "en": "Huwawa", "alt": ["Humbaba", "Ḫuwawa"], "note": "Guardian of the cedar mountains. Akkadian Humbaba." },
+        { "t": "-gin₇", "g": "𒁶", "en": "like", "alt": ["as"] },
+        { "t": "ga-", "g": "𒂵", "en": "let me", "alt": ["I will"] },
+        { "t": "ĝi₆", "g": "𒈪", "en": "night" },
+        { "t": "ĝeštug₂", "g": "𒄑𒌆𒉿", "en": "ear", "alt": ["mind", "wisdom", "understanding"], "note": "To set your ear on something is to decide on it." },
+        { "t": "til₃", "g": "𒋾", "en": "live", "alt": ["life", "alive"], "note": "Also read ti." },
+        { "t": "za₃-mi₂", "g": "𒍠𒊩", "en": "praise" },
+        { "t": "nisaba", "g": "𒀭𒊺𒉀", "en": "Nisaba", "note": "Goddess of grain and of writing." },
+        { "t": "ušumgal", "g": "𒃲𒁔", "en": "dragon", "alt": ["serpent"] },
+        { "t": "kur₉", "g": "𒆭", "en": "enter", "note": "Also read ku₄." }
+      ],
+      "sentences": [
+        { "t": "en gilgameš₂-e kur lu₂ til₃-la-še₃ ĝeštug₂-ga-ni na-an-gub", "g": "𒂗 𒀭𒄑𒉋𒂵𒈩𒂊 𒆳 𒇽 𒋾𒆷𒂠 𒄑𒌆𒉿𒂵𒉌 𒈾𒀭𒁺", "en": "Lord Gilgamesh set his mind on the mountain where the man lives", "alt": ["Lord Gilgamesh decided to set off for the mountain where the man lives", "Lord Gilgameš set his mind on the mountain where the man lives"] },
+        { "t": "arad-da-ni en-ki-du₁₀-ra gu₃ mu-un-na-de₂-e", "g": "𒀴𒁕𒉌 𒂗𒆠𒄭𒊏 𒅗 𒈬𒌦𒈾𒌤𒂊", "en": "he spoke to his servant Enkidu", "alt": ["he spoke to his slave Enkidu", "he called to his servant Enkidu"] },
+        { "t": "kur-ra ga-an-kur₉ mu-ĝu₁₀ ga-am₃-ĝar", "g": "𒆳𒊏 𒂵𒀭𒆭 𒈬𒈬 𒂵𒀀𒀭𒃻", "en": "let me enter the mountains and set up my name", "alt": ["I will enter the mountains and set up my name", "let me enter the mountain and set up my name", "let me enter the mountains and establish my name"] },
+        { "t": "unug ĝiš-kiĝ₂-ti diĝir-re-e-ne-ke₄", "g": "𒀕𒆠 𒄑𒆥𒋾 𒀭𒊑𒂊𒉈𒆤", "en": "Uruk, the handiwork of the gods", "alt": ["Unug, the handiwork of the gods", "Uruk, handiwork of the gods"] },
+        { "t": "e₂-an-na e₂ an-ta ed₃-de₃", "g": "𒂍𒀭𒈾 𒂍 𒀭𒋫 𒇯𒁺𒉈", "en": "Eanna, the house lowered down from heaven", "alt": ["Eanna, the house come down from heaven", "Eanna, the house that came down from heaven"] },
+        { "t": "ud 7-am₃ ĝi₆ 7-am₃", "g": "𒌓 𒐌𒀀𒀭 𒈪 𒐌𒀀𒀭", "en": "seven days and seven nights", "alt": ["for seven days and seven nights", "seven days, seven nights", "7 days and 7 nights"] },
+        { "t": "ušumgal-gin₇ kur-re uš₁₁ ba-e-šum₂", "g": "𒃲𒁔𒁶 𒆳𒊑 𒅜 𒁀𒂊𒋧", "en": "like a dragon you have deposited venom on the foreign lands", "alt": ["like a dragon you deposited venom on the foreign lands", "like a dragon you have put venom on the foreign lands"] },
+        { "t": "nisaba za₃-mi₂", "g": "𒀭𒊺𒉀 𒍠𒊩", "en": "praise be to Nisaba", "alt": ["Nisaba be praised", "praise Nisaba"] }
+      ]
+    }
+  ]
+}

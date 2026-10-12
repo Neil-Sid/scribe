@@ -1,0 +1,291 @@
+[
+  {
+    "id": "gripsholm-stone",
+    "title": "Tóla lét reisa stein þenna",
+    "source": "Gripsholm runestone, Sö 179 (Rundata), Södermanland, Sweden, 11th century",
+    "about": "Tóla raised this stone for her son Haraldr, who sailed east with his brother Ingvarr the Far-Travelled around 1040 and never came home. The runes are the carver's own spelling in the long-branch forms of unit 1, so trikila stands for drengila with t for d and the n skipped.",
+    "unit": 4,
+    "badge": { "name": "Far-Traveller", "about": "Read the Gripsholm stone for Ingvar's brother" },
+    "lines": [
+      {
+        "g": "ᛏᚢᛚᛅ ᛚᛁᛏ ᚱᛅᛁᛋᛅ ᛋᛏᛅᛁᚾ ᚦᛁᚾᛋᛅ",
+        "t": "Tóla lét reisa stein þenna",
+        "en": "Tóla had this stone raised",
+        "gloss": ["Tóla", "had", "raise", "stone", "this"]
+      },
+      {
+        "g": "ᛅᛏ ᛋᚢᚾ ᛋᛁᚾ ᚼᛅᚱᛅᛚᛏ ᛒᚱᚢᚦᚢᚱ ᛁᚾᚴᚢᛅᚱᛋ",
+        "t": "at son sinn Harald, bróður Ingvars.",
+        "en": "in memory of her son Haraldr, Ingvarr's brother.",
+        "gloss": ["in memory of", "son", "her", "Harald", "brother", "Ingvar's"],
+        "q": { "prompt": "How was Tóla related to Haraldr?", "options": ["his mother", "his sister", "his wife"], "answer": 0 }
+      },
+      {
+        "g": "ᚦᛅᛁᛦ ᚠᚢᚱᚢ ᛏᚱᛁᚴᛁᛚᛅ ᚠᛁᛅᚱᛁ ᛅᛏ ᚴᚢᛚᛁ",
+        "t": "Þeir fóru drengila fjarri at gulli",
+        "en": "They travelled valiantly far for gold",
+        "gloss": ["they", "travelled", "valiantly", "far", "for", "gold"],
+        "q": { "prompt": "Why did they travel so far?", "options": ["to win gold", "to find new land", "to trade furs"], "answer": 0 }
+      },
+      {
+        "g": "ᛅᚢᚴ ᛅᚢᛋᛏᛅᚱᛚᛅ ᛅᚱᚾᛁ ᚴᛅᚠᚢ",
+        "t": "ok austarla erni gáfu,",
+        "en": "and in the east gave food to the eagle,",
+        "gloss": ["and", "in the east", "to the eagle", "gave"],
+        "q": { "prompt": "What does 'gave to the eagle' mean?", "options": ["they killed enemies and left them for the birds", "they kept hunting birds", "they made offerings to Odin"], "answer": 0 }
+      },
+      {
+        "g": "ᛏᚢᚢ ᛋᚢᚾᛅᚱᛚᛅ ᛅ ᛋᛁᚱᚴᛚᛅᚾᛏᛁ",
+        "t": "dóu sunnarla á Serklandi.",
+        "en": "and died in the south in Serkland.",
+        "gloss": ["died", "in the south", "in", "Serkland"],
+        "q": { "prompt": "Where did they die?", "options": ["in Serkland, far to the south", "at home in Sweden", "at sea off England"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "havamal-runes",
+    "title": "Veit ek at ek hekk",
+    "source": "Hávamál 138–139, Codex Regius (c. 1270), after Neckel–Kuhn, normalized",
+    "about": "Óðinn tells how he hung nine nights on the windswept tree, a sacrifice of himself to himself, and won the runes. The tree is usually taken to be Yggdrasill.",
+    "unit": 6,
+    "badge": { "name": "Rune Winner", "about": "Read how Óðinn won the runes in Hávamál" },
+    "lines": [
+      {
+        "t": "Veit ek, at ek hekk vindgameiði á nætr allar níu,",
+        "en": "I know that I hung on the windswept tree nine whole nights,",
+        "gloss": ["know", "I", "that", "I", "hung", "windy tree", "on", "nights", "all", "nine"],
+        "q": { "prompt": "How long did he hang on the tree?", "options": ["nine nights", "three days", "a whole winter"], "answer": 0 }
+      },
+      {
+        "t": "geiri undaðr ok gefinn Óðni, sjálfr sjálfum mér,",
+        "en": "wounded by a spear and given to Óðinn, myself to myself,",
+        "gloss": ["by a spear", "wounded", "and", "given", "to Odin", "myself", "to self", "to me"]
+      },
+      {
+        "t": "á þeim meiði, er manngi veit, hvers hann af rótum renn.",
+        "en": "on that tree of which no one knows from what roots it rises.",
+        "gloss": ["on", "that", "tree", "which", "no one", "knows", "of what", "it", "from", "roots", "runs"],
+        "q": { "prompt": "What does no one know about the tree?", "options": ["what roots it grows from", "how tall it is", "who planted it"], "answer": 0 }
+      },
+      {
+        "t": "Við hleifi mik sældu né við hornigi,",
+        "en": "They cheered me with no loaf, nor with any horn,",
+        "gloss": ["with", "loaf", "me", "they cheered", "nor", "with", "no horn"],
+        "q": { "prompt": "What was he given to eat and drink on the tree?", "options": ["nothing at all", "bread and mead", "only water"], "answer": 0 }
+      },
+      {
+        "t": "nýsta ek niðr,",
+        "en": "I peered down,",
+        "gloss": ["peered", "I", "down"]
+      },
+      {
+        "t": "nam ek upp rúnar, œpandi nam,",
+        "en": "I took up the runes, screaming I took them,",
+        "gloss": ["took", "I", "up", "runes", "screaming", "took"],
+        "q": { "prompt": "What did he win from his ordeal?", "options": ["the runes", "a spear", "a drinking horn"], "answer": 0 }
+      },
+      {
+        "t": "fell ek aptr þaðan.",
+        "en": "and I fell back from there.",
+        "gloss": ["fell", "I", "back", "from there"]
+      }
+    ]
+  },
+  {
+    "id": "yggdrasill",
+    "title": "Askrinn er allra trjá mestr",
+    "source": "Snorri Sturluson, Gylfaginning 15, Prose Edda (c. 1220), normalized (trimmed)",
+    "about": "Gylfi, a Swedish king in disguise, questions three mysterious figures about the gods. Here they describe the ash Yggdrasill, the world tree, whose three roots reach the Æsir, the frost giants and Niflheimr, the misty world below.",
+    "unit": 8,
+    "badge": { "name": "World Tree", "about": "Read Snorri's description of the ash Yggdrasill" },
+    "lines": [
+      {
+        "t": "Hvar er hǫfuðstaðrinn eða helgistaðrinn goðanna?",
+        "en": "Where is the chief place or holy place of the gods?",
+        "gloss": ["where", "is", "the chief place", "or", "the holy place", "of the gods"]
+      },
+      {
+        "t": "Þat er at aski Yggdrasils.",
+        "en": "It is at the ash of Yggdrasill.",
+        "gloss": ["it", "is", "at", "the ash", "of Yggdrasill"],
+        "q": { "prompt": "Where do the gods have their holy place?", "options": ["at the ash Yggdrasill", "in Óðinn's hall", "on the shore of the sea"], "answer": 0 }
+      },
+      {
+        "t": "Þar skulu goðin eiga dóma sína hvern dag.",
+        "en": "There the gods are to hold their courts every day.",
+        "gloss": ["there", "shall", "the gods", "hold", "courts", "their", "every", "day"],
+        "q": { "prompt": "What do the gods do there each day?", "options": ["sit in judgement", "feast and drink", "train for battle"], "answer": 0 }
+      },
+      {
+        "t": "Askrinn er allra trjá mestr ok beztr.",
+        "en": "The ash is the greatest and best of all trees.",
+        "gloss": ["the ash", "is", "of all", "trees", "greatest", "and", "best"]
+      },
+      {
+        "t": "Limar hans dreifask um heim allan ok standa yfir himni.",
+        "en": "Its branches spread over the whole world and reach above the sky.",
+        "gloss": ["branches", "its", "spread", "over", "world", "all", "and", "stand", "above", "sky"],
+        "q": { "prompt": "How far do its branches reach?", "options": ["over the whole world and above the sky", "only over Miðgarðr", "down into the sea"], "answer": 0 }
+      },
+      {
+        "t": "Þrjár rœtr trésins halda því upp ok standa afarbreitt.",
+        "en": "Three roots of the tree hold it up and spread very wide.",
+        "gloss": ["three", "roots", "of the tree", "hold", "it", "up", "and", "stand", "very wide"]
+      },
+      {
+        "t": "Ein er með ásum, en ǫnnur með hrímþursum,",
+        "en": "One is among the Æsir, and another among the frost giants,",
+        "gloss": ["one", "is", "among", "the gods", "and", "another", "among", "frost giants"],
+        "q": { "prompt": "Where do the first two roots reach?", "options": ["to the gods and to the frost giants", "to the dwarves and the elves", "to men and to the dead"], "answer": 0 }
+      },
+      {
+        "t": "þar sem forðum var Ginnungagap.",
+        "en": "where Ginnungagap, the yawning void, once was.",
+        "gloss": ["there", "where", "once", "was", "Ginnungagap"]
+      },
+      {
+        "t": "In þriðja stendr yfir Niflheimi,",
+        "en": "The third stands over Niflheimr,",
+        "gloss": ["the", "third", "stands", "over", "Niflheim"]
+      },
+      {
+        "t": "ok undir þeiri rót er Hvergelmir, en Níðhǫggr gnagar neðan rótina.",
+        "en": "and under that root is Hvergelmir, and Níðhǫggr gnaws the root from below.",
+        "gloss": ["and", "under", "that", "root", "is", "Hvergelmir", "and", "Nidhogg", "gnaws", "from below", "the root"],
+        "q": { "prompt": "What is Níðhǫggr doing to the tree?", "options": ["gnawing its root from below", "sleeping in its branches", "guarding its trunk"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "kveld-ulfr",
+    "title": "Úlfr hét maðr",
+    "source": "Egils saga Skalla-Grímssonar, chapter 1 (c. 1230), normalized (trimmed)",
+    "about": "Egils saga opens with the poet Egill's grandfather Úlfr, a Norwegian landowner in the days of King Haraldr Fairhair. By day he is wise and hard-working, but each evening he changes, and people give him a new name.",
+    "unit": 10,
+    "badge": { "name": "Evening Wolf", "about": "Read how Kveld-Úlfr got his name in Egils saga" },
+    "lines": [
+      {
+        "t": "Úlfr hét maðr, sonr Bjálfa ok Hallberu, dóttur Úlfs ins óarga.",
+        "en": "There was a man called Úlfr, son of Bjálfi and of Hallbera, the daughter of Úlfr the Fearless.",
+        "gloss": ["Ulf", "was called", "a man", "son", "of Bjalfi", "and", "of Hallbera", "daughter", "of Ulf", "the", "Fearless"],
+        "q": { "prompt": "Who was Úlfr's father?", "options": ["Bjálfi", "Hallbera", "Úlfr the Fearless"], "answer": 0 }
+      },
+      {
+        "t": "Úlfr var maðr svá mikill ok sterkr,",
+        "en": "Úlfr was a man so big and strong",
+        "gloss": ["Ulf", "was", "a man", "so", "big", "and", "strong"]
+      },
+      {
+        "t": "at eigi váru hans jafningjar.",
+        "en": "that no one could match him.",
+        "gloss": ["that", "not", "were", "his", "equals"],
+        "q": { "prompt": "How strong was Úlfr?", "options": ["no one could match him", "about as strong as other men", "weak, but clever"], "answer": 0 }
+      },
+      {
+        "t": "Svá er sagt, at Úlfr var búsýslumaðr mikill.",
+        "en": "It is said that Úlfr was a hard-working farmer.",
+        "gloss": ["so", "is", "said", "that", "Ulf", "was", "farmer", "great"]
+      },
+      {
+        "t": "Kunni hann til alls góð ráð at leggja,",
+        "en": "He could give good advice on everything,",
+        "gloss": ["could", "he", "on", "everything", "good", "advice", "to", "give"],
+        "q": { "prompt": "What was Úlfr good at?", "options": ["giving good advice", "composing poems", "building ships"], "answer": 0 }
+      },
+      {
+        "t": "því at hann var forvitri.",
+        "en": "because he was very wise.",
+        "gloss": ["because", "that", "he", "was", "very wise"]
+      },
+      {
+        "t": "En dag hvern, er at kveldi leið, þá gerðisk hann styggr,",
+        "en": "But every day, as evening drew on, he grew bad-tempered,",
+        "gloss": ["but", "day", "every", "when", "towards", "evening", "drew on", "then", "became", "he", "bad-tempered"],
+        "q": { "prompt": "When did Úlfr's mood change?", "options": ["every evening", "every winter", "whenever he lost a fight"], "answer": 0 }
+      },
+      {
+        "t": "svá at fáir menn máttu orðum við hann koma.",
+        "en": "so that few people could talk to him.",
+        "gloss": ["so", "that", "few", "men", "could", "words", "with", "him", "bring"]
+      },
+      {
+        "t": "Þat var mál manna, at hann væri mjǫk hamrammr.",
+        "en": "People said that he was a great shape-changer.",
+        "gloss": ["it", "was", "talk", "of men", "that", "he", "was", "very", "a shape-changer"],
+        "q": { "prompt": "What did people say about him?", "options": ["that he could change his shape", "that he was secretly a king", "that he had never been to sea"], "answer": 0 }
+      },
+      {
+        "t": "Hann var kallaðr Kveld-Úlfr.",
+        "en": "He was called Kveld-Úlfr, Evening-Wolf.",
+        "gloss": ["he", "was", "called", "Evening-Wolf"],
+        "q": { "prompt": "What does his nickname mean?", "options": ["Evening-Wolf", "Old Wolf", "Wolf-Slayer"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "voluspa-ragnarok",
+    "title": "Sól tér sortna",
+    "source": "Vǫluspá 45, 57, 59–60, Codex Regius (c. 1270), normalized (trimmed)",
+    "about": "The seeress tells Óðinn how the world will end: kin turn on each other, the sun goes dark and the earth sinks into the sea. Then she sees it rise again, green, and the gods meet once more on Iðavǫllr.",
+    "unit": 12,
+    "badge": { "name": "Seeress", "about": "Read the end and rebirth of the world in Vǫluspá" },
+    "lines": [
+      {
+        "t": "Brœðr munu berjask ok at bǫnum verðask,",
+        "en": "Brothers will fight and become each other's slayers,",
+        "gloss": ["brothers", "will", "fight", "and", "to", "slayers", "become each other"],
+        "q": { "prompt": "How does the end begin among men?", "options": ["brothers fight and kill each other", "the gods leave the earth", "the sea freezes over"], "answer": 0 }
+      },
+      {
+        "t": "munu systrungar sifjum spilla;",
+        "en": "cousins will break the bonds of kinship;",
+        "gloss": ["will", "cousins", "kinship", "spoil"]
+      },
+      {
+        "t": "skeggǫld, skalmǫld, skildir ro klofnir,",
+        "en": "an axe-age, a sword-age, shields are split,",
+        "gloss": ["axe-age", "sword-age", "shields", "are", "split"]
+      },
+      {
+        "t": "vindǫld, vargǫld, áðr verǫld steypisk;",
+        "en": "a wind-age, a wolf-age, before the world falls;",
+        "gloss": ["wind-age", "wolf-age", "before", "world", "falls"]
+      },
+      {
+        "t": "mun engi maðr ǫðrum þyrma.",
+        "en": "no man will spare another.",
+        "gloss": ["will", "no", "man", "another", "spare"],
+        "q": { "prompt": "What will men no longer do?", "options": ["spare one another", "go to sea", "plant crops"], "answer": 0 }
+      },
+      {
+        "t": "Sól tér sortna, sígr fold í mar,",
+        "en": "The sun turns black, earth sinks into the sea,",
+        "gloss": ["sun", "begins", "to darken", "sinks", "earth", "into", "sea"],
+        "q": { "prompt": "What happens to the earth?", "options": ["it sinks into the sea", "it splits in two", "it is buried in snow"], "answer": 0 }
+      },
+      {
+        "t": "hverfa af himni heiðar stjǫrnur;",
+        "en": "the bright stars vanish from the sky;",
+        "gloss": ["vanish", "from", "sky", "bright", "stars"]
+      },
+      {
+        "t": "Sér hon upp koma ǫðru sinni jǫrð ór ægi iðjagrœna;",
+        "en": "She sees the earth rise a second time out of the sea, ever green;",
+        "gloss": ["sees", "she", "up", "come", "a second", "time", "earth", "out of", "the sea", "ever-green"],
+        "q": { "prompt": "What does the seeress see after the destruction?", "options": ["the earth rising green from the sea", "only darkness", "the giants ruling the world"], "answer": 0 }
+      },
+      {
+        "t": "falla forsar, flýgr ǫrn yfir, sá er á fjalli fiska veiðir.",
+        "en": "waterfalls tumble, an eagle flies over, the one that hunts fish from the mountain.",
+        "gloss": ["fall", "waterfalls", "flies", "eagle", "over", "the one", "that", "on", "mountain", "fish", "hunts"]
+      },
+      {
+        "t": "Finnask æsir á Iðavelli",
+        "en": "The gods meet on Iðavǫllr.",
+        "gloss": ["meet", "the gods", "on", "Idavoll"],
+        "q": { "prompt": "Who gathers on Iðavǫllr?", "options": ["the gods", "the giants", "the dwarves"], "answer": 0 }
+      }
+    ]
+  }
+]

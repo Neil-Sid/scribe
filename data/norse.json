@@ -1,0 +1,454 @@
+{
+  "id": "norse",
+  "name": "Old Norse",
+  "native": "dǫnsk tunga",
+  "era": "AD 1150 – 1350 (Old West Norse)",
+  "place": "Iceland, Norway and the Viking world",
+  "blurb": "The language of the Eddas and sagas, and the ancestor of Icelandic, Faroese, Norwegian, Danish and Swedish.",
+  "emblem": "ᚱᚢᚾ",
+  "script": { "name": "Runes", "font": "runic" },
+  "accent": "#3f5566",
+  "keys": ["á", "é", "í", "ó", "ú", "ý", "æ", "œ", "ø", "ǫ", "ð", "þ", "ʀ"],
+  "facts": [
+    "Speakers called their language dǫnsk tunga, 'the Danish tongue', whether they lived in Norway, Iceland or Sweden.",
+    "English borrowed everyday words from Old Norse, among them sky, egg, knife, window, law and the pronoun they.",
+    "Most Eddic poems survive in one manuscript, the Codex Regius, written in Iceland around 1270 and returned from Copenhagen in 1971.",
+    "Someone carved runes, including the name Halfdan, into a marble balustrade of Hagia Sophia in Constantinople.",
+    "Iceland's assembly, the Alþingi, first met at Þingvellir in 930. The sagas are full of its lawsuits.",
+    "Icelanders today can read the sagas with modest effort. Their language has changed remarkably little since the 1200s."
+  ],
+  "units": [
+    {
+      "title": "Rúnar",
+      "about": "The sixteen runes of the Younger Futhark",
+      "kind": "script",
+      "guide": [
+        { "h": "Futhark", "p": "The rune row is named after its first six letters, f u þ o r k. By about AD 800 Scandinavians had cut the older 24-rune row down to these 16, the Younger Futhark." },
+        { "h": "One rune, several sounds", "p": "Sixteen runes had to cover far more sounds, so each rune works hard. ᚢ writes u, o, ø, y and v. ᛁ writes i, e and j. ᛅ writes a, æ and e. ᚦ writes þ and ð. ᚴ writes k and g, ᛏ writes t and d, ᛒ writes b and p.", "ex": [["ᚴᚢᚾᚢᚴᛦ", "kunukʀ: konungr, king (Jelling stone)"], ["ᚴᚢᚦ", "kuþ: guð, God"]] },
+        { "h": "ᚬ and ᛦ", "p": "ᚬ first stood for a nasal a (ą) and later for o. ᛦ wrote a sound runologists spell ʀ, which grew out of an older z and mostly ends words. It later merged with ordinary r, which is why the sagas spell konungr with a plain r." },
+        { "h": "How carvers spelled", "p": "These are the long-branch forms of the great Danish runestones; quicker short-twig shapes were used too. Words were split by dots or crosses, a double letter was carved once, and an n or m before a consonant was often skipped, as in kunukʀ." }
+      ],
+      "items": [
+        { "g": "ᚠ", "t": "f", "en": "fé, wealth" },
+        { "g": "ᚢ", "t": "u", "en": "úr, drizzle" },
+        { "g": "ᚦ", "t": "þ", "en": "þurs, giant" },
+        { "g": "ᚬ", "t": "o", "en": "óss, god", "note": "Earlier a nasal a, ą." },
+        { "g": "ᚱ", "t": "r", "en": "reið, riding" },
+        { "g": "ᚴ", "t": "k", "en": "kaun, sore" },
+        { "g": "ᚼ", "t": "h", "en": "hagall, hail" },
+        { "g": "ᚾ", "t": "n", "en": "nauðr, need" },
+        { "g": "ᛁ", "t": "i", "en": "íss, ice" },
+        { "g": "ᛅ", "t": "a", "en": "ár, plenty" },
+        { "g": "ᛋ", "t": "s", "en": "sól, sun" },
+        { "g": "ᛏ", "t": "t", "en": "Týr, a god" },
+        { "g": "ᛒ", "t": "b", "en": "bjarkan, birch" },
+        { "g": "ᛘ", "t": "m", "en": "maðr, man" },
+        { "g": "ᛚ", "t": "l", "en": "lǫgr, water" },
+        { "g": "ᛦ", "t": "ʀ", "en": "ýr, yew", "note": "Often written R. Type it with the ʀ key." }
+      ]
+    },
+    {
+      "title": "Heill",
+      "about": "Greet people and say who you are",
+      "kind": "words",
+      "guide": [
+        { "h": "No word for 'a'", "p": "Old Norse has no indefinite article. maðr is 'man' or 'a man'.", "ex": [["ek em maðr", "I am a man"]] },
+        { "h": "To be", "p": "ek em 'I am', þú ert 'you are', hann er 'he is', hon er 'she is'. Prose keeps the pronoun." },
+        { "h": "Names", "p": "heita 'to be called' gives a name: ek heiti, þú heitir, hon heitir.", "ex": [["hvat heitir þú?", "what is your name?"]] },
+        { "h": "heill", "p": "heill means 'whole, unharmed' and works as a greeting. It agrees with the person: heill to a man, heil to a woman. Óðinn walks into a giant's hall with heill þú nú, 'hail to you now' (Vafþrúðnismál 6)." },
+        { "h": "Letters", "p": "þ is the th of 'thin', ð the th of 'this'. An accent marks a long vowel: á, í, ó. ǫ is an open o, as in British 'hot', and ø and œ sound like German ö." }
+      ],
+      "items": [
+        { "t": "heill", "en": "hello", "alt": ["hail", "hi"], "note": "Literally 'whole, healthy'. To a woman: heil." },
+        { "t": "ek", "en": "I" },
+        { "t": "þú", "en": "you" },
+        { "t": "hann", "en": "he" },
+        { "t": "hon", "en": "she" },
+        { "t": "maðr", "en": "man", "alt": ["person"] },
+        { "t": "kona", "en": "woman", "alt": ["wife"] },
+        { "t": "em", "en": "am" },
+        { "t": "ert", "en": "are" },
+        { "t": "er", "en": "is" },
+        { "t": "heiti", "en": "am called", "alt": ["I am called"], "note": "From heita. þú heitir, hon heitir." },
+        { "t": "hvat", "en": "what" }
+      ],
+      "sentences": [
+        { "t": "heill, Sigurðr", "en": "hello, Sigurd", "alt": ["hail, Sigurd", "hi, Sigurd"] },
+        { "t": "ek heiti Sigurðr", "en": "my name is Sigurd", "alt": ["I am called Sigurd"] },
+        { "t": "hvat heitir þú?", "en": "what is your name?", "alt": ["what are you called?"] },
+        { "t": "ek em maðr", "en": "I am a man" },
+        { "t": "þú ert kona", "en": "you are a woman" },
+        { "t": "hon heitir Guðrún", "en": "her name is Gudrun", "alt": ["she is called Gudrun"] },
+        { "t": "hann er maðr", "en": "he is a man" },
+        { "t": "hvat heitir hon?", "en": "what is her name?", "alt": ["what is she called?"] }
+      ]
+    },
+    {
+      "title": "Bœrinn",
+      "about": "Farm, home and family",
+      "kind": "words",
+      "guide": [
+        { "h": "'The' goes on the end", "p": "The definite article is a suffix: -inn for masculine nouns, -in for feminine, -it for neuter. A final -a drops before it.", "ex": [["maðrinn", "the man"], ["konan", "the woman"], ["húsit", "the house"]] },
+        { "h": "Not", "p": "eigi 'not' comes straight after the verb.", "ex": [["faðir er eigi heima", "father is not at home"]] },
+        { "h": "Questions", "p": "For a yes-or-no question, put the verb first.", "ex": [["er hundrinn heima?", "is the dog at home?"]] },
+        { "h": "Family words", "p": "faðir, móðir, bróðir, dóttir and systir rarely take the article. faðir alone is 'father' or 'the father'." }
+      ],
+      "items": [
+        { "t": "faðir", "en": "father" },
+        { "t": "móðir", "en": "mother" },
+        { "t": "sonr", "en": "son" },
+        { "t": "dóttir", "en": "daughter" },
+        { "t": "bróðir", "en": "brother" },
+        { "t": "systir", "en": "sister" },
+        { "t": "bœr", "en": "farm", "alt": ["farmstead", "homestead"], "note": "With the article: bœrinn." },
+        { "t": "hús", "en": "house", "note": "Neuter. With the article: húsit." },
+        { "t": "hundr", "en": "dog", "alt": ["hound"] },
+        { "t": "ok", "en": "and" },
+        { "t": "eigi", "en": "not" },
+        { "t": "heima", "en": "at home" }
+      ],
+      "sentences": [
+        { "t": "faðir ok móðir", "en": "father and mother" },
+        { "t": "bróðir ok systir", "en": "brother and sister" },
+        { "t": "bœrinn ok húsit", "en": "the farm and the house" },
+        { "t": "hundrinn er heima", "en": "the dog is at home", "alt": ["the dog is home"] },
+        { "t": "faðir er eigi heima", "en": "father is not at home", "alt": ["father is not home"] },
+        { "t": "er hundrinn heima?", "en": "is the dog at home?", "alt": ["is the dog home?"] },
+        { "t": "hon er dóttir ok systir", "en": "she is a daughter and a sister" },
+        { "t": "konan er móðir", "en": "the woman is a mother" }
+      ]
+    },
+    {
+      "title": "Í víking",
+      "about": "Ships, the sea and the object case",
+      "kind": "words",
+      "guide": [
+        { "h": "The object case", "p": "As the object of a verb, a masculine noun in -r drops it, and a feminine in -a changes it to -u. Neuter nouns stay the same. The article follows suit: víkingrinn becomes víkinginn.", "ex": [["konungr sér víkinginn", "the king sees the viking"], ["víkingr sér konu", "a viking sees a woman"]] },
+        { "h": "Verbs", "p": "Strong verbs often change their vowel in the singular. fara 'go': ek fer, þú ferr, hann ferr. koma 'come': ek kem, hann kemr. sjá 'see': ek sé, hann sér." },
+        { "h": "The verb comes second", "p": "Endings show who does what, so the order can shift as long as the verb stays second. skipit sér konungr still means 'the king sees the ship', because konungr keeps its -r." },
+        { "h": "Viking", "p": "víkingr is the raider, víking (feminine) the raid. fara í víking, 'to go raiding', is how the sagas put it." }
+      ],
+      "items": [
+        { "t": "skip", "en": "ship", "note": "Neuter. With the article: skipit." },
+        { "t": "haf", "en": "sea", "alt": ["ocean"] },
+        { "t": "land", "en": "land", "alt": ["country"] },
+        { "t": "víkingr", "en": "viking", "alt": ["raider", "pirate"] },
+        { "t": "konungr", "en": "king" },
+        { "t": "siglir", "en": "sails", "alt": ["is sailing"] },
+        { "t": "ferr", "en": "goes", "alt": ["travels", "fares", "is going"] },
+        { "t": "kemr", "en": "comes", "alt": ["is coming"] },
+        { "t": "sér", "en": "sees" },
+        { "t": "heim", "en": "homeward", "alt": ["home", "homewards"], "note": "Motion towards home. Compare heima, 'at home'." },
+        { "t": "í", "en": "into", "alt": ["in"] }
+      ],
+      "sentences": [
+        { "t": "víkingrinn siglir", "en": "the viking sails", "alt": ["the viking is sailing"] },
+        { "t": "konungr sér skipit", "en": "the king sees the ship", "talt": ["skipit sér konungr"] },
+        { "t": "ek sé land", "en": "I see land" },
+        { "t": "skipit kemr", "en": "the ship is coming", "alt": ["the ship comes"] },
+        { "t": "hann ferr í víking", "en": "he goes raiding", "alt": ["he goes viking", "he goes on a raid", "he is going raiding", "he goes on a viking raid"] },
+        { "t": "víkingrinn ferr heim", "en": "the viking goes home", "alt": ["the viking is going home", "the viking travels home"] },
+        { "t": "sér þú hafit?", "en": "do you see the sea?", "alt": ["can you see the sea?", "do you see the ocean?"] },
+        { "t": "konungr sér víkinginn", "en": "the king sees the viking", "talt": ["víkinginn sér konungr"] },
+        { "t": "skipit siglir eigi", "en": "the ship does not sail", "alt": ["the ship is not sailing"] }
+      ]
+    },
+    {
+      "title": "Goðin",
+      "about": "Gods, giants and the middle world",
+      "kind": "words",
+      "guide": [
+        { "h": "To have, to give", "p": "hafa: ek hefi, þú hefir, hann hefir. gefa: ek gef, þú gefr, hann gefr. Both take the object case.", "ex": [["Þórr hefir hamar", "Thor has a hammer"]] },
+        { "h": "Names decline too", "p": "As objects, Þórr becomes Þór and Óðinn becomes Óðin.", "ex": [["jǫtunninn sér Þór", "the giant sees Thor"]] },
+        { "h": "Me and you", "p": "Pronouns have object forms: ek becomes mik, þú becomes þik, hon becomes hana. hann stays hann.", "ex": [["Óðinn sér þik", "Odin sees you"]] },
+        { "h": "Æsir and giants", "p": "An áss (plural æsir) is one of the main family of gods, led by Óðinn. The jǫtnar, giants, are their old enemies, and Miðgarðr, 'the middle enclosure', is the world of men. Snorri calls Þórr the strongest of gods and men, and Týr einhendr, one-handed, since the wolf Fenrir bit off his hand." }
+      ],
+      "items": [
+        { "t": "Óðinn", "en": "Odin" },
+        { "t": "Þórr", "en": "Thor" },
+        { "t": "áss", "en": "god", "note": "Plural: æsir." },
+        { "t": "jǫtunn", "en": "giant", "note": "Plural: jǫtnar." },
+        { "t": "Miðgarðr", "en": "Midgard", "alt": ["middle earth"] },
+        { "t": "hamarr", "en": "hammer", "note": "As an object: hamar." },
+        { "t": "gull", "en": "gold" },
+        { "t": "hefir", "en": "has" },
+        { "t": "gefr", "en": "gives" },
+        { "t": "sterkr", "en": "strong" },
+        { "t": "vitr", "en": "wise" },
+        { "t": "mik", "en": "me" }
+      ],
+      "sentences": [
+        { "t": "Óðinn er vitr", "en": "Odin is wise" },
+        { "t": "Þórr er sterkr", "en": "Thor is strong" },
+        { "t": "Þórr hefir hamar", "en": "Thor has a hammer" },
+        { "t": "jǫtunninn sér Þór", "en": "the giant sees Thor", "talt": ["Þór sér jǫtunninn"] },
+        { "t": "Óðinn gefr gull", "en": "Odin gives gold" },
+        { "t": "Þórr er áss, eigi jǫtunn", "en": "Thor is a god, not a giant" },
+        { "t": "Óðinn sér Miðgarð", "en": "Odin sees Midgard" },
+        { "t": "jǫtunninn sér mik", "en": "the giant sees me" },
+        { "t": "hefir þú hamar?", "en": "do you have a hammer?", "alt": ["have you a hammer?", "have you got a hammer?"] }
+      ]
+    },
+    {
+      "title": "Orðstírr",
+      "about": "Lines from the Eddas and sagas",
+      "kind": "words",
+      "guide": [
+        { "h": "Hávamál 76", "p": "The 'Sayings of the High One' is Óðinn's advice poem. The first lines open with the verb: deyr is singular, deyja plural. it sama is 'the same'.", "ex": [["deyr fé, deyja frændr", "cattle die, kinsmen die"]] },
+        { "h": "Of a man", "p": "-s often marks 'of': maðr becomes manns. Hávamál 47 is about a lonely traveller who finds a friend.", "ex": [["maðr er manns gaman", "man is man's joy"]] },
+        { "h": "Not, in verse", "p": "Poetry can negate with a suffix -a or -at on the verb instead of eigi: var 'was', vara 'was not'. Vǫluspá 3 describes the world before creation.", "ex": [["vara sandr né sær", "there was no sand nor sea"]] },
+        { "h": "The sagas", "p": "fǫgr er hlíðin is Gunnarr in Njáls saga, chapter 75, looking back at his farm and refusing to go into exile. In chapter 70 Njáll says með lǫgum skal land várt byggja, now the motto of the Shetland Islands Council." }
+      ],
+      "items": [
+        { "t": "deyr", "en": "dies" },
+        { "t": "fé", "en": "cattle", "alt": ["wealth", "livestock"] },
+        { "t": "frændr", "en": "kinsmen", "alt": ["kinsfolk", "relatives"], "note": "Plural of frændi." },
+        { "t": "sjálfr", "en": "oneself", "alt": ["self", "himself"] },
+        { "t": "en", "en": "but", "note": "Also means 'than'." },
+        { "t": "orðstírr", "en": "fame", "alt": ["renown", "reputation"], "note": "Literally 'word-glory': what people say of you." },
+        { "t": "aldregi", "en": "never" },
+        { "t": "gaman", "en": "joy", "alt": ["delight", "pleasure"] },
+        { "t": "fǫgr", "en": "fair", "alt": ["beautiful"], "note": "Feminine form. Masculine: fagr." },
+        { "t": "hlíð", "en": "slope", "alt": ["hillside"] },
+        { "t": "lǫg", "en": "law", "alt": ["laws"], "note": "A plural noun. With með: með lǫgum." },
+        { "t": "né", "en": "nor" }
+      ],
+      "sentences": [
+        { "t": "deyr fé", "en": "cattle die", "alt": ["wealth dies", "livestock dies", "cattle dies"] },
+        { "t": "deyja frændr", "en": "kinsmen die", "alt": ["kinsfolk die", "relatives die"] },
+        { "t": "deyr sjálfr it sama", "en": "one dies oneself the same", "alt": ["oneself dies the same", "you yourself die the same", "the self dies the same"] },
+        { "t": "en orðstírr deyr aldregi", "en": "but fame never dies", "alt": ["but renown never dies", "but reputation never dies", "but a good name never dies"] },
+        { "t": "maðr er manns gaman", "en": "man is man's joy", "alt": ["man is the joy of man", "man is man's delight"] },
+        { "t": "fǫgr er hlíðin", "en": "fair is the slope", "alt": ["the slope is fair", "fair is the hillside", "the hillside is fair", "the slope is beautiful", "the hillside is beautiful"] },
+        { "t": "vara sandr né sær", "en": "there was no sand nor sea", "alt": ["there was neither sand nor sea", "there was not sand nor sea", "there was no sand or sea"] },
+        { "t": "með lǫgum skal land várt byggja", "en": "with law shall our land be built", "alt": ["with laws shall our land be built", "our land shall be built with law", "our land shall be built with laws", "with law shall our land be built up"] }
+      ]
+    },
+    {
+      "title": "Landnám",
+      "about": "Settlers, sagas and the past tense",
+      "kind": "words",
+      "guide": [
+        { "h": "Strong and weak verbs", "p": "Old Norse makes the past in two ways, as English does with give, gave and call, called. Strong verbs change their vowel: gefa becomes gaf, fara fór, koma kom, vera var. Weak verbs add an ending with ð, d or t: kalla becomes kallaði, sigla sigldi, hafa hafði.", "ex": [["Óðinn gaf gull", "Odin gave gold"], ["hon kallaði hundinn", "she called the dog"]] },
+        { "h": "Strong endings", "p": "The strong past has no ending for 'I' or 'he', and -t for 'you': ek fór, þú fórt, hann fór. The plural ends in -u, often with a changed vowel: fóru, gáfu, váru, kómu." },
+        { "h": "Weak endings", "p": "The weak past ends in -a for 'I', -ir for 'you' and -i for 'he' or 'she': ek kallaða, þú kallaðir, hann kallaði. The plural is kǫlluðu: the u turns the a before it into ǫ." },
+        { "h": "Once there was a man", "p": "Sagas bring in a character with the past of heita: Úlfr hét maðr, 'there was a man called Úlfr', is the first line of Egils saga, and Njáls saga opens Mǫrðr hét maðr.", "ex": [["Úlfr hét maðr", "there was a man called Ulf"]] },
+        { "h": "Taking land", "p": "nema land, 'to take land', is how the sources describe the settlement of Iceland from the 870s. Ari the Learned's Íslendingabók (c. 1130) names the first settler: Ingólfr hét maðr norrœnn, 'there was a Norwegian called Ingólfr'." },
+        { "h": "Still verb second", "p": "When a sentence opens with some other word, the verb stays in second place and the subject moves after it.", "ex": [["þá kom hann heim", "then he came home"]] }
+      ],
+      "items": [
+        { "t": "var", "en": "was", "note": "Past of vera. Plural: váru." },
+        { "t": "hét", "en": "was called", "alt": ["was named"], "note": "Past of heita." },
+        { "t": "fór", "en": "went", "alt": ["travelled", "traveled", "fared"], "note": "Past of fara. Plural: fóru." },
+        { "t": "kom", "en": "came", "note": "Past of koma. Plural: kómu." },
+        { "t": "sá", "en": "saw", "note": "Past of sjá. Also the word for 'that' (masculine)." },
+        { "t": "gaf", "en": "gave", "note": "Past of gefa. Plural: gáfu." },
+        { "t": "nam", "en": "took", "alt": ["seized"], "note": "Past of nema. nam land: settled." },
+        { "t": "hafði", "en": "had", "note": "Past of hafa, a weak verb." },
+        { "t": "kallaði", "en": "called", "alt": ["shouted"], "note": "Past of kalla, a weak verb." },
+        { "t": "sigldi", "en": "sailed", "note": "Past of sigla, a weak verb." },
+        { "t": "Ísland", "en": "Iceland", "note": "Neuter: 'ice land'." },
+        { "t": "þá", "en": "then" }
+      ],
+      "sentences": [
+        { "t": "Úlfr hét maðr", "en": "there was a man called Ulf", "alt": ["there was a man named Ulf", "a man was called Ulf", "a man was named Ulf"] },
+        { "t": "Óðinn gaf gull", "en": "Odin gave gold" },
+        { "t": "Þórr var sterkr", "en": "Thor was strong" },
+        { "t": "ek sá Ísland", "en": "I saw Iceland" },
+        { "t": "hann hafði hund", "en": "he had a dog", "alt": ["he had a hound"] },
+        { "t": "þá kom hann heim", "en": "then he came home", "talt": ["hann kom þá heim"] },
+        { "t": "hon kallaði hundinn", "en": "she called the dog", "alt": ["she called the hound"] },
+        { "t": "Ingólfr nam land", "en": "Ingolf took land", "alt": ["Ingolf settled land", "Ingolf settled the land", "Ingolf took the land", "Ingolf settled"] },
+        { "t": "skipit sigldi heim", "en": "the ship sailed home", "alt": ["the ship sailed homeward"] }
+      ]
+    },
+    {
+      "title": "Á þingi",
+      "about": "Whose and where: the genitive, the dative and prepositions",
+      "kind": "words",
+      "guide": [
+        { "h": "Four cases", "p": "Besides the nominative for the subject and the accusative for the object, Old Norse has a dative, for the one who receives and after many prepositions, and a genitive, meaning 'of' and marking the owner." },
+        { "h": "The endings", "p": "A strong masculine runs hestr, hest, hesti, hests. A neuter runs skip, skip, skipi, skips. A weak feminine like kona has konu in the other three cases. The genitive usually follows its noun.", "ex": [["hestr konungs", "the king's horse"], ["Baldr er sonr Óðins", "Baldr is Odin's son"]] },
+        { "h": "With the article", "p": "Noun and article both change: hestrinn, hestinn, hestinum, hestsins; skipit, skipit, skipinu, skipsins; konan, konuna, konunni, konunnar.", "ex": [["víkingrinn var á skipinu", "the viking was on the ship"]] },
+        { "h": "Prepositions", "p": "til 'to' takes the genitive. frá 'from' and ór 'out of' take the dative. á 'on' and í 'in' take the dative for where something is and the accusative for where it is going, so í húsinu is 'in the house' but fara í víking is 'go off raiding'. með 'with' usually takes the dative.", "ex": [["skipit kom til Íslands", "the ship came to Iceland"], ["hon kom frá Nóregi", "she came from Norway"]] },
+        { "h": "To whom", "p": "The dative marks who receives. Masculine nouns in -r swap it for -i: víkingi, konungi. Óðinn becomes Óðni.", "ex": [["konungr gaf víkinginum sverð", "the king gave the viking a sword"]] },
+        { "h": "The Alþingi", "p": "Each summer chieftains and farmers rode to Þingvellir for the Alþingi, the general assembly, to hear the law and settle lawsuits. ríða til þings, 'to ride to the assembly', comes up again and again in the sagas." }
+      ],
+      "items": [
+        { "t": "til", "en": "to", "alt": ["towards"], "note": "Takes the genitive: til Íslands." },
+        { "t": "frá", "en": "from", "note": "Takes the dative: frá Nóregi." },
+        { "t": "ór", "en": "out of", "note": "Takes the dative." },
+        { "t": "á", "en": "on", "alt": ["at"], "note": "Dative for place, accusative for motion." },
+        { "t": "með", "en": "with", "note": "Usually takes the dative: með Óðni." },
+        { "t": "þing", "en": "assembly", "alt": ["thing", "meeting"], "note": "Neuter. til þings: to the assembly." },
+        { "t": "hestr", "en": "horse", "note": "hest, hesti, hests." },
+        { "t": "sverð", "en": "sword", "note": "Neuter." },
+        { "t": "reið", "en": "rode", "note": "Past of ríða 'ride'. Plural: riðu." },
+        { "t": "Nóregr", "en": "Norway", "note": "Dative: Nóregi." },
+        { "t": "Baldr", "en": "Baldr", "alt": ["Balder", "Baldur"], "note": "Óðinn's son, the brightest of the gods." }
+      ],
+      "sentences": [
+        { "t": "hann reið til þings", "en": "he rode to the assembly", "alt": ["he rode to the thing"] },
+        { "t": "skipit kom til Íslands", "en": "the ship came to Iceland" },
+        { "t": "hundrinn er í húsinu", "en": "the dog is in the house" },
+        { "t": "konungr gaf víkinginum sverð", "en": "the king gave the viking a sword", "alt": ["the king gave a sword to the viking"] },
+        { "t": "Baldr er sonr Óðins", "en": "Baldr is Odin's son", "alt": ["Baldr is the son of Odin", "Balder is Odin's son", "Balder is the son of Odin"] },
+        { "t": "hon kom frá Nóregi", "en": "she came from Norway" },
+        { "t": "víkingrinn var á skipinu", "en": "the viking was on the ship", "alt": ["the viking was aboard the ship"] },
+        { "t": "Þórr fór með Óðni", "en": "Thor went with Odin", "alt": ["Thor travelled with Odin", "Thor traveled with Odin"] },
+        { "t": "hestr konungs er sterkr", "en": "the king's horse is strong", "alt": ["the horse of the king is strong"] }
+      ]
+    },
+    {
+      "title": "Vinr minn",
+      "about": "Every pronoun, and how to say whose",
+      "kind": "words",
+      "guide": [
+        { "h": "Pronouns in four cases", "p": "ek, mik, mér, mín; þú, þik, þér, þín; hann, hann, honum, hans; hon, hana, henni, hennar; þat, þat, því, þess. The dative is 'to' or 'for' someone.", "ex": [["hon gaf honum sverð", "she gave him a sword"], ["Óðinn gaf mér gull", "Odin gave me gold"]] },
+        { "h": "We and they", "p": "vér is 'we' and þér 'you' to several people. 'They' is þeir for men, þær for women and þau for a mixed group. Plural verbs end in -um, -ið, -a in the present and -um, -uð, -u in the past: vér fǫrum, þeir fara; vér fórum, þeir fóru. vera is irregular: vér erum, þér eruð, þeir eru.", "ex": [["vér fórum heim", "we went home"]] },
+        { "h": "We two", "p": "Old Norse kept a dual for exactly two people: vit 'we two' and þit 'you two', with object forms okkr and ykkr." },
+        { "h": "My and your", "p": "minn 'my', þinn 'your' and várr 'our' agree with their noun like adjectives and usually follow it: faðir minn, móðir mín, skip mitt.", "ex": [["faðir minn er heima", "my father is at home"]] },
+        { "h": "His own", "p": "For 'his', 'her' and 'their' use the genitive pronouns hans, hennar and þeira, unless the owner is the subject of the sentence. Then use sinn, which declines like minn. hann sá hest sinn is 'he saw his own horse'; hann sá hest hans is 'he saw his (someone else's) horse'.", "ex": [["hann sá hest sinn", "he saw his horse"]] },
+        { "h": "Pronouns after prepositions", "p": "Prepositions govern pronouns too: til mín 'to me' (genitive), frá honum 'from him' (dative).", "ex": [["vinr minn kom til mín", "my friend came to me"]] }
+      ],
+      "items": [
+        { "t": "minn", "en": "my", "alt": ["mine"], "note": "Feminine mín, neuter mitt." },
+        { "t": "þinn", "en": "your", "alt": ["yours"], "note": "To one person. Feminine þín, neuter þitt." },
+        { "t": "sinn", "en": "his own", "alt": ["her own", "their own", "own"], "note": "Points back to the subject. sín, sitt." },
+        { "t": "hans", "en": "his", "note": "Genitive of hann." },
+        { "t": "hennar", "en": "her", "alt": ["hers"], "note": "Genitive of hon." },
+        { "t": "honum", "en": "him", "alt": ["to him"], "note": "Dative of hann." },
+        { "t": "mér", "en": "to me", "alt": ["me", "for me"], "note": "Dative of ek." },
+        { "t": "vér", "en": "we" },
+        { "t": "þeir", "en": "they", "note": "Masculine. Women: þær. Mixed: þau." },
+        { "t": "várr", "en": "our", "note": "Feminine vár, neuter várt." },
+        { "t": "vinr", "en": "friend", "note": "Plural: vinir." },
+        { "t": "þat", "en": "it", "alt": ["that"] }
+      ],
+      "sentences": [
+        { "t": "faðir minn er heima", "en": "my father is at home", "alt": ["my father is home"] },
+        { "t": "hon gaf honum sverð", "en": "she gave him a sword", "alt": ["she gave a sword to him"] },
+        { "t": "hann sá hest sinn", "en": "he saw his horse", "alt": ["he saw his own horse"] },
+        { "t": "vinr minn kom til mín", "en": "my friend came to me" },
+        { "t": "vér fórum heim", "en": "we went home", "alt": ["we travelled home", "we traveled home"] },
+        { "t": "þeir riðu til þings", "en": "they rode to the assembly", "alt": ["they rode to the thing"] },
+        { "t": "kona hans heitir Guðrún", "en": "his wife is called Gudrun", "alt": ["his wife's name is Gudrun", "his wife is named Gudrun"] },
+        { "t": "hvat heitir faðir þinn?", "en": "what is your father called?", "alt": ["what is your father's name?", "what is your father named?"] },
+        { "t": "þat er hestr hennar", "en": "it is her horse", "alt": ["that is her horse"] }
+      ]
+    },
+    {
+      "title": "Ørlǫg",
+      "about": "Shall, will and can: modal verbs and the future",
+      "kind": "words",
+      "guide": [
+        { "h": "Verb plus infinitive", "p": "Modal verbs take a bare infinitive, which ends in -a: fara, koma, vera, ríða. There is no word for 'to'.", "ex": [["ek skal fara heim", "I shall go home"]] },
+        { "h": "Presents that look past", "p": "Most modals have a present built like a strong past, so 'he' has no ending and 'you' ends in -t: ek skal, þú skalt, hann skal 'shall, must'; ek mun, þú munt, hann mun 'will'; ek kann, þú kannt, hann kann 'know how to'; ek má, þú mátt, hann má 'may, can'. vilja 'want' has ek vil, þú vilt, hann vill." },
+        { "h": "Plural and past", "p": "Plurals: vér skulum, þeir skulu; munum, munu; viljum, vilja; kunnum, kunnu; megum, megu. Past: skyldi 'should', mundi 'would', vildi 'wanted', kunni 'knew how', mátti 'could'.", "ex": [["vér skulum ríða til þings", "we shall ride to the assembly"]] },
+        { "h": "The future", "p": "There is no separate future tense. The present often does the job, munu says what will or is bound to happen, and skulu what someone intends or must do.", "ex": [["Þórr mun koma", "Thor will come"]] },
+        { "h": "Gunnarr turns back", "p": "In Njáls saga 75 Gunnarr, outlawed and riding to his ship, looks back at his farm: fǫgr er hlíðin ... ok mun ek ríða heim aptr ok fara hvergi, 'and I will ride back home and go nowhere'. Staying cost him his life." },
+        { "h": "Hávamál 42", "p": "Verse moves words around freely: vin sínum skal maðr vinr vera is 'a man must be a friend to his friend'. vin sínum is dative, 'to his own friend'." }
+      ],
+      "items": [
+        { "t": "skal", "en": "shall", "alt": ["must", "should"], "note": "From skulu. þú skalt, vér skulum." },
+        { "t": "mun", "en": "will", "note": "From munu: future or likelihood." },
+        { "t": "vill", "en": "wants", "alt": ["wishes", "will"], "note": "From vilja. ek vil, þú vilt." },
+        { "t": "kann", "en": "can", "alt": ["knows how", "knows"], "note": "From kunna. With a noun it means 'knows'." },
+        { "t": "má", "en": "may", "alt": ["might", "is able"], "note": "From mega. þú mátt." },
+        { "t": "fara", "en": "to go", "alt": ["go", "travel"], "note": "Infinitive. Present: ek fer." },
+        { "t": "koma", "en": "to come", "alt": ["come"], "note": "Infinitive. Present: ek kem." },
+        { "t": "vera", "en": "to be", "alt": ["be"], "note": "Infinitive. Present: ek em." },
+        { "t": "ríða", "en": "to ride", "alt": ["ride"], "note": "Past: reið, riðu." },
+        { "t": "aptr", "en": "back", "alt": ["again"] },
+        { "t": "rúnar", "en": "runes", "note": "Plural of rún." }
+      ],
+      "sentences": [
+        { "t": "ek skal fara heim", "en": "I shall go home", "alt": ["I must go home", "I will go home", "I should go home"] },
+        { "t": "Þórr mun koma", "en": "Thor will come", "alt": ["Thor will be coming"] },
+        { "t": "hann vill fara til Íslands", "en": "he wants to go to Iceland", "alt": ["he wants to travel to Iceland"] },
+        { "t": "hon kann rúnar", "en": "she knows runes", "alt": ["she knows the runes"] },
+        { "t": "ek má eigi koma", "en": "I cannot come", "alt": ["I can not come", "I may not come", "I am not able to come"] },
+        { "t": "vin sínum skal maðr vinr vera", "en": "a man must be a friend to his friend", "alt": ["a man should be a friend to his friend", "a man shall be a friend to his friend", "one must be a friend to one's friend", "one should be a friend to one's friend"] },
+        { "t": "mun ek ríða heim aptr", "en": "I will ride back home", "alt": ["I shall ride back home", "I will ride home again", "I shall ride home again"] },
+        { "t": "vér skulum ríða til þings", "en": "we shall ride to the assembly", "alt": ["we must ride to the assembly", "we will ride to the assembly", "we shall ride to the thing"] },
+        { "t": "vilt þú vera vinr minn?", "en": "will you be my friend?", "alt": ["do you want to be my friend?", "would you be my friend?"] }
+      ]
+    },
+    {
+      "title": "Svá er sagt",
+      "about": "The -sk verbs and the set phrases of saga prose",
+      "kind": "words",
+      "guide": [
+        { "h": "The middle voice", "p": "Adding -sk to a verb turns the action back on the subject. It grew out of sik 'oneself', and later manuscripts spell it -st or -z. berja 'strike' gives berjask 'fight', hitta 'meet someone' gives hittask 'meet each other'.", "ex": [["þeir berjask á skipinu", "they fight on the ship"]] },
+        { "h": "What -sk can mean", "p": "Oneself: klæðask 'dress oneself'. Each other: berjask, hittask. Becoming: gerask 'become', as when Kveld-Úlfr gerðisk styggr, 'grew bad-tempered', every evening. Some verbs only appear with -sk, like óttask 'fear', and andask 'die' comes from anda 'breathe'." },
+        { "h": "Forms", "p": "The -sk takes the place of a final -r: kallar becomes kallask, berr becomes bersk. In the past it is added to the ending: hittisk, hittusk, andaðisk. With ek the old ending is -umk: ek kǫllumk.", "ex": [["hann andaðisk heima", "he died at home"]] },
+        { "h": "Was called", "p": "vera with a past participle makes a passive. The participle agrees like an adjective: hann var kallaðr, hon var kǫlluð.", "ex": [["hann var kallaðr Kveld-Úlfr", "he was called Kveld-Ulf"]] },
+        { "h": "Saga formulas", "p": "Saga writers pass on tradition with svá er sagt 'so it is said', and switch scenes with nú er þar til máls at taka, 'now we must take up the story at this point'. at before an infinitive is English 'to'." },
+        { "h": "Sizing people up", "p": "A character sketch follows a pattern: hann var mikill maðr ok sterkr. Egils saga says Úlfr was svá mikill ok sterkr at eigi váru hans jafningjar, 'so big and strong that there were none his equal'." }
+      ],
+      "items": [
+        { "t": "berjask", "en": "fight", "alt": ["fight each other"], "note": "From berja 'strike'. Past: barðisk, bǫrðusk." },
+        { "t": "hittask", "en": "meet", "alt": ["meet each other"], "note": "Past: hittisk, hittusk." },
+        { "t": "óttask", "en": "fear", "alt": ["be afraid"], "note": "Only found with -sk." },
+        { "t": "klæðask", "en": "get dressed", "alt": ["dress oneself", "dress"], "note": "Past plural: klæddusk." },
+        { "t": "andaðisk", "en": "passed away", "alt": ["died"], "note": "Past of andask, from anda 'breathe'." },
+        { "t": "kallaðr", "en": "named", "alt": ["called"], "note": "Past participle of kalla." },
+        { "t": "brœðr", "en": "brothers", "note": "Plural of bróðir." },
+        { "t": "saga", "en": "saga", "alt": ["story", "tale"], "note": "With the article: sagan." },
+        { "t": "sagt", "en": "said", "alt": ["told"], "note": "Past participle of segja." },
+        { "t": "svá", "en": "so", "alt": ["thus"] },
+        { "t": "nú", "en": "now" },
+        { "t": "mikill", "en": "big", "alt": ["great", "tall", "large"] }
+      ],
+      "sentences": [
+        { "t": "svá er sagt", "en": "so it is said", "alt": ["thus it is said"] },
+        { "t": "þeir hittusk á þingi", "en": "they met at the assembly", "alt": ["they met each other at the assembly", "they met at the thing"] },
+        { "t": "hann var mikill maðr ok sterkr", "en": "he was a big and strong man", "alt": ["he was a big man and strong", "he was a big strong man", "he was a tall and strong man", "he was a great and strong man"] },
+        { "t": "nú er þar til máls at taka", "en": "now we must take up the story", "alt": ["now the story must be taken up", "now we must take up the story there", "now we must take up the tale"] },
+        { "t": "konungr óttask eigi", "en": "the king is not afraid", "alt": ["the king does not fear", "the king is unafraid"] },
+        { "t": "hann andaðisk heima", "en": "he died at home", "alt": ["he passed away at home"] },
+        { "t": "hann var kallaðr Kveld-Úlfr", "en": "he was called Kveld-Ulf", "alt": ["he was named Kveld-Ulf", "he was called Evening-Wolf", "he was named Evening-Wolf"] },
+        { "t": "þeir berjask á skipinu", "en": "they fight on the ship", "alt": ["they are fighting on the ship", "they fight each other on the ship"] },
+        { "t": "síðan stóðu þeir upp ok klæddusk", "en": "then they got up and got dressed", "alt": ["then they stood up and got dressed", "then they got up and dressed", "then they stood up and dressed"] }
+      ]
+    },
+    {
+      "title": "Skáldskapr",
+      "about": "Kennings, Eddic metre and saga dialogue",
+      "kind": "words",
+      "guide": [
+        { "h": "Kennings", "p": "A kenning names something with a riddle: a base word plus a genitive. Ymis hauss 'Ymir's skull' is the sky, Ymis blóð 'Ymir's blood' the sea, haddr Sifjar 'Sif's hair' gold, Kvasis blóð 'Kvasir's blood' poetry. Snorri collected hundreds in Skáldskaparmál for young poets.", "ex": [["Ymis hauss", "Ymir's skull: the sky"]] },
+        { "h": "Myth behind the riddle", "p": "Grímnismál 40 tells how the gods built the world from the giant Ymir: ór Ymis holdi var jǫrð of skǫpuð ... en ór hausi himinn. of is a filler word poets used to fill out a line, and the second half leaves out its verb.", "ex": [["en ór hausi himinn", "and from the skull the sky"]] },
+        { "h": "Óðinn's names", "p": "Poets also used heiti, poetic names. Gylfaginning 20 explains two of Óðinn's: Alfǫðr 'all-father', because he is father of all the gods, and Valfǫðr 'father of the slain', because all who fall in battle are his adopted sons. ok here means 'also'.", "ex": [["hann heitir ok Valfǫðr", "he is also called Valfather"]] },
+        { "h": "Eddic metre", "p": "fornyrðislag, 'old-lore metre', pairs short lines of two stresses each, tied by alliteration, as in Vǫluspá: Sól tér sortna, / sígr fold í mar. Hávamál uses ljóðaháttr, 'song metre': two short lines, then a full line that stands alone, as in deyr fé, / deyja frændr, / deyr sjálfr it sama. Stanza 77 ends with the one thing that never dies: dómr um dauðan hvern." },
+        { "h": "Saga dialogue", "p": "Saga speech is short and understated. In Njáls saga 77 Gunnarr's bowstring is cut while he holds off his attackers. He asks his wife Hallgerðr for two locks of her hair, and when she asks whether anything depends on it he says only líf mitt liggr við. She refuses, to repay an old slap. fá is a command, 'give!': the command form is the bare stem, as in far! 'go!' and kom! 'come!'.", "ex": [["líf mitt liggr við", "my life depends on it"]] },
+        { "h": "Worst and most", "p": "-st and -ast make superlatives: verst 'worst', mest 'most', beztr 'best'. At the end of Laxdæla saga (ch. 78) Guðrún's son asks which of her four husbands she loved most. She answers þeim var ek verst er ek unna mest, using unna 'love'." }
+      ],
+      "items": [
+        { "t": "skáld", "en": "poet", "alt": ["skald"], "note": "Neuter." },
+        { "t": "hauss", "en": "skull", "note": "In kennings: Ymis hauss, the sky." },
+        { "t": "himinn", "en": "sky", "alt": ["heaven"], "note": "Dative: himni." },
+        { "t": "jǫrð", "en": "earth", "alt": ["ground"] },
+        { "t": "hold", "en": "flesh", "note": "Dative: holdi." },
+        { "t": "hár", "en": "hair", "note": "Dative: hári." },
+        { "t": "líf", "en": "life" },
+        { "t": "liggr", "en": "lies", "alt": ["is lying"], "note": "From liggja. liggja við: to be at stake." },
+        { "t": "verst", "en": "worst" },
+        { "t": "mest", "en": "most" },
+        { "t": "dómr", "en": "judgement", "alt": ["verdict", "judgment"] },
+        { "t": "Valfǫðr", "en": "father of the slain", "alt": ["Valfather"], "note": "One of Óðinn's names." }
+      ],
+      "sentences": [
+        { "t": "líf mitt liggr við", "en": "my life depends on it", "alt": ["my life is at stake", "my life hangs on it"] },
+        { "t": "fá mér leppa tvá ór hári þínu", "en": "give me two locks of your hair", "alt": ["give me two locks from your hair"] },
+        { "t": "þá skal ek nú muna þér kinnhestinn", "en": "then I will now repay you for the slap", "alt": ["then I shall now repay you for the slap", "now I will remember the slap", "then I shall now remember the slap"] },
+        { "t": "þeim var ek verst er ek unna mest", "en": "I was worst to the one I loved most", "alt": ["I was worst to him I loved most", "I was worst to the one whom I loved most", "to the one I loved most I was worst"] },
+        { "t": "ór Ymis holdi var jǫrð of skǫpuð", "en": "from Ymir's flesh the earth was shaped", "alt": ["from Ymir's flesh the earth was made", "the earth was shaped from Ymir's flesh", "the earth was made from Ymir's flesh"] },
+        { "t": "en ór hausi himinn", "en": "and from the skull the sky", "alt": ["and the sky from the skull", "and from his skull the sky"] },
+        { "t": "Óðinn heitir Alfǫðr", "en": "Odin is called All-father", "alt": ["Odin is called Allfather", "Odin is named All-father", "Odin is named Allfather"] },
+        { "t": "hann heitir ok Valfǫðr", "en": "he is also called Valfather", "alt": ["he is also called father of the slain", "he is also named Valfather"] },
+        { "t": "dómr um dauðan hvern", "en": "the judgement on each dead man", "alt": ["the verdict on each dead man", "the judgement of every dead man", "the reputation of each dead man"] }
+      ]
+    }
+  ]
+}

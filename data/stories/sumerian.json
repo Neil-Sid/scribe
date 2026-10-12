@@ -1,0 +1,313 @@
+[
+  {
+    "id": "urnamma-brick",
+    "title": "Nanna lugal-a-ni",
+    "source": "Ur-Namma, brick inscription from Ur, RIME 3/2.1.1.4 (e.g. BM 90012, CDLI P226647), c. 2100 BC",
+    "about": "Ur-Namma, founder of the Third Dynasty of Ur, had these words written on the bricks of his building work at Ur. He dedicates it to Nanna, the moon god and lord of the city.",
+    "unit": 5,
+    "badge": { "name": "Brick by Brick", "about": "Read a building inscription of Ur-Namma" },
+    "lines": [
+      {
+        "t": "nanna lugal-a-ni",
+        "g": "𒀭𒋀𒆠 𒈗𒀀𒉌",
+        "en": "For Nanna, his lord,",
+        "gloss": ["Nanna, the moon god", "his lord"],
+        "q": { "prompt": "Who is the work dedicated to?", "options": ["the god Nanna, the king's lord", "Ur-Namma's father", "the people of Ur"], "answer": 0 }
+      },
+      {
+        "t": "ur-namma lugal urim₅-ma-ke₄",
+        "g": "𒌨𒀭𒇉 𒈗 𒋀𒀊𒆠𒈠𒆤",
+        "en": "Ur-Namma, king of Ur,",
+        "gloss": ["Ur-Namma", "king", "of Ur (+ doer -e)"]
+      },
+      {
+        "t": "e₂-a-ni mu-na-du₃",
+        "g": "𒂍𒀀𒉌 𒈬𒈾𒆕",
+        "en": "built his temple for him",
+        "gloss": ["his house", "he built for him"]
+      },
+      {
+        "t": "bad₃ urim₅-ma mu-na-du₃",
+        "g": "𒂦 𒋀𒀊𒆠𒈠 𒈬𒈾𒆕",
+        "en": "and built the wall of Ur for him.",
+        "gloss": ["the wall", "of Ur", "he built for him"],
+        "q": { "prompt": "What else did he build for the god?", "options": ["the wall of Ur", "a palace for himself", "a canal"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "shuruppag",
+    "title": "Ud re-a",
+    "source": "The Instructions of Šuruppag, lines 1–3, 6, 8–9, 11, 13, 47, 69 (ETCSL 5.6.1, Old Babylonian copies, trimmed)",
+    "about": "The wise Šuruppag advises his son Ziusudra, the hero who will survive the Flood. Versions of this advice go back to about 2500 BC, which makes it one of the oldest works of literature.",
+    "unit": 6,
+    "badge": { "name": "Old Man's Counsel", "about": "Read a father's advice from the Instructions of Šuruppag" },
+    "lines": [
+      {
+        "t": "ud re-a ud su₃-ra₂ re-a",
+        "g": "𒌓 𒊑𒀀 𒌓 𒋤𒁺 𒊑𒀀",
+        "en": "In those days, in those far-off days,",
+        "gloss": ["days", "in those", "days", "far-off", "in those"]
+      },
+      {
+        "t": "ĝi₆ re-a ĝi₆ ba₉-ra₂ re-a",
+        "g": "𒈪 𒊑𒀀 𒈪 𒁁𒁺 𒊑𒀀",
+        "en": "in those nights, in those faraway nights,",
+        "gloss": ["nights", "in those", "nights", "faraway", "in those"]
+      },
+      {
+        "t": "mu re-a mu su₃-ra₂ re-a",
+        "g": "𒈬 𒊑𒀀 𒈬 𒋤𒁺 𒊑𒀀",
+        "en": "in those years, in those far-off years,",
+        "gloss": ["years", "in those", "years", "far-off", "in those"],
+        "q": { "prompt": "When is the story set?", "options": ["in the distant past", "in the scribe's own day", "in the future"], "answer": 0 }
+      },
+      {
+        "t": "šuruppag-e dumu-ni-ra na na-mu-un-de₅-de₅",
+        "g": "𒋢𒆳𒊒𒆠𒂊 𒌉𒉌𒊏 𒈾 𒈾𒈬𒌦𒊑𒊑",
+        "en": "Šuruppag gave advice to his son;",
+        "gloss": ["Šuruppag (doer)", "to his son", "advice", "he gave"],
+        "q": { "prompt": "Who is giving the advice?", "options": ["Šuruppag, to his son", "a king, to his scribe", "a god, to the king"], "answer": 0 }
+      },
+      {
+        "t": "zi-ud-su₃-ra₂ dumu-ni-ra na na-mu-un-de₅-de₅",
+        "g": "𒍣𒌓𒋤𒁺 𒌉𒉌𒊏 𒈾 𒈾𒈬𒌦𒊑𒊑",
+        "en": "to Ziusudra, his son, he gave advice:",
+        "gloss": ["Ziusudra", "to his son", "advice", "he gave"]
+      },
+      {
+        "t": "dumu-ĝu₁₀ na ga-de₅ na de₅-ĝu₁₀ ḫe₂-dab₅",
+        "g": "𒌉𒈬 𒈾 𒂵𒊑 𒈾 𒊑𒈬 𒃶𒆪",
+        "en": "My son, let me give you advice: take hold of my advice!",
+        "gloss": ["my son", "advice", "let me give", "advice", "I give", "may it be seized"]
+      },
+      {
+        "t": "na de₅-ga-ĝu₁₀ šu nam-bi₂-bar-re",
+        "g": "𒈾 𒊑𒂵𒈬 𒋗 𒉆𒉈𒁇𒊑",
+        "en": "Do not neglect the advice I have given!",
+        "gloss": ["advice", "I have given", "hand", "do not let go"]
+      },
+      {
+        "t": "na de₅ ab-ba niĝ₂ kal-la-am₃ gu₂-zu ḫe₂-em-ši-ĝal₂",
+        "g": "𒈾 𒊑 𒀊𒁀 𒃻 𒆗𒆷𒀀𒀭 𒄘𒍪 𒃶𒅎𒅆𒅅",
+        "en": "An old man's advice is precious: bow your neck to it!",
+        "gloss": ["advice", "given", "of an old man", "a thing", "is precious", "your neck", "let it be toward it"],
+        "q": { "prompt": "Why should the son listen?", "options": ["an old man's advice is precious", "the king commands it", "the gods will punish him"], "answer": 0 }
+      },
+      {
+        "t": "kaskal ĝi₆ na-an-du šag₄-bi sag₉ ḫul-a",
+        "g": "𒆜 𒈪 𒈾𒀭𒁺 𒊮𒁉 𒊷 𒅆𒌨𒀀",
+        "en": "Do not travel at night: it hides both good and evil.",
+        "gloss": ["on a journey", "at night", "do not go", "its inside", "good", "and evil"],
+        "q": { "prompt": "Why should you not travel at night?", "options": ["the night hides both good and evil", "the city gates are shut", "the gods are asleep"], "answer": 0 }
+      },
+      {
+        "t": "ur-saĝ dili na-nam dili-ni lu₂ šar₂-ra-am₃",
+        "g": "𒌨𒊕 𒀸 𒈾𒉆 𒀸𒉌 𒇽 𒊹𒊏𒀀𒀭",
+        "en": "The warrior is unique: he alone is the equal of many.",
+        "gloss": ["the warrior", "one, unique", "truly is", "he alone", "people", "is many"],
+        "q": { "prompt": "What does Šuruppag say about the warrior?", "options": ["alone, he is a match for many", "he should never fight alone", "he is no better than other men"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "proverbs-bread-beer",
+    "title": "Niĝ₂-tuku-tuku al-su₃-ud",
+    "source": "Proverbs: collection 1, nos. 1.9, 1.15, 1.65, 1.66, 1.77, 1.103 (ETCSL 6.1.01, Old Babylonian school tablets, trimmed)",
+    "about": "Students in the tablet house copied whole collections of sayings: wry, bitter, and very often about bread and beer. These come from the first of the Sumerian proverb collections.",
+    "unit": 8,
+    "badge": { "name": "Proverbial", "about": "Read sayings from the Sumerian proverb collections" },
+    "lines": [
+      {
+        "t": "niĝ₂-tuku-tuku al-su₃-ud",
+        "g": "𒃻𒌇𒌇 𒀠𒋤𒌓",
+        "en": "Wealth is far away,",
+        "gloss": ["wealth, having things", "is far away"]
+      },
+      {
+        "t": "nam-ukur₃-ra al-ku-nu",
+        "g": "𒉆𒇳𒁺𒊏 𒀠𒆪𒉡",
+        "en": "poverty is close at hand.",
+        "gloss": ["poverty", "is close by"],
+        "q": { "prompt": "How does the saying compare wealth and poverty?", "options": ["wealth is far off, poverty is near", "both come and go with the seasons", "poverty is far off, wealth is near"], "answer": 0 }
+      },
+      {
+        "t": "ninda ḫe₂-ĝal₂-e nin-kilim ib₂-gu₇",
+        "g": "𒃻 𒃶𒅅𒂊 𒀭𒎏𒉾 𒌈𒅥",
+        "en": "If bread is left over, the mongoose eats it.",
+        "gloss": ["bread", "if there is some", "the mongoose", "eats it"]
+      },
+      {
+        "t": "ninda ḫa-ma-ĝal₂-e lu₂-kur₂-ra ib₂-gu₇",
+        "g": "𒃻 𒄩𒈠𒅅𒂊 𒇽𒉽𒊏 𒌈𒅥",
+        "en": "If I have any bread left over, then a stranger will eat it.",
+        "gloss": ["bread", "if I have some", "a stranger", "eats it"],
+        "q": { "prompt": "What happens to the speaker's spare bread?", "options": ["a stranger eats it", "he gives it to the gods", "he saves it for his children"], "answer": 0 }
+      },
+      {
+        "t": "iri nu ur-gir₁₅-ra ka₅-a nu-banda₃",
+        "g": "𒌷𒆠 𒉡 𒌨𒂠𒊏 𒈜𒀀 𒉡𒌉",
+        "en": "In the city where there are no dogs, the fox is boss.",
+        "gloss": ["in the city", "without", "dogs", "the fox", "is the overseer"],
+        "q": { "prompt": "Who takes charge when the dogs are gone?", "options": ["the fox", "the shepherd", "the king"], "answer": 0 }
+      },
+      {
+        "t": "iri ad₄-ne-ka ba-za lu₂-kaš₄-e",
+        "g": "𒌷𒆠 𒍞𒉈𒅗 𒁀𒍝 𒇽𒁽𒂊",
+        "en": "In the city of the lame, a cripple is the courier.",
+        "gloss": ["in the city", "of the lame", "a cripple", "is the runner"]
+      },
+      {
+        "t": "kaš gud-dam ka kun₄-bi-im",
+        "g": "𒁉 𒄞𒁮 𒅗 𒄿𒇻𒁉𒅎",
+        "en": "Beer is a bull. The mouth is its stairway.",
+        "gloss": ["beer", "is a bull", "the mouth", "is its stairway"],
+        "q": { "prompt": "What is beer compared to?", "options": ["a bull", "a river", "a king"], "answer": 0 }
+      },
+      {
+        "t": "niĝ₂ maḫ gu₇-gu₇-e u₃ nu-um-ši-ku-ku",
+        "g": "𒃻 𒈤 𒅥𒅥𒂊 𒅇 𒉡𒌝𒅆𒆪𒆪",
+        "en": "He who eats too much cannot sleep.",
+        "gloss": ["things", "great, too much", "one who eats", "sleep", "does not come to him"],
+        "q": { "prompt": "What happens to someone who eats too much?", "options": ["he cannot sleep", "he grows strong", "he falls ill and dies"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "drehem-receipt",
+    "title": "Ki ab-ba-sa₆-ga-ta",
+    "source": "Receipt tablet NBC 2168 = BIN 3, 268 (CDLI P106074), Puzriš-Dagan (Drehem), dated Amar-Suen year 6, month 10, day 24 (c. 2040 BC)",
+    "about": "The kings of Ur ran a huge livestock depot at Puzriš-Dagan near Nippur, where animals for the temples and the palace were counted in and out every day. This small tablet, now at Yale, records a single handover.",
+    "unit": 10,
+    "badge": { "name": "Stock Keeper", "about": "Read a receipt from the royal livestock depot of Ur" },
+    "lines": [
+      {
+        "t": "7(diš) udu",
+        "g": "𒐌 𒇻",
+        "en": "7 sheep,",
+        "gloss": ["seven", "sheep"]
+      },
+      {
+        "t": "5(diš) maš₂",
+        "g": "𒐊 𒈧",
+        "en": "5 goats,",
+        "gloss": ["five", "goats"]
+      },
+      {
+        "t": "u₄ 2(u) 4(diš)-kam",
+        "g": "𒌓 𒎙 𒐉𒄰",
+        "en": "on the 24th day,",
+        "gloss": ["day", "twenty", "four, -th"],
+        "q": { "prompt": "On which day of the month was this written?", "options": ["the 24th", "the 4th", "the 20th"], "answer": 0 }
+      },
+      {
+        "t": "ki ab-ba-sa₆-ga-ta",
+        "g": "𒆠 𒀊𒁀𒊷𒂵𒋫",
+        "en": "from Abbasaga",
+        "gloss": ["the place", "of Abbasaga, from"]
+      },
+      {
+        "t": "a-ḫu-we-er",
+        "g": "𒀀𒄷𒉿𒅕",
+        "en": "Aḫu-wer",
+        "gloss": ["Aḫu-wer, an official"]
+      },
+      {
+        "t": "i₃-dab₅",
+        "g": "𒉌𒆪",
+        "en": "took charge of.",
+        "gloss": ["took charge"],
+        "q": { "prompt": "What happened to the animals?", "options": ["Aḫu-wer took charge of them from Abbasaga", "Abbasaga bought them from Aḫu-wer", "they were offered to Enlil"], "answer": 0 }
+      },
+      {
+        "t": "iti ezem-an-na",
+        "g": "𒌗 𒂡𒀭𒈾",
+        "en": "Month of the Festival of An.",
+        "gloss": ["month", "festival of An"]
+      },
+      {
+        "t": "mu ša-aš-ru ba-ḫul",
+        "g": "𒈬 𒊭𒀸𒊒𒆠 𒁀𒅆𒌨",
+        "en": "Year Šašru was destroyed.",
+        "gloss": ["year", "Šašru, a city", "was destroyed"],
+        "q": { "prompt": "How does the scribe name the year?", "options": ["after an event, the destruction of Šašru", "by counting from the king's birth", "by the number of animals"], "answer": 0 }
+      },
+      {
+        "t": "1(u) 2(diš) udu",
+        "g": "𒌋 𒈫 𒇻",
+        "en": "(On the edge:) 12 sheep and goats.",
+        "gloss": ["ten", "two", "sheep and goats"],
+        "q": { "prompt": "What does the 12 on the edge count?", "options": ["the 7 sheep and 5 goats together", "the days the animals were kept", "the shekels paid for them"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "exaltation-inana",
+    "title": "Nin me šar₂-ra",
+    "source": "Enheduana, The exaltation of Inana (Inana B), lines 1–2, 6–8, 12, 67, 81, 154 (ETCSL 4.07.2, Old Babylonian copies, trimmed)",
+    "about": "Enheduana, daughter of Sargon of Akkad, was high priestess of the moon god at Ur around 2300 BC. Tradition makes her the first author known by name. In this hymn she praises Inana and begs her help after being driven from her temple.",
+    "unit": 12,
+    "badge": { "name": "First Author", "about": "Read lines from Enheduana's Exaltation of Inana" },
+    "lines": [
+      {
+        "t": "nin me šar₂-ra ud dalla e₃-a",
+        "g": "𒎏 𒈨 𒊹𒊏 𒌓 𒈦𒄘𒃼 𒌓𒁺𒀀",
+        "en": "Lady of all the divine powers, resplendent light,",
+        "gloss": ["lady", "divine powers", "all, many", "light", "shining", "coming forth"]
+      },
+      {
+        "t": "munus zid me-lem₄ gur₃-ru ki aĝ₂ an uraš-a",
+        "g": "𒊩 𒍣 𒈨𒉈 𒅍𒊒 𒆠 𒉘 𒀭 𒅁𒀀",
+        "en": "righteous woman clothed in radiance, beloved of An and Uraš!",
+        "gloss": ["woman", "righteous", "radiance", "wearing", "beloved", "(ki aĝ₂: to love)", "of An", "and Uraš"],
+        "q": { "prompt": "Whose beloved is Inana called?", "options": ["An and Uraš, heaven and earth", "Enlil and Ninlil", "Gilgameš and Enkidu"], "answer": 0 }
+      },
+      {
+        "t": "nin-ĝu₁₀ me gal-gal-la saĝ keše₂-bi za-e-me-en",
+        "g": "𒎏𒈬 𒈨 𒃲𒃲𒆷 𒊕 𒆟𒁉 𒍝𒂊𒈨𒂗",
+        "en": "My lady, you are the guardian of the great divine powers!",
+        "gloss": ["my lady", "divine powers", "great, of the", "head", "binding them", "you are"]
+      },
+      {
+        "t": "me mu-e-il₂ me šu-zu-še₃ mu-e-la₂",
+        "g": "𒈨 𒈬𒂊𒅍 𒈨 𒋗𒍪𒂠 𒈬𒂊𒇲",
+        "en": "You have taken up the divine powers, you have hung the divine powers from your hand.",
+        "gloss": ["divine powers", "you have raised", "divine powers", "on your hand", "you have hung"],
+        "q": { "prompt": "What has Inana done with the divine powers?", "options": ["taken them up and hung them from her hand", "given them back to Enki", "buried them in the mountains"], "answer": 0 }
+      },
+      {
+        "t": "me mu-e-ur₄ me gaba-za bi₂-tab",
+        "g": "𒈨 𒈬𒂊𒌴 𒈨 𒃮𒍝 𒉈𒋰",
+        "en": "You have gathered up the divine powers, you have clasped the divine powers to your breast.",
+        "gloss": ["divine powers", "you have gathered", "divine powers", "to your breast", "you have clasped"]
+      },
+      {
+        "t": "saĝ-kal an ki-a inana-bi-me-en",
+        "g": "𒊕𒆗 𒀭 𒆠𒀀 𒀭𒈹𒁉𒈨𒂗",
+        "en": "Powerful one of heaven and earth, you are their Inana!",
+        "gloss": ["foremost one", "heaven", "and earth, in", "you are their Inana"],
+        "q": { "prompt": "Where does Inana hold power?", "options": ["in heaven and on earth", "only in the city of Ur", "only in the netherworld"], "answer": 0 }
+      },
+      {
+        "t": "en-me-en en-ḫe₂-du₇-an-na-me-en",
+        "g": "𒂗𒈨𒂗 𒂗𒃶𒌌𒀭𒈾𒈨𒂗",
+        "en": "I am the en priestess, I am Enheduana.",
+        "gloss": ["I am the en priestess", "I am Enheduana"],
+        "q": { "prompt": "Who is speaking here?", "options": ["Enheduana, the high priestess", "Inana herself", "the king of Akkad"], "answer": 0 }
+      },
+      {
+        "t": "en-ḫe₂-du₇-an-na-me-en a-ra-zu ga-mu-ra-ab-dug₄",
+        "g": "𒂗𒃶𒌌𒀭𒈾𒈨𒂗 𒀀𒊏𒍪 𒂵𒈬𒊏𒀊𒅗",
+        "en": "I, Enheduana, will recite a prayer to you.",
+        "gloss": ["I am Enheduana", "a prayer", "let me speak it to you"]
+      },
+      {
+        "t": "nin-ĝu₁₀ ḫi-li gu₂ e₃ inana za₃-mi₂",
+        "g": "𒎏𒈬 𒄭𒇷 𒄘 𒌓𒁺 𒀭𒈹 𒍠𒊩",
+        "en": "To my lady wrapped in beauty, to Inana: praise!",
+        "gloss": ["my lady", "beauty", "neck", "clothed, wrapped", "Inana", "praise"],
+        "q": { "prompt": "How does the hymn end?", "options": ["with praise for Inana", "with a curse on Uruk", "with a list of offerings"], "answer": 0 }
+      }
+    ]
+  }
+]

@@ -1,0 +1,437 @@
+{
+  "id": "latin",
+  "name": "Latin",
+  "native": "Lingua Latina",
+  "era": "75 BC – AD 200 (Classical)",
+  "place": "Rome and its empire",
+  "blurb": "The language of Cicero, Virgil and Caesar, and the parent of the Romance languages.",
+  "emblem": "SPQR",
+  "script": null,
+  "accent": "#9b2f24",
+  "keys": ["ā", "ē", "ī", "ō", "ū"],
+  "facts": [
+    "Romans wrote without spaces or lowercase letters. Both came centuries later.",
+    "Latin never died outright. It slowly turned into Italian, Spanish, French, Portuguese and Romanian.",
+    "Over half of English vocabulary comes from Latin, much of it by way of French.",
+    "Classical Latin had no J, U or W. Iūlius was carved as IVLIVS.",
+    "The Vatican still issues documents in Latin, and its bank's ATMs offer Latin instructions."
+  ],
+  "units": [
+    {
+      "title": "Salvē",
+      "about": "Greet people and name who they are",
+      "kind": "words",
+      "guide": [
+        { "h": "No articles", "p": "Latin has no word for 'the' or 'a'. Context decides.", "ex": [["puella", "girl, a girl, the girl"]] },
+        { "h": "The verb goes last", "p": "Latin likes to end a sentence with its verb.", "ex": [["fēmina māter est", "the woman is a mother"]] },
+        { "h": "Macrons", "p": "A line over a vowel (ā) marks it as long. Romans rarely wrote it, but it changes pronunciation and sometimes meaning. You can type without them." }
+      ],
+      "items": [
+        { "t": "salvē", "en": "hello", "alt": ["hi"], "note": "Said to one person. To a group: salvēte." },
+        { "t": "valē", "en": "goodbye", "alt": ["farewell", "bye"] },
+        { "t": "puella", "en": "girl" },
+        { "t": "puer", "en": "boy" },
+        { "t": "vir", "en": "man" },
+        { "t": "fēmina", "en": "woman" },
+        { "t": "māter", "en": "mother" },
+        { "t": "pater", "en": "father" },
+        { "t": "et", "en": "and" },
+        { "t": "est", "en": "is" },
+        { "t": "nōn", "en": "not" }
+      ],
+      "sentences": [
+        { "t": "salvē, puella", "en": "hello, girl", "alt": ["hi, girl"] },
+        { "t": "puer et puella", "en": "a boy and a girl" },
+        { "t": "māter et pater", "en": "mother and father" },
+        { "t": "vir nōn est puer", "en": "the man is not a boy", "talt": ["vir puer nōn est"] },
+        { "t": "fēmina māter est", "en": "the woman is a mother", "talt": ["fēmina est māter"] },
+        { "t": "puella nōn est fēmina", "en": "the girl is not a woman", "talt": ["puella fēmina nōn est"] },
+        { "t": "valē, pater", "en": "goodbye, father", "alt": ["farewell, father", "bye, father"] }
+      ]
+    },
+    {
+      "title": "Familia",
+      "about": "Family, home and who loves whom",
+      "kind": "words",
+      "guide": [
+        { "h": "Endings show who does what", "p": "The subject and object are marked by endings, not word order. māter becomes mātrem as an object; fīlius becomes fīlium.", "ex": [["fīlia mātrem amat", "the daughter loves the mother"], ["mātrem fīlia amat", "the daughter loves the mother"]] },
+        { "h": "Adjectives agree", "p": "magna and parva are the feminine forms, used with feminine nouns like familia and domus. With masculine nouns they become magnus and parvus." },
+        { "h": "in + a new ending", "p": "After in meaning 'in', the noun changes ending: domus becomes domō.", "ex": [["in domō", "in the house"]] }
+      ],
+      "items": [
+        { "t": "fīlius", "en": "son" },
+        { "t": "fīlia", "en": "daughter" },
+        { "t": "frāter", "en": "brother" },
+        { "t": "soror", "en": "sister" },
+        { "t": "familia", "en": "family", "note": "Originally the whole household, slaves included." },
+        { "t": "domus", "en": "house", "alt": ["home"] },
+        { "t": "canis", "en": "dog" },
+        { "t": "amat", "en": "loves", "alt": ["likes"] },
+        { "t": "in", "en": "in", "alt": ["on"] },
+        { "t": "magna", "en": "big", "alt": ["great", "large"], "note": "Feminine form. Masculine: magnus." },
+        { "t": "parva", "en": "small", "alt": ["little"], "note": "Feminine form. Masculine: parvus." }
+      ],
+      "sentences": [
+        { "t": "familia magna est", "en": "the family is big", "alt": ["the family is large"] },
+        { "t": "frāter et soror", "en": "brother and sister" },
+        { "t": "canis in domō est", "en": "the dog is in the house", "alt": ["the dog is in the home"] },
+        { "t": "fīlia mātrem amat", "en": "the daughter loves the mother", "alt": ["the daughter loves her mother"], "talt": ["mātrem fīlia amat"] },
+        { "t": "pater fīlium amat", "en": "the father loves the son", "alt": ["the father loves his son"], "talt": ["fīlium pater amat"] },
+        { "t": "domus parva est", "en": "the house is small", "alt": ["the house is little"] },
+        { "t": "soror canem amat", "en": "the sister loves the dog", "alt": ["the sister likes the dog"], "talt": ["canem soror amat"] }
+      ]
+    },
+    {
+      "title": "Cibus",
+      "about": "Food, drink and the object ending",
+      "kind": "words",
+      "guide": [
+        { "h": "Objects end in -m", "p": "aqua becomes aquam, cibus becomes cibum, pānis becomes pānem. Neuter nouns such as vīnum and lac look the same either way.", "ex": [["puella aquam bibit", "the girl drinks water"]] },
+        { "h": "-t means he, she or it", "p": "edit is 'he eats' or 'she eats'. Latin rarely needs a separate pronoun." },
+        { "h": "One tense, two meanings", "p": "The present covers both English forms: edit is 'eats' and 'is eating'." }
+      ],
+      "items": [
+        { "t": "aqua", "en": "water" },
+        { "t": "vīnum", "en": "wine" },
+        { "t": "pānis", "en": "bread" },
+        { "t": "cibus", "en": "food" },
+        { "t": "mālum", "en": "apple", "note": "Careful: malum, with a short a, means 'evil'." },
+        { "t": "lac", "en": "milk" },
+        { "t": "edit", "en": "eats", "alt": ["is eating"] },
+        { "t": "bibit", "en": "drinks", "alt": ["is drinking"] },
+        { "t": "bonus", "en": "good" },
+        { "t": "malus", "en": "bad", "alt": ["evil"] }
+      ],
+      "sentences": [
+        { "t": "puer pānem edit", "en": "the boy eats bread", "alt": ["the boy is eating bread"], "talt": ["pānem puer edit"] },
+        { "t": "puella aquam bibit", "en": "the girl drinks water", "alt": ["the girl is drinking water"], "talt": ["aquam puella bibit"] },
+        { "t": "vir vīnum bibit", "en": "the man drinks wine", "alt": ["the man is drinking wine"] },
+        { "t": "cibus bonus est", "en": "the food is good" },
+        { "t": "canis cibum edit", "en": "the dog eats food", "alt": ["the dog is eating food"] },
+        { "t": "fīlia mālum edit", "en": "the daughter eats an apple", "alt": ["the daughter is eating an apple"] },
+        { "t": "vīnum malum est", "en": "the wine is bad" },
+        { "t": "pater lac nōn bibit", "en": "father does not drink milk", "alt": ["father is not drinking milk"] }
+      ]
+    },
+    {
+      "title": "Rōma",
+      "about": "The city, its roads and its gods",
+      "kind": "words",
+      "guide": [
+        { "h": "Third declension", "p": "Some nouns change shape a lot. rēx becomes rēgem as an object, urbs becomes urbem.", "ex": [["deus urbem amat", "the god loves the city"]] },
+        { "h": "Going to a city", "p": "City names take no preposition for 'to'. Other places need ad.", "ex": [["Rōmam", "to Rome"], ["ad templum", "to the temple"]] },
+        { "h": "SPQR", "p": "Senātus Populusque Rōmānus, 'the Senate and People of Rome'. -que means 'and', tacked onto the end of a word." }
+      ],
+      "items": [
+        { "t": "urbs", "en": "city" },
+        { "t": "via", "en": "road", "alt": ["street", "way"] },
+        { "t": "templum", "en": "temple" },
+        { "t": "deus", "en": "god" },
+        { "t": "dea", "en": "goddess" },
+        { "t": "rēx", "en": "king" },
+        { "t": "Rōma", "en": "Rome" },
+        { "t": "ambulat", "en": "walks", "alt": ["is walking"] },
+        { "t": "videt", "en": "sees" },
+        { "t": "ad", "en": "to", "alt": ["toward", "towards"] },
+        { "t": "longa", "en": "long", "note": "Feminine form. Masculine: longus." }
+      ],
+      "sentences": [
+        { "t": "Rōma urbs magna est", "en": "Rome is a great city", "alt": ["Rome is a big city", "Rome is a large city"] },
+        { "t": "puer ad templum ambulat", "en": "the boy walks to the temple", "alt": ["the boy is walking to the temple"] },
+        { "t": "rēx urbem videt", "en": "the king sees the city", "talt": ["urbem rēx videt"] },
+        { "t": "dea in templō est", "en": "the goddess is in the temple" },
+        { "t": "via longa est", "en": "the road is long", "alt": ["the street is long", "the way is long"] },
+        { "t": "deus urbem amat", "en": "the god loves the city" },
+        { "t": "omnēs viae Rōmam dūcunt", "en": "all roads lead to Rome" }
+      ]
+    },
+    {
+      "title": "Ego et tū",
+      "about": "Talk about yourself and the person you meet",
+      "kind": "words",
+      "guide": [
+        { "h": "The ending is the pronoun", "p": "-ō means 'I' and -s means 'you'. ego and tū are added only for emphasis.", "ex": [["amō", "I love"], ["vidēs", "you see"]] },
+        { "h": "To be", "p": "sum 'I am', es 'you are', est 'he, she or it is'." },
+        { "h": "Me and you", "p": "As objects, ego becomes mē and tū becomes tē.", "ex": [["ego tē amō", "I love you"]] },
+        { "h": "Giving your name", "p": "mihi nōmen est … is literally 'to me the name is …'." }
+      ],
+      "items": [
+        { "t": "ego", "en": "I" },
+        { "t": "tū", "en": "you" },
+        { "t": "sum", "en": "I am" },
+        { "t": "es", "en": "you are" },
+        { "t": "amō", "en": "I love" },
+        { "t": "videō", "en": "I see" },
+        { "t": "habeō", "en": "I have" },
+        { "t": "amīcus", "en": "friend" },
+        { "t": "liber", "en": "book", "note": "As an object: librum." },
+        { "t": "quis", "en": "who" },
+        { "t": "quid", "en": "what" },
+        { "t": "nōmen", "en": "name" }
+      ],
+      "sentences": [
+        { "t": "ego sum puella", "en": "I am a girl", "talt": ["ego puella sum", "puella sum"] },
+        { "t": "tū es amīcus", "en": "you are a friend", "talt": ["tū amīcus es", "amīcus es"] },
+        { "t": "ego tē amō", "en": "I love you", "talt": ["tē amō"] },
+        { "t": "librum habeō", "en": "I have a book" },
+        { "t": "amīcum videō", "en": "I see a friend" },
+        { "t": "quis es?", "en": "who are you?" },
+        { "t": "quid vidēs?", "en": "what do you see?" },
+        { "t": "mihi nōmen est Mārcus", "en": "my name is Marcus" }
+      ]
+    },
+    {
+      "title": "Sententiae",
+      "about": "Famous lines Romans actually said",
+      "kind": "words",
+      "guide": [
+        { "h": "The perfect tense", "p": "-ī marks 'I did'. Caesar reported a five-day war in 47 BC with three of them.", "ex": [["vēnī, vīdī, vīcī", "I came, I saw, I conquered"]] },
+        { "h": "Commands", "p": "carpe is an order: 'seize!'. The line is from Horace, Odes 1.11." },
+        { "h": "Sources", "p": "omnia vincit Amor is Virgil (Eclogues 10). ālea iacta est is Caesar at the Rubicon, as told by Suetonius. cōgitō, ergō sum is Descartes, 1644, and et tū, Brūte is Shakespeare. Latin outlived Rome by a long way." }
+      ],
+      "items": [
+        { "t": "diēs", "en": "day", "note": "As an object: diem." },
+        { "t": "tempus", "en": "time" },
+        { "t": "carpe", "en": "seize", "alt": ["pluck"] },
+        { "t": "fugit", "en": "flees", "alt": ["flies", "runs away"] },
+        { "t": "amor", "en": "love" },
+        { "t": "vincit", "en": "conquers", "alt": ["wins", "defeats"] },
+        { "t": "omnia", "en": "everything", "alt": ["all things", "all"] },
+        { "t": "vēnī", "en": "I came" },
+        { "t": "vīdī", "en": "I saw" },
+        { "t": "vīcī", "en": "I conquered", "alt": ["I won"] },
+        { "t": "cōgitō", "en": "I think" },
+        { "t": "ergō", "en": "therefore", "alt": ["so"] }
+      ],
+      "sentences": [
+        { "t": "carpe diem", "en": "seize the day", "alt": ["pluck the day"] },
+        { "t": "tempus fugit", "en": "time flies", "alt": ["time flees"] },
+        { "t": "vēnī, vīdī, vīcī", "en": "I came, I saw, I conquered" },
+        { "t": "omnia vincit amor", "en": "love conquers all", "alt": ["love conquers everything", "love conquers all things"], "talt": ["amor vincit omnia"] },
+        { "t": "cōgitō, ergō sum", "en": "I think, therefore I am" },
+        { "t": "ālea iacta est", "en": "the die is cast" },
+        { "t": "et tū, Brūte?", "en": "you too, Brutus?", "alt": ["and you, Brutus?"] }
+      ]
+    },
+    {
+      "title": "Herī",
+      "about": "Tell what happened with the perfect tense",
+      "kind": "words",
+      "guide": [
+        { "h": "The perfect", "p": "The perfect tells what happened and is over. You met -ī in vēnī, vīdī, vīcī. The full set of endings is -ī, -istī, -it, -imus, -istis, -ērunt.", "ex": [["vēnī", "I came"], ["vēnistī", "you came"], ["vēnit", "he came, she came"], ["vēnimus", "we came"], ["vēnērunt", "they came"]] },
+        { "h": "A new stem", "p": "Many verbs change shape in the perfect, so learn the two together. Verbs like amō just add -v-.", "ex": [["amō, amāvī", "I love, I loved"], ["videō, vīdī", "I see, I saw"], ["faciō, fēcī", "I make, I made"], ["dīcō, dīxī", "I say, I said"], ["scrībō, scrīpsī", "I write, I wrote"], ["dō, dedī", "I give, I gave"]] },
+        { "h": "Did or has done", "p": "One Latin form covers both English past tenses: fēcit is 'he made' or 'he has made'.", "ex": [["quid fēcistī?", "what did you do? what have you done?"]] },
+        { "h": "Telling a story", "p": "Romans told stories as a chain of perfects, one event after another. herī 'yesterday' and tandem 'at last' set the scene.", "ex": [["nūntius tandem vēnit", "at last the messenger came"]] }
+      ],
+      "items": [
+        { "t": "herī", "en": "yesterday" },
+        { "t": "vēnit", "en": "came", "alt": ["has come"], "note": "Present: venit, with a short e." },
+        { "t": "vīdit", "en": "saw", "alt": ["has seen"], "note": "Present: videt." },
+        { "t": "fēcit", "en": "made", "alt": ["did", "has made"], "note": "Present: facit." },
+        { "t": "dīxit", "en": "said", "alt": ["has said"], "note": "Present: dīcit." },
+        { "t": "scrīpsit", "en": "wrote", "alt": ["has written"], "note": "Present: scrībit." },
+        { "t": "dedit", "en": "gave", "alt": ["has given"], "note": "Present: dat." },
+        { "t": "amāvit", "en": "loved", "alt": ["has loved"], "note": "Present: amat." },
+        { "t": "epistula", "en": "letter" },
+        { "t": "nūntius", "en": "messenger", "alt": ["message", "news"] },
+        { "t": "tandem", "en": "at last", "alt": ["finally"] }
+      ],
+      "sentences": [
+        { "t": "herī Rōmam vēnī", "en": "yesterday I came to Rome", "alt": ["I came to Rome yesterday"], "talt": ["Rōmam herī vēnī"] },
+        { "t": "nūntius tandem vēnit", "en": "at last the messenger came", "alt": ["the messenger came at last", "the messenger has come at last", "finally the messenger came", "the messenger finally came"], "talt": ["tandem nūntius vēnit"] },
+        { "t": "pater epistulam scrīpsit", "en": "father wrote a letter", "alt": ["father has written a letter"], "talt": ["epistulam pater scrīpsit"] },
+        { "t": "puella canem vīdit", "en": "the girl saw the dog", "alt": ["the girl has seen the dog"], "talt": ["canem puella vīdit"] },
+        { "t": "quid fēcistī?", "en": "what did you do?", "alt": ["what have you done?"] },
+        { "t": "quid dīxit?", "en": "what did he say?", "alt": ["what did she say?", "what has he said?", "what has she said?"] },
+        { "t": "amīcus mē nōn vīdit", "en": "my friend did not see me", "alt": ["the friend did not see me", "my friend didn't see me", "the friend didn't see me"] },
+        { "t": "pater mihi librum dedit", "en": "father gave me a book", "alt": ["father gave a book to me", "my father gave me a book", "father has given me a book"] },
+        { "t": "herī vēnērunt", "en": "they came yesterday", "alt": ["yesterday they came"] }
+      ]
+    },
+    {
+      "title": "Bellum",
+      "about": "Soldiers, war and the third declension",
+      "kind": "words",
+      "guide": [
+        { "h": "Third declension", "p": "These nouns show their real stem only outside the subject form, so learn the object with the word, as with rēx, rēgem and urbs, urbem.", "ex": [["mīles, mīlitem", "soldier"], ["dux, ducem", "leader"], ["legiō, legiōnem", "legion"], ["dux mīlitem videt", "the general sees the soldier"]] },
+        { "h": "More than one", "p": "Third-declension plurals end in -ēs, as subject and as object. A plural subject takes a verb in -nt, and est becomes sunt.", "ex": [["mīles pugnat", "the soldier fights"], ["mīlitēs pugnant", "the soldiers fight"], ["dux et mīlitēs vēnērunt", "the general and the soldiers came"]] },
+        { "h": "Other plurals", "p": "puella and amīcus have plurals of their own: puellae, object puellās; amīcī, object amīcōs. The full present runs amō, amās, amat, amāmus, amātis, amant.", "ex": [["amīcī vēnērunt", "the friends came"], ["puellās videō", "I see the girls"]] },
+        { "h": "Neuters", "p": "Neuter nouns look the same as subject and object, and their plural ends in -a: bellum, bella; corpus, corpora. arma 'weapons' and castra 'camp' exist only as plurals.", "ex": [["corpus, corpora", "body, bodies"], ["arma virumque canō", "I sing of arms and the man"]] },
+        { "h": "Virgil's first line", "p": "arma virumque canō opens the Aeneid, Rome's national epic. The man is Aeneas, the Trojan soldier the Romans claimed as their ancestor." }
+      ],
+      "items": [
+        { "t": "mīles", "en": "soldier", "note": "Object: mīlitem. Plural: mīlitēs." },
+        { "t": "dux", "en": "leader", "alt": ["general", "commander"], "note": "Object: ducem." },
+        { "t": "legiō", "en": "legion", "note": "Roughly 5,000 men. Object: legiōnem." },
+        { "t": "hostis", "en": "enemy", "note": "Plural hostēs, often just 'the enemy'." },
+        { "t": "bellum", "en": "war" },
+        { "t": "pāx", "en": "peace", "note": "Object: pācem." },
+        { "t": "corpus", "en": "body", "note": "Neuter. Plural: corpora." },
+        { "t": "arma", "en": "weapons", "alt": ["arms"], "note": "Neuter plural." },
+        { "t": "castra", "en": "camp", "note": "Plural in form, one camp in meaning." },
+        { "t": "gladius", "en": "sword" },
+        { "t": "pugnat", "en": "fights", "alt": ["is fighting"] },
+        { "t": "canō", "en": "I sing" }
+      ],
+      "sentences": [
+        { "t": "mīlitēs pugnant", "en": "the soldiers fight", "alt": ["the soldiers are fighting"] },
+        { "t": "dux mīlitēs videt", "en": "the general sees the soldiers", "alt": ["the leader sees the soldiers", "the commander sees the soldiers"], "talt": ["mīlitēs dux videt"] },
+        { "t": "legiō hostēs vīcit", "en": "the legion defeated the enemy", "alt": ["the legion conquered the enemy", "the legion defeated the enemies", "the legion conquered the enemies", "the legion has defeated the enemy"], "talt": ["hostēs legiō vīcit"] },
+        { "t": "hostēs castra vīdērunt", "en": "the enemy saw the camp", "alt": ["the enemies saw the camp", "the enemy have seen the camp", "the enemies have seen the camp"] },
+        { "t": "pācem amō, nōn bellum", "en": "I love peace, not war", "alt": ["I like peace, not war"] },
+        { "t": "arma virumque canō", "en": "I sing of arms and the man", "alt": ["I sing of weapons and the man", "I sing arms and the man", "of arms and the man I sing"] },
+        { "t": "mīlitēs corpora vīdērunt", "en": "the soldiers saw the bodies", "alt": ["the soldiers have seen the bodies"] },
+        { "t": "mīles gladium habet", "en": "the soldier has a sword", "talt": ["gladium mīles habet"] },
+        { "t": "dux et mīlitēs Rōmam vēnērunt", "en": "the general and the soldiers came to Rome", "alt": ["the leader and the soldiers came to Rome", "the commander and the soldiers came to Rome"] }
+      ]
+    },
+    {
+      "title": "Maximus",
+      "about": "Describe anything, and say what is bigger and best",
+      "kind": "words",
+      "guide": [
+        { "h": "Three genders", "p": "Adjectives match their noun's gender: bonus with masculine nouns, bona with feminine, bonum with neuter. The plurals are bonī, bonae, bona.", "ex": [["vir bonus", "a good man"], ["via longa", "a long road"], ["vīnum bonum", "good wine"]] },
+        { "h": "Third-declension adjectives", "p": "fortis 'brave' has one form for masculine and feminine, and forte for neuter. The plural is fortēs. An adjective can stand alone as a noun: fortēs is 'the brave'.", "ex": [["mīles fortis", "a brave soldier"], ["fortēs fortūna iuvat", "fortune helps the brave"]] },
+        { "h": "-ior and -issimus", "p": "Add -ior for 'more' and -issimus for 'most' or 'very'. 'Than' is quam.", "ex": [["fortis, fortior, fortissimus", "brave, braver, bravest"], ["mīles fortior est quam dux", "the soldier is braver than the general"]] },
+        { "h": "Irregular, as in English", "p": "The commonest adjectives change stem, like good, better, best. The neuters of maior and melior are maius and melius.", "ex": [["bonus, melior, optimus", "good, better, best"], ["malus, peior, pessimus", "bad, worse, worst"], ["magnus, maior, maximus", "big, bigger, biggest"], ["parvus, minor, minimus", "small, smaller, smallest"]] },
+        { "h": "After in", "p": "Third-declension nouns end in -e after in, just as templum became templō.", "ex": [["mēns sāna in corpore sānō", "a healthy mind in a healthy body"]] },
+        { "h": "Sources", "p": "mēns sāna in corpore sānō is Juvenal, Satires 10.356. fortissimī sunt Belgae is Caesar, Gallic War 1.1. fortēs fortūna iuvat is what Pliny the Elder said as he sailed toward Vesuvius, in his nephew's Letters 6.16." }
+      ],
+      "items": [
+        { "t": "fortis", "en": "brave", "alt": ["strong"], "note": "Neuter: forte." },
+        { "t": "fortūna", "en": "fortune", "alt": ["luck"] },
+        { "t": "iuvat", "en": "helps", "alt": ["favours", "favors"] },
+        { "t": "sānus", "en": "healthy", "alt": ["sound", "sane"] },
+        { "t": "mēns", "en": "mind", "note": "Object: mentem." },
+        { "t": "quam", "en": "than" },
+        { "t": "maior", "en": "bigger", "alt": ["greater", "larger", "older"] },
+        { "t": "maximus", "en": "biggest", "alt": ["greatest", "largest", "very big"] },
+        { "t": "minor", "en": "smaller", "alt": ["lesser", "younger"] },
+        { "t": "melior", "en": "better" },
+        { "t": "optimus", "en": "best", "alt": ["excellent", "very good"] },
+        { "t": "pessimus", "en": "worst", "alt": ["terrible", "very bad"] }
+      ],
+      "sentences": [
+        { "t": "mēns sāna in corpore sānō", "en": "a healthy mind in a healthy body", "alt": ["a sound mind in a sound body"] },
+        { "t": "fortēs fortūna iuvat", "en": "fortune helps the brave", "alt": ["fortune favours the brave", "fortune favors the brave"] },
+        { "t": "fortissimī sunt Belgae", "en": "the Belgae are the bravest", "alt": ["the Belgae are very brave", "the bravest are the Belgae"], "talt": ["Belgae fortissimī sunt", "Belgae sunt fortissimī"] },
+        { "t": "canis maior est quam puer", "en": "the dog is bigger than the boy", "alt": ["the dog is larger than the boy"] },
+        { "t": "Rōma urbs maxima est", "en": "Rome is the greatest city", "alt": ["Rome is the biggest city", "Rome is the largest city"], "talt": ["Rōma est urbs maxima", "Rōma maxima urbs est"] },
+        { "t": "vīnum optimum est", "en": "the wine is excellent", "alt": ["the wine is very good", "the wine is the best"] },
+        { "t": "aqua melior est quam vīnum", "en": "water is better than wine" },
+        { "t": "cibus pessimus est", "en": "the food is terrible", "alt": ["the food is very bad", "the food is the worst"] },
+        { "t": "mīles fortior est quam dux", "en": "the soldier is braver than the general", "alt": ["the soldier is braver than the leader", "the soldier is braver than the commander", "the soldier is stronger than the general"] }
+      ]
+    },
+    {
+      "title": "Fābulae",
+      "about": "Gods, myths and the words for who and which",
+      "kind": "words",
+      "guide": [
+        { "h": "The gods", "p": "Roman gods matched Greek ones: Iuppiter is Zeus, Neptūnus is Poseidon, Venus is Aphrodite, Mārs is Ares and Minerva is Athena. Several have irregular object forms.", "ex": [["Iovem", "Jupiter (object)"], ["Venerem", "Venus (object)"], ["Mārtem", "Mars (object)"]] },
+        { "h": "Who, which, that", "p": "quī (masculine), quae (feminine) and quod (neuter) join a clause to a noun, taking the noun's gender.", "ex": [["deus quī mare regit", "the god who rules the sea"], ["dea quae in templō est", "the goddess who is in the temple"], ["dōnum quod dedistī", "the gift that you gave"]] },
+        { "h": "As objects", "p": "When the relative is the object in its own clause it changes like a noun: quem, quam, quod. So quam can mean 'whom' as well as 'than'.", "ex": [["deus quem vidēs", "the god whom you see"]] },
+        { "h": "Masculine in -a", "p": "poēta looks like puella but is masculine, and so are its adjectives.", "ex": [["poēta bonus", "a good poet"]] },
+        { "h": "Best and greatest", "p": "Iuppiter Optimus Maximus was Jupiter's official title, and his great temple on the Capitol was the heart of Roman religion." }
+      ],
+      "items": [
+        { "t": "Iuppiter", "en": "Jupiter", "note": "Object: Iovem." },
+        { "t": "Neptūnus", "en": "Neptune" },
+        { "t": "Venus", "en": "Venus", "note": "Object: Venerem." },
+        { "t": "Mārs", "en": "Mars", "note": "Object: Mārtem." },
+        { "t": "Minerva", "en": "Minerva" },
+        { "t": "quī", "en": "who, which", "alt": ["that"], "note": "Feminine quae, neuter quod." },
+        { "t": "fābula", "en": "story", "alt": ["tale", "myth"] },
+        { "t": "caelum", "en": "sky", "alt": ["heaven"] },
+        { "t": "mare", "en": "sea", "note": "Neuter. Plural: maria." },
+        { "t": "regit", "en": "rules", "alt": ["is ruling"] },
+        { "t": "dōnum", "en": "gift", "alt": ["present"] },
+        { "t": "poēta", "en": "poet", "note": "Masculine, though it looks like puella." }
+      ],
+      "sentences": [
+        { "t": "Iuppiter caelum regit", "en": "Jupiter rules the sky", "alt": ["Jupiter rules the heavens", "Jupiter rules heaven"], "talt": ["caelum Iuppiter regit"] },
+        { "t": "Neptūnus mare regit", "en": "Neptune rules the sea", "talt": ["mare Neptūnus regit"] },
+        { "t": "Iuppiter Optimus Maximus", "en": "Jupiter, best and greatest" },
+        { "t": "Mārs est deus quī bellum amat", "en": "Mars is the god who loves war", "alt": ["Mars is the god that loves war"], "talt": ["Mārs deus est quī bellum amat"] },
+        { "t": "dea quae in templō est Minerva est", "en": "the goddess who is in the temple is Minerva", "alt": ["the goddess that is in the temple is Minerva"] },
+        { "t": "dōnum quod mihi dedistī amō", "en": "I love the gift that you gave me", "alt": ["I love the gift which you gave me", "I love the gift you gave me", "I like the gift that you gave me", "I like the gift you gave me"] },
+        { "t": "poēta fābulam scrīpsit", "en": "the poet wrote a story", "alt": ["the poet wrote a tale", "the poet wrote a myth", "the poet has written a story"], "talt": ["fābulam poēta scrīpsit"] },
+        { "t": "Venus Mārtem amāvit", "en": "Venus loved Mars", "talt": ["Mārtem Venus amāvit"] }
+      ]
+    },
+    {
+      "title": "Ubi",
+      "about": "Places, prepositions and the imperfect",
+      "kind": "words",
+      "guide": [
+        { "h": "In, out of, from", "p": "in, ex and ab take the ablative, the ending you met in in domō. It ends in -ā, -ō or -e. Before a consonant ex and ab often shrink to ē and ā.", "ex": [["in vīllā", "in the villa"], ["ex silvā", "out of the forest"], ["ab urbe", "from the city"], ["ā templō", "from the temple"]] },
+        { "h": "Into or in", "p": "With the object ending, in means 'into'. City names need no preposition at all: Rōmam 'to Rome', Rōmā 'from Rome'.", "ex": [["in urbem", "into the city"], ["in urbe", "in the city"]] },
+        { "h": "The imperfect", "p": "-ba- marks what was going on or used to happen. The endings are -bam, -bās, -bat, -bāmus, -bātis, -bant.", "ex": [["in vīllā habitābat", "he lived in a villa"], ["ambulābāmus", "we were walking"]] },
+        { "h": "Was", "p": "sum has its own imperfect: eram, erās, erat, erāmus, erātis, erant.", "ex": [["ubi erās?", "where were you?"]] },
+        { "h": "Imperfect or perfect", "p": "The imperfect paints the background, the perfect says what happened next.", "ex": [["in urbe erāmus, et nūntius vēnit", "we were in the city, and a messenger came"]] }
+      ],
+      "items": [
+        { "t": "ubi", "en": "where" },
+        { "t": "ex", "en": "out of", "alt": ["from"], "note": "Often ē before a consonant." },
+        { "t": "ab", "en": "from", "alt": ["away from", "by"], "note": "Often ā before a consonant." },
+        { "t": "nunc", "en": "now" },
+        { "t": "erat", "en": "was", "alt": ["used to be"] },
+        { "t": "habitābat", "en": "lived", "alt": ["was living", "used to live"], "note": "Present: habitat." },
+        { "t": "vīlla", "en": "villa", "alt": ["country house", "farm"] },
+        { "t": "īnsula", "en": "island", "note": "In Rome also a block of flats." },
+        { "t": "silva", "en": "forest", "alt": ["wood", "woods"] },
+        { "t": "mōns", "en": "mountain", "note": "Object: montem." },
+        { "t": "flūmen", "en": "river", "note": "Neuter. Plural: flūmina." },
+        { "t": "nāvis", "en": "ship", "note": "Object: nāvem." }
+      ],
+      "sentences": [
+        { "t": "ubi habitās?", "en": "where do you live?" },
+        { "t": "in vīllā habitābat", "en": "he lived in a villa", "alt": ["she lived in a villa", "he was living in a villa", "she was living in a villa", "he used to live in a villa", "she used to live in a villa"] },
+        { "t": "puer ex silvā vēnit", "en": "the boy came out of the forest", "alt": ["the boy came out of the woods", "the boy came out of the wood", "the boy came from the forest", "the boy has come out of the forest"], "talt": ["ex silvā puer vēnit"] },
+        { "t": "nāvis ab īnsulā vēnit", "en": "the ship came from the island", "alt": ["the ship has come from the island"], "talt": ["ab īnsulā nāvis vēnit"] },
+        { "t": "mōns magnus erat", "en": "the mountain was big", "alt": ["the mountain was great", "the mountain was large"] },
+        { "t": "flūmen longum erat", "en": "the river was long" },
+        { "t": "in īnsulā erāmus", "en": "we were on the island" },
+        { "t": "nunc in urbe habitō", "en": "now I live in the city", "alt": ["I live in the city now", "now I am living in the city", "I am living in the city now"], "talt": ["in urbe nunc habitō"] },
+        { "t": "ubi erās?", "en": "where were you?" }
+      ]
+    },
+    {
+      "title": "Crās",
+      "about": "The future, infinitives and longer sentences",
+      "kind": "words",
+      "guide": [
+        { "h": "The future", "p": "Verbs like amō and videō add -b-: amābō, amābis, amābit, amābimus, amābitis, amābunt. Most others switch to -am, -ēs, -et, -ēmus, -ētis, -ent.", "ex": [["amābō", "I will love"], ["vidēbis", "you will see"], ["crās veniam", "I will come tomorrow"], ["pugnābunt", "they will fight"]] },
+        { "h": "Will be", "p": "The future of sum is erō, eris, erit, erimus, eritis, erunt.", "ex": [["crās in vīllā erimus", "tomorrow we will be at the villa"]] },
+        { "h": "To do", "p": "The infinitive ends in -re: amāre 'to love', vidēre 'to see', vincere 'to win', venīre 'to come'. 'To be' is esse.", "ex": [["vīvere est cōgitāre", "to live is to think"]] },
+        { "h": "Can and want", "p": "possum 'I can' and volō 'I want' take an infinitive, usually just before them.", "ex": [["Rōmam vidēre volō", "I want to see Rome"], ["dīcere nōn possum", "I cannot say"]] },
+        { "h": "Longer sentences", "p": "sed 'but' and quod 'because' join two clauses, each with its own verb.", "ex": [["Rōmam vēnī, sed rēgem nōn vīdī", "I came to Rome, but I did not see the king"]] },
+        { "h": "Sources", "p": "vīvere est cōgitāre is Cicero, Tusculan Disputations 5.111. vincere scīs, Hannibal is the cavalry commander Maharbal after Cannae in 216 BC, in Livy 22.51: you know how to win a battle, Hannibal, but not how to use the victory." }
+      ],
+      "items": [
+        { "t": "crās", "en": "tomorrow" },
+        { "t": "veniet", "en": "will come", "note": "Present: venit." },
+        { "t": "erit", "en": "will be" },
+        { "t": "esse", "en": "to be" },
+        { "t": "vīvere", "en": "to live" },
+        { "t": "possum", "en": "I can", "alt": ["I am able"] },
+        { "t": "volō", "en": "I want", "alt": ["I wish"], "note": "A different verb from volō 'I fly'." },
+        { "t": "sciō", "en": "I know" },
+        { "t": "sed", "en": "but" },
+        { "t": "quod", "en": "because", "note": "Also the neuter of quī, 'which'." },
+        { "t": "numquam", "en": "never" }
+      ],
+      "sentences": [
+        { "t": "crās veniam", "en": "I will come tomorrow", "alt": ["tomorrow I will come", "I'll come tomorrow"], "talt": ["veniam crās"] },
+        { "t": "nūntius crās veniet", "en": "the messenger will come tomorrow", "alt": ["tomorrow the messenger will come"], "talt": ["crās nūntius veniet"] },
+        { "t": "Rōmam vidēre volō", "en": "I want to see Rome", "talt": ["volō Rōmam vidēre", "Rōmam volō vidēre"] },
+        { "t": "vīvere est cōgitāre", "en": "to live is to think" },
+        { "t": "vincere scīs, Hannibal", "en": "you know how to win, Hannibal", "alt": ["you know how to conquer, Hannibal"] },
+        { "t": "dīcere nōn possum", "en": "I cannot say", "alt": ["I can't say", "I am not able to say"], "talt": ["nōn possum dīcere"] },
+        { "t": "mīlitēs nōn pugnābunt, quod pācem amant", "en": "the soldiers will not fight, because they love peace", "alt": ["the soldiers won't fight, because they love peace"] },
+        { "t": "Rōmam vēnī, sed rēgem nōn vīdī", "en": "I came to Rome, but I did not see the king", "alt": ["I came to Rome, but I didn't see the king", "I came to Rome but did not see the king", "I have come to Rome, but I have not seen the king"] },
+        { "t": "crās in vīllā erimus", "en": "tomorrow we will be at the villa", "alt": ["tomorrow we will be in the villa", "we will be at the villa tomorrow", "we will be in the villa tomorrow"], "talt": ["in vīllā crās erimus"] }
+      ]
+    }
+  ]
+}

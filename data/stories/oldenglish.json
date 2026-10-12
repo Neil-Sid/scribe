@@ -1,0 +1,381 @@
+[
+  {
+    "id": "beowulf",
+    "title": "Hwæt! Wē Gār-Dena",
+    "source": "Beowulf 1–11 (text of ASPR IV, ed. Dobbie; macrons and hyphens added)",
+    "about": "The opening of Beowulf, the longest poem in Old English. Before we meet the hero, the poet calls for attention and tells of Scyld Scefing, the foundling who became king of the Danes.",
+    "unit": 4,
+    "badge": { "name": "Spear-Dane", "about": "Read the opening lines of Beowulf" },
+    "lines": [
+      {
+        "t": "Hwæt! Wē Gār-Dena in gēar-dagum,",
+        "en": "Listen! We have heard of the Spear-Danes in days of old,",
+        "gloss": ["listen", "we", "of the Spear-Danes", "in", "days of old"],
+        "q": { "prompt": "Which people does the poem begin with?", "options": ["the Danes", "the English", "the Geats", "the Romans"], "answer": 0 }
+      },
+      {
+        "t": "þēod-cyninga, þrym gefrūnon,",
+        "en": "the glory of the people's kings,",
+        "gloss": ["of the people's kings", "the glory", "have heard of"]
+      },
+      {
+        "t": "hū ðā æþelingas ellen fremedon.",
+        "en": "how those princes did deeds of courage.",
+        "gloss": ["how", "those", "princes", "courage", "performed"],
+        "q": { "prompt": "What did the princes do?", "options": ["brave deeds", "built a hall", "fled overseas"], "answer": 0 }
+      },
+      {
+        "t": "Oft Scyld Scēfing sceaþena þrēatum, monegum mǣgþum, meodo-setla oftēah,",
+        "en": "Often Scyld Scefing took the mead-benches away from troops of enemies, from many tribes,",
+        "gloss": ["often", "Scyld", "Scefing", "of enemies", "from troops", "from many", "tribes", "mead-benches", "took away"]
+      },
+      {
+        "t": "egsode eorlas.",
+        "en": "and terrified warriors.",
+        "gloss": ["terrified", "warriors"],
+        "q": { "prompt": "What did Scyld do to his enemies?", "options": ["he took their mead-benches and terrified them", "he paid them tribute", "he made peace with them"], "answer": 0 }
+      },
+      {
+        "t": "Syððan ǣrest wearð fēa-sceaft funden, hē þæs frōfre gebād,",
+        "en": "After he was first found destitute, he lived to see comfort for that:",
+        "gloss": ["after", "first", "was", "destitute", "found", "he", "for that", "comfort", "lived to see"],
+        "q": { "prompt": "How did Scyld's life begin?", "options": ["he was found alone and destitute", "he was born a king's son", "he was a famous warrior"], "answer": 0 }
+      },
+      {
+        "t": "wēox under wolcnum, weorð-myndum þāh,",
+        "en": "he grew under the skies and prospered in honours,",
+        "gloss": ["grew", "under", "the skies", "in honours", "prospered"]
+      },
+      {
+        "t": "oðþæt him ǣghwylc þāra ymb-sittendra ofer hron-rāde hȳran scolde,",
+        "en": "until each of the neighbouring peoples across the whale-road had to obey him",
+        "gloss": ["until", "him", "each", "of the", "neighbouring peoples", "over", "the whale-road", "obey", "had to"],
+        "q": { "prompt": "What is the 'whale-road'?", "options": ["the sea", "a river", "a Roman road"], "answer": 0 }
+      },
+      {
+        "t": "gomban gyldan.",
+        "en": "and pay tribute.",
+        "gloss": ["tribute", "pay"]
+      },
+      {
+        "t": "Þæt wæs gōd cyning!",
+        "en": "That was a good king!",
+        "gloss": ["that", "was", "good", "king"],
+        "q": { "prompt": "What does the poet think of Scyld?", "options": ["he was a good king", "he was a cruel king", "he was no king at all"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "faeder-ure",
+    "title": "Fæder ūre",
+    "source": "The Lord's Prayer, West Saxon Gospels, Matthew 6:9–13 (c. 1000; ed. Thorpe, macrons added)",
+    "about": "The Lord's Prayer as it was read in English churches around the year 1000, from the first complete translation of the Gospels into English.",
+    "unit": 5,
+    "badge": { "name": "Paternoster", "about": "Read the Lord's Prayer in Old English" },
+    "lines": [
+      {
+        "t": "Fæder ūre þū þe eart on heofonum,",
+        "en": "Our Father, you who are in heaven,",
+        "gloss": ["father", "our", "you", "who", "are", "in", "heaven"],
+        "q": { "prompt": "Where is the Father?", "options": ["in heaven", "on earth", "in the hall"], "answer": 0 }
+      },
+      {
+        "t": "sī þīn nama gehālgod.",
+        "en": "may your name be hallowed.",
+        "gloss": ["may be", "your", "name", "hallowed"]
+      },
+      {
+        "t": "Tō becume þīn rīce,",
+        "en": "May your kingdom come,",
+        "gloss": ["to (us)", "may come", "your", "kingdom"]
+      },
+      {
+        "t": "gewurþe ðīn willa, on eorðan swā swā on heofonum.",
+        "en": "may your will be done, on earth as in heaven.",
+        "gloss": ["be done", "your", "will", "on", "earth", "just", "as", "in", "heaven"],
+        "q": { "prompt": "Where should God's will be done?", "options": ["on earth as in heaven", "only in heaven", "only in church"], "answer": 0 }
+      },
+      {
+        "t": "Ūrne gedæghwāmlīcan hlāf syle ūs tōdæg,",
+        "en": "Give us today our daily bread,",
+        "gloss": ["our", "daily", "bread", "give", "us", "today"]
+      },
+      {
+        "t": "and forgyf ūs ūre gyltas,",
+        "en": "and forgive us our sins,",
+        "gloss": ["and", "forgive", "us", "our", "sins"]
+      },
+      {
+        "t": "swā swā wē forgyfað ūrum gyltendum.",
+        "en": "just as we forgive those who sin against us.",
+        "gloss": ["just", "as", "we", "forgive", "our", "debtors"],
+        "q": { "prompt": "Whom do we forgive?", "options": ["those who sin against us", "our kings", "our children"], "answer": 0 }
+      },
+      {
+        "t": "And ne gelǣd þū ūs on costnunge,",
+        "en": "And do not lead us into temptation,",
+        "gloss": ["and", "not", "lead", "you", "us", "into", "temptation"]
+      },
+      {
+        "t": "ac ālȳs ūs of yfele.",
+        "en": "but free us from evil.",
+        "gloss": ["but", "free", "us", "from", "evil"],
+        "q": { "prompt": "What does the prayer ask to be freed from?", "options": ["evil", "hunger", "enemies"], "answer": 0 }
+      },
+      {
+        "t": "Sōþlīce.",
+        "en": "Truly. (Amen.)",
+        "gloss": ["truly"]
+      }
+    ]
+  },
+  {
+    "id": "caedmon",
+    "title": "Cædmon's Hymn",
+    "source": "Cædmon's Hymn, West Saxon eorðan version from the Old English Bede (critical text ed. O'Donnell; macrons added)",
+    "about": "Bede tells of Cædmon, a cowherd at Whitby who could not sing, until a figure in a dream told him to sing of the Creation. These nine lines are what he sang, the oldest English poem by a named poet.",
+    "unit": 6,
+    "badge": { "name": "Cowherd's Song", "about": "Read Cædmon's Hymn, the first named English poem" },
+    "lines": [
+      {
+        "t": "Nū sculon herigean heofonrīces weard,",
+        "en": "Now we must praise the guardian of heaven's kingdom,",
+        "gloss": ["now", "(we) must", "praise", "of heaven's kingdom", "the guardian"],
+        "q": { "prompt": "Whom does the poem set out to praise?", "options": ["the guardian of heaven", "a king of the Danes", "Cædmon's abbess"], "answer": 0 }
+      },
+      {
+        "t": "meotodes meahte ond his mōdgeþanc,",
+        "en": "the Measurer's might and his purpose,",
+        "gloss": ["the Measurer's", "might", "and", "his", "purpose"]
+      },
+      {
+        "t": "weorc wuldorfæder, swā hē wundra gehwæs,",
+        "en": "the work of the Father of glory, as he, of every wonder,",
+        "gloss": ["the work", "of the glory-father", "as", "he", "of wonders", "each"]
+      },
+      {
+        "t": "ēce drihten, ōr onstealde!",
+        "en": "the eternal Lord, established the beginning.",
+        "gloss": ["eternal", "Lord", "the beginning", "established"],
+        "q": { "prompt": "What did the eternal Lord establish?", "options": ["the beginning of every wonder", "a monastery", "a kingdom for Cædmon"], "answer": 0 }
+      },
+      {
+        "t": "Hē ǣrest sceōp eorðan bearnum",
+        "en": "He first shaped for the children of earth",
+        "gloss": ["he", "first", "shaped", "of earth", "for the children"]
+      },
+      {
+        "t": "heofon tō hrōfe, hālig scyppend;",
+        "en": "heaven as a roof, the holy Creator;",
+        "gloss": ["heaven", "as", "a roof", "holy", "Creator"],
+        "q": { "prompt": "What did God make first, according to the poem?", "options": ["heaven, as a roof", "the sea", "the sun and moon"], "answer": 0 }
+      },
+      {
+        "t": "þā middangeard, moncynnes weard,",
+        "en": "then the middle-earth, the guardian of mankind,",
+        "gloss": ["then", "middle-earth", "mankind's", "guardian"]
+      },
+      {
+        "t": "ēce drihten, æfter tēode",
+        "en": "the eternal Lord, afterwards made",
+        "gloss": ["eternal", "Lord", "afterwards", "made"]
+      },
+      {
+        "t": "fīrum foldan, frēa ælmihtig.",
+        "en": "the earth for men, the Lord almighty.",
+        "gloss": ["for men", "the earth", "Lord", "almighty"],
+        "q": { "prompt": "For whom was the earth made?", "options": ["for men", "for the angels", "for the animals"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "ohthere",
+    "title": "Ōhthere sǣde his hlāforde",
+    "source": "The voyage of Ohthere, Old English Orosius (Lauderdale MS, text and macrons as in Bright's Anglo-Saxon Reader; trimmed)",
+    "about": "Around 890 a Norwegian named Ohthere visited King Alfred and described his homeland in the far north. Alfred's scholars wrote his account into their English version of Orosius's world history. The Finnas are the Sámi.",
+    "unit": 8,
+    "badge": { "name": "Northernmost", "about": "Read Ohthere's report to King Alfred" },
+    "lines": [
+      {
+        "t": "Ōhthere sǣde his hlāforde, Ælfrēde cyninge,",
+        "en": "Ohthere told his lord, King Alfred,",
+        "gloss": ["Ohthere", "said", "his", "to lord", "to Alfred", "king"],
+        "q": { "prompt": "Who is Ohthere talking to?", "options": ["King Alfred", "a Norse chieftain", "the Pope"], "answer": 0 }
+      },
+      {
+        "t": "ðæt hē ealra Norðmonna norþmest būde.",
+        "en": "that he lived furthest north of all the Norwegians.",
+        "gloss": ["that", "he", "of all", "Northmen", "furthest north", "lived"]
+      },
+      {
+        "t": "Hē cwæð þæt hē būde on þǣm lande norþweardum wiþ þā Westsǣ.",
+        "en": "He said that he lived in the north of the land, along the West Sea.",
+        "gloss": ["he", "said", "that", "he", "lived", "in", "the", "land", "northward", "along", "the", "West Sea"],
+        "q": { "prompt": "Where did Ohthere live?", "options": ["in the north, by the western sea", "in the south of England", "on an island in the east"], "answer": 0 }
+      },
+      {
+        "t": "Hē sǣde þēah þæt þæt land sīe swīþe lang norþ þonan;",
+        "en": "He said, though, that the land runs a very long way north from there;",
+        "gloss": ["he", "said", "though", "that", "the", "land", "is", "very", "long", "north", "from there"]
+      },
+      {
+        "t": "ac hit is eal wēste, būton on fēawum stōwum styccemǣlum wīciað Finnas,",
+        "en": "but it is all wilderness, except that in a few places here and there Finnas camp,",
+        "gloss": ["but", "it", "is", "all", "waste", "except", "in", "few", "places", "here and there", "camp", "Finnas"],
+        "q": { "prompt": "Who lives in the empty land?", "options": ["a few Finnas, here and there", "nobody at all", "farmers in large villages"], "answer": 0 }
+      },
+      {
+        "t": "on huntoðe on wintra, ond on sumera on fiscaþe be þǣre sǣ.",
+        "en": "hunting in winter, and in summer fishing by the sea.",
+        "gloss": ["at", "hunting", "in", "winter", "and", "in", "summer", "at", "fishing", "by", "the", "sea"]
+      },
+      {
+        "t": "Hē sǣde þæt hē æt sumum cirre wolde fandian",
+        "en": "He said that once he wanted to find out",
+        "gloss": ["he", "said", "that", "he", "at", "a certain", "time", "wanted", "to find out"]
+      },
+      {
+        "t": "hū longe þæt land norþryhte lǣge.",
+        "en": "how far the land stretched due north.",
+        "gloss": ["how", "far", "the", "land", "due north", "lay"],
+        "q": { "prompt": "What did Ohthere want to find out?", "options": ["how far north the land went", "where to buy whale bone", "how to reach Rome"], "answer": 0 }
+      },
+      {
+        "t": "Þā fōr hē norþryhte be þǣm lande.",
+        "en": "Then he sailed due north along the land.",
+        "gloss": ["then", "went", "he", "due north", "along", "the", "land"]
+      },
+      {
+        "t": "Þā wæs hē swā feor norþ swā þā hwælhuntan firrest faraþ.",
+        "en": "Then he was as far north as the whale-hunters go at their furthest.",
+        "gloss": ["then", "was", "he", "as", "far", "north", "as", "the", "whale-hunters", "furthest", "go"],
+        "q": { "prompt": "How far north had he come?", "options": ["as far as the whale-hunters ever go", "to the edge of the world", "only a day's sail"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "bede-sparrow",
+    "title": "Ān spearwa",
+    "source": "Old English Bede, the conversion of King Edwin (Latin Historia ecclesiastica II.13; Tanner MS, text and macrons as in Bright's Anglo-Saxon Reader; trimmed)",
+    "about": "In 627 King Edwin of Northumbria asked his council whether to accept Christianity. One adviser answered with the picture of a sparrow flying through the king's hall in winter. This is the late ninth-century English translation of Bede's account.",
+    "unit": 10,
+    "badge": { "name": "Sparrow's Flight", "about": "Read the sparrow in the hall from the Old English Bede" },
+    "lines": [
+      {
+        "t": "Þyslīc mē is gesewen, þū cyning, þis andwearde līf manna on eorðan,",
+        "en": "This is how the present life of men on earth seems to me, O king,",
+        "gloss": ["like this", "to me", "is", "seen", "you", "king", "this", "present", "life", "of men", "on", "earth"],
+        "q": { "prompt": "What is the adviser describing?", "options": ["the life of men on earth", "the king's new hall", "a hunting trip"], "answer": 0 }
+      },
+      {
+        "t": "swylc swā þū æt swǣsendum sitte",
+        "en": "as if you were sitting at a feast",
+        "gloss": ["such", "as", "you", "at", "a feast", "sat"]
+      },
+      {
+        "t": "mid þīnum ealdormannum ond þegnum on wintertīde,",
+        "en": "with your noblemen and thanes in wintertime,",
+        "gloss": ["with", "your", "noblemen", "and", "thanes", "in", "wintertime"]
+      },
+      {
+        "t": "ond sīe fȳr onǣlæd ond þīn heall gewyrmed,",
+        "en": "and the fire were lit and your hall warmed,",
+        "gloss": ["and", "were", "fire", "kindled", "and", "your", "hall", "warmed"]
+      },
+      {
+        "t": "cume ān spearwa ond hrædlīce þæt hūs þurhflēo,",
+        "en": "and a sparrow came and flew swiftly through the house,",
+        "gloss": ["came", "a", "sparrow", "and", "swiftly", "the", "house", "flew through"]
+      },
+      {
+        "t": "cume þurh ōþre duru in, þurh ōþre ūt gewīte.",
+        "en": "coming in through one door and going out through the other.",
+        "gloss": ["came", "through", "one", "door", "in", "through", "the other", "out", "went"],
+        "q": { "prompt": "How does the sparrow pass through the hall?", "options": ["in through one door and out through the other", "down the smoke-hole and up again", "it stays inside all winter"], "answer": 0 }
+      },
+      {
+        "t": "ac þæt bið ān ēagan bryhtm ond þæt lǣsste fæc,",
+        "en": "but that is only the blink of an eye, the shortest moment,",
+        "gloss": ["but", "that", "is", "an", "eye's", "twinkling", "and", "the", "least", "space"],
+        "q": { "prompt": "How long is the sparrow inside?", "options": ["only the blink of an eye", "the whole winter", "until the feast ends"], "answer": 0 }
+      },
+      {
+        "t": "ac hē sōna of wintra on þone winter eft cymeð.",
+        "en": "and soon it passes out of winter into the winter again.",
+        "gloss": ["but", "he", "soon", "out of", "winter", "into", "the", "winter", "again", "comes"]
+      },
+      {
+        "t": "Swā þonne þis monna līf tō medmiclum fæce ætȳweð;",
+        "en": "So this life of men appears for a little while;",
+        "gloss": ["so", "then", "this", "of men", "life", "for", "a small", "space", "appears"],
+        "q": { "prompt": "What does the sparrow stand for?", "options": ["the short life of men", "the king's power", "the coming of spring"], "answer": 0 }
+      },
+      {
+        "t": "hwæt þǣr foregange, oððe hwæt þǣr æfterfylige, wē ne cunnun.",
+        "en": "what went before it, or what will follow, we do not know.",
+        "gloss": ["what", "there", "went before", "or", "what", "there", "follows", "we", "not", "know"],
+        "q": { "prompt": "What does the adviser say we cannot know?", "options": ["what comes before and after this life", "how to keep a hall warm", "when winter will end"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "wanderer",
+    "title": "Oft him ānhaga",
+    "source": "The Wanderer 1–11, Exeter Book (text of ASPR III, ed. Krapp and Dobbie; macrons added)",
+    "about": "The Wanderer is spoken by a warrior who has lost his lord and his companions and now crosses the winter sea alone. A narrator opens the poem, and then the wanderer begins to speak.",
+    "unit": 12,
+    "badge": { "name": "Earth-Stepper", "about": "Read the opening of The Wanderer" },
+    "lines": [
+      {
+        "t": "Oft him ānhaga āre gebīdeð, metudes miltse,",
+        "en": "Often the solitary man waits for grace, for the mercy of the Measurer,",
+        "gloss": ["often", "for himself", "the solitary one", "grace", "waits for", "the Measurer's", "mercy"],
+        "q": { "prompt": "What does the lonely man hope for?", "options": ["God's mercy", "a ship home", "a new lord's gold"], "answer": 0 }
+      },
+      {
+        "t": "þēah þe hē mōdcearig geond lagulāde longe sceolde",
+        "en": "though, sorrowful at heart, he has long had to, across the sea-ways,",
+        "gloss": ["though", "that", "he", "sorrowful", "across", "the sea-ways", "long", "has had to"]
+      },
+      {
+        "t": "hrēran mid hondum hrīmcealde sǣ,",
+        "en": "stir the frost-cold sea with his hands,",
+        "gloss": ["stir", "with", "hands", "frost-cold", "sea"],
+        "q": { "prompt": "What has the man been doing?", "options": ["rowing across an icy sea", "feasting in a hall", "farming his land"], "answer": 0 }
+      },
+      {
+        "t": "wadan wræclāstas.",
+        "en": "and tread the paths of exile.",
+        "gloss": ["travel", "paths of exile"]
+      },
+      {
+        "t": "Wyrd bið ful ārǣd!",
+        "en": "Fate is wholly fixed!",
+        "gloss": ["fate", "is", "fully", "fixed"],
+        "q": { "prompt": "What does the poet say about fate?", "options": ["it is fixed and cannot be changed", "it can be bargained with", "it favours the brave"], "answer": 0 }
+      },
+      {
+        "t": "Swā cwæð eardstapa, earfeþa gemyndig, wrāþra wælsleahta, winemǣga hryre:",
+        "en": "So spoke the earth-stepper, mindful of hardships, of cruel slaughters, of the fall of dear kinsmen:",
+        "gloss": ["so", "spoke", "the earth-stepper", "of hardships", "mindful", "of cruel", "slaughters", "of dear kinsmen", "the fall"],
+        "q": { "prompt": "What does the wanderer remember?", "options": ["hardship, slaughter and the death of his kin", "a happy wedding", "a great victory"], "answer": 0 }
+      },
+      {
+        "t": "Oft ic sceolde āna ūhtna gehwylce mīne ceare cwīþan.",
+        "en": "Often, alone, I have had to lament my sorrow at every dawn.",
+        "gloss": ["often", "I", "have had to", "alone", "of dawns", "each", "my", "sorrow", "lament"]
+      },
+      {
+        "t": "Nis nū cwicra nān",
+        "en": "There is no one now among the living",
+        "gloss": ["is not", "now", "of the living", "none"]
+      },
+      {
+        "t": "þe ic him mōdsefan mīnne durre sweotule āsecgan.",
+        "en": "to whom I dare speak my heart openly.",
+        "gloss": ["that", "I", "to him", "heart", "my", "dare", "openly", "speak out"],
+        "q": { "prompt": "Why does the wanderer grieve alone?", "options": ["no one is left he dares to open his heart to", "he has sworn a vow of silence", "his companions are asleep"], "answer": 0 }
+      }
+    ]
+  }
+]

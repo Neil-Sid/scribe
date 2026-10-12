@@ -1,0 +1,300 @@
+{
+  "sounds": {
+    "intro": "Hieroglyphs write consonants only, so we know which consonants a word had far better than how it sounded. Scholars reconstruct the sounds from Coptic, the last stage of Egyptian written with vowels, from Greek and cuneiform spellings of Egyptian names, and from related Afroasiatic languages. The values below are reconstructions, and several are disputed; the 'like' column also gives the classroom convention for reading aloud.",
+    "groups": [
+      { "h": "Weak consonants", "rows": [
+        { "t": "ꜣ", "g": "𓄿", "ipa": "ʔ (earlier perhaps ʀ or l)", "like": "said 'a' in class; probably a glottal stop, the catch in 'uh-oh'", "ex": "tꜣ", "note": "Older loanwords suggest an r- or l-like sound that later weakened." },
+        { "t": "j", "g": "𓇋", "ipa": "j, ʔ", "like": "said 'i' in class; a 'y' sound, or a glottal stop at the start of a word", "ex": "jt" },
+        { "t": "y", "g": "𓇋𓇋", "ipa": "j", "like": "'y' as in 'yes'", "ex": "ḥꜣy" },
+        { "t": "ꜥ", "g": "𓂝", "ipa": "ʕ", "like": "said 'a' in class; really a throaty sound like Arabic ʿayn", "ex": "ꜥnḫ", "note": "In some words it seems to come from an older d." },
+        { "t": "w", "g": "𓅱", "ipa": "w", "like": "'w' as in 'wet', or 'u' where a vowel is needed", "ex": "wꜥb" }
+      ] },
+      { "h": "Lips, nose and tongue", "rows": [
+        { "t": "b", "g": "𓃀", "ipa": "b", "like": "'b' as in 'bed'", "ex": "nb" },
+        { "t": "p", "g": "𓊪", "ipa": "p", "like": "'p' as in 'pet'", "ex": "pt" },
+        { "t": "f", "g": "𓆑", "ipa": "f", "like": "'f' as in 'fun'", "ex": "nfr" },
+        { "t": "m", "g": "𓅓", "ipa": "m", "like": "'m' as in 'man'", "ex": "mwt" },
+        { "t": "n", "g": "𓈖", "ipa": "n", "like": "'n' as in 'net'", "ex": "nṯr" },
+        { "t": "r", "g": "𓂋", "ipa": "ɾ, l", "like": "a tapped r; there was no separate letter for l, which was written with r or n", "ex": "rn", "note": "A final r often dropped in speech: nfr 'good' became Coptic ⲛⲟⲩϥⲉ noufe." }
+      ] },
+      { "h": "Four kinds of h", "rows": [
+        { "t": "h", "g": "𓉔", "ipa": "h", "like": "'h' as in 'hat'", "ex": "hrw" },
+        { "t": "ḥ", "g": "𓎛", "ipa": "ħ", "like": "a strong breathy h from the throat, like Arabic ḥāʾ", "ex": "ḥtp" },
+        { "t": "ḫ", "g": "𓐍", "ipa": "χ", "like": "'ch' as in Scottish 'loch'", "ex": "ḫt" },
+        { "t": "ẖ", "g": "𓄡", "ipa": "ç", "like": "'ch' as in German 'ich'", "ex": "ẖnw" }
+      ] },
+      { "h": "Hissing sounds", "rows": [
+        { "t": "s (z)", "g": "𓊃", "ipa": "z → s", "like": "said 's'; once a different sound, perhaps z", "ex": "s", "note": "Merged with 𓋴 by the Middle Kingdom. Some books transliterate it z." },
+        { "t": "s", "g": "𓋴", "ipa": "s", "like": "'s' as in 'sun'", "ex": "snb" },
+        { "t": "š", "g": "𓈙", "ipa": "ʃ", "like": "'sh' as in 'ship'", "ex": "šms" }
+      ] },
+      { "h": "Stops", "rows": [
+        { "t": "q", "g": "𓈎", "ipa": "q or kʼ", "like": "a k made further back in the throat", "ex": "ḥqr" },
+        { "t": "k", "g": "𓎡", "ipa": "k", "like": "'k' as in 'king'", "ex": "kmt" },
+        { "t": "g", "g": "𓎼", "ipa": "g or kʼ", "like": "'g' as in 'go' in class", "ex": "grḥ" },
+        { "t": "t", "g": "𓏏", "ipa": "t", "like": "'t' as in 'top'", "ex": "pt" },
+        { "t": "ṯ", "g": "𓍿", "ipa": "c, tʃ", "like": "'ch' as in 'church' in class", "ex": "ṯw" },
+        { "t": "d", "g": "𓂧", "ipa": "tʼ or d", "like": "'d' in class; probably an emphatic t", "ex": "dšrt", "note": "Coptic writes it as t: dj 'give' became ϯ ti." },
+        { "t": "ḏ", "g": "𓆓", "ipa": "cʼ or dʒ", "like": "'j' as in 'judge' in class", "ex": "ḏd", "note": "Coptic writes it ϫ: ḏd 'say' became ϫⲱ djō." }
+      ] }
+    ],
+    "tips": [
+      { "h": "No vowels", "p": "Hieroglyphs write only consonants, so the vowels of Egyptian are lost. Egyptologists slip an e between consonants to make words sayable: nfr 'nefer', ḥtp 'hetep', sḏm 'sedjem'. This is a convention for reading aloud, not a reconstruction." },
+      { "h": "Classroom shortcuts", "p": "By convention ꜣ and ꜥ are both read 'a', j is read 'i' and w 'u' where a vowel is needed: ꜥnḫ 'ankh', jmn 'imen', ḥtp dj nswt 'hetep di nesu'. ṯ is said like the ch of 'church' and ḏ like the j of 'judge'." },
+      { "h": "What Coptic reveals", "p": "Coptic, written in Greek letters from the 3rd century AD, shows real vowels: nṯr 'god' became ⲛⲟⲩⲧⲉ noute, rmṯ 'people' ⲣⲱⲙⲉ rōme, ꜥnḫ 'life' ⲱⲛϩ ōnh and kmt 'Egypt' ⲕⲏⲙⲉ kēme. Sounds shifted over two thousand years, so these are clues rather than Middle Egyptian itself." },
+      { "h": "Greek and cuneiform spellings", "p": "Foreigners wrote Egyptian names with vowels. Greek writers give Amenōphis for Jmn-ḥtp (Amenhotep) and Thoutmōsis for Ḏḥwtj-ms (Thutmose). Cuneiform letters from Amarna call Amenhotep III Nimmureya, from his throne name Nb-mꜣꜥt-rꜥ, and Akhenaten Napḫururiya, from Nfr-ḫprw-rꜥ, so nfr began with something like 'nap' in the 14th century BC." },
+      { "h": "How sure can we be?", "p": "The consonants are fairly secure. The exact values of ꜣ, ꜥ, d, ḏ, g and q are debated, and stress and vowels can only be guessed from much later evidence." }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "Masculine and feminine",
+      "unit": 3,
+      "note": "Feminine words end in -t, the bread loaf 𓏏. The determinatives 𓀀 and 𓁐 show a man or a woman and are not read.",
+      "head": ["", "Masculine", "Feminine"],
+      "rows": [
+        ["son, daughter", { "t": "sꜣ", "g": "𓅭𓏤" }, { "t": "sꜣt", "g": "𓅭𓏏𓁐" }],
+        ["father, mother", { "t": "jt", "g": "𓇋𓏏𓆑𓀀" }, { "t": "mwt", "g": "𓅐𓏏𓁐" }],
+        ["man, woman", { "t": "s", "g": "𓊃𓀀" }, { "t": "ḥmt", "g": "𓈞𓏏𓁐" }],
+        ["good", { "t": "nfr", "g": "𓄤𓆑𓂋" }, { "t": "nfrt", "g": "𓄤𓆑𓂋𓏏" }]
+      ]
+    },
+    {
+      "title": "Joining nouns",
+      "unit": 3,
+      "note": "Two nouns side by side mean 'of'. A suffix on a noun means 'my, your, his'.",
+      "head": ["Pattern", "Example", "Meaning"],
+      "rows": [
+        ["noun + noun", "ḥmt s", "a man's wife"],
+        ["noun + suffix", "sꜣ=j", "my son"],
+        ["noun + ḥnꜥ + noun", "jt ḥnꜥ mwt", "father and mother"]
+      ]
+    },
+    {
+      "title": "Adjectives",
+      "unit": 4,
+      "note": "An adjective follows its noun and agrees with it in gender and number.",
+      "head": ["", "Masculine", "Feminine"],
+      "rows": [
+        ["singular", "pr nfr 'a good house'", "njwt nfrt 'a beautiful town'"],
+        ["plural", "nfrw", "nfrwt"]
+      ]
+    },
+    {
+      "title": "Suffix pronouns",
+      "unit": 5,
+      "note": "On a noun they mean 'my, your, his'; after jw or a verb they are the subject. =j is often written with the speaker's determinative, 𓀀 or 𓁐, or not at all.",
+      "head": ["Person", "Suffix", "On a noun", "After jw"],
+      "rows": [
+        ["I, my", { "t": "=j", "g": "𓀀" }, "pr=j 'my house'", "jw=j 'I am'"],
+        ["you, your (man)", { "t": "=k", "g": "𓎡" }, "pr=k", "jw=k"],
+        ["you, your (woman)", { "t": "=ṯ", "g": "𓍿" }, "pr=ṯ", "jw=ṯ"],
+        ["he, his", { "t": "=f", "g": "𓆑" }, "pr=f", "jw=f"],
+        ["she, her", { "t": "=s", "g": "𓋴" }, "pr=s", "jw=s"],
+        ["we, our", { "t": "=n", "g": "𓈖𓏥" }, "pr=n", "jw=n"],
+        ["you, your (plural)", { "t": "=ṯn", "g": "𓍿𓈖𓏥" }, "pr=ṯn", "jw=ṯn"],
+        ["they, their", { "t": "=sn", "g": "𓋴𓈖𓏥" }, "pr=sn", "jw=sn"]
+      ]
+    },
+    {
+      "title": "Independent pronouns",
+      "unit": 5,
+      "note": "These stand at the head of 'who' sentences: jnk sꜣ=k 'I am your son'.",
+      "head": ["Person", "Pronoun", "Example"],
+      "rows": [
+        ["I", { "t": "jnk", "g": "𓇋𓏌𓎡" }, "jnk sꜣ=k 'I am your son'"],
+        ["you (man)", { "t": "ntk", "g": "𓈖𓏏𓎡" }, "ntk jt=j 'you are my father'"],
+        ["you (woman)", { "t": "ntṯ", "g": "𓈖𓏏𓍿" }, ""],
+        ["he", { "t": "ntf", "g": "𓈖𓏏𓆑" }, ""],
+        ["she", { "t": "nts", "g": "𓈖𓏏𓋴" }, ""],
+        ["we", "jnn", ""],
+        ["you (plural)", { "t": "ntṯn", "g": "𓈖𓏏𓍿𓈖𓏥" }, ""],
+        ["they", { "t": "ntsn", "g": "𓈖𓏏𓋴𓈖𓏥" }, ""]
+      ]
+    },
+    {
+      "title": "Sentences without a verb",
+      "unit": 5,
+      "note": "Egyptian needs no verb 'to be'. jw marks a plain statement and is not translated.",
+      "head": ["Type", "Pattern", "Example", "Meaning"],
+      "rows": [
+        ["where", "jw + subject + place", "jw rꜥ m pt", "the sun is in the sky"],
+        ["who (I, you)", "jnk or ntk + noun", "jnk sꜣ=k", "I am your son"],
+        ["who (he, she, it)", "noun + pw", "sꜣ=j pw", "he is my son"],
+        ["what like (unit 8)", "adjective + subject", "nfr sw", "he is good"]
+      ]
+    },
+    {
+      "title": "The offering formula",
+      "unit": 6,
+      "note": "The prayer on Middle Kingdom stelae, false doors and coffins. Its parts are taught across units 6, 9 and 10.",
+      "head": ["Part", "Egyptian", "Meaning"],
+      "rows": [
+        ["opening", { "t": "ḥtp dj nswt", "g": "𓇓𓏏𓊵𓏙" }, "an offering that the king gives"],
+        ["god", { "t": "wsjr", "g": "𓊨𓁹𓀭" }, "(to) Osiris"],
+        ["wish", { "t": "dj=f prt-ḫrw", "g": "𓂞𓆑 𓉓" }, "so that he may give an invocation offering"],
+        ["gifts", "t ḥnqt kꜣw ꜣpdw", "bread, beer, oxen and fowl"],
+        ["for whom", "n kꜣ n jmꜣḫw N", "for the ka of the honoured N"]
+      ]
+    },
+    {
+      "title": "The past: sḏm.n=f",
+      "unit": 7,
+      "note": "Verb + .n + subject. Verbs ending in j drop it in writing, so jrj 'do' gives jr.n=f.",
+      "head": ["Subject", "sḏm 'hear'", "jrj 'do'", "Meaning"],
+      "rows": [
+        ["I", { "t": "sḏm.n=j", "g": "𓄔𓅓𓈖𓀀" }, { "t": "jr.n=j", "g": "𓁹𓈖𓀀" }, "I heard, I did"],
+        ["you", { "t": "sḏm.n=k", "g": "𓄔𓅓𓈖𓎡" }, { "t": "jr.n=k", "g": "𓁹𓈖𓎡" }, "you heard, you did"],
+        ["he", { "t": "sḏm.n=f", "g": "𓄔𓅓𓈖𓆑" }, { "t": "jr.n=f", "g": "𓁹𓈖𓆑" }, "he heard, he did"],
+        ["she", { "t": "sḏm.n=s", "g": "𓄔𓅓𓈖𓋴" }, { "t": "jr.n=s", "g": "𓁹𓈖𓋴" }, "she heard, she did"],
+        ["we", { "t": "sḏm.n=n", "g": "𓄔𓅓𓈖𓈖𓏥" }, { "t": "jr.n=n", "g": "𓁹𓈖𓈖𓏥" }, "we heard, we did"],
+        ["they", { "t": "sḏm.n=sn", "g": "𓄔𓅓𓈖𓋴𓈖𓏥" }, { "t": "jr.n=sn", "g": "𓁹𓈖𓋴𓈖𓏥" }, "they heard, they did"],
+        ["the king", "sḏm.n nswt", "jr.n nswt", "the king heard, the king did"]
+      ]
+    },
+    {
+      "title": "Prepositions",
+      "unit": 7,
+      "note": "Prepositions take nouns or suffixes: n=j 'to me', ḥnꜥ=f 'with him'.",
+      "head": ["Word", "Meaning", "Example"],
+      "rows": [
+        [{ "t": "m", "g": "𓅓" }, "in, from, as", "jw=f m pr 'he is in the house'"],
+        [{ "t": "ḥr", "g": "𓁷𓏤" }, "on", "jw nswt ḥr st=f 'the king is on his throne'"],
+        [{ "t": "n", "g": "𓈖" }, "to, for", "ḏd.n=f n=j 'he said to me'"],
+        [{ "t": "r", "g": "𓂋" }, "to, towards", "jj.n=s r pr 'she came to the house'"],
+        [{ "t": "ḥnꜥ", "g": "𓎛𓈖𓂝" }, "with, and", "jt ḥnꜥ mwt 'father and mother'"],
+        [{ "t": "mj", "g": "𓏇𓇋" }, "like", "mj rꜥ 'like Ra'"]
+      ]
+    },
+    {
+      "title": "Dependent pronouns",
+      "unit": 8,
+      "note": "Used as the object of a verb and as the subject after an adjective or nn. They come straight after the word they lean on.",
+      "head": ["Person", "Pronoun", "Example"],
+      "rows": [
+        ["me", { "t": "wj", "g": "𓅱𓀀" }, "mꜣ.n=f wj 'he saw me'"],
+        ["you (man)", { "t": "ṯw", "g": "𓍿𓅱" }, "ḥzj ṯw nswt 'may the king praise you'"],
+        ["you (woman)", { "t": "ṯn", "g": "𓍿𓈖" }, ""],
+        ["him, he", { "t": "sw", "g": "𓇓𓅱" }, "nfr sw 'he is good'"],
+        ["her, it", { "t": "st", "g": "𓋴𓏏" }, "also sj"],
+        ["us", { "t": "n", "g": "𓈖𓏥" }, ""],
+        ["you (plural)", { "t": "ṯn", "g": "𓍿𓈖𓏥" }, ""],
+        ["them", { "t": "sn", "g": "𓋴𓈖𓏥" }, ""]
+      ]
+    },
+    {
+      "title": "The stative (pseudoparticiple)",
+      "unit": 8,
+      "note": "Describes a state, or a finished movement with verbs like jj 'come'. Endings follow Allen's Middle Egyptian; the 3rd person masculine .w is usually not written.",
+      "head": ["Person", "Ending", "Example", "Meaning"],
+      "rows": [
+        ["I", { "t": ".kw", "g": "𓎡𓅱" }, "jw=j ḥms.kw", "I am sitting"],
+        ["you", { "t": ".tj", "g": "𓏏𓏭" }, "jw=k ꜥnḫ.tj", "you are alive"],
+        ["he", ".w", "jw=f ḥms.w", "he is sitting"],
+        ["she", { "t": ".tj", "g": "𓏏𓏭" }, "jw=s jj.tj", "she has come"],
+        ["we", ".wn", "", ""],
+        ["you (plural)", ".tjwn", "", ""],
+        ["they", ".w", "", ""]
+      ]
+    },
+    {
+      "title": "Numbers",
+      "unit": 9,
+      "note": "Numbers are tallies: repeat a sign to add it up, so 𓎆𓎆𓎆 is 30. They follow the noun, which usually stays singular.",
+      "head": ["Value", "Word and sign", "The sign shows"],
+      "rows": [
+        ["1", { "t": "wꜥ", "g": "𓏺" }, "a stroke"],
+        ["2", { "t": "snwj", "g": "𓏻" }, "two strokes"],
+        ["3", { "t": "ḫmtw", "g": "𓏼" }, "three strokes"],
+        ["4", { "t": "jfdw", "g": "𓏽" }, "four strokes"],
+        ["5", { "t": "djw", "g": "𓏾" }, "five strokes"],
+        ["6", { "t": "sjsw", "g": "𓏿" }, "six strokes"],
+        ["7", { "t": "sfḫw", "g": "𓐀" }, "seven strokes"],
+        ["8", { "t": "ḫmnw", "g": "𓐁" }, "eight strokes"],
+        ["9", { "t": "psḏw", "g": "𓐂" }, "nine strokes"],
+        ["10", { "t": "mḏw", "g": "𓎆" }, "a cattle hobble"],
+        ["100", { "t": "št", "g": "𓍢" }, "a coil of rope"],
+        ["1,000", { "t": "ḫꜣ", "g": "𓆼" }, "a lotus plant"],
+        ["10,000", { "t": "ḏbꜥ", "g": "𓂭" }, "a finger"],
+        ["100,000", { "t": "ḥfn", "g": "𓆐" }, "a tadpole"],
+        ["1,000,000", { "t": "ḥḥ", "g": "𓁨" }, "the god Heh"]
+      ]
+    },
+    {
+      "title": "Singular, dual and plural",
+      "unit": 9,
+      "note": "Plurals are written with three strokes 𓏥 or a sign drawn three times, as in 𓊹𓊹𓊹 nṯrw 'gods'. The dual is for pairs: tꜣwj 'the Two Lands'.",
+      "head": ["", "Masculine", "Feminine"],
+      "rows": [
+        ["singular", "sꜣ 'son'", "sꜣt 'daughter'"],
+        ["dual", "sꜣwj 'two sons'", "sꜣtj 'two daughters'"],
+        ["plural", "sꜣw 'sons'", "sꜣwt 'daughters'"]
+      ]
+    },
+    {
+      "title": "Verb forms at a glance",
+      "unit": 10,
+      "note": "Egyptologists name every form after sḏm 'hear' with =f 'he'.",
+      "head": ["Form", "Example", "Meaning", "Unit"],
+      "rows": [
+        ["past (sḏm.n=f)", "sḏm.n=f", "he heard", "7"],
+        ["stative", "jw=f ḥms.w", "he is sitting", "8"],
+        ["sḏm=f", "dj=f", "may he give", "10"],
+        ["future", "jw=f r sḏm", "he will hear", "10"],
+        ["negative command", "m sḏm", "do not hear!", "11"],
+        ["imperative", "sḏm", "hear!", "12"]
+      ]
+    },
+    {
+      "title": "Infinitives",
+      "unit": 10,
+      "note": "The infinitive follows r in the future construction. Verbs ending in j, and šmj, add t.",
+      "head": ["Verb", "Infinitive", "Example"],
+      "rows": [
+        ["sḏm 'hear'", { "t": "sḏm", "g": "𓄔𓅓" }, "jw=f r sḏm 'he will hear'"],
+        ["mꜣꜣ 'see'", { "t": "mꜣꜣ", "g": "𓌳𓁹𓄿𓄿" }, "jw=n r mꜣꜣ nswt 'we will see the king'"],
+        ["jrj 'do'", { "t": "jrt", "g": "𓁹𓏏" }, "jw=j r jrt mꜣꜥt 'I will do what is right'"],
+        ["rḏj 'give'", { "t": "rḏjt", "g": "𓂋𓂝𓏏" }, ""],
+        ["jj 'come'", { "t": "jjt", "g": "𓇍𓇋𓏏𓂻" }, "jw=sn r jjt 'they will come'"],
+        ["prj 'go out'", { "t": "prt", "g": "𓉐𓂋𓏏𓂻" }, "prt m hrw 'going out by day'"],
+        ["šmj 'go'", { "t": "šmt", "g": "𓈝𓅓𓏏𓂻" }, "jw=f r šmt r ẖnw 'he will go to the Residence'"]
+      ]
+    },
+    {
+      "title": "Negation",
+      "unit": 11,
+      "note": "n negates verbs, nn denies that something exists or is there, m forbids. n sḏm=f is past, n sḏm.n=f is present or 'cannot'.",
+      "head": ["Pattern", "Example", "Meaning"],
+      "rows": [
+        ["n sḏm=f", "n sḏm=f ḫrw=j", "he did not hear my voice"],
+        ["n sḏm.n=f", "n mdw.n=f", "he cannot speak"],
+        ["nn + noun", "nn s m pr", "there is no one in the house"],
+        ["nn + pronoun", "nn sw m pr", "he is not in the house"],
+        ["m + verb", "m snḏ", "do not be afraid"]
+      ]
+    },
+    {
+      "title": "Questions",
+      "unit": 11,
+      "note": "jn makes a yes-or-no question; question words often take pw 'it'.",
+      "head": ["Word", "Use", "Example"],
+      "rows": [
+        [{ "t": "jn", "g": "𓇋𓈖" }, "yes or no?", "jn ntk sꜣ=j 'are you my son?'"],
+        [{ "t": "nm", "g": "𓈖𓅓𓂝" }, "who?", "nm jn ṯw 'who brought you?'"],
+        [{ "t": "jšst", "g": "𓇋𓍱𓋴𓏏𓀁" }, "what?", "jšst pw 'what is it?'"]
+      ]
+    },
+    {
+      "title": "Forms of literature",
+      "unit": 12,
+      "note": "Commands, participles and the indirect genitive are everywhere in teachings, tales and spells.",
+      "head": ["Form", "Example", "Meaning"],
+      "rows": [
+        ["imperative", "jr mꜣꜥt", "do what is right"],
+        ["active participle", "šms nb=f", "who follows his lord"],
+        ["passive participle", "nn msy sꜣw", "no one is born wise"],
+        ["n, nt, nw 'of'", "rꜣw nw prt m hrw", "spells for going out by day"]
+      ]
+    }
+  ]
+}

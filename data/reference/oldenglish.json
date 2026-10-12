@@ -1,0 +1,360 @@
+{
+  "sounds": {
+    "intro": "Old English spelling was close to phonetic, and scholars reconstruct its sounds from the values of the Latin alphabet, from the alliteration of verse and from the regular changes that led to Middle and Modern English. This guide follows the late West Saxon pronunciation of around 1000 described in Mitchell and Robinson's Guide to Old English. The consonants and simple vowels are fairly secure. The exact sound of the diphthongs is not.",
+    "groups": [
+      { "h": "Short vowels", "rows": [
+        { "t": "a", "ipa": "ɑ", "like": "a short version of the a in 'father'", "ex": "mann, land" },
+        { "t": "æ", "ipa": "æ", "like": "a in 'cat'", "ex": "fæder, wæs" },
+        { "t": "e", "ipa": "e", "like": "e in 'bet'", "ex": "helpan, betst" },
+        { "t": "i", "ipa": "i", "like": "i in 'sit', a little tenser", "ex": "is, cild" },
+        { "t": "o", "ipa": "o", "like": "o in British 'hot', with rounded lips", "ex": "God, dohtor" },
+        { "t": "u", "ipa": "u", "like": "u in 'put'", "ex": "sunu, hund" },
+        { "t": "y", "ipa": "y", "like": "i in 'sit' said with rounded lips, like German ü in 'Mütter'", "ex": "wyrd, cyning" }
+      ] },
+      { "h": "Long vowels", "rows": [
+        { "t": "ā", "ipa": "ɑː", "like": "a in 'father'", "ex": "hāl, hām" },
+        { "t": "ǣ", "ipa": "æː", "like": "a in 'cat', held longer", "ex": "sǣ, wǣron" },
+        { "t": "ē", "ipa": "eː", "like": "German ee in 'See', or 'they' without the glide", "ex": "hē, cwēn" },
+        { "t": "ī", "ipa": "iː", "like": "i in 'machine'", "ex": "wīf, wīs" },
+        { "t": "ō", "ipa": "oː", "like": "German o in 'Sohn', or 'go' without the glide", "ex": "mōdor, gōd" },
+        { "t": "ū", "ipa": "uː", "like": "oo in 'cool'", "ex": "hūs, þū" },
+        { "t": "ȳ", "ipa": "yː", "like": "German ü in 'kühn', French u in 'pur'", "ex": "lȳtel" },
+        { "t": "œ", "ipa": "ø", "like": "German ö", "ex": "ēþel", "note": "Only in the rune row and early or Anglian texts. West Saxon had already turned it into e." }
+      ] },
+      { "h": "Diphthongs", "rows": [
+        { "t": "ea, ēa", "ipa": "æɑ, æːɑ", "like": "a of 'cat' sliding to a of 'father'", "ex": "heall, eald, bēag" },
+        { "t": "eo, ēo", "ipa": "eo, eːo", "like": "e of 'bet' sliding to o", "ex": "heorte, sweord, hēo" },
+        { "t": "ie, īe", "ipa": "iy?, iːy?", "like": "uncertain, perhaps i sliding to a rounded vowel", "ex": "hīe, hīerde, ieldra", "note": "An early West Saxon spelling. By 1000 these words were written and said with i or y: hīeran became hȳran." }
+      ] },
+      { "h": "c, g and sc", "rows": [
+        { "t": "c", "ipa": "k", "like": "k, the usual value", "ex": "cwēn, cyning" },
+        { "t": "c", "ipa": "tʃ", "like": "ch in 'church', next to i and often before e, æ and ea", "ex": "cild, ic, ēce", "note": "Some editions write it ċ. cyning keeps k because its y was once u." },
+        { "t": "cg", "ipa": "ddʒ", "like": "dge in 'edge'", "ex": "secgan" },
+        { "t": "sc", "ipa": "ʃ", "like": "sh in 'ship'", "ex": "scip, scop, sceal" },
+        { "t": "g", "ipa": "g", "like": "g in 'good', before consonants and back vowels", "ex": "gōd, gold" },
+        { "t": "g", "ipa": "j", "like": "y in 'yes', next to front vowels", "ex": "gē, geong, dæg", "note": "Some editions write it ġ." },
+        { "t": "g", "ipa": "ɣ", "like": "a g with the tongue not quite closing, between back vowels", "ex": "lagu" },
+        { "t": "ng", "ipa": "ŋg", "like": "ng in 'finger', never as in 'singer'", "ex": "singan, cyning" }
+      ] },
+      { "h": "Other consonants", "rows": [
+        { "t": "h", "ipa": "h", "like": "h in 'house', at the start of a word", "ex": "hūs, hāl" },
+        { "t": "h", "ipa": "x, ç", "like": "ch in Scottish 'loch' after back vowels, German 'ich' after front ones", "ex": "dohtor, beorht, seah" },
+        { "t": "hw, hl, hn, hr", "ipa": "hw, l̥, n̥, r̥", "like": "a breathed h before w, l, n and r", "ex": "hwæt, hlāford, hronrād" },
+        { "t": "f, s, þ, ð", "ipa": "f, s, θ / v, z, ð", "like": "voiceless f, s, th at the start and end; voiced v, z, th between voiced sounds", "ex": "fæder, ofer, wīsre, þū, brōþor", "note": "þ and ð are the same letter in practice and can stand for either sound." },
+        { "t": "r", "ipa": "r", "like": "a rolled or tapped r, pronounced everywhere", "ex": "rīce, heorte" },
+        { "t": "double consonants", "ipa": "nː, lː", "like": "held longer, as in 'pen-knife'", "ex": "mann, sunne, heall" }
+      ] }
+    ],
+    "tips": [
+      { "h": "Stress", "p": "Stress the first syllable of the root: CY-ning, HLĀ-ford, HEO-fon. Verb prefixes such as ge-, be-, for-, on- and ā- are never stressed (ge-BRÆC, on-LĒAC). Nouns often stress theirs, as in AND-swaru 'answer'." },
+      { "h": "No silent letters", "p": "Every letter is said. Final -e is a light vowel (heorte has two syllables), c and n are both heard in cniht, and w and r in wrecan." },
+      { "h": "Length matters", "p": "Vowel length changes meaning: God 'God' but gōd 'good', is 'is' but īs 'ice'. Scribes almost never marked it. Macrons are a modern editor's aid." },
+      { "h": "Soft c and g", "p": "Whether c and g soften depends on the vowels around them in prehistoric English, not on the spelling you see, so learn the sound with the word. This course does not print the dots some textbooks use." },
+      { "h": "Early and late West Saxon", "p": "The course spells words in normalised early West Saxon, as many textbooks do. The sounds here are the later West Saxon of Ælfric's time, when ie had become i or y." }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "The futhorc",
+      "unit": 1,
+      "note": "The 24 runes of unit 1 with the names the Old English Rune Poem gives them.",
+      "head": ["Rune", "Name", "Meaning"],
+      "rows": [
+        [{ "t": "f", "g": "ᚠ" }, "feoh", "wealth"],
+        [{ "t": "u", "g": "ᚢ" }, "ūr", "aurochs"],
+        [{ "t": "þ", "g": "ᚦ" }, "þorn", "thorn"],
+        [{ "t": "o", "g": "ᚩ" }, "ōs", "god, or mouth"],
+        [{ "t": "r", "g": "ᚱ" }, "rād", "riding"],
+        [{ "t": "c", "g": "ᚳ" }, "cēn", "torch"],
+        [{ "t": "g", "g": "ᚷ" }, "gyfu", "gift"],
+        [{ "t": "w", "g": "ᚹ" }, "wynn", "joy"],
+        [{ "t": "h", "g": "ᚻ" }, "hægl", "hail"],
+        [{ "t": "n", "g": "ᚾ" }, "nȳd", "need"],
+        [{ "t": "i", "g": "ᛁ" }, "īs", "ice"],
+        [{ "t": "p", "g": "ᛈ" }, "peorð", "unknown"],
+        [{ "t": "s", "g": "ᛋ" }, "sigel", "sun"],
+        [{ "t": "t", "g": "ᛏ" }, "Tīr", "a star"],
+        [{ "t": "b", "g": "ᛒ" }, "beorc", "birch"],
+        [{ "t": "e", "g": "ᛖ" }, "eh", "horse"],
+        [{ "t": "m", "g": "ᛗ" }, "mann", "man"],
+        [{ "t": "l", "g": "ᛚ" }, "lagu", "sea"],
+        [{ "t": "ng", "g": "ᛝ" }, "Ing", "a hero"],
+        [{ "t": "œ", "g": "ᛟ" }, "ēþel", "homeland"],
+        [{ "t": "d", "g": "ᛞ" }, "dæg", "day"],
+        [{ "t": "a", "g": "ᚪ" }, "āc", "oak"],
+        [{ "t": "æ", "g": "ᚫ" }, "æsc", "ash tree"],
+        [{ "t": "y", "g": "ᚣ" }, "ȳr", "bow"]
+      ]
+    },
+    {
+      "title": "wesan 'to be': now",
+      "unit": 2,
+      "note": "ne before the verb fuses with it: ne is becomes nis.",
+      "head": ["", "Positive", "Negative"],
+      "rows": [
+        ["ic", "eom", "neom"],
+        ["þū", "eart", "neart"],
+        ["hē, hēo, hit", "is", "nis"],
+        ["wē, gē, hīe", "sindon", "ne sindon"]
+      ]
+    },
+    {
+      "title": "Three genders",
+      "unit": 3,
+      "note": "Gender belongs to the word, not the thing: wīf 'woman' is neuter.",
+      "head": ["", "Masculine", "Feminine", "Neuter"],
+      "rows": [
+        ["'the'", "se", "sēo", "þæt"],
+        ["family", "se fæder", "sēo mōdor", "þæt cild"],
+        ["family", "se brōþor", "sēo sweostor", "þæt wīf"],
+        ["things", "se hund", "sēo heall", "þæt hūs"]
+      ]
+    },
+    {
+      "title": "se, sēo, þæt: subject and object",
+      "unit": 4,
+      "note": "The article shows who does what, so word order can change. Most nouns keep the same form.",
+      "head": ["", "Masculine", "Feminine", "Neuter"],
+      "rows": [
+        ["Subject (nominative)", "se cyning", "sēo cwēn", "þæt sweord"],
+        ["Object (accusative)", "þone cyning", "þā cwēn", "þæt sweord"]
+      ]
+    },
+    {
+      "title": "Present tense",
+      "unit": 4,
+      "note": "Weak lufian keeps its vowel. Strong verbs take -e, -st, -þ in the singular and change their vowel only in the past.",
+      "head": ["", "lufian 'love' (weak)", "drincan 'drink' (strong)", "singan 'sing' (strong)"],
+      "rows": [
+        ["ic", "lufie", "drince", "singe"],
+        ["þū", "lufast", "drincst", "singst"],
+        ["hē, hēo, hit", "lufaþ", "drincþ", "singþ"],
+        ["wē, gē, hīe", "lufiaþ", "drincaþ", "singaþ"]
+      ]
+    },
+    {
+      "title": "The two verbs 'to be'",
+      "unit": 5,
+      "note": "wesan describes how things are now. bēon states general truths and what will be.",
+      "head": ["", "wesan", "bēon"],
+      "rows": [
+        ["ic", "eom", "bēo"],
+        ["þū", "eart", "bist"],
+        ["hē, hēo, hit", "is", "biþ"],
+        ["wē, gē, hīe", "sindon", "bēoþ"]
+      ]
+    },
+    {
+      "title": "Weak nouns",
+      "unit": 5,
+      "note": "Weak nouns end in -an everywhere except the nominative singular and the neuter accusative singular. eorþe goes like sunne: on eorþan.",
+      "head": ["", "nama 'name' (m)", "sunne 'sun' (f)", "ēage 'eye' (n)"],
+      "rows": [
+        ["Nominative", "nama", "sunne", "ēage"],
+        ["Accusative", "naman", "sunnan", "ēage"],
+        ["Genitive", "naman", "sunnan", "ēagan"],
+        ["Dative", "naman", "sunnan", "ēagan"],
+        ["Nom./Acc. plural", "naman", "sunnan", "ēagan"],
+        ["Genitive plural", "namena", "sunnena", "ēagena"],
+        ["Dative plural", "namum", "sunnum", "ēagum"]
+      ]
+    },
+    {
+      "title": "Past tense",
+      "unit": 7,
+      "note": "Weak verbs add -de or -ode. Strong verbs change their vowel, often to a different one in the plural.",
+      "head": ["", "lufian 'love'", "hīeran 'hear'", "singan 'sing'", "wesan 'be'"],
+      "rows": [
+        ["ic", "lufode", "hīerde", "sang", "wæs"],
+        ["þū", "lufodest", "hīerdest", "sunge", "wǣre"],
+        ["hē, hēo, hit", "lufode", "hīerde", "sang", "wæs"],
+        ["wē, gē, hīe", "lufodon", "hīerdon", "sungon", "wǣron"]
+      ]
+    },
+    {
+      "title": "Strong verb classes",
+      "unit": 7,
+      "note": "Each class has its own pattern of vowels. The past participle usually takes ge- in front: gesungen 'sung'.",
+      "head": ["Class", "Infinitive", "Past singular", "Past plural", "Past participle"],
+      "rows": [
+        ["I", "rīdan 'ride'", "rād", "ridon", "riden"],
+        ["II", "bēodan 'offer'", "bēad", "budon", "boden"],
+        ["III", "singan 'sing'", "sang", "sungon", "sungen"],
+        ["III", "drincan 'drink'", "dranc", "druncon", "druncen"],
+        ["IV", "cuman 'come'", "cōm", "cōmon", "cumen"],
+        ["V", "giefan 'give'", "geaf", "gēafon", "giefen"],
+        ["V", "cweþan 'say'", "cwæþ", "cwǣdon", "cweden"],
+        ["V", "sēon 'see'", "seah", "sāwon", "sewen"],
+        ["VI", "faran 'go'", "fōr", "fōron", "faren"],
+        ["VII", "healdan 'hold'", "hēold", "hēoldon", "healden"],
+        ["VII", "hātan 'call'", "hēt", "hēton", "hāten"]
+      ]
+    },
+    {
+      "title": "se, sēo, þæt in every case",
+      "unit": 8,
+      "note": "þǣm is also spelled þām. The instrumental þȳ survives in 'the more, the merrier', and as þē in hige sceal þē heardra.",
+      "head": ["", "Masculine", "Feminine", "Neuter", "Plural"],
+      "rows": [
+        ["Nominative", "se", "sēo", "þæt", "þā"],
+        ["Accusative", "þone", "þā", "þæt", "þā"],
+        ["Genitive", "þæs", "þǣre", "þæs", "þāra"],
+        ["Dative", "þǣm", "þǣre", "þǣm", "þǣm"],
+        ["Instrumental", "þȳ, þon", "þǣre", "þȳ, þon", "þǣm"]
+      ]
+    },
+    {
+      "title": "Strong nouns",
+      "unit": 8,
+      "note": "bēag goes like stān and land like word. Long neuters such as word have no plural ending, which is why we still say sheep and deer.",
+      "head": ["", "stān 'stone' (m)", "scip 'ship' (n)", "word 'word' (n)", "giefu 'gift' (f)", "lār 'teaching' (f)"],
+      "rows": [
+        ["Nominative", "stān", "scip", "word", "giefu", "lār"],
+        ["Accusative", "stān", "scip", "word", "giefe", "lāre"],
+        ["Genitive", "stānes", "scipes", "wordes", "giefe", "lāre"],
+        ["Dative", "stāne", "scipe", "worde", "giefe", "lāre"],
+        ["Nom./Acc. plural", "stānas", "scipu", "word", "giefa", "lāra"],
+        ["Genitive plural", "stāna", "scipa", "worda", "giefa", "lāra"],
+        ["Dative plural", "stānum", "scipum", "wordum", "giefum", "lārum"]
+      ]
+    },
+    {
+      "title": "Prepositions",
+      "unit": 8,
+      "note": "With on, in, ofer and under, the dative says where something is and the accusative where it is going.",
+      "head": ["Preposition", "Case", "Meaning", "Example"],
+      "rows": [
+        ["tō", "dative", "to", "tō þǣm cyninge"],
+        ["mid", "dative", "with", "mid þǣm cyninge"],
+        ["of", "dative", "out of, from", "of þǣm hūse"],
+        ["fram", "dative", "from, by", "fram þǣm lande"],
+        ["æt", "dative", "at", "æt hām"],
+        ["be", "dative", "by, about", "be þǣre sǣ"],
+        ["æfter", "dative", "after", "æfter þǣm"],
+        ["on", "dative or accusative", "on, in, into", "on healle"],
+        ["in", "dative or accusative", "in, into", "in gēardagum"],
+        ["ofer", "dative or accusative", "over, across", "ofer sǣ"],
+        ["under", "dative or accusative", "under", "under wolcnum"],
+        ["þurh", "accusative", "through", "þurh ōþre duru"]
+      ]
+    },
+    {
+      "title": "Pronouns: I, we two, we, you, you two, you all",
+      "unit": 9,
+      "note": "The genitives mīn, þīn, ūre, ēower, uncer and incer also serve as 'my, your, our' and take adjective endings. Poetry also has the accusatives mec, þec, ūsic and ēowic.",
+      "head": ["", "ic", "wit", "wē", "þū", "git", "gē"],
+      "rows": [
+        ["Nominative", "ic", "wit", "wē", "þū", "git", "gē"],
+        ["Accusative", "mē", "unc", "ūs", "þē", "inc", "ēow"],
+        ["Genitive", "mīn", "uncer", "ūre", "þīn", "incer", "ēower"],
+        ["Dative", "mē", "unc", "ūs", "þē", "inc", "ēow"]
+      ]
+    },
+    {
+      "title": "Pronouns: he, it, she, they",
+      "unit": 9,
+      "note": "his, hire and hiera 'their' never change their endings. Spellings vary a lot: hiere, heora, hiora and hī all occur.",
+      "head": ["", "hē", "hit", "hēo", "hīe"],
+      "rows": [
+        ["Nominative", "hē", "hit", "hēo", "hīe"],
+        ["Accusative", "hine", "hit", "hīe", "hīe"],
+        ["Genitive", "his", "his", "hire", "hiera"],
+        ["Dative", "him", "him", "hire", "him"]
+      ]
+    },
+    {
+      "title": "Modal verbs",
+      "unit": 10,
+      "note": "Their presents have no -þ for hē, and their pasts are weak. durran 'dare' works the same way.",
+      "head": ["Infinitive", "ic, hē", "þū", "wē, gē, hīe", "Past", "Meaning"],
+      "rows": [
+        ["sculan", "sceal", "scealt", "sculon", "sceolde", "must, shall"],
+        ["willan", "wille, wile", "wilt", "willaþ", "wolde", "want, will"],
+        ["magan", "mæg", "meaht", "magon", "meahte", "can, be able"],
+        ["mōtan", "mōt", "mōst", "mōton", "mōste", "may, be allowed"],
+        ["cunnan", "cann", "canst", "cunnon", "cūþe", "know how"],
+        ["durran", "dear", "dearst", "durron", "dorste", "dare"]
+      ]
+    },
+    {
+      "title": "Strong adjectives: gōd",
+      "unit": 11,
+      "note": "Used when there is no article. Many endings echo se, sēo, þæt: gōdne and þone, gōdre and þǣre.",
+      "head": ["", "Masculine", "Neuter", "Feminine"],
+      "rows": [
+        ["Nominative", "gōd", "gōd", "gōd"],
+        ["Accusative", "gōdne", "gōd", "gōde"],
+        ["Genitive", "gōdes", "gōdes", "gōdre"],
+        ["Dative", "gōdum", "gōdum", "gōdre"],
+        ["Instrumental", "gōde", "gōde", "gōdre"],
+        ["Nom./Acc. plural", "gōde", "gōd", "gōda"],
+        ["Genitive plural", "gōdra", "gōdra", "gōdra"],
+        ["Dative plural", "gōdum", "gōdum", "gōdum"]
+      ]
+    },
+    {
+      "title": "Weak adjectives: se gōda",
+      "unit": 11,
+      "note": "Used after se, sēo, þæt and after mīn, þīn and the other possessives. Comparatives always take these endings.",
+      "head": ["", "Masculine", "Neuter", "Feminine"],
+      "rows": [
+        ["Nominative", "se gōda", "þæt gōde", "sēo gōde"],
+        ["Accusative", "þone gōdan", "þæt gōde", "þā gōdan"],
+        ["Genitive", "þæs gōdan", "þæs gōdan", "þǣre gōdan"],
+        ["Dative", "þǣm gōdan", "þǣm gōdan", "þǣre gōdan"],
+        ["Nom./Acc. plural", "þā gōdan", "þā gōdan", "þā gōdan"],
+        ["Genitive plural", "þāra gōdra", "þāra gōdra", "þāra gōdra"],
+        ["Dative plural", "þǣm gōdum", "þǣm gōdum", "þǣm gōdum"]
+      ]
+    },
+    {
+      "title": "Comparison",
+      "unit": 11,
+      "note": "-ra makes the comparative and -ost or -est the superlative. Some adjectives change their vowel, and a few use another word entirely.",
+      "head": ["Adjective", "Comparative", "Superlative", "Meaning"],
+      "rows": [
+        ["heard", "heardra", "heardost", "hard"],
+        ["beorht", "beorhtra", "beorhtost", "bright"],
+        ["eald", "ieldra", "ieldest", "old"],
+        ["lang", "lengra", "lengest", "long"],
+        ["strang", "strengra", "strengest", "strong"],
+        ["gōd", "betera, sēlra", "betst, sēlest", "good"],
+        ["yfel", "wiersa", "wierrest, wierst", "bad"],
+        ["micel", "māra", "mǣst", "great"],
+        ["lȳtel", "lǣssa", "lǣst", "little"]
+      ]
+    },
+    {
+      "title": "Alliteration in the half-line",
+      "unit": 12,
+      "note": "The first stress of the second half sets the sound. One or both stresses of the first half match it, and the last stress does not. Any vowel alliterates with any other.",
+      "head": ["Line", "First half", "Second half", "Alliterates on"],
+      "rows": [
+        ["Beowulf 1", "Hwæt! Wē Gār-Dena", "in gēardagum", "g"],
+        ["Beowulf 4", "Oft Scyld Scēfing", "sceaþena þrēatum", "sc"],
+        ["Cædmon's Hymn 4", "ēce drihten", "ōr onstealde", "vowels"],
+        ["The Wanderer 5", "wadan wræclāstas", "wyrd bið ful ārǣd", "w"],
+        ["The Seafarer 1", "Mæg ic be mē sylfum", "sōþgied wrecan", "s"],
+        ["The Battle of Maldon 312", "Hige sceal þē heardra", "heorte þē cēnre", "h"]
+      ]
+    },
+    {
+      "title": "Kennings",
+      "unit": 12,
+      "note": "A kenning names a thing through a picture, either as a compound or as a phrase with a genitive.",
+      "head": ["Kenning", "Literally", "Means", "Where"],
+      "rows": [
+        ["hronrād", "whale-road", "the sea", "Beowulf 10"],
+        ["swanrād", "swan-road", "the sea", "Beowulf 200"],
+        ["hwælweg", "whale-way", "the sea", "The Seafarer 63"],
+        ["bānhūs", "bone-house", "the body", "Beowulf 2508"],
+        ["woruldcandel", "world-candle", "the sun", "Beowulf 1965"],
+        ["hildelēoma", "battle-light", "a sword", "Beowulf 1143"],
+        ["wordhord", "word-hoard", "speech", "Beowulf 259"],
+        ["goldwine gumena", "gold-friend of men", "a king", "Beowulf 1171"],
+        ["bēaga brytta", "giver of rings", "a lord", "Beowulf 35"],
+        ["heofonrīces weard", "guardian of heaven's kingdom", "God", "Cædmon's Hymn 1"]
+      ]
+    }
+  ]
+}

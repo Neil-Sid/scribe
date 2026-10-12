@@ -1,0 +1,329 @@
+{
+  "sounds": {
+    "intro": "Sanskrit's sounds are known unusually well. Ancient phoneticians, the authors of the Prātiśākhyas and Śikṣās and the grammarian Pāṇini, described where and how each sound is made, and the alphabet itself is ordered by their descriptions. Recitation has never stopped either, though it has picked up regional accents. This guide gives the Classical sounds as the grammarians describe them, with notes where modern practice differs.",
+    "groups": [
+      { "h": "Vowels", "rows": [
+        { "t": "a", "g": "अ", "ipa": "ɐ", "like": "short and dull, like the u in 'cup'", "ex": "aham", "note": "Pāṇini and two Prātiśākhyas call short a 'covered': it is not simply a short ā." },
+        { "t": "ā", "g": "आ", "ipa": "aː", "like": "a in 'father', held for two beats", "ex": "mātā" },
+        { "t": "i, ī", "g": "इ ई", "ipa": "i, iː", "like": "short i as in 'bit' but tenser; long ī as in 'machine'", "ex": "nadī" },
+        { "t": "u, ū", "g": "उ ऊ", "ipa": "u, uː", "like": "short u as in 'put'; long ū as in 'rule'", "ex": "sūryaḥ" },
+        { "t": "ṛ, ṝ", "g": "ऋ ॠ", "ipa": "r̩, r̩ː", "like": "an untrilled r that makes a syllable by itself, close to the vowel of American 'bird'", "ex": "kṛṣṇaḥ", "note": "Most of North India now says ri (Krishna); Marathi and Gujarati speakers, and the Telugu country, say ru (Krushna)." },
+        { "t": "ḷ", "g": "ऌ", "ipa": "l̩", "like": "an l used as a vowel, as in 'bottle'", "note": "Found only in forms of one root, kḷp 'be fit'." },
+        { "t": "e, o", "g": "ए ओ", "ipa": "eː, oː", "like": "e in 'they' and o in 'go', held steady without a glide", "ex": "devaḥ", "note": "Always long. They were once the diphthongs ai and au, which is why a + i fuse into e." },
+        { "t": "ai, au", "g": "ऐ औ", "ipa": "ai, au", "like": "as in 'aisle' and 'how'", "ex": "rāmalakṣmaṇau" }
+      ] },
+      { "h": "Stops in five rows", "rows": [
+        { "t": "k kh g gh ṅ", "g": "क ख ग घ ङ", "ipa": "k kʰ ɡ ɡʱ ŋ", "like": "velar: the back of the tongue against the soft palate; ṅ is the ng of 'sing'", "ex": "kukkuraḥ" },
+        { "t": "c ch j jh ñ", "g": "च छ ज झ ञ", "ipa": "c cʰ ɟ ɟʱ ɲ", "like": "palatal: the tongue pressed flat on the hard palate; ñ is the ny of 'canyon'", "ex": "candraḥ", "note": "Most reciters today say c and j as in 'church' and 'judge'." },
+        { "t": "ṭ ṭh ḍ ḍh ṇ", "g": "ट ठ ड ढ ण", "ipa": "ʈ ʈʰ ɖ ɖʱ ɳ", "like": "retroflex: the tongue tip curled back to the roof of the mouth", "ex": "paṭhati" },
+        { "t": "t th d dh n", "g": "त थ द ध न", "ipa": "t̪ t̪ʰ d̪ d̪ʱ n̪", "like": "dental: the tongue tip against the upper teeth, further forward than English t", "ex": "tatra" },
+        { "t": "p ph b bh m", "g": "प फ ब भ म", "ipa": "p pʰ b bʱ m", "like": "labial: made with the lips", "ex": "pitā" }
+      ] },
+      { "h": "Aspirated and unaspirated", "rows": [
+        { "t": "k, t, p", "g": "क त प", "ipa": "k t̪ p", "like": "no puff of breath at all, like the k, t and p in 'skin', 'stop' and 'spin'", "ex": "pitā" },
+        { "t": "kh, th, ph", "g": "ख थ फ", "ipa": "kʰ t̪ʰ pʰ", "like": "a strong puff, as in 'kin', 'top' and 'pin' said firmly. ph is never f, and th is never as in 'thin'", "ex": "phalam" },
+        { "t": "g, d, b", "g": "ग द ब", "ipa": "ɡ d̪ b", "like": "plain voiced sounds, as in English", "ex": "bālā" },
+        { "t": "gh, dh, bh", "g": "घ ध भ", "ipa": "ɡʱ d̪ʱ bʱ", "like": "voiced, with a breathy release, like the g-h in 'doghouse' or the d-h in 'redhead' run into one sound", "ex": "dharmaḥ" }
+      ] },
+      { "h": "Retroflex sounds and the three s's", "rows": [
+        { "t": "ṭ, ḍ", "g": "ट ड", "ipa": "ʈ ɖ", "like": "t and d with the tongue tip curled up and back. To Indian ears these, not the dental t and d, sound like English t and d", "ex": "kuṭumbakam" },
+        { "t": "ṇ", "g": "ण", "ipa": "ɳ", "like": "n with the tongue tip curled back", "ex": "kṛṣṇaḥ" },
+        { "t": "ṣ", "g": "ष", "ipa": "ʂ", "like": "sh with the tongue tip curled back", "ex": "śiṣyaḥ", "note": "Many speakers today make no difference between ṣ and ś." },
+        { "t": "ś", "g": "श", "ipa": "ɕ", "like": "sh as in 'sheep', with the tongue raised flat toward the palate", "ex": "śivaḥ" },
+        { "t": "s", "g": "स", "ipa": "s", "like": "s as in 'sun', never z", "ex": "sūryaḥ" },
+        { "t": "ḷ (Vedic)", "g": "ळ", "ipa": "ɭ", "like": "a curled-back l, which the Ṛgveda writes for ḍ between vowels", "note": "As in agnim īḷe, the first words of the Ṛgveda." }
+      ] },
+      { "h": "Semivowels, h, anusvāra and visarga", "rows": [
+        { "t": "y", "g": "य", "ipa": "j", "like": "y as in 'yes'", "ex": "yugam" },
+        { "t": "r", "g": "र", "ipa": "ɾ", "like": "a light tap of the tongue, as in Spanish 'pero'", "ex": "rathaḥ" },
+        { "t": "l", "g": "ल", "ipa": "l", "like": "a clear l, as in 'leaf'", "ex": "jalam" },
+        { "t": "v", "g": "व", "ipa": "ʋ", "like": "between English v and w. The old phoneticians made it with the lower lip against the upper teeth", "ex": "vanam", "note": "After a consonant, as in tvam, it often sounds closer to w." },
+        { "t": "h", "g": "ह", "ipa": "ɦ", "like": "a voiced, breathy h", "ex": "hastaḥ" },
+        { "t": "aṃ (anusvāra)", "g": "अं", "ipa": "ɐ̃", "like": "the vowel carried on through the nose. Before a stop it is said as that row's nasal, so saṃbhavāmi sounds like sambhavāmi", "ex": "ahiṃsā", "note": "Before y, r, l, v, ś, ṣ, s and h the old texts describe a nasal vowel; today it is often said as m or ng." },
+        { "t": "aḥ (visarga)", "g": "अः", "ipa": "ɐh", "like": "a voiceless h breathed out after the vowel", "ex": "naraḥ", "note": "Reciters today often add a faint echo of the vowel: naraḥ sounds like nara-ha, agniḥ like agni-hi." }
+      ] }
+    ],
+    "tips": [
+      { "h": "The order of the alphabet", "p": "Dictionaries follow the phonetic order of the varṇamālā: the vowels a ā i ī u ū ṛ ṝ ḷ e ai o au, then ṃ and ḥ, then the stops row by row from the back of the mouth to the lips (the k, c, ṭ, t and p rows), then y r l v, then ś ṣ s h. Each row runs voiceless, voiceless with breath, voiced, voiced with breath, nasal: k kh g gh ṅ. So kh is a letter of its own, filed after every word in k." },
+      { "h": "Vowel length", "p": "A short vowel lasts one beat (mātrā) and a long one two. Length changes meaning, as in bala 'strength' and bāla 'boy', and it drives the rhythm of verse (unit 12). e and o are always long, and ai and au count as long." },
+      { "h": "Breath is part of the letter", "p": "kara 'hand' and khara 'hard' differ only in the puff after k. Voiced aspirates like gh, dh and bh are the hardest for English speakers: say the consonant and let a breathy h follow at once, with no vowel in between." },
+      { "h": "Stress", "p": "Classical texts were written without accent marks, and the grammarians describe only pitch, never stress. Give long and heavy syllables their full length and the rhythm comes by itself." },
+      { "h": "Vedic and Classical", "p": "The Vedas had a pitch accent: a raised syllable (udātta), unraised ones (anudātta) and a falling tone (svarita). Vedic manuscripts mark it and priests still chant it, but Classical Sanskrit lost it. The Ṛgveda also writes ḷ (ळ) for ḍ between vowels, and some old phoneticians describe special breaths before k and p (jihvāmūlīya and upadhmānīya)." },
+      { "h": "Sanskrit in India today", "p": "Sanskrit is still recited all over India, coloured by local languages, so there is no single modern standard. Short a sounds like the u in 'cup', and a final a is always said (Rāma, never 'Ram'). ṛ becomes ri or ru, jñ is said gy in the north and dny in Maharashtra, and ṣ often merges with ś. The audio here uses a Hindi voice, so it follows northern habits and may drop a final a that Sanskrit keeps." }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "Subject pronouns",
+      "unit": 2,
+      "note": "The forms used as the subject. The neuter tat appears in unit 6, in tat tvam asi.",
+      "head": ["", "Sanskrit", "English"],
+      "rows": [
+        ["1st person", { "t": "aham", "g": "अहम्" }, "I"],
+        ["2nd person", { "t": "tvam", "g": "त्वम्" }, "you"],
+        ["3rd, masculine", { "t": "saḥ", "g": "सः" }, "he"],
+        ["3rd, feminine", { "t": "sā", "g": "सा" }, "she"],
+        ["3rd, neuter", { "t": "tat", "g": "तत्" }, "it, that"]
+      ]
+    },
+    {
+      "title": "Subject and object",
+      "unit": 3,
+      "note": "Most nouns mark the object with -m. Neuters look the same in both jobs. pitā and mātā follow an older pattern.",
+      "head": ["Noun", "Subject", "Object"],
+      "rows": [
+        ["son (m.)", { "t": "putraḥ", "g": "पुत्रः" }, { "t": "putram", "g": "पुत्रम्" }],
+        ["house (n.)", { "t": "gṛham", "g": "गृहम्" }, { "t": "gṛham", "g": "गृहम्" }],
+        ["girl (f.)", { "t": "bālā", "g": "बाला" }, { "t": "bālām", "g": "बालाम्" }],
+        ["daughter (f.)", { "t": "putrī", "g": "पुत्री" }, { "t": "putrīm", "g": "पुत्रीम्" }],
+        ["father", { "t": "pitā", "g": "पिता" }, { "t": "pitaram", "g": "पितरम्" }],
+        ["mother", { "t": "mātā", "g": "माता" }, { "t": "mātaram", "g": "मातरम्" }]
+      ]
+    },
+    {
+      "title": "Present tense, singular: gam 'go'",
+      "unit": 4,
+      "note": "The stem gaccha- takes the personal endings. Its a becomes ā before m: gacchāmi.",
+      "head": ["Person", "Form", "English"],
+      "rows": [
+        ["1st", { "t": "gacchāmi", "g": "गच्छामि" }, "I go"],
+        ["2nd", { "t": "gacchasi", "g": "गच्छसि" }, "you go"],
+        ["3rd", { "t": "gacchati", "g": "गच्छति" }, "he, she, it goes"]
+      ]
+    },
+    {
+      "title": "The 'of' forms",
+      "unit": 5,
+      "note": "The genitive. Feminines in -ā take -āyāḥ and those in -ī take -yāḥ. mama and tava belong to aham and tvam.",
+      "head": ["Word", "Of", "English"],
+      "rows": [
+        [{ "t": "devaḥ", "g": "देवः" }, { "t": "devasya", "g": "देवस्य" }, "of the god"],
+        [{ "t": "gṛham", "g": "गृहम्" }, { "t": "gṛhasya", "g": "गृहस्य" }, "of the house"],
+        [{ "t": "bālā", "g": "बाला" }, { "t": "bālāyāḥ", "g": "बालायाः" }, "of the girl"],
+        [{ "t": "nadī", "g": "नदी" }, { "t": "nadyāḥ", "g": "नद्याः" }, "of the river"],
+        [{ "t": "aham", "g": "अहम्" }, { "t": "mama", "g": "मम" }, "my"],
+        [{ "t": "tvam", "g": "त्वम्" }, { "t": "tava", "g": "तव" }, "your"]
+      ]
+    },
+    {
+      "title": "as 'be', present singular",
+      "unit": 6,
+      "note": "Usually left out in simple sentences, but used for emphasis and in set phrases like tat tvam asi. The plural santi comes in unit 8.",
+      "head": ["Person", "Form", "English"],
+      "rows": [
+        ["1st", { "t": "asmi", "g": "अस्मि" }, "I am"],
+        ["2nd", { "t": "asi", "g": "असि" }, "you are"],
+        ["3rd", { "t": "asti", "g": "अस्ति" }, "he, she, it is"]
+      ]
+    },
+    {
+      "title": "Six cases, singular",
+      "unit": 7,
+      "note": "The cases met so far. Feminine nouns use one form for both 'from' and 'of'.",
+      "head": ["Case", "deva 'god'", "bālā 'girl'", "nadī 'river'"],
+      "rows": [
+        ["Nominative", { "t": "devaḥ", "g": "देवः" }, { "t": "bālā", "g": "बाला" }, { "t": "nadī", "g": "नदी" }],
+        ["Accusative", { "t": "devam", "g": "देवम्" }, { "t": "bālām", "g": "बालाम्" }, { "t": "nadīm", "g": "नदीम्" }],
+        ["Instrumental 'with, by'", { "t": "devena", "g": "देवेन" }, { "t": "bālayā", "g": "बालया" }, { "t": "nadyā", "g": "नद्या" }],
+        ["Dative 'to, for'", { "t": "devāya", "g": "देवाय" }, { "t": "bālāyai", "g": "बालायै" }, { "t": "nadyai", "g": "नद्यै" }],
+        ["Ablative 'from'", { "t": "devāt", "g": "देवात्" }, { "t": "bālāyāḥ", "g": "बालायाः" }, { "t": "nadyāḥ", "g": "नद्याः" }],
+        ["Genitive 'of'", { "t": "devasya", "g": "देवस्य" }, { "t": "bālāyāḥ", "g": "बालायाः" }, { "t": "nadyāḥ", "g": "नद्याः" }]
+      ]
+    },
+    {
+      "title": "Masculine -a nouns: deva 'god'",
+      "unit": 8,
+      "note": "The commonest pattern in the language. After r, ṛ or ṣ the n of an ending becomes ṇ: putreṇa, putrāṇām.",
+      "head": ["", "Singular", "Dual", "Plural"],
+      "rows": [
+        ["Nominative", { "t": "devaḥ", "g": "देवः" }, { "t": "devau", "g": "देवौ" }, { "t": "devāḥ", "g": "देवाः" }],
+        ["Accusative", { "t": "devam", "g": "देवम्" }, { "t": "devau", "g": "देवौ" }, { "t": "devān", "g": "देवान्" }],
+        ["Instrumental", { "t": "devena", "g": "देवेन" }, { "t": "devābhyām", "g": "देवाभ्याम्" }, { "t": "devaiḥ", "g": "देवैः" }],
+        ["Dative", { "t": "devāya", "g": "देवाय" }, { "t": "devābhyām", "g": "देवाभ्याम्" }, { "t": "devebhyaḥ", "g": "देवेभ्यः" }],
+        ["Ablative", { "t": "devāt", "g": "देवात्" }, { "t": "devābhyām", "g": "देवाभ्याम्" }, { "t": "devebhyaḥ", "g": "देवेभ्यः" }],
+        ["Genitive", { "t": "devasya", "g": "देवस्य" }, { "t": "devayoḥ", "g": "देवयोः" }, { "t": "devānām", "g": "देवानाम्" }],
+        ["Locative", { "t": "deve", "g": "देवे" }, { "t": "devayoḥ", "g": "देवयोः" }, { "t": "deveṣu", "g": "देवेषु" }],
+        ["Vocative", { "t": "deva", "g": "देव" }, { "t": "devau", "g": "देवौ" }, { "t": "devāḥ", "g": "देवाः" }]
+      ]
+    },
+    {
+      "title": "Neuter -a nouns: phala 'fruit'",
+      "unit": 8,
+      "note": "Only these three cases differ from deva. The rest are the same: phalena, phalāya, phalāt, phalasya, phale.",
+      "head": ["", "Singular", "Dual", "Plural"],
+      "rows": [
+        ["Nominative", { "t": "phalam", "g": "फलम्" }, { "t": "phale", "g": "फले" }, { "t": "phalāni", "g": "फलानि" }],
+        ["Accusative", { "t": "phalam", "g": "फलम्" }, { "t": "phale", "g": "फले" }, { "t": "phalāni", "g": "फलानि" }],
+        ["Vocative", { "t": "phala", "g": "फल" }, { "t": "phale", "g": "फले" }, { "t": "phalāni", "g": "फलानि" }]
+      ]
+    },
+    {
+      "title": "Feminine -ā nouns: bālā 'girl'",
+      "unit": 8,
+      "note": "Feminine adjectives in -ā go the same way: śvetā, kṛṣṇā.",
+      "head": ["", "Singular", "Dual", "Plural"],
+      "rows": [
+        ["Nominative", { "t": "bālā", "g": "बाला" }, { "t": "bāle", "g": "बाले" }, { "t": "bālāḥ", "g": "बालाः" }],
+        ["Accusative", { "t": "bālām", "g": "बालाम्" }, { "t": "bāle", "g": "बाले" }, { "t": "bālāḥ", "g": "बालाः" }],
+        ["Instrumental", { "t": "bālayā", "g": "बालया" }, { "t": "bālābhyām", "g": "बालाभ्याम्" }, { "t": "bālābhiḥ", "g": "बालाभिः" }],
+        ["Dative", { "t": "bālāyai", "g": "बालायै" }, { "t": "bālābhyām", "g": "बालाभ्याम्" }, { "t": "bālābhyaḥ", "g": "बालाभ्यः" }],
+        ["Ablative", { "t": "bālāyāḥ", "g": "बालायाः" }, { "t": "bālābhyām", "g": "बालाभ्याम्" }, { "t": "bālābhyaḥ", "g": "बालाभ्यः" }],
+        ["Genitive", { "t": "bālāyāḥ", "g": "बालायाः" }, { "t": "bālayoḥ", "g": "बालयोः" }, { "t": "bālānām", "g": "बालानाम्" }],
+        ["Locative", { "t": "bālāyām", "g": "बालायाम्" }, { "t": "bālayoḥ", "g": "बालयोः" }, { "t": "bālāsu", "g": "बालासु" }],
+        ["Vocative", { "t": "bāle", "g": "बाले" }, { "t": "bāle", "g": "बाले" }, { "t": "bālāḥ", "g": "बालाः" }]
+      ]
+    },
+    {
+      "title": "Feminine -ī nouns: nadī 'river'",
+      "unit": 8,
+      "note": "Also devī, nārī and putrī. Before an ending that starts with a vowel, ī becomes y.",
+      "head": ["", "Singular", "Dual", "Plural"],
+      "rows": [
+        ["Nominative", { "t": "nadī", "g": "नदी" }, { "t": "nadyau", "g": "नद्यौ" }, { "t": "nadyaḥ", "g": "नद्यः" }],
+        ["Accusative", { "t": "nadīm", "g": "नदीम्" }, { "t": "nadyau", "g": "नद्यौ" }, { "t": "nadīḥ", "g": "नदीः" }],
+        ["Instrumental", { "t": "nadyā", "g": "नद्या" }, { "t": "nadībhyām", "g": "नदीभ्याम्" }, { "t": "nadībhiḥ", "g": "नदीभिः" }],
+        ["Dative", { "t": "nadyai", "g": "नद्यै" }, { "t": "nadībhyām", "g": "नदीभ्याम्" }, { "t": "nadībhyaḥ", "g": "नदीभ्यः" }],
+        ["Ablative", { "t": "nadyāḥ", "g": "नद्याः" }, { "t": "nadībhyām", "g": "नदीभ्याम्" }, { "t": "nadībhyaḥ", "g": "नदीभ्यः" }],
+        ["Genitive", { "t": "nadyāḥ", "g": "नद्याः" }, { "t": "nadyoḥ", "g": "नद्योः" }, { "t": "nadīnām", "g": "नदीनाम्" }],
+        ["Locative", { "t": "nadyām", "g": "नद्याम्" }, { "t": "nadyoḥ", "g": "नद्योः" }, { "t": "nadīṣu", "g": "नदीषु" }],
+        ["Vocative", { "t": "nadi", "g": "नदि" }, { "t": "nadyau", "g": "नद्यौ" }, { "t": "nadyaḥ", "g": "नद्यः" }]
+      ]
+    },
+    {
+      "title": "Present tense: gam 'go'",
+      "unit": 8,
+      "note": "The full present. as 'be' runs asmi, asi, asti; svaḥ, sthaḥ, staḥ; smaḥ, stha, santi.",
+      "head": ["", "Singular", "Dual", "Plural"],
+      "rows": [
+        ["1st", { "t": "gacchāmi", "g": "गच्छामि" }, { "t": "gacchāvaḥ", "g": "गच्छावः" }, { "t": "gacchāmaḥ", "g": "गच्छामः" }],
+        ["2nd", { "t": "gacchasi", "g": "गच्छसि" }, { "t": "gacchathaḥ", "g": "गच्छथः" }, { "t": "gacchatha", "g": "गच्छथ" }],
+        ["3rd", { "t": "gacchati", "g": "गच्छति" }, { "t": "gacchataḥ", "g": "गच्छतः" }, { "t": "gacchanti", "g": "गच्छन्ति" }]
+      ]
+    },
+    {
+      "title": "The -ta form agrees",
+      "unit": 9,
+      "note": "It declines like deva, bālā and phala. With verbs of going it agrees with whoever went; otherwise with the thing done.",
+      "head": ["", "Masculine", "Feminine", "Neuter"],
+      "rows": [
+        ["gone", { "t": "gataḥ", "g": "गतः" }, { "t": "gatā", "g": "गता" }, { "t": "gatam", "g": "गतम्" }],
+        ["done", { "t": "kṛtaḥ", "g": "कृतः" }, { "t": "kṛtā", "g": "कृता" }, { "t": "kṛtam", "g": "कृतम्" }],
+        ["seen", { "t": "dṛṣṭaḥ", "g": "दृष्टः" }, { "t": "dṛṣṭā", "g": "दृष्टा" }, { "t": "dṛṣṭam", "g": "दृष्टम्" }],
+        ["said", { "t": "uktaḥ", "g": "उक्तः" }, { "t": "uktā", "g": "उक्ता" }, { "t": "uktam", "g": "उक्तम्" }],
+        ["read", { "t": "paṭhitaḥ", "g": "पठितः" }, { "t": "paṭhitā", "g": "पठिता" }, { "t": "paṭhitam", "g": "पठितम्" }]
+      ]
+    },
+    {
+      "title": "Imperfect: gam 'went'",
+      "unit": 9,
+      "note": "The augment a- goes in front of the stem. as 'be' has āsam, āsīḥ, āsīt; āsva, āstam, āstām; āsma, āsta, āsan.",
+      "head": ["", "Singular", "Dual", "Plural"],
+      "rows": [
+        ["1st", { "t": "agaccham", "g": "अगच्छम्" }, { "t": "agacchāva", "g": "अगच्छाव" }, { "t": "agacchāma", "g": "अगच्छाम" }],
+        ["2nd", { "t": "agacchaḥ", "g": "अगच्छः" }, { "t": "agacchatam", "g": "अगच्छतम्" }, { "t": "agacchata", "g": "अगच्छत" }],
+        ["3rd", { "t": "agacchat", "g": "अगच्छत्" }, { "t": "agacchatām", "g": "अगच्छताम्" }, { "t": "agacchan", "g": "अगच्छन्" }]
+      ]
+    },
+    {
+      "title": "Pronouns: I, we, you",
+      "unit": 9,
+      "note": "These pronouns have no gender. The short forms in brackets never begin a sentence; te is the 'to you' in namaste. The dual (āvām 'we two', yuvām 'you two') is left out.",
+      "head": ["", "I", "we", "you", "you all"],
+      "rows": [
+        ["Nominative", { "t": "aham", "g": "अहम्" }, { "t": "vayam", "g": "वयम्" }, { "t": "tvam", "g": "त्वम्" }, { "t": "yūyam", "g": "यूयम्" }],
+        ["Accusative", { "t": "mām (mā)", "g": "माम् (मा)" }, { "t": "asmān (naḥ)", "g": "अस्मान् (नः)" }, { "t": "tvām (tvā)", "g": "त्वाम् (त्वा)" }, { "t": "yuṣmān (vaḥ)", "g": "युष्मान् (वः)" }],
+        ["Instrumental", { "t": "mayā", "g": "मया" }, { "t": "asmābhiḥ", "g": "अस्माभिः" }, { "t": "tvayā", "g": "त्वया" }, { "t": "yuṣmābhiḥ", "g": "युष्माभिः" }],
+        ["Dative", { "t": "mahyam (me)", "g": "मह्यम् (मे)" }, { "t": "asmabhyam (naḥ)", "g": "अस्मभ्यम् (नः)" }, { "t": "tubhyam (te)", "g": "तुभ्यम् (ते)" }, { "t": "yuṣmabhyam (vaḥ)", "g": "युष्मभ्यम् (वः)" }],
+        ["Ablative", { "t": "mat", "g": "मत्" }, { "t": "asmat", "g": "अस्मत्" }, { "t": "tvat", "g": "त्वत्" }, { "t": "yuṣmat", "g": "युष्मत्" }],
+        ["Genitive", { "t": "mama (me)", "g": "मम (मे)" }, { "t": "asmākam (naḥ)", "g": "अस्माकम् (नः)" }, { "t": "tava (te)", "g": "तव (ते)" }, { "t": "yuṣmākam (vaḥ)", "g": "युष्माकम् (वः)" }],
+        ["Locative", { "t": "mayi", "g": "मयि" }, { "t": "asmāsu", "g": "अस्मासु" }, { "t": "tvayi", "g": "त्वयि" }, { "t": "yuṣmāsu", "g": "युष्मासु" }]
+      ]
+    },
+    {
+      "title": "Pronouns: he, she, it (that)",
+      "unit": 9,
+      "note": "sa, sā, tat also mean 'that'. Pronouns have some endings of their own, such as tasmai, tasmāt, tasmin and the plural te. saḥ drops its ḥ before a consonant (unit 4).",
+      "head": ["", "m. sg.", "f. sg.", "n. sg.", "m. pl.", "f. pl.", "n. pl."],
+      "rows": [
+        ["Nom.", { "t": "saḥ", "g": "सः" }, { "t": "sā", "g": "सा" }, { "t": "tat", "g": "तत्" }, { "t": "te", "g": "ते" }, { "t": "tāḥ", "g": "ताः" }, { "t": "tāni", "g": "तानि" }],
+        ["Acc.", { "t": "tam", "g": "तम्" }, { "t": "tām", "g": "ताम्" }, { "t": "tat", "g": "तत्" }, { "t": "tān", "g": "तान्" }, { "t": "tāḥ", "g": "ताः" }, { "t": "tāni", "g": "तानि" }],
+        ["Instr.", { "t": "tena", "g": "तेन" }, { "t": "tayā", "g": "तया" }, { "t": "tena", "g": "तेन" }, { "t": "taiḥ", "g": "तैः" }, { "t": "tābhiḥ", "g": "ताभिः" }, { "t": "taiḥ", "g": "तैः" }],
+        ["Dat.", { "t": "tasmai", "g": "तस्मै" }, { "t": "tasyai", "g": "तस्यै" }, { "t": "tasmai", "g": "तस्मै" }, { "t": "tebhyaḥ", "g": "तेभ्यः" }, { "t": "tābhyaḥ", "g": "ताभ्यः" }, { "t": "tebhyaḥ", "g": "तेभ्यः" }],
+        ["Abl.", { "t": "tasmāt", "g": "तस्मात्" }, { "t": "tasyāḥ", "g": "तस्याः" }, { "t": "tasmāt", "g": "तस्मात्" }, { "t": "tebhyaḥ", "g": "तेभ्यः" }, { "t": "tābhyaḥ", "g": "ताभ्यः" }, { "t": "tebhyaḥ", "g": "तेभ्यः" }],
+        ["Gen.", { "t": "tasya", "g": "तस्य" }, { "t": "tasyāḥ", "g": "तस्याः" }, { "t": "tasya", "g": "तस्य" }, { "t": "teṣām", "g": "तेषाम्" }, { "t": "tāsām", "g": "तासाम्" }, { "t": "teṣām", "g": "तेषाम्" }],
+        ["Loc.", { "t": "tasmin", "g": "तस्मिन्" }, { "t": "tasyām", "g": "तस्याम्" }, { "t": "tasmin", "g": "तस्मिन्" }, { "t": "teṣu", "g": "तेषु" }, { "t": "tāsu", "g": "तासु" }, { "t": "teṣu", "g": "तेषु" }]
+      ]
+    },
+    {
+      "title": "Sandhi at the end of a word",
+      "unit": 9,
+      "note": "How common endings change before the next word. saḥ becomes sa before any consonant. Final t becomes n before n or m, and copies a following j or l.",
+      "head": ["Ending", "Before a vowel", "Before a voiced consonant", "Before k, p", "Before c", "Before t", "At the end"],
+      "rows": [
+        ["-m", "m", "ṃ", "ṃ", "ṃ", "ṃ", "m"],
+        ["-aḥ", "a; o ' before a", "o", "aḥ", "aś", "as", "aḥ"],
+        ["-āḥ", "ā", "ā", "āḥ", "āś", "ās", "āḥ"],
+        ["-iḥ, -uḥ", "ir, ur", "ir, ur", "iḥ, uḥ", "iś, uś", "is, us", "iḥ, uḥ"],
+        ["-t", "d", "d", "t", "c", "t", "t"]
+      ]
+    },
+    {
+      "title": "One root, three forms",
+      "unit": 10,
+      "note": "-ta 'done', -tvā 'having done' and -tum 'to do'. With a prefix the -tvā form becomes -ya: āgatya, upaviśya.",
+      "head": ["Root", "-ta", "-tvā", "-tum"],
+      "rows": [
+        ["gam 'go'", { "t": "gata", "g": "गत" }, { "t": "gatvā", "g": "गत्वा" }, { "t": "gantum", "g": "गन्तुम्" }],
+        ["kṛ 'do'", { "t": "kṛta", "g": "कृत" }, { "t": "kṛtvā", "g": "कृत्वा" }, { "t": "kartum", "g": "कर्तुम्" }],
+        ["dṛś 'see'", { "t": "dṛṣṭa", "g": "दृष्ट" }, { "t": "dṛṣṭvā", "g": "दृष्ट्वा" }, { "t": "draṣṭum", "g": "द्रष्टुम्" }],
+        ["pā 'drink'", { "t": "pīta", "g": "पीत" }, { "t": "pītvā", "g": "पीत्वा" }, { "t": "pātum", "g": "पातुम्" }],
+        ["snā 'bathe'", { "t": "snāta", "g": "स्नात" }, { "t": "snātvā", "g": "स्नात्वा" }, { "t": "snātum", "g": "स्नातुम्" }],
+        ["vac 'speak'", { "t": "ukta", "g": "उक्त" }, { "t": "uktvā", "g": "उक्त्वा" }, { "t": "vaktum", "g": "वक्तुम्" }],
+        ["śru 'hear'", { "t": "śruta", "g": "श्रुत" }, { "t": "śrutvā", "g": "श्रुत्वा" }, { "t": "śrotum", "g": "श्रोतुम्" }],
+        ["bhū 'be'", { "t": "bhūta", "g": "भूत" }, { "t": "bhūtvā", "g": "भूत्वा" }, { "t": "bhavitum", "g": "भवितुम्" }]
+      ]
+    },
+    {
+      "title": "Kinds of compound",
+      "unit": 11,
+      "note": "Only the last member takes an ending. The members before it appear as bare stems.",
+      "head": ["Kind", "Example", "Parts", "Meaning"],
+      "rows": [
+        ["tatpuruṣa", { "t": "rājaputraḥ", "g": "राजपुत्रः" }, "rāja + putra", "king's son, prince"],
+        ["karmadhāraya", { "t": "mahārājaḥ", "g": "महाराजः" }, "mahā + rāja", "great king"],
+        ["dvandva", { "t": "rāmalakṣmaṇau", "g": "रामलक्ष्मणौ" }, "rāma + lakṣmaṇa", "Rāma and Lakṣmaṇa"],
+        ["dvandva", { "t": "sukhaduḥkhe", "g": "सुखदुःखे" }, "sukha + duḥkha", "joy and sorrow"],
+        ["bahuvrīhi", { "t": "nīlakaṇṭhaḥ", "g": "नीलकण्ठः" }, "nīla + kaṇṭha", "whose throat is blue"],
+        ["bahuvrīhi", { "t": "mātṛdevaḥ", "g": "मातृदेवः" }, "mātṛ + deva", "whose god is his mother"]
+      ]
+    },
+    {
+      "title": "Masculine -i and -u nouns: agni 'fire', sādhu 'good man'",
+      "unit": 12,
+      "note": "ṛṣiḥ and atithiḥ go like agni, vāyuḥ like sādhu. Duals: agnī, sādhū; agnibhyām, sādhubhyām; agnyoḥ, sādhvoḥ.",
+      "head": ["", "agni sg.", "agni pl.", "sādhu sg.", "sādhu pl."],
+      "rows": [
+        ["Nominative", { "t": "agniḥ", "g": "अग्निः" }, { "t": "agnayaḥ", "g": "अग्नयः" }, { "t": "sādhuḥ", "g": "साधुः" }, { "t": "sādhavaḥ", "g": "साधवः" }],
+        ["Accusative", { "t": "agnim", "g": "अग्निम्" }, { "t": "agnīn", "g": "अग्नीन्" }, { "t": "sādhum", "g": "साधुम्" }, { "t": "sādhūn", "g": "साधून्" }],
+        ["Instrumental", { "t": "agninā", "g": "अग्निना" }, { "t": "agnibhiḥ", "g": "अग्निभिः" }, { "t": "sādhunā", "g": "साधुना" }, { "t": "sādhubhiḥ", "g": "साधुभिः" }],
+        ["Dative", { "t": "agnaye", "g": "अग्नये" }, { "t": "agnibhyaḥ", "g": "अग्निभ्यः" }, { "t": "sādhave", "g": "साधवे" }, { "t": "sādhubhyaḥ", "g": "साधुभ्यः" }],
+        ["Ablative", { "t": "agneḥ", "g": "अग्नेः" }, { "t": "agnibhyaḥ", "g": "अग्निभ्यः" }, { "t": "sādhoḥ", "g": "साधोः" }, { "t": "sādhubhyaḥ", "g": "साधुभ्यः" }],
+        ["Genitive", { "t": "agneḥ", "g": "अग्नेः" }, { "t": "agnīnām", "g": "अग्नीनाम्" }, { "t": "sādhoḥ", "g": "साधोः" }, { "t": "sādhūnām", "g": "साधूनाम्" }],
+        ["Locative", { "t": "agnau", "g": "अग्नौ" }, { "t": "agniṣu", "g": "अग्निषु" }, { "t": "sādhau", "g": "साधौ" }, { "t": "sādhuṣu", "g": "साधुषु" }],
+        ["Vocative", { "t": "agne", "g": "अग्ने" }, { "t": "agnayaḥ", "g": "अग्नयः" }, { "t": "sādho", "g": "साधो" }, { "t": "sādhavaḥ", "g": "साधवः" }]
+      ]
+    },
+    {
+      "title": "Scanning a śloka: Bhagavad Gītā 4.8",
+      "unit": 12,
+      "note": "u marks a light syllable and – a heavy one. Syllables 5 to 7 run light, heavy, light in the second and fourth quarters, and usually light, heavy, heavy in the first and third. The eighth can be either.",
+      "head": ["Quarter", "Text", "Syllables 1 to 8"],
+      "rows": [
+        ["1st", { "t": "paritrāṇāya sādhūnāṃ", "g": "परित्राणाय साधूनां" }, "u – – – u – – –"],
+        ["2nd", { "t": "vināśāya ca duṣkṛtām", "g": "विनाशाय च दुष्कृताम्" }, "u – – u u – u –"],
+        ["3rd", { "t": "dharmasaṃsthāpanārthāya", "g": "धर्मसंस्थापनार्थाय" }, "– u – – u – – u"],
+        ["4th", { "t": "saṃbhavāmi yuge yuge", "g": "संभवामि युगे युगे" }, "– u – u u – u –"]
+      ]
+    }
+  ]
+}

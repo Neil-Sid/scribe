@@ -1,0 +1,461 @@
+{
+  "id": "oldenglish",
+  "name": "Old English",
+  "native": "Englisc",
+  "era": "AD 900 – 1050 (West Saxon)",
+  "place": "Wessex and the English kingdoms",
+  "blurb": "The language of Beowulf, King Alfred and Ælfric, and the ancestor of the English you are reading now.",
+  "emblem": "ᚻᚹᚫᛏ",
+  "script": { "name": "Runes", "font": "runic" },
+  "accent": "#6a3d7a",
+  "keys": ["æ", "ǣ", "þ", "ð", "ā", "ē", "ī", "ō", "ū", "ȳ", "œ"],
+  "facts": [
+    "Alfred the Great had Latin books translated into English so that free-born young men could learn to read their own language.",
+    "Beowulf survives in a single manuscript, Cotton Vitellius A.xv, which was scorched in the Ashburnham House fire of 1731.",
+    "The letters þ and ƿ (wynn) were borrowed from runes. Early printers wrote þ as y, which is why 'ye olde' really means 'the old'.",
+    "Cædmon, a cowherd at Whitby, is the first English poet known by name. Bede tells how he learned to sing in a dream.",
+    "Four weekdays keep Old English gods: Tīwesdæg, Wōdnesdæg, Þunresdæg and Frīgedæg belong to Tiw, Woden, Thunor and Frig."
+  ],
+  "units": [
+    {
+      "title": "Fuþorc",
+      "about": "The runes of the Anglo-Saxon futhorc",
+      "kind": "script",
+      "guide": [
+        { "h": "Futhorc", "p": "The English rune row is named after its first six letters, f u þ o r c. English and Frisian carvers added new runes as their vowels changed, growing the old 24-rune row to 28 and later to as many as 33." },
+        { "h": "Rune names", "p": "Every rune has a name that starts with its sound. The Old English Rune Poem gives each one a short verse: feoh 'wealth', ūr 'aurochs', þorn 'thorn'." },
+        { "h": "New vowels", "p": "The old a-rune split three ways: ᚩ ōs became o, while new runes ᚪ āc and ᚫ æsc took over a and æ. ᚣ ȳr and ᛠ ēar were added later still." },
+        { "h": "Where runes survive", "p": "The whalebone Franks Casket is carved with a riddling verse that ends hronæs ban, 'whale's bone'. The Thames scramasax spells out the whole row next to its owner's name.", "ex": [["ᚻᚱᚩᚾᚫᛋ ᛒᚪᚾ", "hronæs ban: whale's bone (Franks Casket)"]] },
+        { "h": "Runes into letters", "p": "Scribes writing English in the Latin alphabet kept two runes as letters: þ from þorn and ƿ, wynn, for w." }
+      ],
+      "items": [
+        { "g": "ᚠ", "t": "f", "en": "feoh, wealth" },
+        { "g": "ᚢ", "t": "u", "en": "ūr, aurochs" },
+        { "g": "ᚦ", "t": "þ", "en": "þorn, thorn" },
+        { "g": "ᚩ", "t": "o", "en": "ōs, god", "note": "The Rune Poem may read it as Latin os, 'mouth'." },
+        { "g": "ᚱ", "t": "r", "en": "rād, riding" },
+        { "g": "ᚳ", "t": "c", "en": "cēn, torch" },
+        { "g": "ᚷ", "t": "g", "en": "gyfu, gift" },
+        { "g": "ᚹ", "t": "w", "en": "wynn, joy" },
+        { "g": "ᚻ", "t": "h", "en": "hægl, hail" },
+        { "g": "ᚾ", "t": "n", "en": "nȳd, need" },
+        { "g": "ᛁ", "t": "i", "en": "īs, ice" },
+        { "g": "ᛈ", "t": "p", "en": "peorð, unknown", "note": "Nobody knows what peorð meant." },
+        { "g": "ᛋ", "t": "s", "en": "sigel, sun" },
+        { "g": "ᛏ", "t": "t", "en": "Tīr, a star", "note": "The Rune Poem describes a guiding star. The older name meant the god Tiw." },
+        { "g": "ᛒ", "t": "b", "en": "beorc, birch" },
+        { "g": "ᛖ", "t": "e", "en": "eh, horse" },
+        { "g": "ᛗ", "t": "m", "en": "mann, man" },
+        { "g": "ᛚ", "t": "l", "en": "lagu, sea" },
+        { "g": "ᛝ", "t": "ng", "en": "Ing, a hero" },
+        { "g": "ᛟ", "t": "œ", "en": "ēþel, homeland" },
+        { "g": "ᛞ", "t": "d", "en": "dæg, day" },
+        { "g": "ᚪ", "t": "a", "en": "āc, oak" },
+        { "g": "ᚫ", "t": "æ", "en": "æsc, ash tree" },
+        { "g": "ᚣ", "t": "y", "en": "ȳr, bow", "note": "The meaning is not certain." }
+      ]
+    },
+    {
+      "title": "Hāl wes þū",
+      "about": "Greet people and say who you are",
+      "kind": "words",
+      "guide": [
+        { "h": "No word for 'a'", "p": "Old English has no indefinite article. mann is 'man' or 'a man'.", "ex": [["ic eom mann", "I am a man"]] },
+        { "h": "To be", "p": "ic eom 'I am', þū eart 'you are', hē is 'he is', hēo is 'she is'." },
+        { "h": "Names", "p": "hātte means 'am called' or 'is called': ic hātte, hēo hātte. Several Exeter Book riddles end with a dare, saga hwæt ic hātte, 'say what I am called'.", "ex": [["ic hātte Ælfrēd", "my name is Alfred"]] },
+        { "h": "Greetings", "p": "hāl means 'whole, healthy'. hāl wes þū, 'be healthy', is how the Gospels greet a king. To several people: hāle wese gē. Beowulf greets the Danish king with wæs þū, Hrōðgār, hāl." },
+        { "h": "Letters", "p": "þ and ð both stand for th. æ is the a of 'cat', and a line over a vowel (ā) marks it long. sc sounds like sh, and c before i or e is often ch, as in cild 'child'." }
+      ],
+      "items": [
+        { "t": "hāl", "en": "hail", "alt": ["healthy", "hale", "whole", "well"], "note": "Greet someone with hāl wes þū, 'be healthy'." },
+        { "t": "ic", "en": "I" },
+        { "t": "þū", "en": "you" },
+        { "t": "hē", "en": "he" },
+        { "t": "hēo", "en": "she" },
+        { "t": "mann", "en": "man", "alt": ["person"], "note": "Means 'person' as well as 'man'. A male is a wer." },
+        { "t": "wīf", "en": "woman", "alt": ["wife"] },
+        { "t": "eom", "en": "am" },
+        { "t": "eart", "en": "are" },
+        { "t": "is", "en": "is" },
+        { "t": "hātte", "en": "am called", "alt": ["is called", "I am called"] },
+        { "t": "hwā", "en": "who" }
+      ],
+      "sentences": [
+        { "t": "hāl wes þū, Ælfrēd", "en": "hail, Alfred", "alt": ["hello, Alfred", "be well, Alfred", "greetings, Alfred", "hail to you, Alfred"] },
+        { "t": "ic hātte Ælfrēd", "en": "my name is Alfred", "alt": ["I am called Alfred"] },
+        { "t": "ic eom mann", "en": "I am a man", "alt": ["I am a person"] },
+        { "t": "þū eart wīf", "en": "you are a woman", "alt": ["you are a wife"] },
+        { "t": "hēo hātte Hild", "en": "her name is Hild", "alt": ["she is called Hild"] },
+        { "t": "hē is mann", "en": "he is a man", "alt": ["he is a person"] },
+        { "t": "hwā eart þū?", "en": "who are you?" },
+        { "t": "hwā is hēo?", "en": "who is she?" }
+      ]
+    },
+    {
+      "title": "Æt hām",
+      "about": "Home, family and the word 'the'",
+      "kind": "words",
+      "guide": [
+        { "h": "Three words for 'the'", "p": "Every noun is masculine, feminine or neuter, and 'the' follows suit: se for masculine, sēo for feminine, þæt for neuter.", "ex": [["se fæder", "the father"], ["sēo mōdor", "the mother"], ["þæt hūs", "the house"]] },
+        { "h": "Gender is grammar", "p": "Gender belongs to the word, not the thing. wīf 'woman' is neuter, so it is þæt wīf." },
+        { "h": "Not", "p": "ne goes before the verb, and ne is fuses into nis, 'is not'.", "ex": [["se fæder nis æt hām", "the father is not at home"]] },
+        { "h": "Questions", "p": "For a yes-or-no question, put the verb first.", "ex": [["is se hund æt hām?", "is the dog at home?"]] }
+      ],
+      "items": [
+        { "t": "fæder", "en": "father" },
+        { "t": "mōdor", "en": "mother" },
+        { "t": "sunu", "en": "son" },
+        { "t": "dohtor", "en": "daughter" },
+        { "t": "brōþor", "en": "brother" },
+        { "t": "sweostor", "en": "sister" },
+        { "t": "cild", "en": "child", "note": "Neuter: þæt cild." },
+        { "t": "hūs", "en": "house", "note": "Neuter: þæt hūs." },
+        { "t": "hund", "en": "dog", "alt": ["hound"] },
+        { "t": "and", "en": "and", "note": "Also spelled ond." },
+        { "t": "nis", "en": "is not", "alt": ["isn't"] },
+        { "t": "æt hām", "en": "at home", "alt": ["home"] }
+      ],
+      "sentences": [
+        { "t": "fæder and mōdor", "en": "father and mother" },
+        { "t": "brōþor and sweostor", "en": "brother and sister" },
+        { "t": "se hund is æt hām", "en": "the dog is at home", "alt": ["the dog is home"] },
+        { "t": "se fæder nis æt hām", "en": "the father is not at home", "alt": ["father is not at home", "the father is not home", "the father isn't at home"] },
+        { "t": "is se hund æt hām?", "en": "is the dog at home?", "alt": ["is the dog home?"] },
+        { "t": "þæt cild is æt hām", "en": "the child is at home", "alt": ["the child is home"] },
+        { "t": "hēo is dohtor and sweostor", "en": "she is a daughter and a sister" },
+        { "t": "se sunu is cild", "en": "the son is a child" }
+      ]
+    },
+    {
+      "title": "Meduheall",
+      "about": "King, lord, mead and the object case",
+      "kind": "words",
+      "guide": [
+        { "h": "The object case", "p": "When a noun is the object of a verb, 'the' changes: se becomes þone and sēo becomes þā. þæt stays the same. Most nouns keep their own form.", "ex": [["se cyning lufaþ þā cwēn", "the king loves the queen"], ["sēo cwēn lufaþ þone cyning", "the queen loves the king"]] },
+        { "h": "Order is free-ish", "p": "Because the article shows who does what, the words can move. þā cwēn lufaþ se cyning still means 'the king loves the queen'. In a main clause the verb usually comes second, as in German." },
+        { "h": "Weak verbs", "p": "Weak verbs like lufian 'love' keep their vowel: ic lufie, þū lufast, hē lufaþ." },
+        { "h": "Strong verbs", "p": "Strong verbs like drincan 'drink' and singan 'sing' change their vowel in the past (dranc, 'drank'). In the present they take -e, -st, -þ: ic drince, þū drincst, hē drincþ." },
+        { "h": "In the hall", "p": "on healle is 'in the hall'. The hlāford, 'lord', was once the hlāf-weard, 'loaf-keeper': he shares food and treasure in the hall, and his þegnas repay him with loyalty." }
+      ],
+      "items": [
+        { "t": "cyning", "en": "king" },
+        { "t": "cwēn", "en": "queen", "alt": ["wife"] },
+        { "t": "hlāford", "en": "lord", "alt": ["master"] },
+        { "t": "þegn", "en": "thane", "alt": ["retainer", "warrior", "follower"] },
+        { "t": "scop", "en": "poet", "alt": ["bard", "minstrel", "singer"] },
+        { "t": "medu", "en": "mead", "note": "Also spelled meodu." },
+        { "t": "sweord", "en": "sword", "note": "Neuter: þæt sweord." },
+        { "t": "heall", "en": "hall", "note": "Feminine. 'In the hall' is on healle." },
+        { "t": "drincþ", "en": "drinks", "alt": ["is drinking"], "note": "From drincan, a strong verb." },
+        { "t": "singþ", "en": "sings", "alt": ["is singing"], "note": "From singan, a strong verb." },
+        { "t": "giefþ", "en": "gives", "alt": ["is giving"], "note": "From giefan, a strong verb." },
+        { "t": "lufaþ", "en": "loves", "alt": ["is loving"], "note": "From lufian, a weak verb." }
+      ],
+      "sentences": [
+        { "t": "se cyning drincþ medu", "en": "the king drinks mead", "alt": ["the king is drinking mead"], "talt": ["medu drincþ se cyning"] },
+        { "t": "se scop singþ", "en": "the poet sings", "alt": ["the poet is singing", "the bard sings", "the minstrel sings"] },
+        { "t": "se hlāford giefþ sweord", "en": "the lord gives a sword", "alt": ["the lord is giving a sword"] },
+        { "t": "se cyning lufaþ þā cwēn", "en": "the king loves the queen", "talt": ["þā cwēn lufaþ se cyning"] },
+        { "t": "sēo cwēn lufaþ þone cyning", "en": "the queen loves the king", "talt": ["þone cyning lufaþ sēo cwēn"] },
+        { "t": "se þegn drincþ medu on healle", "en": "the thane drinks mead in the hall", "alt": ["the thane is drinking mead in the hall", "the retainer drinks mead in the hall"] },
+        { "t": "se hlāford lufaþ þone þegn", "en": "the lord loves the thane", "alt": ["the lord loves the retainer"], "talt": ["þone þegn lufaþ se hlāford"] },
+        { "t": "ic drince medu", "en": "I drink mead", "alt": ["I am drinking mead"] },
+        { "t": "singst þū on healle?", "en": "do you sing in the hall?", "alt": ["are you singing in the hall?"] }
+      ]
+    },
+    {
+      "title": "Middangeard",
+      "about": "Heaven, earth and the two verbs 'to be'",
+      "kind": "words",
+      "guide": [
+        { "h": "Two verbs 'to be'", "p": "eom, eart, is describe how things are now. bēon, with ic bēo, þū bist, hē biþ, states what is always true and what will be.", "ex": [["dryhten biþ ēce", "the Lord is eternal"]] },
+        { "h": "More than one", "p": "The plural of is is sindon: wē sindon, gē sindon, hīe sindon. mann has the plural menn, just like man and men." },
+        { "h": "Me and us", "p": "Pronouns have object forms: ic becomes mē, þū becomes þē, hē becomes hine, wē becomes ūs.", "ex": [["God lufaþ ūs", "God loves us"]] },
+        { "h": "Weak nouns", "p": "Nouns ending in -a or -e, like sunne and eorþe, end in -an everywhere except as the subject: sēo eorþe, but on eorþan 'on earth'." },
+        { "h": "God and good", "p": "God has a short o, gōd 'good' a long one. middangeard, 'the middle enclosure', is the world of men between heaven and hell, the word Tolkien made into Middle-earth." }
+      ],
+      "items": [
+        { "t": "God", "en": "God" },
+        { "t": "heofon", "en": "heaven", "alt": ["sky"] },
+        { "t": "eorþe", "en": "earth", "alt": ["ground", "world"], "note": "A weak noun: on eorþan." },
+        { "t": "sunne", "en": "sun", "note": "Feminine: sēo sunne." },
+        { "t": "dryhten", "en": "ruler", "alt": ["Lord", "prince"], "note": "Christian poets use it for God, 'the Lord'." },
+        { "t": "hālig", "en": "holy" },
+        { "t": "gōd", "en": "good" },
+        { "t": "ēce", "en": "eternal", "alt": ["everlasting"] },
+        { "t": "beorht", "en": "bright", "alt": ["shining"] },
+        { "t": "biþ", "en": "is always", "alt": ["is", "will be"], "note": "From bēon. Used for general truths and the future." },
+        { "t": "wē", "en": "we" },
+        { "t": "ūs", "en": "us" }
+      ],
+      "sentences": [
+        { "t": "God is gōd", "en": "God is good" },
+        { "t": "sēo sunne is beorht", "en": "the sun is bright", "alt": ["the sun is shining"] },
+        { "t": "heofon is hālig", "en": "heaven is holy" },
+        { "t": "God lufaþ ūs", "en": "God loves us", "talt": ["God ūs lufaþ"] },
+        { "t": "wē sindon on eorþan", "en": "we are on earth", "alt": ["we are on the earth"] },
+        { "t": "dryhten biþ ēce", "en": "the Lord is eternal", "alt": ["the Lord is everlasting", "the ruler is eternal", "the Lord will be eternal"] },
+        { "t": "wē sindon menn", "en": "we are men", "alt": ["we are people", "we are humans"] },
+        { "t": "dryhten is hālig", "en": "the Lord is holy", "alt": ["the ruler is holy"] }
+      ]
+    },
+    {
+      "title": "Wyrd",
+      "about": "Proverbs and famous lines of verse",
+      "kind": "words",
+      "guide": [
+        { "h": "sceal", "p": "sceal means 'must, has to, is bound to'. It takes a plain infinitive ending in -an. The Cotton Maxims open with a list of what each thing should do.", "ex": [["cyning sceal rīce healdan", "a king must rule a kingdom"]] },
+        { "h": "Wyrd", "p": "wyrd is fate, 'what comes to pass'. The Maxims say wyrd biþ swīþost, The Wanderer wyrd biþ ful ārǣd, 'fate is wholly fixed'. Beowulf shrugs: gǣþ ā wyrd swā hīo scel, 'fate always goes as it must'. Manuscripts spell biþ as bið or byð." },
+        { "h": "Comparatives", "p": "-ra means '-er' and -ost '-est'. þē before a comparative means 'all the', and þē also joins clauses as 'as'. The old retainer in The Battle of Maldon (991) rallies the last men around their dead lord with these lines." },
+        { "h": "Poets' lines", "p": "Deor ends every stanza with a refrain of comfort: þæs oferēode, þisses swā mæg, 'that passed over, so can this'. The Advent lyric Christ I hails Ēarendel, a morning star, the name Tolkien borrowed for his mariner Eärendil." }
+      ],
+      "items": [
+        { "t": "wyrd", "en": "fate", "alt": ["destiny"] },
+        { "t": "sceal", "en": "must", "alt": ["shall"] },
+        { "t": "rīce", "en": "kingdom", "alt": ["realm", "rule"] },
+        { "t": "healdan", "en": "to hold", "alt": ["hold", "to rule", "rule"] },
+        { "t": "hige", "en": "mind", "alt": ["thought", "courage"] },
+        { "t": "heorte", "en": "heart" },
+        { "t": "mōd", "en": "spirit", "alt": ["courage", "mood", "mind"] },
+        { "t": "mægen", "en": "strength", "alt": ["might", "power"] },
+        { "t": "swīþost", "en": "strongest", "alt": ["mightiest"] },
+        { "t": "saga", "en": "say", "alt": ["tell"], "note": "A command, from secgan 'to say'." },
+        { "t": "hwæt", "en": "what", "note": "Beowulf opens with it, as a call to listen." },
+        { "t": "ēala", "en": "O", "alt": ["oh", "alas", "hail"] }
+      ],
+      "sentences": [
+        { "t": "cyning sceal rīce healdan", "en": "a king must rule a kingdom", "alt": ["a king must hold a kingdom", "a king shall rule a kingdom", "a king shall hold a kingdom"] },
+        { "t": "wyrd biþ swīþost", "en": "fate is strongest", "alt": ["fate is the strongest", "fate is mightiest"] },
+        { "t": "wyrd biþ ful ārǣd", "en": "fate is wholly fixed", "alt": ["fate is fully fixed", "fate is inexorable", "fate is fully determined"] },
+        { "t": "hige sceal þē heardra, heorte þē cēnre", "en": "mind must be the harder, heart the bolder", "alt": ["thought must be the harder, heart the bolder", "courage must be the harder, heart the bolder", "mind must be the firmer, heart the bolder"] },
+        { "t": "mōd sceal þē māre", "en": "spirit must be the greater", "alt": ["courage must be the greater", "spirit must be the more", "mind must be the greater"] },
+        { "t": "þē ūre mægen lȳtlaþ", "en": "as our strength lessens", "alt": ["as our might lessens", "as our strength grows less", "as our strength dwindles"] },
+        { "t": "þæs oferēode, þisses swā mæg", "en": "that passed over, so can this", "alt": ["that passed away, so may this", "that passed away, so can this", "that passed over, so may this"] },
+        { "t": "saga hwæt ic hātte", "en": "say what I am called", "alt": ["say what my name is", "tell what I am called"] },
+        { "t": "ēala Ēarendel, engla beorhtast", "en": "O Earendel, brightest of angels", "alt": ["hail Earendel, brightest of angels", "oh Earendel, brightest of angels"] }
+      ]
+    },
+    {
+      "title": "Gēardagas",
+      "about": "Tell what happened: the past tense",
+      "kind": "words",
+      "guide": [
+        { "h": "Two ways to make a past", "p": "Weak verbs add -de or -ode: lufian 'love' becomes lufode 'loved', hīeran 'hear' becomes hīerde 'heard'. Strong verbs change their vowel instead, the way English sing becomes sang.", "ex": [["se cyning lufode þā cwēn", "the king loved the queen"], ["se scop sang", "the poet sang"]] },
+        { "h": "Past endings", "p": "ic and hē share one form: ic sang, hē sang; ic lufode, hē lufode. Every plural subject takes -on: wē sungon, hīe lufodon. þū takes -est in weak verbs (þū lufodest) and -e in strong ones (þū sunge)." },
+        { "h": "Strong verbs change twice", "p": "Many strong verbs have one vowel for the singular past and another for the plural: hē sang but hīe sungon, hē dranc but hīe druncon. Dictionaries give four forms, singan, sang, sungon, sungen, so that you can find every one.", "ex": [["hīe sungon on healle", "they sang in the hall"]] },
+        { "h": "Was and were", "p": "wesan 'to be' is strong too: ic wæs, þū wǣre, hē wæs, wē wǣron. hæfde 'had' is the past of habban 'have'.", "ex": [["wē wǣron æt hām", "we were at home"]] },
+        { "h": "Why drink, drank, drunk", "p": "English still has a few dozen strong verbs: drink, drank, drunk and ride, rode, ridden. Many others went weak over the centuries. Old English healp, 'helped', is one of them." }
+      ],
+      "items": [
+        { "t": "wæs", "en": "was", "note": "Past of wesan 'to be'. Plural: wǣron." },
+        { "t": "wǣron", "en": "were" },
+        { "t": "sang", "en": "sang", "note": "From singan. Plural: sungon." },
+        { "t": "dranc", "en": "drank", "note": "From drincan. Plural: druncon." },
+        { "t": "geaf", "en": "gave", "note": "From giefan. Plural: gēafon." },
+        { "t": "cōm", "en": "came", "note": "From cuman 'come'. Plural: cōmon." },
+        { "t": "fōr", "en": "went", "alt": ["travelled", "traveled", "fared", "journeyed"], "note": "From faran 'go, travel', our 'fare'. Plural: fōron." },
+        { "t": "seah", "en": "saw", "note": "From sēon 'see'. Plural: sāwon." },
+        { "t": "cwæþ", "en": "said", "alt": ["spoke", "quoth"], "note": "From cweþan. Old 'quoth' is the same word." },
+        { "t": "lufode", "en": "loved", "note": "From lufian, a weak verb." },
+        { "t": "hīerde", "en": "heard", "note": "From hīeran, a weak verb." },
+        { "t": "hæfde", "en": "had", "note": "Past of habban 'have'." }
+      ],
+      "sentences": [
+        { "t": "se scop sang on healle", "en": "the poet sang in the hall", "alt": ["the bard sang in the hall", "the minstrel sang in the hall"] },
+        { "t": "se cyning dranc medu", "en": "the king drank mead", "talt": ["medu dranc se cyning"] },
+        { "t": "se hlāford geaf sweord", "en": "the lord gave a sword" },
+        { "t": "ic hīerde þone scop", "en": "I heard the poet", "alt": ["I heard the bard", "I heard the minstrel"] },
+        { "t": "hē lufode þā cwēn", "en": "he loved the queen" },
+        { "t": "wē wǣron æt hām", "en": "we were at home", "alt": ["we were home"] },
+        { "t": "hīe sungon on healle", "en": "they sang in the hall" },
+        { "t": "þæt cild seah þone hund", "en": "the child saw the dog", "talt": ["þone hund seah þæt cild"] },
+        { "t": "Ælfrēd wæs cyning", "en": "Alfred was king", "alt": ["Alfred was a king"] }
+      ]
+    },
+    {
+      "title": "Ofer sǣ",
+      "about": "Ships, gifts and the cases for 'of' and 'to'",
+      "kind": "words",
+      "guide": [
+        { "h": "Four cases", "p": "Nouns have four main cases. The nominative is the subject and the accusative the object. The genitive means 'of' or ''s'. The dative means 'to' or 'for', and most prepositions take it." },
+        { "h": "The genitive", "p": "Most masculine and neuter nouns add -es, which lives on as English 's. 'The' becomes þæs, or þǣre with a feminine noun, which usually ends in -e: þǣre cwēne 'the queen's'.", "ex": [["þæs cyninges sweord", "the king's sword"], ["Godes rīce", "God's kingdom"]] },
+        { "h": "The dative", "p": "The dative marks the one something is given or said to. Masculine and neuter nouns add -e, and 'the' becomes þǣm (also spelled þām), or þǣre with a feminine noun.", "ex": [["se cyning geaf þǣm þegne bēag", "the king gave the thane a ring"]] },
+        { "h": "Prepositions", "p": "tō 'to', mid 'with', of 'out of' and fram 'from' take the dative. on, in, ofer and under take the dative for where something is and the accusative for where it is going. on healle 'in the hall' was a dative all along.", "ex": [["þæt scip is on sǣ", "the ship is at sea"]] },
+        { "h": "More than one", "p": "In the plural 'the' is þā, 'of the' is þāra and 'to the' is þǣm. Masculine nouns like bēag add -as, bēagas 'rings', and every dative plural ends in -um." },
+        { "h": "The ring-giver", "p": "The Beowulf poet calls a king bēaga brytta, 'giver of rings'. A lord handed out arm-rings and gold in his hall, and the gift bound the warrior to him." }
+      ],
+      "items": [
+        { "t": "þǣm", "en": "to the", "alt": ["for the"], "note": "Dative of se and þæt. Also spelled þām. Feminine: þǣre." },
+        { "t": "þæs", "en": "of the", "note": "Genitive of se and þæt. Feminine: þǣre." },
+        { "t": "bēag", "en": "ring", "alt": ["arm-ring", "bracelet"], "note": "A gold arm-ring, the classic gift of a lord." },
+        { "t": "gold", "en": "gold" },
+        { "t": "scip", "en": "ship", "note": "Neuter: þæt scip." },
+        { "t": "sǣ", "en": "sea", "note": "Its dative is also sǣ: on sǣ 'at sea'." },
+        { "t": "land", "en": "land", "alt": ["country"] },
+        { "t": "tō", "en": "to", "alt": ["towards"] },
+        { "t": "mid", "en": "with", "alt": ["among"] },
+        { "t": "of", "en": "out of", "alt": ["from", "of", "off"] },
+        { "t": "fram", "en": "from", "alt": ["away from", "by"], "note": "Also spelled from." },
+        { "t": "ofer", "en": "over", "alt": ["across", "above"] }
+      ],
+      "sentences": [
+        { "t": "se cyning geaf þǣm þegne bēag", "en": "the king gave the thane a ring", "alt": ["the king gave a ring to the thane", "the king gave the retainer a ring", "the king gave a ring to the retainer"], "talt": ["se cyning geaf bēag þǣm þegne"] },
+        { "t": "þæs cyninges sweord", "en": "the king's sword", "alt": ["the sword of the king"] },
+        { "t": "þǣre cwēne bēag", "en": "the queen's ring", "alt": ["the ring of the queen"] },
+        { "t": "Godes rīce", "en": "God's kingdom", "alt": ["the kingdom of God"] },
+        { "t": "þæt scip is on sǣ", "en": "the ship is at sea", "alt": ["the ship is on the sea"] },
+        { "t": "hēo cōm mid þǣm cyninge", "en": "she came with the king" },
+        { "t": "se hund cōm of þǣm hūse", "en": "the dog came out of the house" },
+        { "t": "se hlāford geaf þǣm scope gold", "en": "the lord gave the poet gold", "alt": ["the lord gave gold to the poet", "the lord gave the bard gold", "the lord gave gold to the bard"], "talt": ["se hlāford geaf gold þǣm scope"] },
+        { "t": "wē fōron ofer sǣ", "en": "we travelled over the sea", "alt": ["we traveled over the sea", "we went over the sea", "we went across the sea", "we travelled across the sea", "we traveled across the sea", "we sailed over the sea"] }
+      ]
+    },
+    {
+      "title": "Wit and git",
+      "about": "Every pronoun, including 'we two' and 'you two'",
+      "kind": "words",
+      "guide": [
+        { "h": "The full set", "p": "Pronouns have four cases, like nouns. The dative means 'to me, to him': mē, þē, him, hire, ūs. The genitive means 'of me' and doubles as 'my': mīn, þīn, his, hire, ūre.", "ex": [["hē geaf hire bēag", "he gave her a ring"]] },
+        { "h": "Exactly two", "p": "Old English kept a dual for pairs: wit 'we two' and git 'you two', with unc 'us two' and inc 'you two' as objects. Beowulf recalls a boyhood swimming match with wit þæt gecwǣdon, 'we two agreed on that'.", "ex": [["wit sindon æt hām", "we two are at home"]] },
+        { "h": "Poems about two", "p": "The speaker of The Wife's Lament remembers how ful oft wit bēotedan, 'very often we two vowed', that only death would part them. Wulf and Eadwacer ends with uncer giedd geador, 'the song of us two together'." },
+        { "h": "My and your agree", "p": "mīn, þīn, ūre and ēower 'your (plural)' take adjective endings, so 'my' changes with its noun: mīn fæder, but mīnne fæder as an object. his, hire and hiera 'their' never change.", "ex": [["mīn fæder is cyning", "my father is a king"]] },
+        { "h": "Thou and ye", "p": "þū is one person and gē is several, the 'thou' and 'ye' of older English. hīe means 'they', and also 'her' as an object. The th- of 'they' arrived later, from Old Norse." }
+      ],
+      "items": [
+        { "t": "hit", "en": "it" },
+        { "t": "hīe", "en": "they", "alt": ["them", "her"], "note": "Also 'them', and 'her' as an object." },
+        { "t": "gē", "en": "you all", "alt": ["ye", "you"], "note": "Plural 'you'. To one person: þū." },
+        { "t": "wit", "en": "we two", "alt": ["we both"] },
+        { "t": "git", "en": "you two", "alt": ["you both"] },
+        { "t": "unc", "en": "us two", "alt": ["us both", "to us two"], "note": "Object form of wit. For git: inc." },
+        { "t": "mīn", "en": "my", "alt": ["mine"] },
+        { "t": "þīn", "en": "your", "alt": ["yours", "thy", "thine"] },
+        { "t": "his", "en": "his", "alt": ["its"] },
+        { "t": "hire", "en": "her", "alt": ["to her", "hers"], "note": "'Her' as in 'her ring' and 'to her'. As an object: hīe." },
+        { "t": "ūre", "en": "our", "alt": ["ours"] },
+        { "t": "him", "en": "to him", "alt": ["him", "to them", "them"], "note": "Dative of hē and hit, and also of hīe 'they'." }
+      ],
+      "sentences": [
+        { "t": "wit sindon æt hām", "en": "we two are at home", "alt": ["we two are home", "we both are at home", "we are both at home"] },
+        { "t": "git wǣron on healle", "en": "you two were in the hall", "alt": ["you both were in the hall", "you were both in the hall"] },
+        { "t": "hēo lufaþ hine and hē lufaþ hīe", "en": "she loves him and he loves her" },
+        { "t": "mīn fæder is cyning", "en": "my father is a king", "alt": ["my father is king"] },
+        { "t": "þīn sweord is beorht", "en": "your sword is bright", "alt": ["your sword is shining", "thy sword is bright"] },
+        { "t": "hē geaf hire bēag", "en": "he gave her a ring", "alt": ["he gave a ring to her"] },
+        { "t": "ūre hlāford is gōd", "en": "our lord is good", "alt": ["our master is good"] },
+        { "t": "se cyning geaf unc gold", "en": "the king gave us two gold", "alt": ["the king gave gold to us two", "the king gave us both gold"] },
+        { "t": "hit is mīn hūs", "en": "it is my house" }
+      ]
+    },
+    {
+      "title": "Canst þū singan?",
+      "about": "Can, may, must and want: the modal verbs",
+      "kind": "words",
+      "guide": [
+        { "h": "Helpers", "p": "sculan 'must', willan 'want', magan 'be able', mōtan 'be allowed' and cunnan 'know how' take a plain infinitive in -an, just as sceal did in the Maxims. The infinitive usually comes late in the clause.", "ex": [["ic mæg singan", "I can sing"]] },
+        { "h": "Presents that look past", "p": "These verbs have no -þ for hē: ic mæg, hē mæg, þū meaht; ic sceal, þū scealt; ic cann, þū canst; ic mōt, þū mōst. Plurals end in -on: wē magon, wē sculon, wē cunnon. willan goes ic wille, þū wilt, hē wile." },
+        { "h": "Should, would, could", "p": "Their pasts are weak: sceolde 'had to', wolde 'wanted', meahte 'could', mōste 'was allowed', cūþe 'knew how'. They became should, would, might and must, and cūþe became could." },
+        { "h": "False friends", "p": "mōtan means 'may, be allowed to' far more often than 'must'. cunnan means 'know', as in uncouth, from uncūþ 'unknown'. helpan takes a dative: helpan þǣm cyninge 'help the king'." },
+        { "h": "Cædmon's dream", "p": "In the Old English Bede, a figure in a dream tells Cædmon to sing. He answers ne con ic nōht singan, 'I cannot sing anything'. Told hwæðre þū meaht singan, 'yet you can sing', he asks what to sing.", "ex": [["hwæt sceal ic singan?", "what shall I sing?"]] }
+      ],
+      "items": [
+        { "t": "mæg", "en": "can", "alt": ["is able", "am able", "may"], "note": "From magan 'be able'. Plural: magon." },
+        { "t": "wille", "en": "want", "alt": ["I want", "wish", "will"], "note": "From willan. hē wile 'he wants'." },
+        { "t": "mōt", "en": "may", "alt": ["am allowed", "is allowed", "must"], "note": "From mōtan 'be allowed'." },
+        { "t": "cann", "en": "know how", "alt": ["knows how", "can", "know"], "note": "From cunnan. þū canst, wē cunnon." },
+        { "t": "sceolde", "en": "should", "alt": ["had to", "ought to"], "note": "Past of sculan." },
+        { "t": "wolde", "en": "wanted", "alt": ["would", "wished"], "note": "Past of willan." },
+        { "t": "meahte", "en": "could", "alt": ["was able", "might"], "note": "Past of magan. Also spelled mihte." },
+        { "t": "cūþe", "en": "knew how", "alt": ["knew"], "note": "Past of cunnan." },
+        { "t": "singan", "en": "to sing", "alt": ["sing"] },
+        { "t": "faran", "en": "to go", "alt": ["go", "to travel", "travel", "to fare", "fare"] },
+        { "t": "helpan", "en": "to help", "alt": ["help"], "note": "Takes a dative object." },
+        { "t": "nū", "en": "now" }
+      ],
+      "sentences": [
+        { "t": "ic mæg singan", "en": "I can sing", "alt": ["I am able to sing"] },
+        { "t": "canst þū singan?", "en": "can you sing?", "alt": ["do you know how to sing?"] },
+        { "t": "ne cann ic singan", "en": "I cannot sing", "alt": ["I can't sing", "I can not sing", "I do not know how to sing", "I don't know how to sing"] },
+        { "t": "hwæt sceal ic singan?", "en": "what shall I sing?", "alt": ["what must I sing?", "what should I sing?"] },
+        { "t": "wē sculon helpan þǣm cyninge", "en": "we must help the king", "alt": ["we have to help the king", "we shall help the king"] },
+        { "t": "se cyning wolde faran", "en": "the king wanted to go", "alt": ["the king wanted to travel", "the king wished to go"] },
+        { "t": "hēo ne meahte him helpan", "en": "she could not help him", "alt": ["she couldn't help him", "she was not able to help him"] },
+        { "t": "mōt ic drincan?", "en": "may I drink?", "alt": ["am I allowed to drink?"] },
+        { "t": "nū wille ic faran", "en": "now I want to go", "alt": ["now I will go", "now I wish to go", "I want to go now"] }
+      ]
+    },
+    {
+      "title": "Eald and geong",
+      "about": "Strong and weak adjectives, and comparison",
+      "kind": "words",
+      "guide": [
+        { "h": "Two sets of endings", "p": "After se, sēo, þæt or mīn, an adjective takes weak endings: -a for a masculine subject, -e for a feminine or neuter one, and -an almost everywhere else.", "ex": [["se ealda cyning", "the old king"], ["sēo ealde cwēn", "the old queen"]] },
+        { "h": "Strong endings", "p": "With no article, adjectives take strong endings that echo the article: gōdne like þone, gōdes like þæs, gōdre like þǣre. After is, an adjective usually has no ending at all. The Beowulf poet praises Scyld with þæt wæs gōd cyning.", "ex": [["hē geaf mē gōdne bēag", "he gave me a good ring"]] },
+        { "h": "Comparison", "p": "-ra makes '-er' and -ost or -est makes '-est'. Comparatives always take weak endings, so a queen is wīsre, 'wiser'. þonne means 'than'.", "ex": [["hē is ieldra þonne ic", "he is older than I"]] },
+        { "h": "Vowel changes", "p": "Some adjectives change their vowel as well: eald, ieldra, ieldest 'old, older, oldest' and lang, lengra, lengest, the same change as long and length. A few switch words: gōd, betera, betst; micel, māra, mǣst; lȳtel, lǣssa, lǣst." },
+        { "h": "Better than shame", "p": "When Beowulf's men desert him, Wiglaf tells them dēaþ biþ sēlla eorla gehwylcum þonne edwītlīf. sēlla is a second word for 'better', and eorla gehwylcum, 'for each of warriors', means 'for every warrior'." }
+      ],
+      "items": [
+        { "t": "eald", "en": "old", "note": "Comparative ieldra, superlative ieldest." },
+        { "t": "geong", "en": "young" },
+        { "t": "lang", "en": "long", "alt": ["tall"], "note": "Comparative lengra." },
+        { "t": "strang", "en": "strong", "note": "Comparative strengra." },
+        { "t": "wīs", "en": "wise" },
+        { "t": "micel", "en": "great", "alt": ["big", "large", "much"] },
+        { "t": "lȳtel", "en": "little", "alt": ["small"] },
+        { "t": "ieldra", "en": "older", "alt": ["elder"] },
+        { "t": "betera", "en": "better", "note": "Comparative of gōd. sēlra means the same." },
+        { "t": "betst", "en": "best" },
+        { "t": "mǣst", "en": "greatest", "alt": ["most", "biggest", "largest"] },
+        { "t": "þonne", "en": "than", "alt": ["then"] }
+      ],
+      "sentences": [
+        { "t": "se ealda cyning", "en": "the old king" },
+        { "t": "þæt wæs gōd cyning", "en": "that was a good king" },
+        { "t": "se geonga þegn is strang", "en": "the young thane is strong", "alt": ["the young retainer is strong", "the young warrior is strong"] },
+        { "t": "hē is ieldra þonne ic", "en": "he is older than I", "alt": ["he is older than me", "he is elder than I"] },
+        { "t": "sēo cwēn is wīsre þonne se cyning", "en": "the queen is wiser than the king" },
+        { "t": "hē geaf mē gōdne bēag", "en": "he gave me a good ring", "alt": ["he gave a good ring to me"] },
+        { "t": "þæt is þæt betste sweord", "en": "that is the best sword" },
+        { "t": "se lȳtla hund", "en": "the little dog", "alt": ["the small dog"] },
+        { "t": "dēaþ biþ sēlla eorla gehwylcum þonne edwītlīf", "en": "death is better for every warrior than a life of shame", "alt": ["death is better for every warrior than a life of disgrace", "death is better for every man than a life of shame", "death is better for each warrior than a life of shame", "death is better for every warrior than a shameful life", "death is better for any warrior than a life of shame", "death is better for every nobleman than a life of shame"] }
+      ]
+    },
+    {
+      "title": "Hronrād",
+      "about": "Kennings, alliteration and the half-line",
+      "kind": "words",
+      "guide": [
+        { "h": "Two halves, four beats", "p": "A line of Old English verse is two half-lines with a pause between them. Each half has two stressed syllables, and the unstressed ones can vary in number. Editions print a gap at the pause.", "ex": [["Oft Scyld Scēfing   sceaþena þrēatum", "Beowulf 4: three of the four beats begin with sc"]] },
+        { "h": "Alliteration", "p": "The halves are bound by sound, not rhyme. The first stress of the second half sets the sound, and one or both stresses of the first half must match it. The last stress in the line does not alliterate.", "ex": [["wēox under wolcnum,   weorþmyndum þāh", "he grew under the skies, prospered in honours (Beowulf 8)"]] },
+        { "h": "Which sounds match", "p": "Any vowel alliterates with any other vowel. sc, sp and st match only themselves. The two sounds of g count as one, so Gār-Dena alliterates with gēardagum in the first line of Beowulf." },
+        { "h": "Kennings", "p": "A kenning names a thing through a picture: the sea is the hronrād 'whale-road', the body a bānhūs 'bone-house', the sun the woruldcandel 'world-candle'. Some are phrases, such as goldwine gumena, 'gold-friend of men', for a king." },
+        { "h": "Saying it again", "p": "Poets name one thing several ways in a row. Cædmon calls God heofonrīces weard, wuldorfæder, ēce drihten and hālig scyppend in nine lines. In The Wanderer, cwōm is an old spelling of cōm 'came'." }
+      ],
+      "items": [
+        { "t": "hronrād", "en": "whale-road", "alt": ["sea", "whale road"], "note": "A kenning for the sea (Beowulf 10)." },
+        { "t": "swanrād", "en": "swan-road", "alt": ["sea", "swan road"], "note": "Another kenning for the sea (Beowulf 200)." },
+        { "t": "bānhūs", "en": "bone-house", "alt": ["body", "bone house"], "note": "A kenning for the body." },
+        { "t": "woruldcandel", "en": "world-candle", "alt": ["sun", "world candle"], "note": "A kenning for the sun (Beowulf 1965)." },
+        { "t": "hildelēoma", "en": "battle-light", "alt": ["sword", "battle light"], "note": "A kenning for a sword in Beowulf 1143, and for fire in 2583." },
+        { "t": "goldwine", "en": "gold-friend", "alt": ["lord", "gold friend"], "note": "A kenning for a generous lord." },
+        { "t": "wordhord", "en": "word-hoard", "alt": ["word hoard", "vocabulary"], "note": "A speaker 'unlocks his word-hoard' when he begins." },
+        { "t": "eorl", "en": "warrior", "alt": ["nobleman", "earl"], "note": "In poetry, any brave man. It later became 'earl'." },
+        { "t": "mearh", "en": "horse", "alt": ["steed"], "note": "Spelled mearg in The Wanderer. Our 'mare' comes from its feminine." },
+        { "t": "hwǣr", "en": "where" },
+        { "t": "giedd", "en": "song", "alt": ["poem", "tale", "lay"], "note": "Any formal speech, song or riddle." },
+        { "t": "dēaþ", "en": "death" }
+      ],
+      "sentences": [
+        { "t": "ofer hronrāde", "en": "over the whale-road", "alt": ["over the whale road", "across the whale-road", "over the sea"] },
+        { "t": "goldwine gumena", "en": "gold-friend of men", "alt": ["gold friend of men", "the gold-friend of men"] },
+        { "t": "wordhord onlēac", "en": "he unlocked his word-hoard", "alt": ["unlocked his word-hoard", "he unlocked the word-hoard", "unlocked the word-hoard", "he unlocked his word hoard"] },
+        { "t": "woruldcandel scān", "en": "the world-candle shone", "alt": ["the world candle shone", "the sun shone"] },
+        { "t": "bānhūs gebræc", "en": "broke the bone-house", "alt": ["it broke the bone-house", "broke his bone-house", "it broke his bone-house", "broke the bone house"] },
+        { "t": "goldwine mīnne", "en": "my gold-friend", "alt": ["my gold friend", "my lord"] },
+        { "t": "mæg ic be mē sylfum sōþgied wrecan", "en": "I can make a true song about myself", "alt": ["I can tell a true tale about myself", "I can recite a true song about myself", "I can utter a true song about myself", "I can make a true poem about myself", "I can tell a true story about myself"] },
+        { "t": "hwǣr cwōm mearg? hwǣr cwōm mago?", "en": "where has the horse gone? where the young man?", "alt": ["where has the horse gone? where has the young man gone?", "where did the horse go? where did the young man go?", "where went the horse? where went the young man?", "where is the horse? where is the young man?"] }
+      ]
+    }
+  ]
+}

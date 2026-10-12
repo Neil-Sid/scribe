@@ -1,0 +1,463 @@
+{
+  "id": "sanskrit",
+  "name": "Sanskrit",
+  "native": "संस्कृतम्",
+  "era": "c. 400 BC – AD 1200 (Classical)",
+  "place": "The Indian subcontinent and beyond",
+  "blurb": "The language of the Mahābhārata, the Rāmāyaṇa and Kālidāsa, and a distant cousin of Latin and Greek.",
+  "emblem": "ॐ",
+  "script": { "name": "Devanagari", "font": "devanagari" },
+  "accent": "#c4651a",
+  "keys": ["ā", "ī", "ū", "ṛ", "ṝ", "ḷ", "ṅ", "ñ", "ṭ", "ḍ", "ṇ", "ś", "ṣ", "ṃ", "ḥ"],
+  "facts": [
+    "saṃskṛta means 'put together' or 'refined', as opposed to the everyday Prākrits people actually spoke.",
+    "Pāṇini described the whole language in under 4,000 terse rules around the 4th century BC. Grammarians still use them.",
+    "Sanskrit has no script of its own. It was written in Brāhmī, Grantha, Śāradā and dozens more before printing made Devanagari the norm.",
+    "pitā, mātā and devaḥ are cousins of Latin pater, māter and deus, all inherited from Proto-Indo-European.",
+    "India's national motto, Satyameva Jayate, is a line from the Muṇḍaka Upaniṣad. You will learn it in unit 6.",
+    "English borrowed avatar, karma, mantra and yoga from Sanskrit."
+  ],
+  "units": [
+    {
+      "title": "Varṇamālā",
+      "about": "Read the letters of Devanagari",
+      "kind": "script",
+      "guide": [
+        { "h": "Every consonant says a", "p": "Devanagari writes syllables. A consonant letter on its own already carries a short a: क is ka, not k.", "ex": [["क", "ka"], ["न", "na"]] },
+        { "h": "Vowel signs", "p": "After a consonant a vowel becomes a small sign instead of a full letter. The i sign is written before the consonant but said after it. Not shown in the list: ऊ ū, ऐ ai and औ au.", "ex": [["का", "kā"], ["कि", "ki"], ["की", "kī"], ["कु", "ku"], ["कृ", "kṛ"], ["के", "ke"], ["को", "ko"]] },
+        { "h": "Killing the a", "p": "The small stroke ् (virāma) removes the built-in a. Consonants with no vowel between them usually fuse into one cluster.", "ex": [["क्", "k"], ["सत्यम्", "satyam"]] },
+        { "h": "One dot, two dots", "p": "ं (anusvāra) nasalises the vowel before it, written ṃ. ः (visarga) is a soft breath after the vowel, written ḥ. Both sit at the end of countless words.", "ex": [["नरः", "naraḥ"], ["अहिंसा", "ahiṃsā"]] },
+        { "h": "Reading the romanisation", "p": "A line over a vowel makes it long: ā is held twice as long as a. c is always as in 'church'. A dot under t, d or n means the tongue curls back; ś is English sh and ṣ a curled-back sh. An h after a consonant is a puff of breath: ph is p plus breath, never f." }
+      ],
+      "items": [
+        { "g": "अ", "t": "a", "en": "vowel a", "note": "Short, like the u in 'but'." },
+        { "g": "आ", "t": "ā", "en": "long vowel ā", "note": "As in 'father'." },
+        { "g": "इ", "t": "i", "en": "vowel i" },
+        { "g": "ई", "t": "ī", "en": "long vowel ī" },
+        { "g": "उ", "t": "u", "en": "vowel u" },
+        { "g": "ऋ", "t": "ṛ", "en": "vowel ṛ", "note": "A vowel r. Most people today say it ri, as in Kṛṣṇa." },
+        { "g": "ए", "t": "e", "en": "vowel e", "note": "Always long in Sanskrit." },
+        { "g": "ओ", "t": "o", "en": "vowel o", "note": "Always long in Sanskrit." },
+        { "g": "अं", "t": "aṃ", "en": "anusvāra", "note": "The dot ं nasalises the vowel." },
+        { "g": "अः", "t": "aḥ", "en": "visarga", "note": "The two dots ः are a breath echoing the vowel: aḥ sounds like a-ha." },
+        { "g": "क", "t": "ka", "en": "consonant ka" },
+        { "g": "ग", "t": "ga", "en": "consonant ga" },
+        { "g": "च", "t": "ca", "en": "consonant ca", "note": "Said cha, as in 'church'." },
+        { "g": "ज", "t": "ja", "en": "consonant ja" },
+        { "g": "त", "t": "ta", "en": "consonant ta", "note": "Tongue against the teeth." },
+        { "g": "द", "t": "da", "en": "consonant da" },
+        { "g": "न", "t": "na", "en": "consonant na" },
+        { "g": "प", "t": "pa", "en": "consonant pa" },
+        { "g": "म", "t": "ma", "en": "consonant ma" },
+        { "g": "य", "t": "ya", "en": "consonant ya" },
+        { "g": "र", "t": "ra", "en": "consonant ra" },
+        { "g": "व", "t": "va", "en": "consonant va" },
+        { "g": "स", "t": "sa", "en": "consonant sa" },
+        { "g": "ह", "t": "ha", "en": "consonant ha" }
+      ]
+    },
+    {
+      "title": "Namaste",
+      "about": "Greet people and say who they are",
+      "kind": "words",
+      "guide": [
+        { "h": "No 'the', no 'is'", "p": "Sanskrit has no articles, and 'is' is usually left out. Two words side by side already make a sentence.", "ex": [["aham bālaḥ", "I am a boy"], ["sā nārī", "she is a woman"]] },
+        { "h": "Subjects in -aḥ", "p": "Masculine nouns in -a end in -aḥ when they are the subject. Feminine nouns end in -ā or -ī.", "ex": [["naraḥ", "man"], ["bālā", "girl"], ["nārī", "woman"]] },
+        { "h": "ca comes after", "p": "ca 'and' follows the word it adds, or each word in turn.", "ex": [["naraḥ nārī ca", "a man and a woman"], ["naraḥ ca nārī ca", "a man and a woman"]] },
+        { "h": "Words said alone", "p": "Sanskrit words change their last sound to suit the next word. This is called sandhi. For now every word appears as if said on its own (in pausa), the way dictionaries and many textbooks start. Sandhi begins in unit 4." }
+      ],
+      "items": [
+        { "g": "नमस्ते", "t": "namaste", "en": "hello", "alt": ["greetings"], "note": "namaḥ 'a bow' + te 'to you'. Said with palms together." },
+        { "g": "नरः", "t": "naraḥ", "en": "man" },
+        { "g": "नारी", "t": "nārī", "en": "woman" },
+        { "g": "बालः", "t": "bālaḥ", "en": "boy", "alt": ["child"] },
+        { "g": "बाला", "t": "bālā", "en": "girl" },
+        { "g": "आचार्यः", "t": "ācāryaḥ", "en": "teacher", "note": "Still a title of respect for great scholars." },
+        { "g": "शिष्यः", "t": "śiṣyaḥ", "en": "student", "alt": ["pupil", "disciple"] },
+        { "g": "अहम्", "t": "aham", "en": "I" },
+        { "g": "त्वम्", "t": "tvam", "en": "you" },
+        { "g": "सः", "t": "saḥ", "en": "he" },
+        { "g": "सा", "t": "sā", "en": "she" },
+        { "g": "च", "t": "ca", "en": "and" }
+      ],
+      "sentences": [
+        { "g": "अहम् बालः", "t": "aham bālaḥ", "en": "I am a boy" },
+        { "g": "त्वम् नारी", "t": "tvam nārī", "en": "you are a woman" },
+        { "g": "सः आचार्यः", "t": "saḥ ācāryaḥ", "en": "he is a teacher" },
+        { "g": "सा बाला", "t": "sā bālā", "en": "she is a girl" },
+        { "g": "नरः नारी च", "t": "naraḥ nārī ca", "en": "a man and a woman", "talt": ["naraḥ ca nārī ca"] },
+        { "g": "बालः बाला च", "t": "bālaḥ bālā ca", "en": "a boy and a girl", "talt": ["bālaḥ ca bālā ca"] },
+        { "g": "अहम् शिष्यः त्वम् आचार्यः", "t": "aham śiṣyaḥ, tvam ācāryaḥ", "en": "I am a student, you are a teacher", "alt": ["I am a pupil, you are a teacher"] },
+        { "g": "सः नरः सा नारी", "t": "saḥ naraḥ, sā nārī", "en": "he is a man, she is a woman" }
+      ]
+    },
+    {
+      "title": "Gṛham",
+      "about": "Family, animals and the object ending",
+      "kind": "words",
+      "guide": [
+        { "h": "Objects end in -m", "p": "The object of a verb changes its ending: -aḥ becomes -am, -ā becomes -ām, -ī becomes -īm.", "ex": [["putraḥ aśvam paśyati", "the son sees the horse"], ["mātā putrīm rakṣati", "the mother protects the daughter"]] },
+        { "h": "-ti means he, she or it", "p": "paśyati is 'he sees', 'she sees' or 'it sees'. The verb usually comes last, but the endings, not the order, show who does what.", "ex": [["aśvam putraḥ paśyati", "the son sees the horse"]] },
+        { "h": "Neuter nouns", "p": "Some nouns, like gṛham, are neuter. They end in -am whether they are subject or object." },
+        { "h": "Adjectives agree", "p": "An adjective takes its noun's ending: śvetaḥ with masculine nouns, śvetā with feminine, śvetam with neuter. After the noun, with no verb, it says what the noun is like.", "ex": [["aśvaḥ śvetaḥ", "the horse is white"], ["kṛṣṇam mārjāram", "a black cat (object)"]] },
+        { "h": "Father and mother", "p": "pitā and mātā follow an older pattern: as objects they become pitaram and mātaram. They are cousins of Latin pater and māter." }
+      ],
+      "items": [
+        { "g": "पिता", "t": "pitā", "en": "father", "note": "As an object: pitaram." },
+        { "g": "माता", "t": "mātā", "en": "mother", "note": "As an object: mātaram." },
+        { "g": "पुत्रः", "t": "putraḥ", "en": "son" },
+        { "g": "पुत्री", "t": "putrī", "en": "daughter" },
+        { "g": "गृहम्", "t": "gṛham", "en": "house", "alt": ["home"] },
+        { "g": "अश्वः", "t": "aśvaḥ", "en": "horse" },
+        { "g": "कुक्कुरः", "t": "kukkuraḥ", "en": "dog" },
+        { "g": "मार्जारः", "t": "mārjāraḥ", "en": "cat" },
+        { "g": "पश्यति", "t": "paśyati", "en": "sees", "alt": ["is seeing", "looks at"] },
+        { "g": "रक्षति", "t": "rakṣati", "en": "protects", "alt": ["guards", "is protecting"] },
+        { "g": "श्वेतः", "t": "śvetaḥ", "en": "white", "note": "Feminine śvetā, neuter śvetam." },
+        { "g": "कृष्णः", "t": "kṛṣṇaḥ", "en": "black", "alt": ["dark"], "note": "Feminine kṛṣṇā, neuter kṛṣṇam. Also the name Kṛṣṇa, 'the dark one'." }
+      ],
+      "sentences": [
+        { "g": "माता पिता च", "t": "mātā pitā ca", "en": "mother and father", "talt": ["mātā ca pitā ca"] },
+        { "g": "पुत्रः अश्वम् पश्यति", "t": "putraḥ aśvam paśyati", "en": "the son sees the horse", "alt": ["the son sees a horse"], "talt": ["aśvam putraḥ paśyati"] },
+        { "g": "मार्जारः कुक्कुरम् पश्यति", "t": "mārjāraḥ kukkuram paśyati", "en": "the cat sees the dog", "talt": ["kukkuram mārjāraḥ paśyati"] },
+        { "g": "कुक्कुरः गृहम् रक्षति", "t": "kukkuraḥ gṛham rakṣati", "en": "the dog guards the house", "alt": ["the dog protects the house", "the dog guards the home", "the dog protects the home"], "talt": ["gṛham kukkuraḥ rakṣati"] },
+        { "g": "माता पुत्रीम् रक्षति", "t": "mātā putrīm rakṣati", "en": "the mother protects the daughter", "alt": ["the mother protects her daughter", "the mother guards the daughter"], "talt": ["putrīm mātā rakṣati"] },
+        { "g": "अश्वः श्वेतः", "t": "aśvaḥ śvetaḥ", "en": "the horse is white" },
+        { "g": "पुत्री कृष्णम् मार्जारम् पश्यति", "t": "putrī kṛṣṇam mārjāram paśyati", "en": "the daughter sees a black cat", "alt": ["the daughter sees a dark cat"] },
+        { "g": "पिता पुत्रम् पश्यति", "t": "pitā putram paśyati", "en": "the father sees the son", "alt": ["the father sees his son"], "talt": ["putram pitā paśyati"] }
+      ]
+    },
+    {
+      "title": "Dinacaryā",
+      "about": "Everyday verbs, I and you, and sandhi",
+      "kind": "words",
+      "guide": [
+        { "h": "I, you, he", "p": "The ending shows the person: -āmi 'I', -asi 'you', -ati 'he, she, it'. aham and tvam are added only for emphasis.", "ex": [["gacchāmi", "I go"], ["gacchasi", "you go"], ["gacchati", "he goes"]] },
+        { "h": "Going somewhere", "p": "The place you go to takes the object ending. No word for 'to' is needed. na 'not' usually stands right before the verb.", "ex": [["grāmaṃ gacchati", "goes to the village"], ["ahaṃ na gacchāmi", "I am not going"]] },
+        { "h": "Sandhi: final m", "p": "From this unit on, words join up as in real Sanskrit. A final -m before a consonant becomes ṃ (ं). Before a vowel or at the end of a sentence it stays m.", "ex": [["jalaṃ pibati", "drinks water"], ["ahaṃ gacchāmi", "I go"]] },
+        { "h": "Sandhi: final aḥ", "p": "-aḥ turns into -o before a voiced sound: g j d b n m y r l v h. Before k or p, and at the end, it stays aḥ. saḥ simply drops its ḥ before any consonant.", "ex": [["naro gacchati", "the man goes"], ["bālaḥ khādati", "the boy eats"], ["sa pibati", "he drinks"]] }
+      ],
+      "items": [
+        { "g": "गच्छति", "t": "gacchati", "en": "goes", "alt": ["is going"], "note": "I go: gacchāmi. You go: gacchasi." },
+        { "g": "पिबति", "t": "pibati", "en": "drinks", "alt": ["is drinking"] },
+        { "g": "खादति", "t": "khādati", "en": "eats", "alt": ["is eating"] },
+        { "g": "पठति", "t": "paṭhati", "en": "reads", "alt": ["is reading", "recites", "studies"] },
+        { "g": "वदति", "t": "vadati", "en": "speaks", "alt": ["says", "is speaking"] },
+        { "g": "जलम्", "t": "jalam", "en": "water" },
+        { "g": "फलम्", "t": "phalam", "en": "fruit", "note": "Also 'result': the fruit of an action." },
+        { "g": "पुस्तकम्", "t": "pustakam", "en": "book" },
+        { "g": "वनम्", "t": "vanam", "en": "forest", "alt": ["woods", "wood"] },
+        { "g": "ग्रामः", "t": "grāmaḥ", "en": "village" },
+        { "g": "न", "t": "na", "en": "not", "alt": ["no"] },
+        { "g": "कुत्र", "t": "kutra", "en": "where" }
+      ],
+      "sentences": [
+        { "g": "अहं ग्रामं गच्छामि", "t": "ahaṃ grāmaṃ gacchāmi", "en": "I go to the village", "alt": ["I am going to the village"], "talt": ["grāmaṃ gacchāmi"] },
+        { "g": "त्वं जलं पिबसि", "t": "tvaṃ jalaṃ pibasi", "en": "you drink water", "alt": ["you are drinking water"], "talt": ["jalaṃ pibasi"] },
+        { "g": "बालः फलं खादति", "t": "bālaḥ phalaṃ khādati", "en": "the boy eats a fruit", "alt": ["the boy is eating a fruit", "the boy eats fruit", "the boy is eating fruit"], "talt": ["phalaṃ bālaḥ khādati"] },
+        { "g": "नरो वनं गच्छति", "t": "naro vanaṃ gacchati", "en": "the man goes to the forest", "alt": ["the man is going to the forest"], "talt": ["vanaṃ naro gacchati"] },
+        { "g": "स पुस्तकं पठति", "t": "sa pustakaṃ paṭhati", "en": "he reads a book", "alt": ["he is reading a book"], "talt": ["pustakaṃ sa paṭhati"] },
+        { "g": "सा जलं न पिबति", "t": "sā jalaṃ na pibati", "en": "she does not drink water", "alt": ["she is not drinking water", "she doesn't drink water", "she isn't drinking water"] },
+        { "g": "अहं न गच्छामि", "t": "ahaṃ na gacchāmi", "en": "I am not going", "alt": ["I do not go", "I don't go", "I'm not going"], "talt": ["na gacchāmi"] },
+        { "g": "कुत्र गच्छसि", "t": "kutra gacchasi?", "en": "where are you going?", "alt": ["where do you go?"], "talt": ["tvaṃ kutra gacchasi"] },
+        { "g": "आचार्यो वदति", "t": "ācāryo vadati", "en": "the teacher speaks", "alt": ["the teacher is speaking", "the teacher says"] }
+      ]
+    },
+    {
+      "title": "Prakṛtiḥ",
+      "about": "Gods, nature and the word 'of'",
+      "kind": "words",
+      "guide": [
+        { "h": "'Of' is an ending", "p": "Masculine and neuter nouns in -a take -asya for 'of'. The owner usually comes first.", "ex": [["devasya gṛham", "the god's house"], ["vṛkṣasya phalam", "the fruit of the tree"]] },
+        { "h": "My and your", "p": "mama 'my' and tava 'your' are the 'of' forms of aham and tvam. Feminine nouns take -āyāḥ or -yāḥ: bālāyāḥ 'of the girl', nadyāḥ 'of the river'.", "ex": [["mama gṛham", "my house"], ["tava pitā", "your father"]] },
+        { "h": "Sandhi: iḥ and uḥ", "p": "Nouns like agniḥ and vāyuḥ turn ḥ into r before a voiced sound.", "ex": [["agnir jvalati", "the fire burns"], ["vāyur vahati", "the wind blows"]] },
+        { "h": "Sandhi: before c and t", "p": "Before c, ḥ becomes ś. Before t it becomes s, which is how namaḥ te 'a bow to you' became namaste.", "ex": [["sūryaś candraś ca", "the sun and the moon"]] },
+        { "h": "Words kept apart", "p": "In Devanagari a word ending in a consonant normally runs into the next one: अग्निर्ज्वलति. Here words stay apart, with ् on the bare consonant, so each tile is one word." }
+      ],
+      "items": [
+        { "g": "देवः", "t": "devaḥ", "en": "god", "note": "From div 'to shine'. A cousin of Latin deus." },
+        { "g": "देवी", "t": "devī", "en": "goddess" },
+        { "g": "अग्निः", "t": "agniḥ", "en": "fire", "note": "Also Agni, the fire god. A cousin of Latin ignis." },
+        { "g": "सूर्यः", "t": "sūryaḥ", "en": "sun" },
+        { "g": "चन्द्रः", "t": "candraḥ", "en": "moon" },
+        { "g": "वायुः", "t": "vāyuḥ", "en": "wind", "alt": ["air"], "note": "Also Vāyu, god of the wind." },
+        { "g": "नदी", "t": "nadī", "en": "river" },
+        { "g": "वृक्षः", "t": "vṛkṣaḥ", "en": "tree" },
+        { "g": "ज्वलति", "t": "jvalati", "en": "burns", "alt": ["blazes", "is burning"] },
+        { "g": "वहति", "t": "vahati", "en": "blows", "alt": ["carries", "is blowing"], "note": "Literally 'carries'. Said of the wind, it means 'blows'." },
+        { "g": "मम", "t": "mama", "en": "my", "alt": ["mine"] },
+        { "g": "तव", "t": "tava", "en": "your", "alt": ["yours"] }
+      ],
+      "sentences": [
+        { "g": "अग्निर् ज्वलति", "t": "agnir jvalati", "en": "the fire burns", "alt": ["the fire is burning", "the fire blazes"] },
+        { "g": "वायुर् वहति", "t": "vāyur vahati", "en": "the wind blows", "alt": ["the wind is blowing"] },
+        { "g": "सूर्यश् चन्द्रश् च", "t": "sūryaś candraś ca", "en": "the sun and the moon", "talt": ["sūryaś ca candraś ca"] },
+        { "g": "देवस्य गृहम्", "t": "devasya gṛham", "en": "the god's house", "alt": ["the house of the god", "the god's home"] },
+        { "g": "देवी नदीं रक्षति", "t": "devī nadīṃ rakṣati", "en": "the goddess protects the river", "alt": ["the goddess guards the river"], "talt": ["nadīṃ devī rakṣati"] },
+        { "g": "वृक्षस्य फलं खादामि", "t": "vṛkṣasya phalaṃ khādāmi", "en": "I eat the fruit of the tree", "alt": ["I eat the tree's fruit", "I am eating the fruit of the tree"] },
+        { "g": "तव पिता कुत्र", "t": "tava pitā kutra?", "en": "where is your father?", "talt": ["kutra tava pitā"] },
+        { "g": "मम कुक्कुरो नदीं गच्छति", "t": "mama kukkuro nadīṃ gacchati", "en": "my dog goes to the river", "alt": ["my dog is going to the river"] }
+      ]
+    },
+    {
+      "title": "Subhāṣitāni",
+      "about": "Famous lines from the Upaniṣads and beyond",
+      "kind": "words",
+      "guide": [
+        { "h": "Truth alone triumphs", "p": "satyam eva jayate is from the Muṇḍaka Upaniṣad (3.1.6) and is India's national motto. jayate is a middle-voice form of jayati 'conquers'. Devanagari usually runs it together as सत्यमेव जयते." },
+        { "h": "When vowels meet", "p": "Two vowels across a word boundary melt into one, and the words are written as one: vasudhā + eva becomes vasudhaiva. Such a fused pair stays one tile. vasudhaiva kuṭumbakam ends a verse of the Mahā Upaniṣad (6.71–73), also found in the Hitopadeśa: only the small-minded ask who is kin, for the generous the whole earth is family." },
+        { "h": "Dharma", "p": "dharma is duty, law, right conduct and the order of things all at once. ahiṃsā paramo dharmaḥ occurs several times in the Mahābhārata. dharmo rakṣati rakṣitaḥ, 'dharma, protected, protects', is Manusmṛti 8.15." },
+        { "h": "Commands", "p": "The bare verb stem gives an order: vada 'speak!', cara 'walk, practise!'. satyaṃ vada dharmaṃ cara is a teacher's charge to departing students in the Taittirīya Upaniṣad (1.11.1)." },
+        { "h": "You are that", "p": "tat tvam asi is the refrain of a father teaching his son in the Chāndogya Upaniṣad (6.8.7). tat is the neuter of saḥ, and asi is 'you are'. vidyā dadāti vinayam comes from the preface of the Hitopadeśa, a book of animal fables." }
+      ],
+      "items": [
+        { "g": "सत्यम्", "t": "satyam", "en": "truth", "note": "From sat 'being, what really is'." },
+        { "g": "एव", "t": "eva", "en": "alone", "alt": ["only", "indeed"], "note": "Stresses the word before it." },
+        { "g": "जयते", "t": "jayate", "en": "triumphs", "alt": ["wins", "conquers", "prevails"] },
+        { "g": "वसुधा", "t": "vasudhā", "en": "earth", "alt": ["world"], "note": "From vasu 'wealth': the giver of riches." },
+        { "g": "कुटुम्बकम्", "t": "kuṭumbakam", "en": "family", "alt": ["household"] },
+        { "g": "अहिंसा", "t": "ahiṃsā", "en": "non-violence", "alt": ["nonviolence", "harmlessness"], "note": "a- 'not' + hiṃsā 'harm'. Gandhi's watchword." },
+        { "g": "परमः", "t": "paramaḥ", "en": "highest", "alt": ["supreme"] },
+        { "g": "धर्मः", "t": "dharmaḥ", "en": "dharma", "alt": ["duty", "righteousness", "law"] },
+        { "g": "विद्या", "t": "vidyā", "en": "knowledge", "alt": ["learning"] },
+        { "g": "ददाति", "t": "dadāti", "en": "gives" },
+        { "g": "तत्", "t": "tat", "en": "that" },
+        { "g": "असि", "t": "asi", "en": "you are", "note": "asmi 'I am', asi 'you are', asti 'he is'." }
+      ],
+      "sentences": [
+        { "g": "सत्यम् एव जयते", "t": "satyam eva jayate", "en": "truth alone triumphs", "alt": ["only truth triumphs", "truth alone conquers", "truth alone wins", "truth alone prevails"] },
+        { "g": "वसुधैव कुटुम्बकम्", "t": "vasudhaiva kuṭumbakam", "en": "the world is one family", "alt": ["the earth is one family", "the world is a family", "the earth is a family", "the whole world is a family"] },
+        { "g": "अहिंसा परमो धर्मः", "t": "ahiṃsā paramo dharmaḥ", "en": "non-violence is the highest duty", "alt": ["nonviolence is the highest duty", "non-violence is the highest dharma", "non-violence is the supreme duty"] },
+        { "g": "धर्मो रक्षति रक्षितः", "t": "dharmo rakṣati rakṣitaḥ", "en": "dharma protects those who protect it", "alt": ["dharma protects when protected", "dharma, when protected, protects"] },
+        { "g": "सत्यं वद धर्मं चर", "t": "satyaṃ vada, dharmaṃ cara", "en": "speak the truth, practise dharma", "alt": ["speak the truth, practice dharma", "speak truth, practise dharma", "speak truth, practice dharma"] },
+        { "g": "विद्या ददाति विनयम्", "t": "vidyā dadāti vinayam", "en": "knowledge gives humility", "alt": ["learning gives humility"] },
+        { "g": "तत् त्वम् असि", "t": "tat tvam asi", "en": "you are that", "alt": ["that you are", "thou art that"] }
+      ]
+    },
+    {
+      "title": "Yātrā",
+      "about": "Travel by chariot: with, to and from",
+      "kind": "words",
+      "guide": [
+        { "h": "Three new cases", "p": "Sanskrit has eight cases. You already know the subject, the object and 'of'. This unit adds three more, each a single ending where English needs a preposition." },
+        { "h": "With and by: -ena", "p": "The instrumental says what something is done with or by. Masculine and neuter nouns in -a take -ena. Feminines in -ā take -ayā, and those in -ī take -yā. saha 'with' follows it.", "ex": [["rathena", "by chariot"], ["hastena", "with the hand"], ["bālayā saha", "with the girl"]] },
+        { "h": "The curling n", "p": "An r, ṛ or ṣ earlier in the same word turns a later n into ṇ, unless a consonant such as t, d, c, ś or s comes between. So putra gives putreṇa, but ratha gives rathena.", "ex": [["putreṇa", "with the son"], ["nṛpeṇa", "by the king"]] },
+        { "h": "To and for: -āya", "p": "The dative marks who something is given to or done for. Masculine and neuter nouns in -a take -āya; feminines take -āyai or -yai. namaḥ 'homage' takes it too. namaḥ śivāya, 'homage to Śiva', is the five-syllable prayer of Śiva's devotees.", "ex": [["ācāryāya", "to the teacher"], ["putryai", "to the daughter"]] },
+        { "h": "From: -āt", "p": "The ablative says where something comes from. Masculine and neuter nouns in -a take -āt. Feminines use the same form as 'of': bālāyāḥ 'from the girl', nadyāḥ 'from the river'.", "ex": [["vṛkṣāt", "from the tree"], ["grāmāt", "from the village"]] },
+        { "h": "Sandhi: final t", "p": "A final t becomes d before a vowel or before g, d, b, y, r or v. Before k, p, t or s, and at the end of a sentence, it stays t. Before other sounds it changes in other ways, which you will meet later.", "ex": [["nagarād āgacchāmi", "I come from the city"], ["vṛkṣāt patati", "falls from the tree"]] }
+      ],
+      "items": [
+        { "g": "रथः", "t": "rathaḥ", "en": "chariot", "note": "By chariot: rathena." },
+        { "g": "हस्तः", "t": "hastaḥ", "en": "hand" },
+        { "g": "सह", "t": "saha", "en": "with", "alt": ["together with"], "note": "Follows a noun in the instrumental." },
+        { "g": "नगरम्", "t": "nagaram", "en": "city", "alt": ["town"] },
+        { "g": "नृपः", "t": "nṛpaḥ", "en": "king", "note": "Literally 'protector of men'." },
+        { "g": "धनम्", "t": "dhanam", "en": "money", "alt": ["wealth", "riches"] },
+        { "g": "आगच्छति", "t": "āgacchati", "en": "comes", "alt": ["is coming", "arrives"], "note": "ā 'towards' + gacchati 'goes'." },
+        { "g": "पतति", "t": "patati", "en": "falls", "alt": ["is falling"] },
+        { "g": "पर्णम्", "t": "parṇam", "en": "leaf" },
+        { "g": "नमः", "t": "namaḥ", "en": "homage", "alt": ["salutation", "bow"], "note": "The same word as in namaste." },
+        { "g": "शिवः", "t": "śivaḥ", "en": "Shiva", "alt": ["Śiva", "Siva"], "note": "Literally 'kind, auspicious'." }
+      ],
+      "sentences": [
+        { "g": "नृपो रथेन गच्छति", "t": "nṛpo rathena gacchati", "en": "the king goes by chariot", "alt": ["the king is going by chariot", "the king travels by chariot"] },
+        { "g": "पिता पुत्रेण सह गच्छति", "t": "pitā putreṇa saha gacchati", "en": "the father goes with his son", "alt": ["the father goes with the son", "the father is going with his son", "the father is going with the son"] },
+        { "g": "वृक्षात् पर्णं पतति", "t": "vṛkṣāt parṇaṃ patati", "en": "a leaf falls from the tree", "alt": ["the leaf falls from the tree", "a leaf is falling from the tree"], "talt": ["parṇaṃ vṛkṣāt patati"] },
+        { "g": "नृपो धनम् आचार्याय ददाति", "t": "nṛpo dhanam ācāryāya dadāti", "en": "the king gives money to the teacher", "alt": ["the king gives the teacher money", "the king gives wealth to the teacher"] },
+        { "g": "अहं नगराद् आगच्छामि", "t": "ahaṃ nagarād āgacchāmi", "en": "I come from the city", "alt": ["I am coming from the city", "I come from the town"], "talt": ["nagarād āgacchāmi"] },
+        { "g": "बालो हस्तेन खादति", "t": "bālo hastena khādati", "en": "the boy eats with his hand", "alt": ["the boy eats with the hand", "the boy is eating with his hand"] },
+        { "g": "माता पुत्र्यै फलं ददाति", "t": "mātā putryai phalaṃ dadāti", "en": "the mother gives a fruit to her daughter", "alt": ["the mother gives fruit to her daughter", "the mother gives a fruit to the daughter", "the mother gives her daughter a fruit", "the mother gives the daughter a fruit"] },
+        { "g": "सा बालया सह वदति", "t": "sā bālayā saha vadati", "en": "she speaks with the girl", "alt": ["she is speaking with the girl", "she talks with the girl"] },
+        { "g": "नमः शिवाय", "t": "namaḥ śivāya", "en": "homage to Shiva", "alt": ["homage to Śiva", "salutation to Shiva", "a bow to Shiva", "glory to Shiva"] }
+      ]
+    },
+    {
+      "title": "Āśramaḥ",
+      "about": "Life in the hermitage: 'in', plurals and full tables",
+      "kind": "words",
+      "guide": [
+        { "h": "In and at: -e", "p": "The locative says where. Masculine and neuter nouns in -a take -e; feminines take -āyām or -yām.", "ex": [["āśrame", "in the hermitage"], ["kṣetre", "in the field"], ["nadyām", "in the river"]] },
+        { "h": "More than one", "p": "In the plural, subjects in -aḥ and -ā both end in -āḥ, neuters in -am end in -āni, and -ī becomes -yaḥ. The verb ending for 'they' is -anti, and santi means 'they are' or 'there are'.", "ex": [["śiṣyāḥ paṭhanti", "the students read"], ["phalāni", "fruits"], ["matsyāḥ santi", "there are fish"]] },
+        { "h": "We and you all", "p": "vayam 'we' takes -āmaḥ and yūyam 'you all' takes -atha. With -āmi, -asi, -ati and -anti, that completes the present tense.", "ex": [["vayaṃ vasāmaḥ", "we live"], ["yūyaṃ vasatha", "you all live"]] },
+        { "h": "Sandhi: āḥ", "p": "-āḥ simply drops its ḥ before a vowel or a voiced consonant, and the words stay apart. Before k or p it stays, and before t it becomes s, just like -aḥ. Vowels count as voiced, so ṛṣiḥ becomes ṛṣir before a vowel too.", "ex": [["putrā nagare vasanti", "the sons live in the city"], ["ṛṣir āśrame vasati", "the sage lives in the hermitage"]] },
+        { "h": "Two of a kind", "p": "Sanskrit also has a dual for exactly two: devau 'two gods', bāle 'two girls'. It fills a column in the tables below and returns with compounds in unit 11." },
+        { "h": "All eight cases", "p": "With the locative you have met seven cases. The eighth, the vocative, is for calling someone: deva 'O god!'. The full tables for -a and -ā nouns are at the end of this guidebook and on the Reference page." }
+      ],
+      "items": [
+        { "g": "आश्रमः", "t": "āśramaḥ", "en": "hermitage", "note": "A forest retreat where sages lived and taught." },
+        { "g": "ऋषिः", "t": "ṛṣiḥ", "en": "sage", "alt": ["seer"], "note": "Ends in -iḥ like agniḥ." },
+        { "g": "वसति", "t": "vasati", "en": "lives", "alt": ["dwells", "stays"] },
+        { "g": "क्रीडति", "t": "krīḍati", "en": "plays", "alt": ["is playing"] },
+        { "g": "क्षेत्रम्", "t": "kṣetram", "en": "field" },
+        { "g": "तीरम्", "t": "tīram", "en": "bank", "alt": ["shore", "riverbank"] },
+        { "g": "मत्स्यः", "t": "matsyaḥ", "en": "fish" },
+        { "g": "मूलम्", "t": "mūlam", "en": "root", "note": "vṛkṣasya mūle: 'at the foot of the tree'." },
+        { "g": "वयम्", "t": "vayam", "en": "we" },
+        { "g": "सन्ति", "t": "santi", "en": "they are", "alt": ["there are"] },
+        { "g": "अत्र", "t": "atra", "en": "here" },
+        { "g": "तत्र", "t": "tatra", "en": "there" }
+      ],
+      "sentences": [
+        { "g": "ऋषिर् आश्रमे वसति", "t": "ṛṣir āśrame vasati", "en": "the sage lives in the hermitage", "alt": ["the sage dwells in the hermitage", "the sage is living in the hermitage"] },
+        { "g": "शिष्या वृक्षस्य मूले पठन्ति", "t": "śiṣyā vṛkṣasya mūle paṭhanti", "en": "the students read at the foot of the tree", "alt": ["the students study at the foot of the tree", "the pupils read at the foot of the tree", "the students are reading at the foot of the tree"] },
+        { "g": "नद्यां मत्स्याः सन्ति", "t": "nadyāṃ matsyāḥ santi", "en": "there are fish in the river", "alt": ["fish are in the river", "the fish are in the river"] },
+        { "g": "बालाः क्षेत्रे क्रीडन्ति", "t": "bālāḥ kṣetre krīḍanti", "en": "the children play in the field", "alt": ["the boys play in the field", "the girls play in the field", "the children are playing in the field", "the boys are playing in the field", "the girls are playing in the field"] },
+        { "g": "वयं ग्रामे वसामः", "t": "vayaṃ grāme vasāmaḥ", "en": "we live in the village", "alt": ["we dwell in the village", "we are living in the village"], "talt": ["grāme vasāmaḥ"] },
+        { "g": "ऋषिर् नद्यास् तीरे वसति", "t": "ṛṣir nadyās tīre vasati", "en": "the sage lives on the bank of the river", "alt": ["the sage lives on the river bank", "the sage lives on the riverbank", "the sage lives on the river's bank", "the sage dwells on the bank of the river"] },
+        { "g": "अत्र मत्स्या न सन्ति", "t": "atra matsyā na santi", "en": "there are no fish here", "alt": ["no fish are here", "fish are not here", "there are not any fish here"] },
+        { "g": "नृपस्य पुत्रा नगरे वसन्ति", "t": "nṛpasya putrā nagare vasanti", "en": "the king's sons live in the city", "alt": ["the sons of the king live in the city", "the king's sons live in the town"] },
+        { "g": "वने फलानि सन्ति", "t": "vane phalāni santi", "en": "there are fruits in the forest", "alt": ["there is fruit in the forest", "fruits are in the forest", "there are fruits in the woods"] }
+      ]
+    },
+    {
+      "title": "Itihāsaḥ",
+      "about": "Tell the past with -ta and the imperfect",
+      "kind": "words",
+      "guide": [
+        { "h": "Done: the -ta form", "p": "Adding -ta, sometimes -ita, to a verb root makes a word meaning 'gone', 'done', 'seen'. It takes adjective endings (-aḥ, -ā, -am) and is the everyday way to tell the past. You met one in unit 6: rakṣitaḥ 'protected'.", "ex": [["gataḥ", "gone"], ["kṛtaḥ", "done"], ["dṛṣṭaḥ", "seen"], ["uktaḥ", "said"]] },
+        { "h": "He went, she went", "p": "With verbs of going, the -ta form simply agrees with whoever went.", "ex": [["sa grāmaṃ gataḥ", "he went to the village"], ["sā nagaraṃ gatā", "she went to the city"]] },
+        { "h": "Done by someone", "p": "With other verbs the -ta form is passive. The thing done is the subject and the -ta form agrees with it, while the doer goes in the instrumental. Where English says 'the king killed the tiger', Sanskrit says 'the tiger was killed by the king'.", "ex": [["nṛpeṇa vyāghro hataḥ", "the king killed the tiger"], ["mayā pustakaṃ paṭhitam", "I read the book"]] },
+        { "h": "By me, by him", "p": "The pronouns have instrumentals too: mayā 'by me', tvayā 'by you', tena 'by him', tayā 'by her'." },
+        { "h": "The imperfect", "p": "Stories also use the imperfect. Put a- in front of the verb and shorten the endings: -am 'I', -aḥ 'you', -at 'he, she', -an 'they'. āsīt 'there was' is the imperfect of asti.", "ex": [["agaccham", "I went"], ["agacchaḥ", "you went"], ["agacchat", "he went"], ["āsīt", "there was"]] },
+        { "h": "Sandhi: aḥ before a vowel", "p": "Before a, the ending -aḥ becomes -o and swallows the a. The lost a is marked ' (ऽ, avagraha), as in 'gne in the Ṛgveda story. Before any other vowel, -aḥ just loses its ḥ and the words stay apart.", "ex": [["sa nṛpo 'bhavat", "he became king"], ["nṛpa āsīt", "the king was"]] }
+      ],
+      "items": [
+        { "g": "गतः", "t": "gataḥ", "en": "gone", "note": "From gam 'go'." },
+        { "g": "दृष्टः", "t": "dṛṣṭaḥ", "en": "seen", "note": "From dṛś 'see', which borrows paśyati as its present." },
+        { "g": "कृतः", "t": "kṛtaḥ", "en": "done", "alt": ["made"], "note": "From kṛ 'do, make', as in karma." },
+        { "g": "उक्तः", "t": "uktaḥ", "en": "said", "alt": ["spoken"], "note": "From vac 'speak'." },
+        { "g": "हतः", "t": "hataḥ", "en": "killed", "alt": ["slain"], "note": "From han 'strike, kill'." },
+        { "g": "अगच्छत्", "t": "agacchat", "en": "went", "alt": ["he went", "she went"] },
+        { "g": "आसीत्", "t": "āsīt", "en": "was", "alt": ["there was", "he was"] },
+        { "g": "अभवत्", "t": "abhavat", "en": "became", "alt": ["he became"] },
+        { "g": "व्याघ्रः", "t": "vyāghraḥ", "en": "tiger" },
+        { "g": "मया", "t": "mayā", "en": "by me" },
+        { "g": "तेन", "t": "tena", "en": "by him", "alt": ["by it", "by that"] },
+        { "g": "पुरा", "t": "purā", "en": "long ago", "alt": ["formerly", "once"] }
+      ],
+      "sentences": [
+        { "g": "स ग्रामं गतः", "t": "sa grāmaṃ gataḥ", "en": "he went to the village", "alt": ["he has gone to the village"] },
+        { "g": "नृपेण व्याघ्रो हतः", "t": "nṛpeṇa vyāghro hataḥ", "en": "the king killed the tiger", "alt": ["the tiger was killed by the king", "the king killed a tiger", "a tiger was killed by the king"], "talt": ["vyāghro nṛpeṇa hataḥ"] },
+        { "g": "मया पुस्तकं पठितम्", "t": "mayā pustakaṃ paṭhitam", "en": "I read the book", "alt": ["the book was read by me", "I have read the book", "I read a book", "a book was read by me"] },
+        { "g": "तेन फलं खादितम्", "t": "tena phalaṃ khāditam", "en": "he ate the fruit", "alt": ["the fruit was eaten by him", "he ate a fruit", "he has eaten the fruit"] },
+        { "g": "सा नगरं गता", "t": "sā nagaraṃ gatā", "en": "she went to the city", "alt": ["she has gone to the city", "she went to the town"] },
+        { "g": "आसीत् पुरा नृपः", "t": "āsīt purā nṛpaḥ", "en": "once there was a king", "alt": ["long ago there was a king", "there was once a king", "there was a king long ago", "formerly there was a king"] },
+        { "g": "बालो ग्रामम् अगच्छत्", "t": "bālo grāmam agacchat", "en": "the boy went to the village" },
+        { "g": "अहं वनम् अगच्छम्", "t": "ahaṃ vanam agaccham", "en": "I went to the forest", "alt": ["I went to the woods"], "talt": ["vanam agaccham"] },
+        { "g": "स नृपो ऽभवत्", "t": "sa nṛpo 'bhavat", "en": "he became king", "alt": ["he became a king", "he became the king"] }
+      ]
+    },
+    {
+      "title": "Prabhātam",
+      "about": "Chain actions with -tvā and say 'to do' with -tum",
+      "kind": "words",
+      "guide": [
+        { "h": "Having done: -tvā", "p": "The gerund ends in -tvā and never changes. It is an action the subject finishes before the main verb, where English says 'and', 'after' or 'having'.", "ex": [["snātvā khādati", "he bathes and then eats"], ["vyāghraṃ dṛṣṭvā dhāvati", "he sees the tiger and runs"]] },
+        { "h": "With a prefix: -ya", "p": "When the verb has a prefix such as ā- 'towards' or upa- 'near', the gerund ends in -ya instead.", "ex": [["āgatya", "having come"], ["upaviśya", "having sat down"]] },
+        { "h": "To do: -tum", "p": "The infinitive ends in -tum and never changes. It says what someone wants or is able to do, or why they do something. Like the Latin supine in -tum, it was once the object form of a verbal noun in -tu.", "ex": [["gantum icchāmi", "I want to go"], ["jalaṃ pātuṃ gacchati", "he goes to drink water"]] },
+        { "h": "One root, three forms", "p": "-ta, -tvā and -tum attach to the same root, so learn them as a set. Some roots change shape along the way: dṛś 'see' gives dṛṣṭa, dṛṣṭvā, draṣṭum, and pā 'drink' gives pīta, pītvā, pātum.", "ex": [["gata, gatvā, gantum", "gone, having gone, to go"], ["kṛta, kṛtvā, kartum", "done, having done, to do"]] },
+        { "h": "Want and can", "p": "icchati 'wants' and śaknoti 'can' take an infinitive. śaknoti belongs to a group of verbs with the endings -nomi, -noṣi, -noti.", "ex": [["draṣṭuṃ śaknomi", "I can see"], ["gantuṃ śaknoṣi", "you can go"]] }
+      ],
+      "items": [
+        { "g": "गत्वा", "t": "gatvā", "en": "having gone", "alt": ["after going"] },
+        { "g": "दृष्ट्वा", "t": "dṛṣṭvā", "en": "having seen", "alt": ["after seeing", "on seeing"] },
+        { "g": "स्नात्वा", "t": "snātvā", "en": "having bathed", "alt": ["after bathing"] },
+        { "g": "पीत्वा", "t": "pītvā", "en": "having drunk", "alt": ["after drinking"] },
+        { "g": "आगत्य", "t": "āgatya", "en": "having come", "alt": ["after coming", "having arrived"], "note": "-ya because of the prefix ā-." },
+        { "g": "गन्तुम्", "t": "gantum", "en": "to go" },
+        { "g": "द्रष्टुम्", "t": "draṣṭum", "en": "to see" },
+        { "g": "पातुम्", "t": "pātum", "en": "to drink" },
+        { "g": "इच्छति", "t": "icchati", "en": "wants", "alt": ["wishes", "desires"], "note": "I want: icchāmi." },
+        { "g": "शक्नोति", "t": "śaknoti", "en": "can", "alt": ["is able"], "note": "I can: śaknomi. You can: śaknoṣi." },
+        { "g": "धावति", "t": "dhāvati", "en": "runs", "alt": ["is running"] },
+        { "g": "ततः", "t": "tataḥ", "en": "then", "alt": ["after that", "from there"] }
+      ],
+      "sentences": [
+        { "g": "स्नात्वा ततः खादामि", "t": "snātvā tataḥ khādāmi", "en": "I bathe and then I eat", "alt": ["I bathe and then eat", "after bathing I eat", "having bathed, I then eat", "having bathed I eat"] },
+        { "g": "स जलं पातुं नदीं गच्छति", "t": "sa jalaṃ pātuṃ nadīṃ gacchati", "en": "he goes to the river to drink water", "alt": ["he is going to the river to drink water"] },
+        { "g": "अहं गन्तुम् इच्छामि", "t": "ahaṃ gantum icchāmi", "en": "I want to go", "alt": ["I wish to go"], "talt": ["gantum icchāmi"] },
+        { "g": "बालो व्याघ्रं दृष्ट्वा धावति", "t": "bālo vyāghraṃ dṛṣṭvā dhāvati", "en": "the boy sees the tiger and runs", "alt": ["having seen the tiger, the boy runs", "seeing the tiger, the boy runs", "the boy sees a tiger and runs", "on seeing the tiger, the boy runs"] },
+        { "g": "नृपो नगरं द्रष्टुम् इच्छति", "t": "nṛpo nagaraṃ draṣṭum icchati", "en": "the king wants to see the city", "alt": ["the king wishes to see the city", "the king wants to see the town"] },
+        { "g": "जलं पीत्वा वनं गच्छति", "t": "jalaṃ pītvā vanaṃ gacchati", "en": "he drinks water and goes to the forest", "alt": ["having drunk water, he goes to the forest", "after drinking water, he goes to the forest", "she drinks water and goes to the forest"] },
+        { "g": "त्वं गन्तुं शक्नोषि", "t": "tvaṃ gantuṃ śaknoṣi", "en": "you can go", "alt": ["you are able to go"], "talt": ["gantuṃ śaknoṣi"] },
+        { "g": "शिष्य आगत्य पठति", "t": "śiṣya āgatya paṭhati", "en": "the student comes and reads", "alt": ["having come, the student reads", "the pupil comes and reads", "the student arrives and reads"] },
+        { "g": "गृहं गत्वा स खादति", "t": "gṛhaṃ gatvā sa khādati", "en": "he goes home and eats", "alt": ["having gone home, he eats", "after going home, he eats"] }
+      ]
+    },
+    {
+      "title": "Samāsaḥ",
+      "about": "Build long words: tatpuruṣa, dvandva, bahuvrīhi",
+      "kind": "words",
+      "guide": [
+        { "h": "Words without endings", "p": "A compound strings words together, and only the last one takes an ending. The others appear as bare stems: rāja- is the stem of the word for 'king', and pitā and mātā become pitṛ- and mātṛ-. Devanagari writes a compound as one word, and so does this course.", "ex": [["rāja + putraḥ", "rājaputraḥ, prince"], ["deva + ālayaḥ", "devālayaḥ, temple"]] },
+        { "h": "Tatpuruṣa: the X's Y", "p": "The first part relates to the second as if it had a case ending, most often 'of': a rājaputraḥ is a king's son, a devālayaḥ a god's dwelling. When the first part simply describes the second, as in mahārājaḥ 'great king', the compound is called a karmadhāraya. Vowels meeting inside a compound melt as in unit 6.", "ex": [["rājaputraḥ", "king's son, prince"], ["mahārājaḥ", "great king"]] },
+        { "h": "Dvandva: X and Y", "p": "A dvandva joins its parts with 'and'. Two people make a dual ending in -au, and the verb takes the dual ending -taḥ. Two things make a neuter dual in -e.", "ex": [["rāmalakṣmaṇau gacchataḥ", "Rāma and Lakṣmaṇa go"], ["sukhaduḥkhe", "joy and sorrow"]] },
+        { "h": "Bahuvrīhi: having X", "p": "A bahuvrīhi describes someone by what they have. The word itself means 'having much rice', that is, rich. nīlakaṇṭhaḥ 'whose throat is blue' is Śiva, who drank the poison churned up from the ocean. daśarathaḥ 'having ten chariots' is the name of Rāma's father.", "ex": [["nīlakaṇṭhaḥ", "blue-throated"], ["daśarathaḥ", "having ten chariots"]] },
+        { "h": "Mother as god", "p": "Sending his students home, the teacher in the Taittirīya Upaniṣad (1.11.2) tells each one mātṛdevo bhava, 'be one whose god is your mother'. bhava is the command form of bhavati. atithidevo bhava from the same passage became the slogan of an Indian tourism campaign." },
+        { "h": "Joy and sorrow alike", "p": "sukhaduḥkhe same kṛtvā opens Bhagavad Gītā 2.38, where Kṛṣṇa urges Arjuna to fight with an even mind. same is the dual of samaḥ 'equal', agreeing with sukhaduḥkhe, and kṛtvā is the -tvā form of kṛ." }
+      ],
+      "items": [
+        { "g": "राजपुत्रः", "t": "rājaputraḥ", "en": "prince", "note": "rāja- 'king's' + putraḥ 'son'." },
+        { "g": "देवालयः", "t": "devālayaḥ", "en": "temple", "note": "deva + ālayaḥ 'dwelling'." },
+        { "g": "महाराजः", "t": "mahārājaḥ", "en": "great king", "alt": ["maharaja", "emperor"] },
+        { "g": "नीलः", "t": "nīlaḥ", "en": "blue", "alt": ["dark blue"] },
+        { "g": "नीलकण्ठः", "t": "nīlakaṇṭhaḥ", "en": "blue-throated", "alt": ["blue-necked", "Shiva", "peacock"], "note": "nīla 'blue' + kaṇṭha 'throat'. A name of Śiva, and a word for the peacock." },
+        { "g": "रामलक्ष्मणौ", "t": "rāmalakṣmaṇau", "en": "Rama and Lakshmana", "alt": ["Rāma and Lakṣmaṇa"], "note": "Two brothers, so the compound is dual." },
+        { "g": "सुखम्", "t": "sukham", "en": "happiness", "alt": ["joy", "pleasure"] },
+        { "g": "दुःखम्", "t": "duḥkham", "en": "sorrow", "alt": ["pain", "suffering"] },
+        { "g": "समः", "t": "samaḥ", "en": "equal", "alt": ["same", "alike"] },
+        { "g": "अतिथिः", "t": "atithiḥ", "en": "guest" },
+        { "g": "दश", "t": "daśa", "en": "ten", "note": "A cousin of Latin decem." },
+        { "g": "भव", "t": "bhava", "en": "be!", "alt": ["be", "become"], "note": "The command form of bhavati." }
+      ],
+      "sentences": [
+        { "g": "राजपुत्रो वनं गच्छति", "t": "rājaputro vanaṃ gacchati", "en": "the prince goes to the forest", "alt": ["the prince is going to the forest"] },
+        { "g": "शिष्यो देवालयं गच्छति", "t": "śiṣyo devālayaṃ gacchati", "en": "the student goes to the temple", "alt": ["the pupil goes to the temple", "the student is going to the temple"] },
+        { "g": "महाराजो नगरं रक्षति", "t": "mahārājo nagaraṃ rakṣati", "en": "the great king protects the city", "alt": ["the great king guards the city", "the emperor protects the city"] },
+        { "g": "रामलक्ष्मणौ वनं गच्छतः", "t": "rāmalakṣmaṇau vanaṃ gacchataḥ", "en": "Rama and Lakshmana go to the forest", "alt": ["Rāma and Lakṣmaṇa go to the forest", "Rama and Lakshmana are going to the forest"] },
+        { "g": "नीलकण्ठाय नमः", "t": "nīlakaṇṭhāya namaḥ", "en": "homage to the blue-throated one", "alt": ["homage to Shiva", "salutation to the blue-throated one", "homage to the blue-throated god"] },
+        { "g": "दशरथस्य पुत्रो रामः", "t": "daśarathasya putro rāmaḥ", "en": "Rama is Dasharatha's son", "alt": ["Rāma is Daśaratha's son", "Rama is the son of Dasharatha", "Rāma is the son of Daśaratha"] },
+        { "g": "मातृदेवो भव", "t": "mātṛdevo bhava", "en": "treat your mother as a god", "alt": ["treat your mother as a goddess", "let your mother be a god to you", "be one whose god is your mother"] },
+        { "g": "अतिथिदेवो भव", "t": "atithidevo bhava", "en": "treat your guest as a god", "alt": ["treat the guest as a god", "let your guest be a god to you", "the guest is god"] },
+        { "g": "सुखदुःखे समे कृत्वा", "t": "sukhaduḥkhe same kṛtvā", "en": "treating joy and sorrow alike", "alt": ["treating pleasure and pain alike", "holding joy and sorrow equal", "making joy and sorrow equal", "having made joy and sorrow equal"] }
+      ]
+    },
+    {
+      "title": "Ślokāḥ",
+      "about": "The epic verse and lines everyone quotes",
+      "kind": "words",
+      "guide": [
+        { "h": "The śloka", "p": "Most of the Mahābhārata, the Rāmāyaṇa and the Gītā is in one metre, the śloka: four quarters (pāda) of eight syllables, printed as two lines of sixteen. A quarter is usually a phrase on its own, so the lines in this unit are single quarters or half-verses." },
+        { "h": "Heavy and light", "p": "A syllable is heavy if its vowel is long (ā ī ū ṝ e ai o au) or is followed by ṃ, ḥ or two consonants; otherwise it is light. In the second and fourth quarters, syllables five to seven run light, heavy, light, so every couplet ends with the same lilt. The last syllable of a quarter can be either.", "ex": [["saṃ bha vā mi | yu ge yu ge", "– u – u | u – u –"]] },
+        { "h": "Born of grief", "p": "The Rāmāyaṇa tells how the first śloka was made. The sage Vālmīki saw a hunter shoot one of a pair of krauñca birds, and his grief burst out as a curse in verse: mā niṣāda pratiṣṭhāṃ tvam agamaḥ śāśvatīḥ samāḥ, 'hunter, may you find no rest for endless years'. Repeating it, his students marvelled that grief (śoka) had become verse: śokaḥ ślokatvam āgataḥ (1.2.39). -tva makes abstract nouns, like English -ness." },
+        { "h": "Where there, there", "p": "yataḥ 'from where' is answered by tataḥ 'from there'. yato dharmas tato jayaḥ, 'where dharma is, there is victory', recurs more than a dozen times in the Mahābhārata (for example 6.21.11) and is the motto of India's Supreme Court." },
+        { "h": "Reading verse", "p": "Poets arrange words to fit the metre and fill quarters with small words like hi 'for, indeed' and khalu 'indeed'. Trust the endings, not the order. You will also meet plural endings of other noun types: sādhūnām 'of the good', duṣkṛtām 'of evildoers', karmasu 'in actions'. A repeated locative means 'in every': yuge yuge 'age after age'." },
+        { "h": "Sources", "p": "udyamena hi sidhyanti and na hi suptasya siṃhasya make one couplet in the preface of the Hitopadeśa. paritrāṇāya sādhūnām is Kṛṣṇa explaining why he takes birth again and again, Bhagavad Gītā 4.8, and yogaḥ karmasu kauśalam is Gītā 2.50. śarīram ādyaṃ khalu dharmasādhanam comes from Kālidāsa's Kumārasambhava (5.33), in a longer metre of twelve syllables." }
+      ],
+      "items": [
+        { "g": "श्लोकः", "t": "ślokaḥ", "en": "verse", "alt": ["couplet", "stanza"], "note": "The 32-syllable couplet of the epics." },
+        { "g": "शोकः", "t": "śokaḥ", "en": "grief", "alt": ["sorrow"] },
+        { "g": "जयः", "t": "jayaḥ", "en": "victory", "alt": ["triumph"], "note": "From ji 'conquer', like jayate." },
+        { "g": "यतः", "t": "yataḥ", "en": "from where", "alt": ["whence", "where", "since"] },
+        { "g": "उद्यमः", "t": "udyamaḥ", "en": "effort", "alt": ["exertion", "hard work"] },
+        { "g": "कार्यम्", "t": "kāryam", "en": "task", "alt": ["work", "deed"], "note": "Literally 'to be done', from kṛ." },
+        { "g": "सिंहः", "t": "siṃhaḥ", "en": "lion" },
+        { "g": "मृगः", "t": "mṛgaḥ", "en": "deer", "alt": ["animal", "wild animal"] },
+        { "g": "सुप्तः", "t": "suptaḥ", "en": "asleep", "alt": ["sleeping"], "note": "The -ta form of svap 'sleep'." },
+        { "g": "साधुः", "t": "sādhuḥ", "en": "good man", "alt": ["good person", "holy man", "saint"], "note": "Ends in -uḥ like vāyuḥ. 'Of the good': sādhūnām." },
+        { "g": "युगम्", "t": "yugam", "en": "age", "alt": ["era", "epoch"], "note": "Also 'yoke', a cousin of English yoke." },
+        { "g": "शरीरम्", "t": "śarīram", "en": "body" }
+      ],
+      "sentences": [
+        { "g": "यतो धर्मस् ततो जयः", "t": "yato dharmas tato jayaḥ", "en": "where there is dharma, there is victory", "alt": ["where dharma is, there is victory", "where there is righteousness, there is victory", "where dharma is, victory is"] },
+        { "g": "शोकः श्लोकत्वम् आगतः", "t": "śokaḥ ślokatvam āgataḥ", "en": "grief became verse", "alt": ["grief has become verse", "grief turned into verse", "sorrow became verse", "grief became a verse"] },
+        { "g": "उद्यमेन हि सिध्यन्ति कार्याणि न मनोरथैः", "t": "udyamena hi sidhyanti kāryāṇi na manorathaiḥ", "en": "tasks succeed by effort, not by wishes", "alt": ["tasks succeed through effort, not wishes", "tasks are accomplished by effort, not by wishes", "work succeeds by effort, not by wishes"] },
+        { "g": "न हि सुप्तस्य सिंहस्य प्रविशन्ति मुखे मृगाः", "t": "na hi suptasya siṃhasya praviśanti mukhe mṛgāḥ", "en": "deer do not walk into a sleeping lion's mouth", "alt": ["deer do not enter a sleeping lion's mouth", "deer do not enter the mouth of a sleeping lion", "animals do not walk into a sleeping lion's mouth", "deer do not walk into the mouth of a sleeping lion"] },
+        { "g": "परित्राणाय साधूनां विनाशाय च दुष्कृताम्", "t": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām", "en": "to protect the good and destroy the wicked", "alt": ["for the protection of the good and the destruction of the wicked", "to save the good and destroy the wicked", "to protect the good and to destroy the wicked"] },
+        { "g": "धर्मसंस्थापनार्थाय संभवामि युगे युगे", "t": "dharmasaṃsthāpanārthāya saṃbhavāmi yuge yuge", "en": "to establish dharma, I am born age after age", "alt": ["to establish dharma I am born in every age", "I am born age after age to establish dharma", "to establish dharma, I come into being age after age"] },
+        { "g": "योगः कर्मसु कौशलम्", "t": "yogaḥ karmasu kauśalam", "en": "yoga is skill in action", "alt": ["yoga is skill in actions", "yoga is skill in works", "yoga is skill in deeds"] },
+        { "g": "शरीरम् आद्यं खलु धर्मसाधनम्", "t": "śarīram ādyaṃ khalu dharmasādhanam", "en": "the body is the first means of dharma", "alt": ["the body is indeed the first means of dharma", "the body is truly the first means of dharma", "the body is the first instrument of dharma"] }
+      ]
+    }
+  ]
+}

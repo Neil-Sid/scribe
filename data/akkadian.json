@@ -1,0 +1,452 @@
+{
+  "id": "akkadian",
+  "name": "Akkadian",
+  "native": "Akkadûm",
+  "era": "Old Babylonian, c. 1900–1600 BC",
+  "place": "Babylonia, southern Mesopotamia",
+  "blurb": "The language of Hammurabi's laws and the Epic of Gilgamesh, and the earliest written Semitic language.",
+  "emblem": "𒆍𒀭𒊏",
+  "script": { "name": "Cuneiform", "font": "cuneiform" },
+  "accent": "#2a4a8c",
+  "keys": ["š", "ṣ", "ṭ", "ḫ", "ā", "ē", "ī", "ū", "â", "ê", "î", "û"],
+  "facts": [
+    "Akkadian is named after Akkad, the capital of Sargon's empire around 2300 BC.",
+    "It is the earliest written Semitic language, a distant cousin of Hebrew and Arabic.",
+    "In the 14th century BC Egyptian pharaohs corresponded with Near Eastern kings in Akkadian. The letters were found at Amarna.",
+    "In 1857 four scholars translated the same newly found inscription separately. Their versions agreed, and cuneiform was declared deciphered.",
+    "Hammurabi's law code is carved on a black stone stele over two metres tall, now in the Louvre.",
+    "The last known cuneiform tablets are astronomical almanacs from the first century AD."
+  ],
+  "units": [
+    {
+      "title": "Ṭuppum",
+      "about": "Your first cuneiform signs",
+      "kind": "script",
+      "guide": [
+        { "h": "Wedges in clay", "p": "Cuneiform means 'wedge-shaped'. Scribes pressed a reed stylus into wet clay. Akkadian borrowed the script from the Sumerians." },
+        { "h": "One sign, one syllable", "p": "Most signs write a syllable: a vowel (a), consonant + vowel (ba) or vowel + consonant (an, um). Words are spelled sign by sign, and we put hyphens between the signs.", "ex": [["a-na", "ana, 'to'"], ["a-wi-lum", "awīlum, 'man'"]] },
+        { "h": "Long vowels are not written", "p": "a-wi-lum is read awīlum. The spelling rarely shows vowel length, so the macrons come from the dictionary, not the tablet." },
+        { "h": "Many readings", "p": "A sign can have several values. 𒀭 is the syllable an, but also DINGIR 'god'. Readings in capitals are whole words, which you will meet in unit 3." }
+      ],
+      "items": [
+        { "g": "𒀀", "t": "a", "en": "syllable a", "note": "Also the Sumerian word for 'water'." },
+        { "g": "𒂊", "t": "e", "en": "syllable e" },
+        { "g": "𒄿", "t": "i", "en": "syllable i" },
+        { "g": "𒌋", "t": "u", "en": "syllable u", "note": "Also the number 10." },
+        { "g": "𒁀", "t": "ba", "en": "syllable ba" },
+        { "g": "𒁉", "t": "bi", "en": "syllable bi", "note": "Also read pí, as in ḫa-am-mu-ra-pí." },
+        { "g": "𒁍", "t": "bu", "en": "syllable bu", "note": "Also read pu." },
+        { "g": "𒈠", "t": "ma", "en": "syllable ma" },
+        { "g": "𒈪", "t": "mi", "en": "syllable mi" },
+        { "g": "𒈬", "t": "mu", "en": "syllable mu" },
+        { "g": "𒈾", "t": "na", "en": "syllable na" },
+        { "g": "𒉌", "t": "ni", "en": "syllable ni", "note": "Also read lí, as in be-lí 'my lord'." },
+        { "g": "𒉡", "t": "nu", "en": "syllable nu" },
+        { "g": "𒊭", "t": "ša", "en": "syllable ša" },
+        { "g": "𒋗", "t": "šu", "en": "syllable šu" },
+        { "g": "𒀭", "t": "an", "en": "syllable an", "note": "The same sign is DINGIR, 'god'." },
+        { "g": "𒌝", "t": "um", "en": "syllable um" },
+        { "g": "𒈝", "t": "lum", "en": "syllable lum" },
+        { "g": "𒉿", "t": "wi", "en": "wa, wi or wu", "note": "Old Babylonian uses this one sign for wa, wi and wu." },
+        { "g": "𒆷", "t": "la", "en": "syllable la" }
+      ]
+    },
+    {
+      "title": "Awīlum",
+      "about": "People, family and case endings",
+      "kind": "words",
+      "guide": [
+        { "h": "Three cases", "p": "Nouns end in -um as the subject, -am as the object and -im after 'of' and after prepositions.", "ex": [["awīlum", "the man (subject)"], ["awīlam", "the man (object)"], ["awīlim", "of the man"]] },
+        { "h": "Mimation", "p": "The final -m is called mimation. Later Akkadian dropped it (awīlu), but Old Babylonian keeps it." },
+        { "h": "Feminine -t-", "p": "Feminine nouns add -t-: mārum 'son', mārtum 'daughter'; aḫum 'brother', aḫātum 'sister'." },
+        { "h": "No word for 'is'", "p": "Put two nouns side by side to say 'X is Y'. ul 'not' goes before the part it denies.", "ex": [["awīlum ul wardum", "the man is not a slave"]] },
+        { "h": "'Of' joins two nouns", "p": "The first noun drops its ending and the second takes -im: mārum becomes mār, aššatum becomes aššat, mārtum becomes mārat.", "ex": [["mār awīlim", "the son of a man"]] }
+      ],
+      "items": [
+        { "t": "awīlum", "g": "𒀀𒉿𒈝", "en": "man", "alt": ["person"], "note": "In Hammurabi's laws, a free man of full status." },
+        { "t": "sinništum", "g": "𒊩", "en": "woman", "note": "Usually written with the Sumerian sign MUNUS." },
+        { "t": "mārum", "g": "𒌉", "en": "son", "alt": ["child"], "note": "Written with the Sumerian sign DUMU." },
+        { "t": "mārtum", "g": "𒌉𒊩", "en": "daughter", "note": "DUMU.MUNUS, 'child' + 'woman'." },
+        { "t": "abum", "g": "𒀀𒁍𒌝", "en": "father" },
+        { "t": "ummum", "g": "𒌝𒈬𒌝", "en": "mother" },
+        { "t": "aḫum", "g": "𒀀𒄷𒌝", "en": "brother" },
+        { "t": "aḫātum", "g": "𒀀𒄩𒌈", "en": "sister" },
+        { "t": "aššatum", "g": "𒀸𒊭𒌈", "en": "wife" },
+        { "t": "wardum", "g": "𒀴", "en": "slave", "alt": ["servant"] },
+        { "t": "u", "g": "𒅇", "en": "and" },
+        { "t": "ul", "g": "𒌑𒌌", "en": "not" }
+      ],
+      "sentences": [
+        { "t": "abum u ummum", "g": "𒀀𒁍𒌝 𒅇 𒌝𒈬𒌝", "en": "father and mother" },
+        { "t": "aḫum u aḫātum", "g": "𒀀𒄷𒌝 𒅇 𒀀𒄩𒌈", "en": "brother and sister" },
+        { "t": "mārum u mārtum", "g": "𒌉 𒅇 𒌉𒊩", "en": "son and daughter" },
+        { "t": "mār awīlim", "g": "𒌉 𒀀𒉿𒅆", "en": "the son of a man", "alt": ["a man's son"] },
+        { "t": "mārat awīlim", "g": "𒌉𒊩 𒀀𒉿𒅆", "en": "the daughter of a man", "alt": ["a man's daughter"] },
+        { "t": "aššat awīlim", "g": "𒀸𒊭𒀜 𒀀𒉿𒅆", "en": "the wife of a man", "alt": ["a man's wife"] },
+        { "t": "awīlum ul wardum", "g": "𒀀𒉿𒈝 𒌑𒌌 𒀴", "en": "the man is not a slave", "alt": ["the man is not a servant"] },
+        { "t": "sinništum aššat awīlim", "g": "𒊩 𒀸𒊭𒀜 𒀀𒉿𒅆", "en": "the woman is the wife of a man", "alt": ["the woman is a man's wife"] }
+      ]
+    },
+    {
+      "title": "Šarrum",
+      "about": "King, city and gods",
+      "kind": "words",
+      "guide": [
+        { "h": "Logograms", "p": "Common words are often written with one Sumerian sign read in Akkadian: LUGAL is šarrum, É is bītum. The case ending is not written, so É can be bītum, bītam or bītim." },
+        { "h": "Silent signs", "p": "Before a god's name the DINGIR sign is silent and marks it as divine; we write it ᵈ. After a place name the sign KI 'place' does the same.", "ex": [["ᵈUTU", "Šamaš"], ["KÁ.DINGIR.RAᵏⁱ", "Bābilim"]] },
+        { "h": "Adjectives follow", "p": "An adjective comes after its noun and copies its ending.", "ex": [["šarrum dannum", "the strong king"]] },
+        { "h": "The stative", "p": "To say 'is strong', Akkadian uses the stative: the adjective without any ending. So šarrum dannum is 'the strong king', but šarrum dan is 'the king is strong'. This course uses the stative for every 'is' + adjective.", "ex": [["šarrum dan", "the king is strong"], ["ilum rabi", "the god is great"]] }
+      ],
+      "items": [
+        { "t": "šarrum", "g": "𒈗", "en": "king", "note": "LUGAL, literally 'big man' in Sumerian." },
+        { "t": "bēlum", "g": "𒁁𒈝", "en": "lord", "alt": ["master", "owner"] },
+        { "t": "ilum", "g": "𒀭", "en": "god" },
+        { "t": "ālum", "g": "𒌷", "en": "city", "alt": ["town"] },
+        { "t": "bītum", "g": "𒂍", "en": "house", "alt": ["household", "temple"] },
+        { "t": "ekallum", "g": "𒂍𒃲", "en": "palace", "note": "From Sumerian É.GAL, 'big house'." },
+        { "t": "Šamaš", "g": "𒀭𒌓", "en": "Shamash", "note": "The sun god, guardian of justice." },
+        { "t": "Marduk", "g": "𒀭𒀫𒌓", "en": "Marduk", "note": "The god of Babylon." },
+        { "t": "Bābilim", "g": "𒆍𒀭𒊏𒆠", "en": "Babylon", "note": "Understood as bāb ilim, 'gate of the god'." },
+        { "t": "dannum", "g": "𒆗𒉡𒌝", "en": "strong", "alt": ["mighty"] },
+        { "t": "dan", "g": "𒁕𒀭", "en": "is strong", "alt": ["is mighty"] },
+        { "t": "rabi", "g": "𒊏𒁉", "en": "is great", "alt": ["is big"], "note": "Stative of rabûm, 'great'." }
+      ],
+      "sentences": [
+        { "t": "šarrum dan", "g": "𒈗 𒁕𒀭", "en": "the king is strong", "alt": ["the king is mighty"] },
+        { "t": "šarrum dannum", "g": "𒈗 𒆗𒉡𒌝", "en": "the strong king", "alt": ["the mighty king"] },
+        { "t": "ilum rabi", "g": "𒀭 𒊏𒁉", "en": "the god is great" },
+        { "t": "bītum rabi", "g": "𒂍 𒊏𒁉", "en": "the house is big", "alt": ["the house is great"] },
+        { "t": "ālum ul rabi", "g": "𒌷 𒌑𒌌 𒊏𒁉", "en": "the city is not big", "alt": ["the town is not big"] },
+        { "t": "ekallum bīt šarrim", "g": "𒂍𒃲 𒂍 𒈗", "en": "the palace is the king's house", "alt": ["the palace is the house of the king"] },
+        { "t": "Marduk bēl Bābilim", "g": "𒀭𒀫𒌓 𒁁𒂖 𒆍𒀭𒊏𒆠", "en": "Marduk is the lord of Babylon", "alt": ["Marduk is lord of Babylon"] },
+        { "t": "Šamaš u Marduk", "g": "𒀭𒌓 𒅇 𒀭𒀫𒌓", "en": "Shamash and Marduk" }
+      ]
+    },
+    {
+      "title": "Bēlī",
+      "about": "My lord: possessives and prepositions",
+      "kind": "words",
+      "guide": [
+        { "h": "Prepositions take -im", "p": "ina 'in', ana 'to' and itti 'with' are followed by the genitive.", "ex": [["ina ekallim", "in the palace"], ["itti šarrim", "with the king"]] },
+        { "h": "My, your, his", "p": "Possessive endings attach to the short form of the noun: -ī 'my', -ka 'your', -šu 'his'.", "ex": [["bēlī", "my lord"], ["mārka", "your son"], ["šumšu", "his name"]] },
+        { "h": "-ya after a vowel", "p": "After a preposition or ša the noun takes -i, and 'my' becomes -ya.", "ex": [["ana bēlīya", "to my lord"]] },
+        { "h": "Where things are", "p": "A verbless sentence can also say where something is.", "ex": [["šarrum ina ekallim", "the king is in the palace"]] }
+      ],
+      "items": [
+        { "t": "ina", "g": "𒄿𒈾", "en": "in", "alt": ["at", "on"] },
+        { "t": "ana", "g": "𒀀𒈾", "en": "to", "alt": ["for"] },
+        { "t": "itti", "g": "𒀉𒋾", "en": "with" },
+        { "t": "ša", "g": "𒊭", "en": "of", "alt": ["which", "who"], "note": "Also 'who, which'." },
+        { "t": "šumum", "g": "𒋗𒈬𒌝", "en": "name" },
+        { "t": "ṭuppum", "g": "𒁾𒁍𒌝", "en": "tablet", "alt": ["letter"], "note": "A clay tablet, and so also a letter." },
+        { "t": "kaspum", "g": "𒆬𒌓", "en": "silver", "alt": ["money"], "note": "KÙ.BABBAR, 'white metal'. Silver was weighed out as money." },
+        { "t": "eqlum", "g": "𒀀𒊮", "en": "field" },
+        { "t": "bēlī", "g": "𒁁𒉌", "en": "my lord" },
+        { "t": "mārka", "g": "𒌉𒅗", "en": "your son" },
+        { "t": "šumšu", "g": "𒋳𒋗", "en": "his name" },
+        { "t": "Ḫammurapi", "g": "𒄩𒄠𒈬𒊏𒁉", "en": "Hammurabi", "note": "King of Babylon, c. 1792–1750 BC." }
+      ],
+      "sentences": [
+        { "t": "šarrum ina ekallim", "g": "𒈗 𒄿𒈾 𒂍𒃲", "en": "the king is in the palace" },
+        { "t": "bēlī ina Bābilim", "g": "𒁁𒉌 𒄿𒈾 𒆍𒀭𒊏𒆠", "en": "my lord is in Babylon" },
+        { "t": "kaspum ana šarrim", "g": "𒆬𒌓 𒀀𒈾 𒈗", "en": "the silver is for the king" },
+        { "t": "mārka itti šarrim", "g": "𒌉𒅗 𒀉𒋾 𒈗", "en": "your son is with the king" },
+        { "t": "eqlum ša bēlīya", "g": "𒀀𒊮 𒊭 𒁁𒉌𒅀", "en": "the field of my lord", "alt": ["my lord's field"] },
+        { "t": "ṭuppum ana bēlīya", "g": "𒁾𒁍𒌝 𒀀𒈾 𒁁𒉌𒅀", "en": "the tablet is for my lord", "alt": ["the letter is for my lord"] },
+        { "t": "šumšu Ḫammurapi", "g": "𒋳𒋗 𒄩𒄠𒈬𒊏𒁉", "en": "his name is Hammurabi" }
+      ]
+    },
+    {
+      "title": "Iprus",
+      "about": "Verbs, the past and the present",
+      "kind": "words",
+      "guide": [
+        { "h": "The verb comes last", "p": "Akkadian order is subject, object, verb. The object takes -am.", "ex": [["šarrum ālam iṣbat", "the king seized the city"]] },
+        { "h": "Three-consonant roots", "p": "Verbs are built on roots like p-r-s 'decide'. The preterite iprus is the simple past, 'he decided'. The present iparras is 'he decides' or 'he will decide'." },
+        { "h": "Who does it", "p": "A prefix shows the person: i- 'he' or 'she', a- 'I'. anāku 'I' is added only for emphasis.", "ex": [["išpur", "he sent"], ["ašpur", "I sent"]] },
+        { "h": "Common irregulars", "p": "Some everyday verbs bend the pattern: illik 'he went', illak 'he goes'; iddin 'he gave', inaddin 'he gives'." }
+      ],
+      "items": [
+        { "t": "iṣbat", "g": "𒄑𒁀𒀜", "en": "seized", "alt": ["he seized", "captured"] },
+        { "t": "iddin", "g": "𒀉𒁲𒅔", "en": "gave", "alt": ["he gave"] },
+        { "t": "illik", "g": "𒅋𒇷𒅅", "en": "went", "alt": ["he went"] },
+        { "t": "īmur", "g": "𒄿𒈬𒌨", "en": "saw", "alt": ["he saw"] },
+        { "t": "imḫur", "g": "𒅎𒄷𒌨", "en": "received", "alt": ["he received"] },
+        { "t": "išpur", "g": "𒅖𒁍𒌨", "en": "sent", "alt": ["he sent", "wrote"], "note": "Send a person or a message; so also 'write to'." },
+        { "t": "īpuš", "g": "𒄿𒁍𒍑", "en": "built", "alt": ["he built", "made"] },
+        { "t": "illak", "g": "𒅋𒆷𒀝", "en": "goes", "alt": ["will go", "he goes"] },
+        { "t": "inaddin", "g": "𒄿𒈾𒀜𒁲𒅔", "en": "gives", "alt": ["will give", "he gives"] },
+        { "t": "anāku", "g": "𒀀𒈾𒆪", "en": "I" },
+        { "t": "ašpur", "g": "𒀸𒁍𒌨", "en": "I sent", "alt": ["I wrote"] },
+        { "t": "amḫur", "g": "𒄠𒄷𒌨", "en": "I received" }
+      ],
+      "sentences": [
+        { "t": "šarrum ālam iṣbat", "g": "𒈗 𒀀𒇴 𒄑𒁀𒀜", "en": "the king seized the city", "alt": ["the king captured the city"] },
+        { "t": "awīlum kaspam iddin", "g": "𒀀𒉿𒈝 𒆬𒌓 𒀉𒁲𒅔", "en": "the man gave silver", "alt": ["the man gave the silver"] },
+        { "t": "mārum ana ālim illik", "g": "𒌉 𒀀𒈾 𒀀𒅆 𒅋𒇷𒅅", "en": "the son went to the city" },
+        { "t": "šarrum awīlam īmur", "g": "𒈗 𒀀𒉿𒇴 𒄿𒈬𒌨", "en": "the king saw the man" },
+        { "t": "anāku kaspam amḫur", "g": "𒀀𒈾𒆪 𒆬𒌓 𒄠𒄷𒌨", "en": "I received the silver", "talt": ["kaspam amḫur"] },
+        { "t": "ana bēlīya ašpur", "g": "𒀀𒈾 𒁁𒉌𒅀 𒀸𒁍𒌨", "en": "I wrote to my lord", "alt": ["I sent to my lord"] },
+        { "t": "šarrum ana ilim bītam īpuš", "g": "𒈗 𒀀𒈾 𒀭 𒁉𒌓 𒄿𒁍𒍑", "en": "the king built a house for the god", "alt": ["the king built a temple for the god"] },
+        { "t": "awīlum ana Bābilim illak", "g": "𒀀𒉿𒈝 𒀀𒈾 𒆍𒀭𒊏𒆠 𒅋𒆷𒀝", "en": "the man goes to Babylon", "alt": ["the man will go to Babylon", "the man is going to Babylon"] },
+        { "t": "šarrum eqlam ana awīlim inaddin", "g": "𒈗 𒀀𒊮 𒀀𒈾 𒀀𒉿𒅆 𒄿𒈾𒀜𒁲𒅔", "en": "the king gives the field to the man", "alt": ["the king will give the field to the man", "the king gives a field to the man", "the king will give a field to the man"] }
+      ]
+    },
+    {
+      "title": "Šumma awīlum",
+      "about": "Letters and Hammurabi's laws",
+      "kind": "words",
+      "guide": [
+        { "h": "Opening a letter", "p": "Letters were read aloud to the addressee, so they begin 'to X say: thus says Y'. -ma closes each part.", "ex": [["ana bēlīya qibīma", "say to my lord"], ["umma Ḫammurapīma", "thus says Hammurabi"]] },
+        { "h": "May he", "p": "li- turns a verb into a wish. A blessing often follows the opening.", "ex": [["Šamaš liballiṭka", "may Shamash keep you well"]] },
+        { "h": "If a man", "p": "Each law is a case: šumma 'if' and the crime in the preterite, then the penalty in the present. English puts the crime in the present: 'if a man steals'. Here u means 'or'." },
+        { "h": "-ma 'and then'", "p": "-ma links two clauses: īpušma is 'he built, and then'." },
+        { "h": "Sources", "p": "The laws are quoted from the Codex Hammurabi stele: § 6 (theft from a god or palace), § 21 (breaking into a house) and § 229 (a builder whose house collapses and kills its owner). umma Ḫammurapīma opens Hammurabi's letter to Sîn-iddinam (AbB 2 33). Šamaš liballiṭka is the standard greeting, as in VS 16 109." }
+      ],
+      "items": [
+        { "t": "qibīma", "g": "𒆠𒉈𒈠", "en": "say", "alt": ["speak"], "note": "qibī 'say!' + -ma." },
+        { "t": "umma", "g": "𒌝𒈠", "en": "thus", "alt": ["thus says"] },
+        { "t": "liballiṭka", "g": "𒇷𒁀𒀠𒇷𒀉𒅗", "en": "may he keep you well", "alt": ["may he keep you alive"] },
+        { "t": "šumma", "g": "𒋳𒈠", "en": "if" },
+        { "t": "šū", "g": "𒋗𒌑", "en": "that", "alt": ["he"], "note": "Also 'he'. After a noun it means 'that'." },
+        { "t": "išriq", "g": "𒅖𒊑𒅅", "en": "stole", "alt": ["he stole", "steals"] },
+        { "t": "ipluš", "g": "𒅁𒇻𒍑", "en": "broke into", "alt": ["he broke into", "breaks into"] },
+        { "t": "iddâk", "g": "𒀉𒁕𒀝", "en": "shall be killed", "alt": ["will be killed"], "note": "From dâkum 'to kill'." },
+        { "t": "makkūrum", "g": "𒃻𒂵", "en": "property", "alt": ["goods", "valuables"] },
+        { "t": "itinnum", "g": "𒁶", "en": "builder", "note": "Written with the Sumerian sign ŠITIM." }
+      ],
+      "sentences": [
+        { "t": "ana bēlīya qibīma", "g": "𒀀𒈾 𒁁𒉌𒅀 𒆠𒉈𒈠", "en": "say to my lord", "alt": ["speak to my lord"] },
+        { "t": "umma Ḫammurapīma", "g": "𒌝𒈠 𒄩𒄠𒈬𒊏𒁉𒈠", "en": "thus says Hammurabi" },
+        { "t": "Šamaš liballiṭka", "g": "𒀭𒌓 𒇷𒁀𒀠𒇷𒀉𒅗", "en": "may Shamash keep you well", "alt": ["may Shamash keep you alive"] },
+        { "t": "šumma awīlum bītam ipluš", "g": "𒋳𒈠 𒀀𒉿𒈝 𒁉𒌓 𒅁𒇻𒍑", "en": "if a man breaks into a house", "alt": ["if a man broke into a house"] },
+        { "t": "šumma awīlum makkūr ilim u ekallim išriq", "g": "𒋳𒈠 𒀀𒉿𒈝 𒃻𒂵 𒀭 𒅇 𒂍𒃲 𒅖𒊑𒅅", "en": "if a man steals property of a god or a palace", "alt": ["if a man stole property of a god or a palace", "if a man steals the property of a god or a palace"] },
+        { "t": "awīlum šū iddâk", "g": "𒀀𒉿𒈝 𒋗𒌑 𒀉𒁕𒀝", "en": "that man shall be killed", "alt": ["that man will be killed"] },
+        { "t": "šumma itinnum ana awīlim bītam īpušma", "g": "𒋳𒈠 𒁶 𒀀𒈾 𒀀𒉿𒅆 𒂍 𒄿𒁍𒍑𒈠", "en": "if a builder builds a house for a man", "alt": ["if a builder built a house for a man"] },
+        { "t": "itinnum šū iddâk", "g": "𒁶 𒋗𒌑 𒀉𒁕𒀝", "en": "that builder shall be killed", "alt": ["that builder will be killed"] }
+      ]
+    },
+    {
+      "title": "Iptaras",
+      "about": "Past, present and perfect: the G-stem in full",
+      "kind": "words",
+      "guide": [
+        { "h": "Three tenses", "p": "Every verb has three main forms. Built on p-r-s 'decide': iprus 'he decided' (preterite), iparras 'he decides' or 'he will decide' (present) and iptaras 'he has decided' (perfect).", "ex": [["iškun", "he placed"], ["išakkan", "he places"], ["ištakan", "he has placed"]] },
+        { "h": "The perfect", "p": "The perfect puts -ta- after the first root consonant. It means 'has done'. Letters use it for news that has just happened, and in a chain of past events it marks the last, decisive step.", "ex": [["inanna ṭuppam ištapar", "now he has sent a tablet"]] },
+        { "h": "Each verb has its own vowels", "p": "The vowel before the last consonant changes from verb to verb, so learn the past and present together: išpur and išappar, iṣbat and iṣabbat, imqut and imaqqut. Dictionaries list verbs by the infinitive: šapārum 'to send', ṣabātum 'to seize', maqātum 'to fall'." },
+        { "h": "Every person", "p": "Prefixes show who acts: i- 'he' or 'she', ta- 'you', a- 'I', ni- 'we'. Plurals add an ending: i-...-ū 'they' (men or mixed), i-...-ā 'they' (women), ta-...-ā 'you all'. Speaking to a woman, 'you' adds -ī: tašpurī.", "ex": [["tašpur", "you sent"], ["nišpur", "we sent"], ["išpurū", "they sent"]] },
+        { "h": "Plural nouns", "p": "Masculine nouns drop the mimation and end in -ū as subject and -ī elsewhere: ilū 'the gods', ana ilī 'to the gods'. Feminines lengthen the vowel before -t-: šarratum 'queen', šarrātum 'queens'.", "ex": [["awīlū ana ekallim illikū", "the men went to the palace"]] }
+      ],
+      "items": [
+        { "t": "išakkan", "g": "𒄿𒊭𒀝𒅗𒀭", "en": "places", "alt": ["puts", "he places", "will place"], "note": "Present of šakānum 'to place'." },
+        { "t": "iškun", "g": "𒅖𒆪𒌦", "en": "placed", "alt": ["put", "he placed", "set"] },
+        { "t": "ištakan", "g": "𒅖𒋫𒅗𒀭", "en": "has placed", "alt": ["has put", "he has placed"] },
+        { "t": "ištapar", "g": "𒅖𒋫𒉺𒅈", "en": "has sent", "alt": ["has written", "he has sent"], "note": "Perfect of šapārum 'to send'." },
+        { "t": "iṣabbat", "g": "𒄿𒍝𒀊𒁀𒀜", "en": "seizes", "alt": ["will seize", "he seizes", "captures"], "note": "Present of ṣabātum; past iṣbat." },
+        { "t": "imqut", "g": "𒅎𒆪𒌓", "en": "fell", "alt": ["collapsed", "he fell"], "note": "From maqātum 'to fall'. Present imaqqut." },
+        { "t": "tašpur", "g": "𒋫𒀸𒁍𒌨", "en": "you sent", "alt": ["you wrote"] },
+        { "t": "nišpur", "g": "𒉌𒅖𒁍𒌨", "en": "we sent", "alt": ["we wrote"] },
+        { "t": "išpurū", "g": "𒅖𒁍𒊒", "en": "they sent", "alt": ["they wrote"], "note": "The long -ū is not written: iš-pu-ru." },
+        { "t": "ilū", "g": "𒄿𒇻", "en": "gods", "alt": ["the gods"], "note": "Plural of ilum." },
+        { "t": "awīlū", "g": "𒀀𒉿𒇻", "en": "men", "alt": ["people"], "note": "Plural of awīlum." },
+        { "t": "inanna", "g": "𒄿𒈾𒀭𒈾", "en": "now" }
+      ],
+      "sentences": [
+        { "t": "šarrum ālam iṣabbat", "g": "𒈗 𒀀𒇴 𒄿𒍝𒀊𒁀𒀜", "en": "the king will seize the city", "alt": ["the king seizes the city", "the king will capture the city"] },
+        { "t": "šarrum kaspam ina bītim iškun", "g": "𒈗 𒆬𒌓 𒄿𒈾 𒂍 𒅖𒆪𒌦", "en": "the king placed the silver in the house", "alt": ["the king put the silver in the house"] },
+        { "t": "inanna kaspam ina ekallim ištakan", "g": "𒄿𒈾𒀭𒈾 𒆬𒌓 𒄿𒈾 𒂍𒃲 𒅖𒋫𒅗𒀭", "en": "now he has placed the silver in the palace", "alt": ["now he has put the silver in the palace"] },
+        { "t": "inanna ṭuppam ištapar", "g": "𒄿𒈾𒀭𒈾 𒁾𒉺𒄠 𒅖𒋫𒉺𒅈", "en": "now he has sent a tablet", "alt": ["now he has sent the tablet", "now he has written a letter"] },
+        { "t": "ana šarrim tašpur", "g": "𒀀𒈾 𒈗 𒋫𒀸𒁍𒌨", "en": "you wrote to the king", "alt": ["you sent to the king"] },
+        { "t": "ana Bābilim nišpur", "g": "𒀀𒈾 𒆍𒀭𒊏𒆠 𒉌𒅖𒁍𒌨", "en": "we wrote to Babylon", "alt": ["we sent to Babylon"] },
+        { "t": "awīlū ana ekallim illikū", "g": "𒀀𒉿𒇻 𒀀𒈾 𒂍𒃲 𒅋𒇷𒆪", "en": "the men went to the palace" },
+        { "t": "ilū awīlam īmurū", "g": "𒄿𒇻 𒀀𒉿𒇴 𒄿𒈬𒊒", "en": "the gods saw the man" },
+        { "t": "bītum imqut", "g": "𒂍 𒅎𒆪𒌓", "en": "the house collapsed", "alt": ["the house fell"] }
+      ]
+    },
+    {
+      "title": "Uballiṭ",
+      "about": "The D and Š stems: make it so, make it happen",
+      "kind": "words",
+      "guide": [
+        { "h": "Stems", "p": "A root can be put into several stems that shift its meaning. The plain one is the G-stem. The D-stem doubles the middle consonant and the Š-stem adds š. Both use the prefix u- for 'he' and 'I', tu- for 'you' and nu- for 'we'." },
+        { "h": "The D-stem", "p": "uparris (past), uparras (present), uptarris (perfect). It often turns a quality into an action: damqum 'good' gives udammiq 'he made good', danānum 'be strong' gives udannin 'he made strong'.", "ex": [["uballiṭ", "he kept alive"], ["uballaṭ", "he keeps alive"]] },
+        { "h": "You have met it already", "p": "liballiṭka 'may he keep you well' in letters is the D-stem of balāṭum 'to live'. In the Hammurabi story, uḫtappid 'he has blinded' is a D perfect." },
+        { "h": "The Š-stem", "p": "ušapris (past), ušapras (present), uštapris (perfect). It means 'make someone or something do it': maqātum 'fall' gives ušamqit 'he made fall, he struck down', ḫalāqum 'perish' gives ušaḫliq 'he destroyed'.", "ex": [["ušamqit", "he struck down"], ["ušaḫlaq", "he will destroy"]] },
+        { "h": "Royal boasts", "p": "Kings described their wars with Š-stems: they struck down armies and destroyed cities. ummān nakrim is 'the army of the enemy', with ummānum in its short bound form.", "ex": [["šarrum ummān nakrim ušamqit", "the king struck down the enemy's army"]] }
+      ],
+      "items": [
+        { "t": "uballiṭ", "g": "𒌑𒁀𒀠𒇷𒀉", "en": "kept alive", "alt": ["saved", "he kept alive"], "note": "D-stem of balāṭum 'to live'." },
+        { "t": "uballaṭ", "g": "𒌑𒁀𒀠𒆷𒀜", "en": "keeps alive", "alt": ["will keep alive", "saves"] },
+        { "t": "damiq", "g": "𒁕𒈪𒅅", "en": "is good", "alt": ["is fine"], "note": "Stative of damqum 'good'." },
+        { "t": "udammiq", "g": "𒌑𒁕𒄠𒈪𒅅", "en": "made good", "alt": ["improved", "he improved"], "note": "D-stem of damāqum 'to be good'." },
+        { "t": "udannin", "g": "𒌑𒁕𒀭𒉌𒅔", "en": "made strong", "alt": ["strengthened", "reinforced"], "note": "D-stem of danānum 'to be strong'. Compare dannum." },
+        { "t": "ušamqit", "g": "𒌑𒊭𒄠𒆠𒀉", "en": "struck down", "alt": ["felled", "he struck down"], "note": "Š-stem of maqātum 'to fall'." },
+        { "t": "ušaḫliq", "g": "𒌑𒊭𒄴𒇷𒅅", "en": "destroyed", "alt": ["he destroyed"], "note": "Š-stem of ḫalāqum 'to perish'." },
+        { "t": "ušaḫlaq", "g": "𒌑𒊭𒄴𒆷𒀝", "en": "destroys", "alt": ["will destroy", "he destroys"] },
+        { "t": "nakrum", "g": "𒈾𒀝𒊒𒌝", "en": "enemy", "alt": ["foe"] },
+        { "t": "ummānum", "g": "𒌝𒈠𒉡𒌝", "en": "army", "alt": ["troops"] },
+        { "t": "mātum", "g": "𒈠𒌈", "en": "land", "alt": ["country"] }
+      ],
+      "sentences": [
+        { "t": "Šamaš awīlam uballiṭ", "g": "𒀭𒌓 𒀀𒉿𒇴 𒌑𒁀𒀠𒇷𒀉", "en": "Shamash kept the man alive", "alt": ["Shamash saved the man"] },
+        { "t": "Marduk mātam uballaṭ", "g": "𒀭𒀫𒌓 𒈠𒌓 𒌑𒁀𒀠𒆷𒀜", "en": "Marduk keeps the land alive", "alt": ["Marduk keeps the country alive", "Marduk will keep the land alive"] },
+        { "t": "šarrum ummān nakrim ušamqit", "g": "𒈗 𒌝𒈠𒀭 𒈾𒀝𒊑𒅎 𒌑𒊭𒄠𒆠𒀉", "en": "the king struck down the army of the enemy", "alt": ["the king struck down the enemy's army", "the king struck down the enemy army"] },
+        { "t": "nakrum ālam ušaḫliq", "g": "𒈾𒀝𒊒𒌝 𒀀𒇴 𒌑𒊭𒄴𒇷𒅅", "en": "the enemy destroyed the city", "alt": ["the enemy destroyed the town"] },
+        { "t": "nakrum mātam ušaḫlaq", "g": "𒈾𒀝𒊒𒌝 𒈠𒌓 𒌑𒊭𒄴𒆷𒀝", "en": "the enemy will destroy the land", "alt": ["the enemy destroys the land", "the enemy will destroy the country"] },
+        { "t": "šarrum ālam udannin", "g": "𒈗 𒀀𒇴 𒌑𒁕𒀭𒉌𒅔", "en": "the king made the city strong", "alt": ["the king strengthened the city"] },
+        { "t": "šarrum bītam udammiq", "g": "𒈗 𒁉𒌓 𒌑𒁕𒄠𒈪𒅅", "en": "the king improved the house", "alt": ["the king made the house good"] },
+        { "t": "bītum damiq", "g": "𒂍 𒁕𒈪𒅅", "en": "the house is good", "alt": ["the house is fine"] }
+      ]
+    },
+    {
+      "title": "Šiqlum",
+      "about": "Numbers, weights and trade",
+      "kind": "words",
+      "guide": [
+        { "h": "Numbers are wedges", "p": "Tablets write numbers with wedges: an upright wedge for each one, a corner wedge for each ten. The spoken words behind them are often uncertain, so scholars write numbers as digits.", "ex": [["ištēn", "one"], ["šina", "two"]] },
+        { "h": "Counting in sixties", "p": "Babylonian counting went up in sixties, as our minutes and hours still do. The wedge for 1 also stands for 60, and the reader tells which from context." },
+        { "h": "Weights", "p": "Silver was weighed out, not counted. 60 šiqlū 'shekels' (about 8 grams each) made a manûm 'mina' (about half a kilo), and 60 minas made a biltum 'talent'." },
+        { "h": "Barley", "p": "Barley, šeʾum, was measured by volume. A kurrum 'kor' held 300 qû, roughly 300 litres. Silver and barley both served as money." },
+        { "h": "Number, measure, goods", "p": "The measure takes a short fixed form (šiqil, mana, kur) and the goods follow in whatever case the sentence needs.", "ex": [["1 mana kaspam išaqqal", "he shall pay one mina of silver"]] },
+        { "h": "Buying and selling", "p": "šâmum 'to buy' has the past išām. 'From' the seller is itti. To sell is to 'give for silver', ana kaspim nadānum.", "ex": [["šeʾam itti tamkārim išām", "he bought barley from the merchant"], ["eqlam ana kaspim inaddin", "he will sell the field"]] },
+        { "h": "Sources", "p": "1 mana kaspam išaqqal is Hammurabi's law § 198. The merchant loan comes from § 49, and selling a field 'for silver' from § 40." }
+      ],
+      "items": [
+        { "t": "ištēn", "g": "𒁹", "en": "one", "note": "Written with one upright wedge." },
+        { "t": "šina", "g": "𒈫", "en": "two" },
+        { "t": "šiqlum", "g": "𒂆", "en": "shekel", "note": "About 8 grams of silver. Written GÍN." },
+        { "t": "manûm", "g": "𒈠𒈾", "en": "mina", "note": "60 shekels. Short form mana." },
+        { "t": "šeʾum", "g": "𒊺", "en": "barley", "alt": ["grain"] },
+        { "t": "kurrum", "g": "𒄥", "en": "kor", "note": "A grain measure of about 300 litres." },
+        { "t": "tamkārum", "g": "𒁮𒃼", "en": "merchant", "alt": ["trader"] },
+        { "t": "šīmum", "g": "𒅆𒈬𒌝", "en": "price", "alt": ["purchase"] },
+        { "t": "išām", "g": "𒄿𒊭𒄠", "en": "bought", "alt": ["he bought"], "note": "From šâmum 'to buy'." },
+        { "t": "išaqqal", "g": "𒄿𒊭𒃲", "en": "pays", "alt": ["weighs out", "will pay", "shall pay"], "note": "From šaqālum 'to weigh'." },
+        { "t": "ilqe", "g": "𒅋𒆠", "en": "took", "alt": ["he took", "borrowed"], "note": "From leqûm 'to take'." }
+      ],
+      "sentences": [
+        { "t": "1 mana kaspam išaqqal", "g": "𒁹 𒈠𒈾 𒆬𒌓 𒄿𒊭𒃲", "en": "he shall pay one mina of silver", "alt": ["he will pay one mina of silver", "he shall pay 1 mina of silver", "he will pay 1 mina of silver"] },
+        { "t": "2 šiqil kaspam inaddin", "g": "𒈫 𒂆 𒆬𒌓 𒄿𒈾𒀜𒁲𒅔", "en": "he shall give two shekels of silver", "alt": ["he will give two shekels of silver", "he gives two shekels of silver", "he shall give 2 shekels of silver", "he will give 2 shekels of silver"] },
+        { "t": "tamkārum eqlam išām", "g": "𒁮𒃼 𒀀𒊮 𒄿𒊭𒄠", "en": "the merchant bought a field", "alt": ["the merchant bought the field"] },
+        { "t": "šeʾam itti tamkārim išām", "g": "𒊺 𒀉𒋾 𒁮𒃼 𒄿𒊭𒄠", "en": "he bought barley from the merchant", "alt": ["he bought the barley from the merchant", "he bought grain from the merchant"] },
+        { "t": "šīm eqlim išaqqal", "g": "𒅆𒅎 𒀀𒊮 𒄿𒊭𒃲", "en": "he will pay the price of the field", "alt": ["he shall pay the price of the field", "he pays the price of the field"] },
+        { "t": "eqlam ana kaspim inaddin", "g": "𒀀𒊮 𒀀𒈾 𒆬𒌓 𒄿𒈾𒀜𒁲𒅔", "en": "he will sell the field", "alt": ["he sells the field", "he shall sell the field", "he will give the field for silver"] },
+        { "t": "šumma awīlum kaspam itti tamkārim ilqe", "g": "𒋳𒈠 𒀀𒉿𒈝 𒆬𒌓 𒀉𒋾 𒁮𒃼 𒅋𒆠", "en": "if a man took silver from a merchant", "alt": ["if a man takes silver from a merchant", "if a man borrowed silver from a merchant", "if a man borrows silver from a merchant"] },
+        { "t": "tamkārum 1 kur šeʾam inaddin", "g": "𒁮𒃼 𒁹 𒄥 𒊺 𒄿𒈾𒀜𒁲𒅔", "en": "the merchant will give one kor of barley", "alt": ["the merchant gives one kor of barley", "the merchant shall give one kor of barley", "the merchant will give 1 kor of barley"] }
+      ]
+    },
+    {
+      "title": "Inūma",
+      "about": "Who, which, when and because",
+      "kind": "words",
+      "guide": [
+        { "h": "ša 'who, which'", "p": "ša opens a relative clause. The clause follows its noun, and its verb still comes last.", "ex": [["awīlum ša bītam īpušu", "the man who built the house"]] },
+        { "h": "The subjunctive -u", "p": "In a subordinate clause a verb ending in a consonant adds -u: īpuš becomes īpušu, iddin becomes iddinu. Forms that already end in a vowel, like išpurū 'they sent', stay as they are.", "ex": [["kaspum ša awīlum iddinu", "the silver which the man gave"]] },
+        { "h": "Without ša", "p": "The noun can also drop its ending and run straight into the clause. Hammurabi's builder law says bīt īpušu 'the house he built'. The Gilgameš epic opens ša naqba īmuru, 'he who saw the Deep', with īmuru in the subjunctive.", "ex": [["bīt īpušu imqut", "the house he built collapsed"]] },
+        { "h": "When, after, until, because", "p": "inūma 'when', ištu 'after', adi 'until' and aššum 'because' also put the verb in the subjunctive. Before a noun, aššum means 'concerning'.", "ex": [["inūma šarrum ana Bābilim illiku", "when the king went to Babylon"], ["aššum eqlim", "concerning the field"]] },
+        { "h": "lā, not ul", "p": "Subordinate clauses and šumma clauses use lā for 'not'. ul is for main clauses.", "ex": [["aššum bīt īpušu lā udanninuma imqutu", "because he did not make the house he built strong, and it collapsed"]] },
+        { "h": "šumma stays plain", "p": "šumma 'if' does not take the subjunctive: šumma awīlum bītam ipluš, not iplušu." },
+        { "h": "Sources", "p": "bīt īpušu imqut is from Hammurabi's law § 229 and the aššum clause from § 232, both quoted from the stele." }
+      ],
+      "items": [
+        { "t": "inūma", "g": "𒄿𒉡𒈠", "en": "when" },
+        { "t": "ištu", "g": "𒅖𒌅", "en": "after", "alt": ["since", "from"], "note": "Before a noun it means 'from'." },
+        { "t": "adi", "g": "𒀀𒁲", "en": "until", "alt": ["up to"] },
+        { "t": "aššum", "g": "𒀸𒋳", "en": "because", "alt": ["concerning", "about"] },
+        { "t": "kīma", "g": "𒆠𒈠", "en": "like", "alt": ["as"] },
+        { "t": "lā", "g": "𒆷", "en": "not (in clauses)", "alt": ["not"], "note": "Used in subordinate and šumma clauses." },
+        { "t": "qātum", "g": "𒂵𒌈", "en": "hand" },
+        { "t": "ṣuḫārum", "g": "𒍪𒄩𒊒𒌝", "en": "boy", "alt": ["servant", "young man"], "note": "A young man, often a servant or messenger." },
+        { "t": "ṭēmum", "g": "𒋼𒈬𒌝", "en": "report", "alt": ["news", "instructions"] }
+      ],
+      "sentences": [
+        { "t": "awīlum ša bītam īpušu", "g": "𒀀𒉿𒈝 𒊭 𒁉𒌓 𒄿𒁍𒋗", "en": "the man who built the house", "alt": ["the man that built the house"] },
+        { "t": "kaspum ša awīlum iddinu", "g": "𒆬𒌓 𒊭 𒀀𒉿𒈝 𒀉𒁲𒉡", "en": "the silver which the man gave", "alt": ["the silver that the man gave", "the silver the man gave"] },
+        { "t": "inūma šarrum ana Bābilim illiku", "g": "𒄿𒉡𒈠 𒈗 𒀀𒈾 𒆍𒀭𒊏𒆠 𒅋𒇷𒆪", "en": "when the king went to Babylon" },
+        { "t": "ištu šarrum ālam iṣbatu", "g": "𒅖𒌅 𒈗 𒀀𒇴 𒄑𒁀𒌅", "en": "after the king seized the city", "alt": ["after the king captured the city"] },
+        { "t": "aššum eqlim ša tašpuru", "g": "𒀸𒋳 𒀀𒊮 𒊭 𒋫𒀸𒁍𒊒", "en": "concerning the field you wrote about", "alt": ["about the field you wrote about", "concerning the field about which you wrote"] },
+        { "t": "ṭēmam ša bēlī išpuru", "g": "𒋼𒈠𒄠 𒊭 𒁁𒉌 𒅖𒁍𒊒", "en": "the report that my lord sent", "alt": ["the report which my lord sent", "the news that my lord sent"] },
+        { "t": "ṣuḫārum ša tašpuru", "g": "𒍪𒄩𒊒𒌝 𒊭 𒋫𒀸𒁍𒊒", "en": "the boy whom you sent", "alt": ["the boy you sent", "the boy that you sent", "the servant you sent"] },
+        { "t": "bīt īpušu imqut", "g": "𒂍 𒄿𒁍𒋗 𒅎𒆪𒌓", "en": "the house that he built collapsed", "alt": ["the house which he built collapsed", "the house he built collapsed", "the house he built fell"] },
+        { "t": "aššum bīt īpušu lā udanninuma imqutu", "g": "𒀸𒋳 𒂍 𒄿𒁍𒋗 𒆷 𒌑𒆗𒉌𒉡𒈠 𒅎𒆪𒌅", "en": "because he did not make the house he built strong, and it collapsed", "alt": ["because he did not make the house he built strong and it collapsed", "because he did not strengthen the house he built and it collapsed"] }
+      ]
+    },
+    {
+      "title": "Šupur",
+      "about": "Commands, wishes and letters",
+      "kind": "words",
+      "guide": [
+        { "h": "Commands", "p": "The imperative comes from the 'you' form of the past without its prefix, with a vowel added to begin it: tašpur 'you sent' gives šupur 'send!', taškun gives šukun 'place!', taṣbat gives ṣabat 'seize!'.", "ex": [["kaspam idin", "give the silver"]] },
+        { "h": "Everyday commands", "p": "Common verbs are irregular: alik 'go!', idin 'give!', qibi 'say!'. To a woman add -ī (šuprī), to a group -ā (šuprā)." },
+        { "h": "Let him, let me", "p": "The precative turns the past into a wish: li- for 'he' or 'she' (liddin 'let him give'), lu- for 'I' (lušpur 'let me send') and li-...-ū for 'they'.", "ex": [["awīlum šū lillik", "let that man go"], ["ana bēlīya lušpur", "let me write to my lord"]] },
+        { "h": "u- stems", "p": "For D and Š verbs, li- replaces the u-: uballiṭ becomes liballiṭ. -ka adds 'you': liballiṭka 'may he keep you well', liballiṭūka 'may they keep you well'." },
+        { "h": "lū 'may'", "p": "lū before a stative makes a wish. šalim 'he is well' becomes šalmāta 'you are well', so lū šalmāta is 'may you be well'.", "ex": [["lū šalmāta lū balṭāta", "may you be well, may you be healthy"]] },
+        { "h": "Don't", "p": "A prohibition is lā with the present 'you' form: lā tallak 'do not go'. lā tašappar 'do not send'." },
+        { "h": "A letter", "p": "After the address and the blessing the writer comes to the point, often with anumma 'herewith' or aššum 'concerning'. Requests are imperatives, and promises use lu-." }
+      ],
+      "items": [
+        { "t": "šupur", "g": "𒋗𒁍𒌨", "en": "send!", "alt": ["write!"] },
+        { "t": "alik", "g": "𒀀𒇷𒅅", "en": "go!" },
+        { "t": "idin", "g": "𒄿𒁲𒅔", "en": "give!" },
+        { "t": "ṣabat", "g": "𒍝𒁀𒀜", "en": "seize!", "alt": ["capture!"] },
+        { "t": "šukun", "g": "𒋗𒆪𒌦", "en": "place!", "alt": ["put!", "set!"] },
+        { "t": "lušpur", "g": "𒇻𒍑𒁍𒌨", "en": "let me send", "alt": ["let me write"] },
+        { "t": "lillik", "g": "𒇷𒅋𒇷𒅅", "en": "let him go", "alt": ["may he go"] },
+        { "t": "liddin", "g": "𒇷𒀉𒁲𒅔", "en": "let him give", "alt": ["may he give"] },
+        { "t": "lū", "g": "𒇻", "en": "may", "alt": ["let"] },
+        { "t": "šalmāta", "g": "𒊭𒀠𒈠𒋫", "en": "you are well", "alt": ["you are safe"], "note": "Stative of šalāmum 'to be well', for 'you'." },
+        { "t": "balṭāta", "g": "𒁀𒀠𒁕𒋫", "en": "you are healthy", "alt": ["you are alive"], "note": "Stative of balāṭum 'to live'." },
+        { "t": "anumma", "g": "𒀀𒉡𒌝𒈠", "en": "herewith", "alt": ["now", "hereby"] }
+      ],
+      "sentences": [
+        { "t": "lū šalmāta lū balṭāta", "g": "𒇻 𒊭𒀠𒈠𒋫 𒇻 𒁀𒀠𒁕𒋫", "en": "may you be well, may you be healthy", "alt": ["may you be well and healthy", "may you be well and may you be healthy"] },
+        { "t": "Šamaš u Marduk liballiṭūka", "g": "𒀭𒌓 𒅇 𒀭𒀫𒌓 𒇷𒁀𒀠𒇷𒌅𒅗", "en": "may Shamash and Marduk keep you well", "alt": ["may Shamash and Marduk keep you alive"] },
+        { "t": "ana Bābilim alik", "g": "𒀀𒈾 𒆍𒀭𒊏𒆠 𒀀𒇷𒅅", "en": "go to Babylon" },
+        { "t": "kaspam idin", "g": "𒆬𒌓 𒄿𒁲𒅔", "en": "give the silver", "alt": ["give silver"] },
+        { "t": "ṭuppam šupur", "g": "𒁾𒉺𒄠 𒋗𒁍𒌨", "en": "send a tablet", "alt": ["send the tablet", "send a letter", "write a letter"] },
+        { "t": "anumma ṣuḫārī ašpur", "g": "𒀀𒉡𒌝𒈠 𒍪𒄩𒊑 𒀸𒁍𒌨", "en": "herewith I sent my boy", "alt": ["herewith I sent my servant", "now I sent my boy", "now I have sent my servant", "I have now sent my servant"] },
+        { "t": "awīlum šū lillik", "g": "𒀀𒉿𒈝 𒋗𒌑 𒇷𒅋𒇷𒅅", "en": "let that man go", "alt": ["may that man go"] },
+        { "t": "ana bēlīya lušpur", "g": "𒀀𒈾 𒁁𒉌𒅀 𒇻𒍑𒁍𒌨", "en": "let me write to my lord", "alt": ["let me send to my lord"] },
+        { "t": "ana ekallim lā tallak", "g": "𒀀𒈾 𒂍𒃲 𒆷 𒋫𒀠𒆷𒀝", "en": "do not go to the palace", "alt": ["don't go to the palace"] }
+      ]
+    },
+    {
+      "title": "Abūbum",
+      "about": "Gilgameš, Atrahasis and the omens",
+      "kind": "words",
+      "guide": [
+        { "h": "Poetry", "p": "Babylonian poems are built from lines in two halves that echo each other, as in Atrahasis: dullum kabit, mād šapšāqum, 'the toil was heavy, the hardship great'. Word order is freer than in prose." },
+        { "h": "Atrahasis", "p": "The flood story opens when the gods themselves had to dig the canals: inūma ilū awīlum. Lambert read awīlum as 'like men'; von Soden read it as 'were man'. Scholars still disagree.", "ex": [["inūma ilū awīlum", "when the gods were like men"]] },
+        { "h": "Two Gilgamešes", "p": "The first Akkadian epic of Gilgameš was composed in Old Babylonian times. Around 1200 BC it was reworked into the Standard Babylonian epic of twelve tablets, which tells the flood story in Tablet XI. That later dialect drops mimation and blurs the case endings: šarru for šarrum." },
+        { "h": "Omens", "p": "The bārûm 'diviner' read the liver of a sacrificed sheep. Each omen is a šumma sentence: what he saw, then the prediction in the present. Collections listed hundreds of them.", "ex": [["rubûm ḫarrān illaku imaqqut", "the prince will fall on the campaign he goes on"]] },
+        { "h": "qāssu 'his hand'", "p": "A t or d before -šu merges with it into ss: qāt + šu gives qāssu. 'His hand will reach' means 'he will conquer'.", "ex": [["šarrum māt nakrišu qāssu ikaššad", "the king will conquer his enemy's land"]] },
+        { "h": "Sources", "p": "inūma ilū awīlum and dullum kabit are Atrahasis OB I 1 and 4 (BM 78941). ša naqba īmuru is Gilgameš SB I 1. The omens come from the Yale Old Babylonian omen tablets YOS 10 17 and YOS 10 42." }
+      ],
+      "items": [
+        { "t": "Gilgāmeš", "g": "𒀭𒄑𒂆𒈦", "en": "Gilgamesh", "note": "King of Uruk, hero of the epic. Written ᵈGIŠ.GÍN.MAŠ." },
+        { "t": "Enkidu", "g": "𒀭𒂗𒆠𒆕", "en": "Enkidu", "note": "The wild man who became Gilgameš's friend." },
+        { "t": "abūbum", "g": "𒀀𒁍𒁍𒌝", "en": "flood", "alt": ["deluge"] },
+        { "t": "eleppum", "g": "𒄑𒈣", "en": "boat", "alt": ["ship"], "note": "Written ᵍⁱˢMÁ: 'wood' + 'boat'." },
+        { "t": "awīlūtum", "g": "𒀀𒉿𒇻𒌈", "en": "mankind", "alt": ["humanity", "humankind"] },
+        { "t": "dullum", "g": "𒁺𒌌𒇻𒌝", "en": "toil", "alt": ["work", "labour", "labor"] },
+        { "t": "kabit", "g": "𒅗𒁉𒀉", "en": "is heavy", "alt": ["was heavy"], "note": "Stative of kabtum 'heavy'." },
+        { "t": "rubûm", "g": "𒊒𒁍𒌝", "en": "prince", "alt": ["ruler"] },
+        { "t": "ḫarrānum", "g": "𒆜", "en": "road", "alt": ["journey", "campaign"] },
+        { "t": "imaqqut", "g": "𒄿𒈠𒆪𒌓", "en": "falls", "alt": ["will fall"] },
+        { "t": "ikaššad", "g": "𒄿𒅗𒀸𒊭𒀜", "en": "conquers", "alt": ["will conquer", "reaches", "will reach"], "note": "From kašādum 'to reach'." },
+        { "t": "bārûm", "g": "𒁀𒊒𒌝", "en": "diviner", "alt": ["seer"], "note": "The expert who read the omens." }
+      ],
+      "sentences": [
+        { "t": "inūma ilū awīlum", "g": "𒄿𒉡𒈠 𒄿𒇻 𒀀𒉿𒈝", "en": "when the gods were like men", "alt": ["when the gods were man", "when gods were like men", "when the gods were men", "when gods were man"] },
+        { "t": "dullum kabit", "g": "𒁺𒌌𒇻𒌝 𒅗𒁉𒀉", "en": "the toil was heavy", "alt": ["the work was heavy", "the toil is heavy", "the labour was heavy"] },
+        { "t": "ša naqba īmuru", "g": "𒃻 𒅘𒁀 𒄿𒈬𒊒", "en": "he who saw the Deep", "alt": ["the one who saw the Deep"] },
+        { "t": "Gilgāmeš u Enkidu ana ḫarrānim illikū", "g": "𒀭𒄑𒂆𒈦 𒅇 𒀭𒂗𒆠𒆕 𒀀𒈾 𒆜 𒅋𒇷𒆪", "en": "Gilgamesh and Enkidu went on a journey", "alt": ["Gilgamesh and Enkidu went on the road", "Gilgamesh and Enkidu went on campaign"] },
+        { "t": "ilū abūbam iškunū", "g": "𒄿𒇻 𒀀𒁍𒁀𒄠 𒅖𒆪𒉡", "en": "the gods brought about the flood", "alt": ["the gods caused the flood", "the gods brought the flood", "the gods sent the flood"] },
+        { "t": "awīlum eleppam īpuš", "g": "𒀀𒉿𒈝 𒄑𒈣 𒄿𒁍𒍑", "en": "the man built a boat", "alt": ["the man built the boat", "the man made a boat"] },
+        { "t": "bārûm ana šarrim illak", "g": "𒁀𒊒𒌝 𒀀𒈾 𒈗 𒅋𒆷𒀝", "en": "the diviner goes to the king", "alt": ["the diviner will go to the king", "the diviner is going to the king"] },
+        { "t": "rubûm ḫarrān illaku imaqqut", "g": "𒊒𒁍𒌝 𒆜 𒄿𒆷𒆪 𒄿𒈠𒆪𒌓", "en": "the prince will fall on the campaign he goes on", "alt": ["the prince will fall on the campaign that he goes on", "the prince will fall in the campaign he undertakes"] },
+        { "t": "šarrum māt nakrišu qāssu ikaššad", "g": "𒊬𒀸 𒈠𒀜 𒈾𒀝𒊑𒋗 𒂵𒊍𒍪 𒄿𒅗𒀸𒊭𒀜", "en": "the king will conquer his enemy's land", "alt": ["the king will conquer the land of his enemy", "the king will capture his enemy's land"] }
+      ]
+    }
+  ]
+}

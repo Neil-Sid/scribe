@@ -1,0 +1,462 @@
+{
+  "id": "greek",
+  "name": "Ancient Greek",
+  "native": "Ἑλληνική",
+  "era": "500 – 300 BC (Classical Attic)",
+  "place": "Athens and the Greek world",
+  "blurb": "The language of Plato, Sophocles and Thucydides, and the source of words from democracy to zoology.",
+  "emblem": "ΑΘΕ",
+  "script": { "name": "Greek alphabet", "font": "greek" },
+  "accent": "#5f7a1f",
+  "keys": ["ē", "ō"],
+  "facts": [
+    "Greek has a written record of about 3,400 years, from Mycenaean palace tablets in Linear B to today's newspapers.",
+    "The Greeks borrowed their letters from the Phoenicians around 800 BC and turned spare consonant signs into vowels.",
+    "Athens officially switched to the 24-letter Ionic alphabet in 403 BC. Before that, E also stood for η and O for ω.",
+    "Plato wrote only capitals, with no accents or spaces. Accents arrived around 200 BC, small letters around AD 800.",
+    "The accent was pitch, not stress. One ancient writer says the voice rose by about a musical fifth.",
+    "Athenian silver coins, the famous 'owls', carry the letters ΑΘΕ, short for 'of the Athenians'."
+  ],
+  "units": [
+    {
+      "title": "Grammata",
+      "about": "Twenty-four letters, breathings and accents",
+      "kind": "script",
+      "guide": [
+        { "h": "Familiar but tricky", "p": "Many capitals look Latin, but some fool you: Η is ē, Ρ is r, Χ is ch. Classical Athenians wrote only capitals. Small letters came in the Middle Ages.", "ex": [["ΣΩΚΡΑΤΗΣ", "Sōkratēs, as carved in stone"]] },
+        { "h": "Breathings", "p": "A word starting with a vowel carries a little hook. ἀ (smooth) adds nothing, ἁ (rough) adds an h. A word starting with ρ always has the rough one.", "ex": [["ὁ", "ho, 'the'"], ["ἐν", "en, 'in'"], ["ῥεῖ", "rhei, 'flows'"]] },
+        { "h": "Accents", "p": "ά ὰ ᾶ mark where the voice rose or fell in pitch. Notice them, but you never have to type them.", "ex": [["ἄνθρωπος", "anthrōpos, person"]] },
+        { "h": "Pairs and small marks", "p": "γγ is ng. υ is y, but after α, ε or ο it is u. The tiny iota under ᾳ ῃ ῳ was pronounced in classical times, so type it as i.", "ex": [["ἄγγελος", "angelos, messenger"], ["οὐ", "ou, not"], ["ᾠδή", "ōidē, song"]] },
+        { "h": "Two sigmas", "p": "Sigma is σ inside a word and ς at the end.", "ex": [["σοφός", "sophos, wise"]] }
+      ],
+      "items": [
+        { "g": "Α α", "t": "a", "en": "alpha" },
+        { "g": "Β β", "t": "b", "en": "beta" },
+        { "g": "Γ γ", "t": "g", "en": "gamma", "note": "Before γ, κ, ξ or χ it sounds n: ἄγγελος, angelos." },
+        { "g": "Δ δ", "t": "d", "en": "delta" },
+        { "g": "Ε ε", "t": "e", "en": "epsilon", "note": "Always short." },
+        { "g": "Ζ ζ", "t": "z", "en": "zeta", "note": "In Plato's Athens probably 'zd'." },
+        { "g": "Η η", "t": "ē", "en": "eta", "note": "A long e, like the vowel in 'air'." },
+        { "g": "Θ θ", "t": "th", "en": "theta", "note": "An aspirated t, as in 'top'. The English 'th' sound came later." },
+        { "g": "Ι ι", "t": "i", "en": "iota" },
+        { "g": "Κ κ", "t": "k", "en": "kappa" },
+        { "g": "Λ λ", "t": "l", "en": "lambda" },
+        { "g": "Μ μ", "t": "m", "en": "mu" },
+        { "g": "Ν ν", "t": "n", "en": "nu" },
+        { "g": "Ξ ξ", "t": "x", "en": "xi", "note": "ks, as in 'axe'." },
+        { "g": "Ο ο", "t": "o", "en": "omicron", "note": "Short o. The name means 'little o'." },
+        { "g": "Π π", "t": "p", "en": "pi" },
+        { "g": "Ρ ρ", "t": "r", "en": "rho", "note": "A rolled r. At the start of a word: ῥ, rh." },
+        { "g": "Σ σ ς", "t": "s", "en": "sigma", "note": "ς is used at the end of a word." },
+        { "g": "Τ τ", "t": "t", "en": "tau" },
+        { "g": "Υ υ", "t": "y", "en": "upsilon", "note": "Like French u. Written u in αυ, ευ, ου." },
+        { "g": "Φ φ", "t": "ph", "en": "phi", "note": "An aspirated p, as in 'pot'. Later it became f." },
+        { "g": "Χ χ", "t": "ch", "en": "chi", "note": "An aspirated k, as in 'kit'. Later like Scottish 'loch'." },
+        { "g": "Ψ ψ", "t": "ps", "en": "psi" },
+        { "g": "Ω ω", "t": "ō", "en": "omega", "note": "Long o, as in 'awe'. The name means 'big o'." }
+      ]
+    },
+    {
+      "title": "Chaire",
+      "about": "Greet people and say who they are",
+      "kind": "words",
+      "guide": [
+        { "h": "Hello means 'rejoice'", "p": "χαῖρε is literally 'rejoice!' or 'be well', said both on meeting and on parting. To a group: χαίρετε.", "ex": [["χαῖρε, ὦ Σώκρατες", "hello, Socrates"]] },
+        { "h": "Calling someone", "p": "Put ὦ before the person you address. Names and nouns in -ος switch to -ε: φίλος becomes φίλε. Speakers in the assembly and the law courts addressed the crowd as ὦ ἄνδρες Ἀθηναῖοι.", "ex": [["χαῖρε, ὦ φίλε", "hello, friend"], ["ὦ ἄνδρες Ἀθηναῖοι", "men of Athens"]] },
+        { "h": "To be, and no 'a'", "p": "εἰμί 'I am', εἶ 'you are', ἐστίν 'he, she or it is'. Greek has no word for 'a': φίλος is 'a friend'.", "ex": [["φίλος εἶ", "you are a friend"]] },
+        { "h": "Not: οὐ, οὐκ, οὐχ", "p": "οὐ before a consonant, οὐκ before a smooth breathing, οὐχ before a rough one. After οὐκ, ἐστίν is written ἔστιν. On its own, 'no!' is οὔ.", "ex": [["οὐκ εἶ φίλος", "you are not a friend"], ["οὐκ ἔστιν", "he is not"]] },
+        { "h": "Leaning words", "p": "εἰμί and ἐστίν lean on the word before them and can lose their accent or push an extra one onto it. That is why you will see ἄνθρωπός εἰμι." }
+      ],
+      "items": [
+        { "g": "χαῖρε", "t": "chaire", "en": "hello", "alt": ["hi", "greetings", "rejoice"], "note": "Also used for goodbye. To a group: χαίρετε." },
+        { "g": "ναί", "t": "nai", "en": "yes" },
+        { "g": "οὔ", "t": "ou", "en": "no", "note": "Standing alone. Inside a sentence 'not' is οὐ, οὐκ or οὐχ." },
+        { "g": "οὐκ", "t": "ouk", "en": "not", "note": "οὐ before a consonant, οὐχ before a rough breathing." },
+        { "g": "ἄνθρωπος", "t": "anthrōpos", "en": "person", "alt": ["human", "human being", "man"], "note": "Any human being. Hence anthropology." },
+        { "g": "ἀνήρ", "t": "anēr", "en": "man", "alt": ["husband"], "note": "A man as opposed to a woman. Also 'husband'." },
+        { "g": "γυνή", "t": "gynē", "en": "woman", "alt": ["wife"], "note": "Also 'wife'. Hence gynaecology." },
+        { "g": "φίλος", "t": "philos", "en": "friend", "note": "Calling a friend: ὦ φίλε." },
+        { "g": "εἰμί", "t": "eimi", "en": "I am" },
+        { "g": "εἶ", "t": "ei", "en": "you are" },
+        { "g": "ἐστίν", "t": "estin", "en": "is", "alt": ["he is", "she is", "it is"], "note": "Also written ἐστί before a consonant." },
+        { "g": "καί", "t": "kai", "en": "and", "alt": ["also", "even"] }
+      ],
+      "sentences": [
+        { "g": "χαῖρε ὦ φίλε", "t": "chaire, ō phile", "en": "hello, friend", "alt": ["hi, friend", "greetings, friend", "hello, my friend"] },
+        { "g": "χαῖρε ὦ Σώκρατες", "t": "chaire, ō Sōkrates", "en": "hello, Socrates", "alt": ["hi, Socrates", "greetings, Socrates"] },
+        { "g": "ναί φίλος εἰμί", "t": "nai, philos eimi", "en": "yes, I am a friend", "alt": ["yes, I'm a friend"] },
+        { "g": "οὔ γυνή εἰμι", "t": "ou, gynē eimi", "en": "no, I am a woman", "alt": ["no, I'm a woman"] },
+        { "g": "ἀνὴρ καὶ γυνή", "t": "anēr kai gynē", "en": "a man and a woman", "alt": ["husband and wife"] },
+        { "g": "ἄνθρωπός εἰμι", "t": "anthrōpos eimi", "en": "I am a human", "alt": ["I am human", "I'm human", "I'm a human", "I am a person", "I am a human being"] },
+        { "g": "οὐκ εἶ φίλος", "t": "ouk ei philos", "en": "you are not a friend", "alt": ["you aren't a friend", "you're not a friend"] },
+        { "g": "Σωκράτης φίλος ἐστίν", "t": "Sōkratēs philos estin", "en": "Socrates is a friend" },
+        { "g": "ὦ ἄνδρες Ἀθηναῖοι", "t": "ō andres Athēnaioi", "en": "men of Athens", "alt": ["gentlemen of Athens", "Athenian men", "o men of Athens"] }
+      ]
+    },
+    {
+      "title": "Oikia",
+      "about": "Family, home and the word for 'the'",
+      "kind": "words",
+      "guide": [
+        { "h": "Greek has 'the'", "p": "Unlike Latin, Greek has a word for 'the': ὁ for masculine nouns, ἡ for feminine, τό for neuter. Learn every noun with it, because it tells you the gender. There is still no 'a'.", "ex": [["ὁ ἀδελφός", "the brother"], ["ἀδελφός", "a brother"]] },
+        { "h": "Objects change ending", "p": "As the object, -ος becomes -ον, -η becomes -ην, -α becomes -αν, and the article becomes τόν, τήν, τό. Neuter nouns look the same either way. Word order is free.", "ex": [["ὁ πατὴρ τὸν υἱὸν φιλεῖ", "the father loves the son"], ["τὸν υἱὸν ὁ πατὴρ φιλεῖ", "the father loves the son"]] },
+        { "h": "Adjectives agree", "p": "καλός, καλή, καλόν: the ending follows the noun's gender. Saying 'X is beautiful', the adjective takes no article.", "ex": [["ἡ οἰκία καλή ἐστιν", "the house is beautiful"]] },
+        { "h": "Acute turns grave", "p": "An acute on the last syllable turns grave when another word follows: ἀδελφός, but ὁ ἀδελφὸς καὶ ἡ ἀδελφή." }
+      ],
+      "items": [
+        { "g": "ὁ πατήρ", "t": "ho patēr", "en": "father" },
+        { "g": "ἡ μήτηρ", "t": "hē mētēr", "en": "mother" },
+        { "g": "ὁ υἱός", "t": "ho huios", "en": "son" },
+        { "g": "ἡ θυγάτηρ", "t": "hē thygatēr", "en": "daughter" },
+        { "g": "ὁ ἀδελφός", "t": "ho adelphos", "en": "brother", "note": "Hence Philadelphia, 'brotherly love'." },
+        { "g": "ἡ ἀδελφή", "t": "hē adelphē", "en": "sister" },
+        { "g": "τὸ παιδίον", "t": "to paidion", "en": "little child", "alt": ["child", "small child", "baby"], "note": "Neuter, so its article is τό." },
+        { "g": "ἡ οἰκία", "t": "hē oikia", "en": "house", "alt": ["home"] },
+        { "g": "ὁ ἵππος", "t": "ho hippos", "en": "horse", "note": "A hippopotamus is a 'river horse'." },
+        { "g": "φιλεῖ", "t": "philei", "en": "loves", "alt": ["likes", "is fond of"], "note": "He, she or it loves. 'I love' is φιλῶ." },
+        { "g": "καλός", "t": "kalos", "en": "beautiful", "alt": ["fine", "noble", "handsome", "lovely"], "note": "Feminine καλή, neuter καλόν." },
+        { "g": "μικρός", "t": "mikros", "en": "small", "alt": ["little"], "note": "Feminine μικρά, neuter μικρόν." }
+      ],
+      "sentences": [
+        { "g": "ὁ πατὴρ καὶ ἡ μήτηρ", "t": "ho patēr kai hē mētēr", "en": "the father and the mother" },
+        { "g": "ὁ ἀδελφὸς καὶ ἡ ἀδελφή", "t": "ho adelphos kai hē adelphē", "en": "the brother and the sister" },
+        { "g": "ἡ οἰκία καλή ἐστιν", "t": "hē oikia kalē estin", "en": "the house is beautiful", "alt": ["the house is fine", "the house is lovely", "the home is beautiful"] },
+        { "g": "ὁ πατὴρ τὸν υἱὸν φιλεῖ", "t": "ho patēr ton huion philei", "en": "the father loves the son", "alt": ["the father loves his son"], "talt": ["ton huion ho patēr philei", "ho patēr philei ton huion"] },
+        { "g": "ἡ θυγάτηρ τὸν ἵππον φιλεῖ", "t": "hē thygatēr ton hippon philei", "en": "the daughter loves the horse", "alt": ["the daughter likes the horse"], "talt": ["ton hippon hē thygatēr philei", "hē thygatēr philei ton hippon"] },
+        { "g": "τὸ παιδίον μικρόν ἐστιν", "t": "to paidion mikron estin", "en": "the child is small", "alt": ["the child is little", "the baby is small", "the baby is little"] },
+        { "g": "ἡ μήτηρ τὸ παιδίον φιλεῖ", "t": "hē mētēr to paidion philei", "en": "the mother loves the child", "alt": ["the mother loves her child", "the mother loves the baby", "the mother loves the little child"], "talt": ["to paidion hē mētēr philei"] },
+        { "g": "ὁ ἵππος οὐ μικρός ἐστιν", "t": "ho hippos ou mikros estin", "en": "the horse is not small", "alt": ["the horse isn't small", "the horse is not little"] }
+      ]
+    },
+    {
+      "title": "Legō",
+      "about": "Say, write, have, see and ask",
+      "kind": "words",
+      "guide": [
+        { "h": "The ending is the person", "p": "-ω 'I', -εις 'you', -ει 'he, she or it'. No pronoun is needed. The plural runs -ομεν, -ετε, -ουσιν.", "ex": [["γράφω", "I write"], ["γράφεις", "you write"], ["γράφει", "she writes"]] },
+        { "h": "One tense, two meanings", "p": "The present covers both English forms: γράφω is 'I write' and 'I am writing'." },
+        { "h": "Asking", "p": "τίς is 'who?' and τί 'what?'. They always keep their acute. ἆρα at the start turns a statement into a yes-or-no question. Printed Greek uses ; as its question mark.", "ex": [["τί λέγεις;", "what are you saying?"], ["ἆρα βιβλίον ἔχεις;", "do you have a book?"]] },
+        { "h": "οὐχ in action", "p": "εὑρίσκω starts with a rough breathing, so 'not' becomes οὐχ.", "ex": [["οὐχ εὑρίσκω", "I can't find it"]] }
+      ],
+      "items": [
+        { "g": "λέγω", "t": "legō", "en": "I say", "alt": ["I speak", "I tell", "I am saying"] },
+        { "g": "λέγεις", "t": "legeis", "en": "you say", "alt": ["you speak", "you are saying"] },
+        { "g": "γράφω", "t": "graphō", "en": "I write", "alt": ["I am writing"], "note": "Hence graphic and autograph." },
+        { "g": "γράφει", "t": "graphei", "en": "writes", "alt": ["he writes", "she writes", "is writing"] },
+        { "g": "ἔχω", "t": "echō", "en": "I have", "alt": ["I hold"] },
+        { "g": "βλέπω", "t": "blepō", "en": "I see", "alt": ["I look", "I am looking"] },
+        { "g": "εὑρίσκω", "t": "heuriskō", "en": "I find", "alt": ["I discover"], "note": "Its perfect is the famous εὕρηκα." },
+        { "g": "τί", "t": "ti", "en": "what" },
+        { "g": "τίς", "t": "tis", "en": "who" },
+        { "g": "τὸ βιβλίον", "t": "to biblion", "en": "book", "alt": ["scroll"], "note": "A Greek book was a papyrus roll." },
+        { "g": "ἡ ἐπιστολή", "t": "hē epistolē", "en": "letter", "alt": ["message"], "note": "A letter you send. A letter of the alphabet is γράμμα." },
+        { "g": "ὁ διδάσκαλος", "t": "ho didaskalos", "en": "teacher" }
+      ],
+      "sentences": [
+        { "g": "τί λέγεις", "t": "ti legeis?", "en": "what are you saying?", "alt": ["what do you say?", "what do you mean?"] },
+        { "g": "ἐπιστολὴν γράφω", "t": "epistolēn graphō", "en": "I am writing a letter", "alt": ["I write a letter"], "talt": ["graphō epistolēn"] },
+        { "g": "τίς γράφει τὴν ἐπιστολήν", "t": "tis graphei tēn epistolēn?", "en": "who is writing the letter?", "alt": ["who writes the letter?"] },
+        { "g": "ἆρα βιβλίον ἔχεις", "t": "ara biblion echeis?", "en": "do you have a book?", "alt": ["have you got a book?", "have you a book?"], "talt": ["ara echeis biblion"] },
+        { "g": "ναί βιβλίον ἔχω", "t": "nai, biblion echō", "en": "yes, I have a book", "alt": ["yes, I have got a book"], "talt": ["nai, echō biblion"] },
+        { "g": "οὐχ εὑρίσκω τὸ βιβλίον", "t": "ouch heuriskō to biblion", "en": "I cannot find the book", "alt": ["I can't find the book", "I do not find the book", "I don't find the book"], "talt": ["to biblion ouch heuriskō"] },
+        { "g": "τί βλέπεις", "t": "ti blepeis?", "en": "what do you see?", "alt": ["what are you looking at?", "what do you look at?"] },
+        { "g": "τὸν ἵππον βλέπω", "t": "ton hippon blepō", "en": "I see the horse", "alt": ["I am looking at the horse", "I look at the horse"], "talt": ["blepō ton hippon"] },
+        { "g": "τί λέγει ὁ διδάσκαλος", "t": "ti legei ho didaskalos?", "en": "what does the teacher say?", "alt": ["what is the teacher saying?"], "talt": ["ho didaskalos ti legei"] }
+      ]
+    },
+    {
+      "title": "Polis",
+      "about": "Gods, the city and the sea",
+      "kind": "words",
+      "guide": [
+        { "h": "The polis", "p": "ἡ πόλις is a city and the state it governs, all in one. Hence politics. As an object it becomes πόλιν.", "ex": [["ὁ θεὸς τὴν πόλιν φιλεῖ", "the god loves the city"]] },
+        { "h": "Into: εἰς", "p": "εἰς 'into, to' is followed by the object form.", "ex": [["εἰς τὴν ἀγοράν", "to the marketplace"]] },
+        { "h": "Names take 'the'", "p": "Greek often puts the article before a name: ἡ Ἀθηνᾶ, ὁ Ζεύς. English leaves it out.", "ex": [["ἡ Ἀθηνᾶ σοφή ἐστιν", "Athena is wise"]] },
+        { "h": "Athenian ττ", "p": "Where most Greeks said σσ, Athenians said ττ: θάλαττα, not θάλασσα." }
+      ],
+      "items": [
+        { "g": "ὁ θεός", "t": "ho theos", "en": "god", "note": "Hence theology." },
+        { "g": "ἡ θεά", "t": "hē thea", "en": "goddess", "note": "In Attic prose a goddess is often just ἡ θεός." },
+        { "g": "ἡ πόλις", "t": "hē polis", "en": "city", "alt": ["city-state", "state"], "note": "Object form: τὴν πόλιν." },
+        { "g": "ἡ ἀγορά", "t": "hē agora", "en": "marketplace", "alt": ["market", "agora", "square"], "note": "The public square: market and meeting place." },
+        { "g": "ἡ θάλαττα", "t": "hē thalatta", "en": "sea", "note": "Most other Greeks said θάλασσα." },
+        { "g": "ἡ ναῦς", "t": "hē naus", "en": "ship", "note": "Object form: τὴν ναῦν. Hence nautical." },
+        { "g": "Ἀθηνᾶ", "t": "Athēna", "en": "Athena", "note": "Goddess of wisdom and protector of Athens." },
+        { "g": "Ζεύς", "t": "Zeus", "en": "Zeus", "note": "King of the gods. Object form: Δία." },
+        { "g": "βαδίζει", "t": "badizei", "en": "walks", "alt": ["goes", "is walking"] },
+        { "g": "εἰς", "t": "eis", "en": "into", "alt": ["to", "towards", "toward"] },
+        { "g": "σοφός", "t": "sophos", "en": "wise", "alt": ["clever", "skilled"], "note": "Feminine σοφή. Hence philosophy, 'love of wisdom'." },
+        { "g": "μεγάλη", "t": "megalē", "en": "big", "alt": ["great", "large"], "note": "Feminine form. Masculine μέγας, neuter μέγα." }
+      ],
+      "sentences": [
+        { "g": "ἡ πόλις μεγάλη ἐστίν", "t": "hē polis megalē estin", "en": "the city is big", "alt": ["the city is great", "the city is large"] },
+        { "g": "ἡ Ἀθηνᾶ σοφή ἐστιν", "t": "hē Athēna sophē estin", "en": "Athena is wise", "alt": ["Athena is clever"] },
+        { "g": "ὁ ἀνὴρ εἰς τὴν ἀγορὰν βαδίζει", "t": "ho anēr eis tēn agoran badizei", "en": "the man walks to the marketplace", "alt": ["the man is walking to the marketplace", "the man walks to the market", "the man is walking to the market", "the man goes to the market", "the man goes to the marketplace", "the man walks to the agora", "the man goes to the agora"], "talt": ["ho anēr badizei eis tēn agoran", "eis tēn agoran ho anēr badizei"] },
+        { "g": "τὴν ναῦν βλέπω", "t": "tēn naun blepō", "en": "I see the ship", "alt": ["I am looking at the ship", "I look at the ship"], "talt": ["blepō tēn naun"] },
+        { "g": "ἡ θάλαττα καλή ἐστιν", "t": "hē thalatta kalē estin", "en": "the sea is beautiful", "alt": ["the sea is lovely", "the sea is fine"] },
+        { "g": "ὁ Ζεὺς θεός ἐστιν", "t": "ho Zeus theos estin", "en": "Zeus is a god" },
+        { "g": "ὁ θεὸς τὴν πόλιν φιλεῖ", "t": "ho theos tēn polin philei", "en": "the god loves the city", "alt": ["the god likes the city"], "talt": ["tēn polin ho theos philei", "ho theos philei tēn polin"] },
+        { "g": "ἡ θεὰ τὴν ναῦν βλέπει", "t": "hē thea tēn naun blepei", "en": "the goddess sees the ship", "alt": ["the goddess looks at the ship", "the goddess is looking at the ship"], "talt": ["tēn naun hē thea blepei"] }
+      ]
+    },
+    {
+      "title": "Gnōthi seauton",
+      "about": "Famous lines and where they come from",
+      "kind": "words",
+      "guide": [
+        { "h": "Commands", "p": "γνῶθι 'know!', ἄειδε 'sing!' and ἔννεπε 'tell!' are orders. With a command, 'not' is μή, so 'nothing' is μηδέν.", "ex": [["γνῶθι σεαυτόν", "know yourself"]] },
+        { "h": "Delphi", "p": "γνῶθι σεαυτόν and μηδὲν ἄγαν were inscribed at Apollo's temple at Delphi. Plato (Protagoras 343b) says the Seven Sages dedicated them there. He writes the shorter Attic form, γνῶθι σαυτόν." },
+        { "h": "Homer's first lines", "p": "The Iliad opens μῆνιν ἄειδε, θεά, the Odyssey ἄνδρα μοι ἔννεπε, Μοῦσα. The object comes first. ἄνδρα is ἀνήρ as an object, μοι is 'to me'. Homer's Greek is an older, mixed dialect, not Attic: an Athenian said ᾆδε for ἄειδε.", "ex": [["ἄνδρα μοι ἔννεπε, Μοῦσα", "tell me of the man, Muse"]] },
+        { "h": "Plurals in -α", "p": "Neuter plurals end in -α and take the article τά. Greek can leave out 'are'.", "ex": [["χαλεπὰ τὰ καλά", "fine things are difficult"]] },
+        { "h": "Sources", "p": "θάλαττα θάλαττα: Xenophon, Anabasis 4.7.24, as the Ten Thousand sight the Black Sea. εὕρηκα: Archimedes in his bath, told by the Roman Vitruvius two centuries later. πάντα ῥεῖ is a later summary of Heraclitus, not in his surviving words; Plato (Cratylus 402a) has him say that everything moves on and nothing stays. χαλεπὰ τὰ καλά is an old proverb Plato quotes (Republic 435c). The last line is Aristotle, Politics 1253a, where φύσει means 'by nature'." }
+      ],
+      "items": [
+        { "g": "γνῶθι", "t": "gnōthi", "en": "know", "note": "A command. The everyday verb is γιγνώσκω." },
+        { "g": "σεαυτόν", "t": "seauton", "en": "yourself", "alt": ["thyself"] },
+        { "g": "μηδέν", "t": "mēden", "en": "nothing", "note": "In plain statements, 'nothing' is οὐδέν." },
+        { "g": "ἄγαν", "t": "agan", "en": "too much", "alt": ["in excess", "excessively"] },
+        { "g": "ἡ μῆνις", "t": "hē mēnis", "en": "wrath", "alt": ["rage", "anger"], "note": "Object form μῆνιν: the first word of the Iliad." },
+        { "g": "ἄειδε", "t": "aeide", "en": "sing", "note": "Homer's form. In Attic: ᾆδε." },
+        { "g": "ἡ Μοῦσα", "t": "hē Mousa", "en": "Muse", "note": "Hence music and museum." },
+        { "g": "εὕρηκα", "t": "heurēka", "en": "I have found", "alt": ["I have found it", "I've found it", "I found it", "eureka"], "note": "Perfect of εὑρίσκω." },
+        { "g": "πάντα", "t": "panta", "en": "everything", "alt": ["all things", "all"], "note": "Neuter plural of πᾶς, 'all'." },
+        { "g": "ῥεῖ", "t": "rhei", "en": "flows", "alt": ["is flowing", "runs"] },
+        { "g": "χαλεπός", "t": "chalepos", "en": "difficult", "alt": ["hard"], "note": "Neuter plural χαλεπά." },
+        { "g": "τὸ ζῷον", "t": "to zōion", "en": "animal", "alt": ["living being", "creature"], "note": "Hence zoology." }
+      ],
+      "sentences": [
+        { "g": "γνῶθι σεαυτόν", "t": "gnōthi seauton", "en": "know yourself", "alt": ["know thyself"] },
+        { "g": "μηδὲν ἄγαν", "t": "mēden agan", "en": "nothing in excess", "alt": ["nothing too much", "nothing to excess"] },
+        { "g": "μῆνιν ἄειδε θεά", "t": "mēnin aeide, thea", "en": "sing, goddess, the wrath", "alt": ["sing, goddess, of the wrath", "sing the wrath, goddess", "sing of the wrath, goddess", "goddess, sing the wrath", "goddess, sing of the wrath", "sing, goddess, the rage", "sing, goddess, of the rage", "sing, goddess, the anger"] },
+        { "g": "ἄνδρα μοι ἔννεπε Μοῦσα", "t": "andra moi ennepe, Mousa", "en": "tell me of the man, Muse", "alt": ["tell me, Muse, of the man", "Muse, tell me of the man", "tell me about the man, Muse", "tell me, Muse, about the man", "sing to me of the man, Muse"] },
+        { "g": "θάλαττα θάλαττα", "t": "thalatta! thalatta!", "en": "the sea! the sea!" },
+        { "g": "εὕρηκα εὕρηκα", "t": "heurēka! heurēka!", "en": "I have found it! I have found it!", "alt": ["I've found it! I've found it!", "I found it! I found it!", "I have found! I have found!", "eureka! eureka!"] },
+        { "g": "πάντα ῥεῖ", "t": "panta rhei", "en": "everything flows", "alt": ["all things flow", "all flows", "everything is flowing"] },
+        { "g": "χαλεπὰ τὰ καλά", "t": "chalepa ta kala", "en": "fine things are difficult", "alt": ["fine things are hard", "beautiful things are difficult", "beautiful things are hard", "noble things are difficult", "good things are difficult", "good things are hard"] },
+        { "g": "ὁ ἄνθρωπος φύσει πολιτικὸν ζῷον", "t": "ho anthrōpos physei politikon zōion", "en": "man is by nature a political animal", "alt": ["man is a political animal by nature", "a human is by nature a political animal", "humans are by nature political animals", "the human being is by nature a political animal"] }
+      ]
+    },
+    {
+      "title": "Ēlthon",
+      "about": "Tell a story in the past",
+      "kind": "words",
+      "guide": [
+        { "h": "The aorist", "p": "Greek's main past tense is the aorist. It reports an event as one complete whole: 'I wrote', 'she fled'. It is the tense of storytelling.", "ex": [["γράφω", "I write"], ["ἔγραψα", "I wrote"]] },
+        { "h": "The augment", "p": "Past tenses put ἐ- in front of the verb. With a prefix such as ἀπο- 'away', the augment goes after the prefix: ἀπ-έ-θανεν.", "ex": [["ἀπέθανεν", "he died"]] },
+        { "h": "First aorist: -σα", "p": "Most verbs add σ and the endings -α 'I', -ας 'you', -ε(ν) 'he, she or it'. The σ blends with the consonant before it: π or φ with σ gives ψ, κ or χ with σ gives ξ. Verbs in -άω lengthen their vowel: νικάω, ἐνίκησα. The ν of -εν is optional, usually written before a vowel or a pause.", "ex": [["ἔπεμψα", "I sent"], ["ἐδίδαξεν", "she taught"]] },
+        { "h": "Second aorist: a new stem", "p": "Some common verbs change their stem instead and take the endings -ον, -ες, -ε(ν): φεύγω 'I flee', ἔφυγον 'I fled'. A few borrow a different verb altogether: the past of λέγω is εἶπον, 'I saw' is εἶδον and 'I went' is ἦλθον.", "ex": [["ἔφυγεν", "he fled"], ["τί εἶπες;", "what did you say?"]] },
+        { "h": "Was: ἦν", "p": "ἦν is 'he, she or it was', or 'there was'. It is the past of ἐστίν, but it never leans on the word before it.", "ex": [["ἡ οἰκία μικρὰ ἦν", "the house was small"]] },
+        { "h": "Veni, vidi, vici", "p": "Plutarch (Caesar 50) says Caesar reported a lightning victory in three words, and gives them in Greek: ἦλθον, εἶδον, ἐνίκησα." }
+      ],
+      "items": [
+        { "g": "ἔγραψα", "t": "egrapsa", "en": "I wrote", "note": "Aorist of γράφω. The φ and the σ merge into ψ." },
+        { "g": "ἔπεμψα", "t": "epempsa", "en": "I sent", "note": "Aorist of πέμπω 'I send'." },
+        { "g": "ἐδίδαξεν", "t": "edidaxen", "en": "taught", "alt": ["he taught", "she taught"], "note": "Aorist of διδάσκω 'I teach'. Hence didactic." },
+        { "g": "εἶπον", "t": "eipon", "en": "I said", "alt": ["I spoke", "I told"], "note": "The past of λέγω. 'He said' is εἶπεν." },
+        { "g": "εἶδον", "t": "eidon", "en": "I saw", "note": "The usual past of 'see'. The present is a different verb, ὁράω." },
+        { "g": "ἦλθον", "t": "ēlthon", "en": "I came", "alt": ["I went"], "note": "'He came' is ἦλθεν." },
+        { "g": "ἐνίκησα", "t": "enikēsa", "en": "I conquered", "alt": ["I won", "I was victorious"], "note": "Aorist of νικάω. νίκη is 'victory', and Nike its goddess." },
+        { "g": "ἔφυγεν", "t": "ephygen", "en": "fled", "alt": ["ran away", "escaped", "he fled"], "note": "Second aorist of φεύγω 'I flee'." },
+        { "g": "ἀπέθανεν", "t": "apethanen", "en": "died", "alt": ["he died", "she died"], "note": "From ἀποθνῄσκω 'I die'. The augment sits after ἀπο-." },
+        { "g": "ἦν", "t": "ēn", "en": "was", "alt": ["he was", "she was", "it was", "there was"] },
+        { "g": "χθές", "t": "chthes", "en": "yesterday" },
+        { "g": "τότε", "t": "tote", "en": "then", "alt": ["at that time"] }
+      ],
+      "sentences": [
+        { "g": "ἐπιστολὴν ἔγραψα", "t": "epistolēn egrapsa", "en": "I wrote a letter", "talt": ["egrapsa epistolēn"] },
+        { "g": "τί εἶπες", "t": "ti eipes?", "en": "what did you say?" },
+        { "g": "χθὲς τὸν ἵππον εἶδον", "t": "chthes ton hippon eidon", "en": "yesterday I saw the horse", "alt": ["I saw the horse yesterday"], "talt": ["ton hippon eidon chthes", "chthes eidon ton hippon"] },
+        { "g": "ὁ διδάσκαλος τὴν ἐπιστολὴν ἔπεμψεν", "t": "ho didaskalos tēn epistolēn epempsen", "en": "the teacher sent the letter", "talt": ["tēn epistolēn ho didaskalos epempsen", "ho didaskalos epempsen tēn epistolēn"] },
+        { "g": "ἡ μήτηρ τὸν υἱὸν ἐδίδαξεν", "t": "hē mētēr ton huion edidaxen", "en": "the mother taught the son", "alt": ["the mother taught her son"], "talt": ["ton huion hē mētēr edidaxen"] },
+        { "g": "ὁ ἵππος ἔφυγεν", "t": "ho hippos ephygen", "en": "the horse ran away", "alt": ["the horse fled", "the horse escaped"] },
+        { "g": "ἡ οἰκία μικρὰ ἦν", "t": "hē oikia mikra ēn", "en": "the house was small", "alt": ["the house was little", "the home was small"] },
+        { "g": "τότε ὁ ἀνὴρ ἀπέθανεν", "t": "tote ho anēr apethanen", "en": "then the man died", "alt": ["the man died then", "at that time the man died", "then the husband died"], "talt": ["ho anēr tote apethanen"] },
+        { "g": "ἦλθον εἶδον ἐνίκησα", "t": "ēlthon, eidon, enikēsa", "en": "I came, I saw, I conquered", "alt": ["I came, I saw, I won"] }
+      ]
+    },
+    {
+      "title": "Basileus",
+      "about": "Kings, bodies and nouns that change their stem",
+      "kind": "words",
+      "guide": [
+        { "h": "The third declension", "p": "Many nouns hide their stem in the nominative, and the other cases add endings to a longer stem: σῶμα 'body', stem σωματ-; παῖς 'boy', stem παιδ-. As an object, a masculine or feminine noun usually takes -α: τὸν παῖδα, τὴν νύκτα. A few, like πόλις, take -ν instead: τὴν πόλιν.", "ex": [["ὁ παῖς τὸν ἀστέρα εἶδεν", "the boy saw the star"]] },
+        { "h": "Of: the genitive", "p": "The genitive means 'of'. The article becomes τοῦ for masculine and neuter nouns and τῆς for feminine ones. Nouns in -ος switch to -ου, nouns in -η to -ης, nouns in -α to -ας or -ης, and the third declension adds -ος to the stem: σώματος, παιδός.", "ex": [["τὸ ὄνομα τοῦ βασιλέως", "the king's name"], ["τὸ σῶμα τοῦ ἀνθρώπου", "the human body"]] },
+        { "h": "Learn two forms", "p": "Dictionaries list the nominative and the genitive, because the genitive shows the stem: σῶμα, σώματος. πόλις and nouns in -ευς have a genitive in -εως: πόλις, πόλεως; βασιλεύς, βασιλέως." },
+        { "h": "Plurals", "p": "In the plural the article is οἱ, αἱ, τά. Nouns in -ος end in -οι, nouns in -η or -α in -αι, and third-declension nouns in -ες, or -α if neuter. 'They are' is εἰσίν. Every plural genitive ends in -ων: τῶν Ἑλλήνων 'of the Greeks'.", "ex": [["οἱ Ἕλληνες σοφοί εἰσιν", "the Greeks are wise"]] },
+        { "h": "Ruling over", "p": "ἄρχω 'I rule' puts what is ruled in the genitive: ἄρχει τῆς πόλεως, literally 'he rules of the city'.", "ex": [["ὁ βασιλεὺς τῆς πόλεως ἄρχει", "the king rules the city"]] }
+      ],
+      "items": [
+        { "g": "ὁ βασιλεύς", "t": "ho basileus", "en": "king", "note": "Genitive βασιλέως, object βασιλέα. Without the article it often means the king of Persia." },
+        { "g": "τὸ σῶμα", "t": "to sōma", "en": "body", "note": "Genitive σώματος. Hence psychosomatic." },
+        { "g": "τὸ ὄνομα", "t": "to onoma", "en": "name", "note": "Genitive ὀνόματος. Hence anonymous." },
+        { "g": "ὁ παῖς", "t": "ho pais", "en": "boy", "alt": ["child", "son"], "note": "Genitive παιδός, object παῖδα. ἡ παῖς is a girl. Hence paediatrics." },
+        { "g": "ἡ χείρ", "t": "hē cheir", "en": "hand", "note": "Genitive χειρός, object χεῖρα. Hence chiropractor." },
+        { "g": "ἡ νύξ", "t": "hē nyx", "en": "night", "note": "Genitive νυκτός, object νύκτα." },
+        { "g": "τὸ ὕδωρ", "t": "to hydōr", "en": "water", "note": "Genitive ὕδατος. Hence hydraulic." },
+        { "g": "ὁ ἀστήρ", "t": "ho astēr", "en": "star", "note": "Genitive ἀστέρος, object ἀστέρα. An asterisk is a 'little star'." },
+        { "g": "ὁ Ἕλλην", "t": "ho Hellēn", "en": "Greek", "note": "The Greeks' own name for themselves. Plural οἱ Ἕλληνες." },
+        { "g": "εἰσίν", "t": "eisin", "en": "they are", "alt": ["are"], "note": "Leans on the word before it, like ἐστίν." },
+        { "g": "ἄρχει", "t": "archei", "en": "rules", "alt": ["governs", "commands", "he rules"], "note": "What is ruled goes in the genitive. Hence monarchy." },
+        { "g": "μακρός", "t": "makros", "en": "long", "alt": ["tall"], "note": "Feminine μακρά, neuter μακρόν." }
+      ],
+      "sentences": [
+        { "g": "ὁ βασιλεὺς σοφός ἐστιν", "t": "ho basileus sophos estin", "en": "the king is wise", "alt": ["the king is clever"] },
+        { "g": "τὸ ὄνομα τοῦ βασιλέως", "t": "to onoma tou basileōs", "en": "the name of the king", "alt": ["the king's name"] },
+        { "g": "τί ἐστι τὸ ὄνομα τοῦ παιδός", "t": "ti esti to onoma tou paidos?", "en": "what is the boy's name?", "alt": ["what is the name of the boy?", "what is the child's name?", "what is the name of the child?"] },
+        { "g": "ὁ βασιλεὺς τῆς πόλεως ἄρχει", "t": "ho basileus tēs poleōs archei", "en": "the king rules the city", "alt": ["the king governs the city"], "talt": ["ho basileus archei tēs poleōs", "tēs poleōs ho basileus archei"] },
+        { "g": "ὁ παῖς τὸν ἀστέρα εἶδεν", "t": "ho pais ton astera eiden", "en": "the boy saw the star", "alt": ["the child saw the star"], "talt": ["ton astera ho pais eiden"] },
+        { "g": "ἡ νὺξ μακρά ἐστιν", "t": "hē nyx makra estin", "en": "the night is long" },
+        { "g": "ἡ χεὶρ τῆς μητρός", "t": "hē cheir tēs mētros", "en": "the mother's hand", "alt": ["the hand of the mother"] },
+        { "g": "τὸ σῶμα τοῦ ἀνθρώπου", "t": "to sōma tou anthrōpou", "en": "the human body", "alt": ["the body of a person", "the person's body", "the body of the man", "the man's body", "the body of a human"] },
+        { "g": "οἱ Ἕλληνες σοφοί εἰσιν", "t": "hoi Hellēnes sophoi eisin", "en": "the Greeks are wise", "alt": ["the Greeks are clever"] }
+      ]
+    },
+    {
+      "title": "Boulomai",
+      "about": "Wanting, becoming and the middle voice",
+      "kind": "words",
+      "guide": [
+        { "h": "The middle voice", "p": "Beside active and passive, Greek verbs have a middle voice, which shows the subject acting on or for itself: παύω 'I stop (someone)', παύομαι 'I stop, I cease'. Its endings are -ομαι, -ει, -εται, -όμεθα, -εσθε, -ονται.", "ex": [["γίγνομαι", "I become"], ["γίγνεται", "she becomes"]] },
+        { "h": "Middle-only verbs", "p": "Many common verbs exist only in the middle but have ordinary active meanings: βούλομαι 'I want', ἔρχομαι 'I come', μάχομαι 'I fight'. Grammars call them deponents. 'You want' is βούλει.", "ex": [["οἱ Ἕλληνες μάχονται", "the Greeks are fighting"], ["τί βούλει;", "what do you want?"]] },
+        { "h": "To do: the infinitive", "p": "The infinitive ends in -ειν in the active and -εσθαι in the middle: γράφειν 'to write', γίγνεσθαι 'to become'. βούλομαι takes an infinitive, just like English 'want to'.", "ex": [["βούλομαι ἀκούειν τὸν λόγον", "I want to hear the speech"]] },
+        { "h": "Became: ἐγένετο", "p": "The middle aorist has the augment and the endings -όμην 'I', -ου 'you', -ετο 'he, she or it': ἐγενόμην 'I became', ἐγένετο 'he became' or 'it happened'.", "ex": [["τί ἐγένετο;", "what happened?"]] },
+        { "h": "Who wishes to speak?", "p": "In the Athenian assembly the herald opened debate with τίς ἀγορεύειν βούλεται; Aeschines (Against Timarchus 23) says the oldest citizens were invited first, then everyone else." }
+      ],
+      "items": [
+        { "g": "βούλομαι", "t": "boulomai", "en": "I want", "alt": ["I wish", "I want to", "I wish to"], "note": "'You want' is βούλει." },
+        { "g": "γίγνομαι", "t": "gignomai", "en": "I become", "alt": ["I am born", "I happen"], "note": "Also 'I am born' and 'I happen'. Hence genesis." },
+        { "g": "ἔρχομαι", "t": "erchomai", "en": "I come", "alt": ["I go", "I am coming", "I am going"], "note": "Its aorist is ἦλθον." },
+        { "g": "μάχομαι", "t": "machomai", "en": "I fight", "alt": ["I am fighting"], "note": "'They fight' is μάχονται." },
+        { "g": "ἀποκρίνεται", "t": "apokrinetai", "en": "answers", "alt": ["replies", "he answers", "she answers"], "note": "From ἀποκρίνομαι 'I answer'." },
+        { "g": "διαλέγεται", "t": "dialegetai", "en": "converses", "alt": ["talks", "discusses", "is conversing"], "note": "From διαλέγομαι. Hence dialogue and dialectic." },
+        { "g": "ἐγένετο", "t": "egeneto", "en": "became", "alt": ["happened", "was born", "he became"], "note": "Aorist of γίγνομαι." },
+        { "g": "γράφειν", "t": "graphein", "en": "to write" },
+        { "g": "ἀκούειν", "t": "akouein", "en": "to hear", "alt": ["to listen"], "note": "From ἀκούω 'I hear'. Hence acoustic." },
+        { "g": "ἀγορεύειν", "t": "agoreuein", "en": "to speak publicly", "alt": ["to speak", "to speak in public", "to address the assembly"], "note": "To speak in the assembly. Related to ἀγορά." },
+        { "g": "ὁ λόγος", "t": "ho logos", "en": "word", "alt": ["speech", "story", "argument", "reason", "account"], "note": "Also speech, story, argument, reason. Hence logic and every -logy." },
+        { "g": "ἀγαθός", "t": "agathos", "en": "good", "alt": ["brave", "noble"], "note": "Feminine ἀγαθή, neuter ἀγαθόν." }
+      ],
+      "sentences": [
+        { "g": "βούλομαι γράφειν", "t": "boulomai graphein", "en": "I want to write", "alt": ["I wish to write"], "talt": ["graphein boulomai"] },
+        { "g": "τί βούλει", "t": "ti boulei?", "en": "what do you want?", "alt": ["what do you wish?"] },
+        { "g": "τίς ἀγορεύειν βούλεται", "t": "tis agoreuein bouletai?", "en": "who wishes to speak?", "alt": ["who wants to speak?", "who wishes to address the assembly?", "who wants to address the assembly?"] },
+        { "g": "οἱ Ἕλληνες μάχονται", "t": "hoi Hellēnes machontai", "en": "the Greeks are fighting", "alt": ["the Greeks fight"] },
+        { "g": "ὁ παῖς ἀνὴρ ἐγένετο", "t": "ho pais anēr egeneto", "en": "the boy became a man", "alt": ["the child became a man"] },
+        { "g": "βούλομαι ἀκούειν τὸν λόγον", "t": "boulomai akouein ton logon", "en": "I want to hear the speech", "alt": ["I wish to hear the speech", "I want to hear the story", "I want to hear the argument", "I want to listen to the speech"], "talt": ["ton logon akouein boulomai", "ton logon boulomai akouein"] },
+        { "g": "ὁ διδάσκαλος οὐκ ἀποκρίνεται", "t": "ho didaskalos ouk apokrinetai", "en": "the teacher does not answer", "alt": ["the teacher doesn't answer", "the teacher is not answering", "the teacher does not reply"] },
+        { "g": "τί ἐγένετο", "t": "ti egeneto?", "en": "what happened?" },
+        { "g": "ἔρχομαι εἰς τὴν ἀγοράν", "t": "erchomai eis tēn agoran", "en": "I am going to the marketplace", "alt": ["I go to the marketplace", "I am going to the market", "I go to the market", "I am going to the agora", "I am coming to the marketplace"], "talt": ["eis tēn agoran erchomai"] }
+      ]
+    },
+    {
+      "title": "Legōn",
+      "about": "Participles: doing two things at once",
+      "kind": "words",
+      "guide": [
+        { "h": "Verbs as adjectives", "p": "A participle is a verb used as an adjective: λέγων 'saying', φεύγων 'fleeing'. It agrees with its noun. The present active runs -ων, -ουσα, -ον, and the masculine object form is -οντα.", "ex": [["τὸν λύκον φεύγοντα εἶδον", "I saw the wolf running away"]] },
+        { "h": "When, while, after", "p": "Greek uses a participle where English adds a second clause. The present means 'while ...ing', the aorist 'after ...ing'. The aorist participle drops the augment: εἶδον, ἰδών; εἶπον, εἰπών; ἤκουσα, ἀκούσας.", "ex": [["ταῦτα εἰπὼν ἀπῆλθεν", "having said this, he went away"], ["ὁ λύκος τὸν κύνα ἰδὼν ἔφυγεν", "on seeing the dog, the wolf fled"]] },
+        { "h": "With the article", "p": "With the article a participle becomes a noun: ὁ λέγων 'the one speaking, the speaker'. Athenian law let ὁ βουλόμενος, 'anyone who wishes', bring a prosecution on behalf of someone wronged.", "ex": [["ὁ λέγων σοφός ἐστιν", "the speaker is wise"]] },
+        { "h": "Being: ὤν", "p": "The participle of εἰμί is ὤν, οὖσα, ὄν 'being'. Thucydides (4.78) has the Spartan general Brasidas say he came φίλος ὤν, 'as a friend'.", "ex": [["φίλος ὢν ἦλθον", "I came as a friend"]] },
+        { "h": "Stop doing", "p": "παύομαι 'I stop' takes a participle for what you stop doing. Middle participles end in -όμενος, -ομένη, -όμενον: βουλόμενος 'wanting'.", "ex": [["παύομαι λέγων", "I stop speaking"]] }
+      ],
+      "items": [
+        { "g": "λέγων", "t": "legōn", "en": "saying", "alt": ["speaking", "while saying"], "note": "Feminine λέγουσα, neuter λέγον." },
+        { "g": "φεύγων", "t": "pheugōn", "en": "fleeing", "alt": ["running away", "escaping"], "note": "Object form φεύγοντα." },
+        { "g": "ὤν", "t": "ōn", "en": "being", "alt": ["as"], "note": "Feminine οὖσα, neuter ὄν. Hence ontology." },
+        { "g": "ἰδών", "t": "idōn", "en": "having seen", "alt": ["on seeing", "after seeing", "seeing"], "note": "Aorist participle of εἶδον, without the augment." },
+        { "g": "εἰπών", "t": "eipōn", "en": "having said", "alt": ["after saying"], "note": "Aorist participle of εἶπον." },
+        { "g": "ἀκούσας", "t": "akousas", "en": "having heard", "alt": ["on hearing", "after hearing"], "note": "Aorist participle of ἀκούω. 'I heard' is ἤκουσα." },
+        { "g": "ὁ βουλόμενος", "t": "ho boulomenos", "en": "anyone who wishes", "alt": ["whoever wishes", "anyone who wants", "the one who wishes"], "note": "Middle participle of βούλομαι, a phrase from Athenian law." },
+        { "g": "παύομαι", "t": "pauomai", "en": "I stop", "alt": ["I cease"], "note": "Middle of παύω 'I stop (someone)'. Hence pause." },
+        { "g": "ταῦτα", "t": "tauta", "en": "these things", "alt": ["this"], "note": "Neuter plural of οὗτος 'this'." },
+        { "g": "ὁ κύων", "t": "ho kyōn", "en": "dog", "note": "Genitive κυνός, object κύνα. The Cynics were the 'doggish' philosophers." },
+        { "g": "ὁ λύκος", "t": "ho lykos", "en": "wolf", "note": "Hence lycanthrope, 'wolf-man'." },
+        { "g": "ἀπῆλθεν", "t": "apēlthen", "en": "went away", "alt": ["left", "departed", "he went away"], "note": "Aorist of ἀπέρχομαι 'I go away'." }
+      ],
+      "sentences": [
+        { "g": "ὁ λύκος τὸν κύνα ἰδὼν ἔφυγεν", "t": "ho lykos ton kyna idōn ephygen", "en": "the wolf saw the dog and fled", "alt": ["on seeing the dog, the wolf fled", "seeing the dog, the wolf fled", "having seen the dog, the wolf fled", "the wolf fled when it saw the dog", "the wolf saw the dog and ran away", "when the wolf saw the dog, it fled", "when the wolf saw the dog, it ran away"], "talt": ["ton kyna idōn ho lykos ephygen"] },
+        { "g": "ταῦτα εἰπὼν ἀπῆλθεν", "t": "tauta eipōn apēlthen", "en": "having said this, he went away", "alt": ["after saying this, he went away", "he said this and went away", "having said these things, he went away", "saying this, he went away", "with these words he went away", "having said this, he left", "he said this and left", "after saying this, he left"] },
+        { "g": "ὁ λέγων σοφός ἐστιν", "t": "ho legōn sophos estin", "en": "the speaker is wise", "alt": ["the one speaking is wise", "the one who speaks is wise", "the man speaking is wise"] },
+        { "g": "τὸν λύκον φεύγοντα εἶδον", "t": "ton lykon pheugonta eidon", "en": "I saw the wolf running away", "alt": ["I saw the wolf fleeing", "I saw the wolf escaping"], "talt": ["eidon ton lykon pheugonta"] },
+        { "g": "ἀκούσας τὸν λόγον ὁ βασιλεὺς ἀπῆλθεν", "t": "akousas ton logon ho basileus apēlthen", "en": "having heard the speech, the king went away", "alt": ["after hearing the speech, the king went away", "on hearing the speech, the king went away", "the king heard the speech and went away", "the king heard the speech and left", "having heard the speech, the king left", "after hearing the speech, the king left"] },
+        { "g": "φίλος ὢν ἦλθον", "t": "philos ōn ēlthon", "en": "I came as a friend", "alt": ["being a friend, I came"] },
+        { "g": "παύομαι λέγων", "t": "pauomai legōn", "en": "I stop speaking", "alt": ["I stop talking", "I cease speaking"] }
+      ]
+    },
+    {
+      "title": "En tēi agorai",
+      "about": "Prepositions, the dative and numbers",
+      "kind": "words",
+      "guide": [
+        { "h": "To, for: the dative", "p": "The dative means 'to' or 'for' someone. The article is τῷ, τῇ, τῷ and the noun ends in -ῳ, -ῃ or -ᾳ, or -ι in the third declension. In the plural: τοῖς, ταῖς with -οις, -αις or -σι.", "ex": [["τῷ φίλῳ ἐπιστολὴν ἔπεμψα", "I sent a letter to my friend"]] },
+        { "h": "Each preposition, its case", "p": "ἐκ 'out of' and ἀπό 'away from' take the genitive, ἐν 'in' takes the dative, εἰς 'into' the accusative. Roughly: motion away, the genitive; rest, the dative; motion towards, the accusative. ἐκ becomes ἐξ before a vowel.", "ex": [["ἐν τῇ ἀγορᾷ", "in the marketplace"], ["ἐκ τῆς οἰκίας", "out of the house"]] },
+        { "h": "One word, several cases", "p": "Some prepositions change meaning with the case. μετά is 'with' with the genitive, 'after' with the accusative. παρά is 'from' a person with the genitive, 'beside' with the dative, 'to' a person with the accusative. διά is 'through' with the genitive, 'because of' with the accusative.", "ex": [["ἦλθον μετὰ τοῦ ἀδελφοῦ", "I came with my brother"], ["παρὰ τὸν βασιλέα", "to the king"]] },
+        { "h": "Plural objects", "p": "As plural objects, nouns in -ος end in -ους, nouns in -η or -α in -ας, and third-declension nouns in -ας. The article is τούς, τάς, τά.", "ex": [["τρεῖς ἵππους ἔχω", "I have three horses"]] },
+        { "h": "Counting", "p": "εἷς, μία, ἕν 'one' and τρεῖς, τρία 'three' change with gender. From five upwards numbers never change. Greeks also wrote numbers with letters: α is 1, β is 2, ι is 10." },
+        { "h": "The Seven Sages", "p": "οἱ ἑπτὰ σοφοί were wise men of the 6th century BC, among them Solon of Athens and Thales of Miletus. Plato names them in the Protagoras (343a)." }
+      ],
+      "items": [
+        { "g": "ἐν", "t": "en", "en": "in", "alt": ["on", "among"], "note": "Takes the dative." },
+        { "g": "ἐκ", "t": "ek", "en": "out of", "alt": ["from"], "note": "Takes the genitive. Before a vowel: ἐξ." },
+        { "g": "ἀπό", "t": "apo", "en": "away from", "alt": ["from"], "note": "Takes the genitive." },
+        { "g": "μετά", "t": "meta", "en": "with", "alt": ["after", "among"], "note": "'With' takes the genitive, 'after' the accusative." },
+        { "g": "παρά", "t": "para", "en": "beside", "alt": ["from", "to", "alongside"], "note": "Genitive: from a person. Dative: beside. Accusative: to a person." },
+        { "g": "διά", "t": "dia", "en": "through", "alt": ["because of"], "note": "Genitive: through. Accusative: because of. Hence diameter." },
+        { "g": "εἷς", "t": "heis", "en": "one", "note": "Feminine μία, neuter ἕν." },
+        { "g": "δύο", "t": "dyo", "en": "two", "note": "Hence dyad." },
+        { "g": "τρεῖς", "t": "treis", "en": "three", "note": "Neuter τρία. Hence tripod." },
+        { "g": "πέντε", "t": "pente", "en": "five", "note": "Hence pentagon." },
+        { "g": "ἑπτά", "t": "hepta", "en": "seven", "note": "Hence heptathlon." },
+        { "g": "δέκα", "t": "deka", "en": "ten", "note": "Hence decade." }
+      ],
+      "sentences": [
+        { "g": "ὁ Σωκράτης ἐν τῇ ἀγορᾷ διαλέγεται", "t": "ho Sōkratēs en tēi agorai dialegetai", "en": "Socrates converses in the marketplace", "alt": ["Socrates is conversing in the marketplace", "Socrates talks in the marketplace", "Socrates is talking in the marketplace", "Socrates converses in the agora", "Socrates talks in the agora", "Socrates converses in the market"], "talt": ["ho Sōkratēs dialegetai en tēi agorai", "en tēi agorai ho Sōkratēs dialegetai"] },
+        { "g": "ὁ παῖς ἐκ τῆς οἰκίας ἔφυγεν", "t": "ho pais ek tēs oikias ephygen", "en": "the boy ran out of the house", "alt": ["the boy fled out of the house", "the boy fled from the house", "the boy escaped from the house", "the boy ran away from the house", "the child ran out of the house"], "talt": ["ek tēs oikias ho pais ephygen", "ho pais ephygen ek tēs oikias"] },
+        { "g": "ἦλθον μετὰ τοῦ ἀδελφοῦ", "t": "ēlthon meta tou adelphou", "en": "I came with my brother", "alt": ["I came with the brother", "I went with my brother", "I went with the brother"], "talt": ["meta tou adelphou ēlthon"] },
+        { "g": "τρεῖς ἵππους ἔχω", "t": "treis hippous echō", "en": "I have three horses", "talt": ["echō treis hippous"] },
+        { "g": "ἀπὸ τῆς θαλάττης ἦλθεν", "t": "apo tēs thalattēs ēlthen", "en": "he came from the sea", "alt": ["she came from the sea", "he came away from the sea", "she came away from the sea"], "talt": ["ēlthen apo tēs thalattēs"] },
+        { "g": "ὁ ἀνὴρ παρὰ τὸν βασιλέα ἦλθεν", "t": "ho anēr para ton basilea ēlthen", "en": "the man went to the king", "alt": ["the man came to the king"], "talt": ["ho anēr ēlthen para ton basilea", "para ton basilea ho anēr ēlthen"] },
+        { "g": "διὰ τῆς πόλεως βαδίζει", "t": "dia tēs poleōs badizei", "en": "he walks through the city", "alt": ["she walks through the city", "he is walking through the city", "she is walking through the city", "he goes through the city"], "talt": ["badizei dia tēs poleōs"] },
+        { "g": "τῷ φίλῳ ἐπιστολὴν ἔπεμψα", "t": "tōi philōi epistolēn epempsa", "en": "I sent a letter to my friend", "alt": ["I sent my friend a letter", "I sent a letter to the friend", "I sent the friend a letter"], "talt": ["epistolēn epempsa tōi philōi", "epistolēn tōi philōi epempsa"] },
+        { "g": "οἱ ἑπτὰ σοφοί", "t": "hoi hepta sophoi", "en": "the Seven Sages", "alt": ["the seven wise men"] }
+      ]
+    },
+    {
+      "title": "Aurion",
+      "about": "The future and longer sentences",
+      "kind": "words",
+      "guide": [
+        { "h": "The future: -σω", "p": "The future adds σ to the stem and takes the present endings: γράφω 'I write', γράψω 'I will write'. The σ blends with consonants as in the aorist, but there is no augment.", "ex": [["γράψω", "I will write"], ["ἔγραψα", "I wrote"]] },
+        { "h": "Middle futures", "p": "Some verbs have a middle future even when their present is active: ὁράω 'I see', ὄψομαι 'I will see'. 'I will be' is ἔσομαι, and 'he, she or it will be' is ἔσται.", "ex": [["τί ἔσται;", "what will happen?"]] },
+        { "h": "Joining clauses", "p": "ὅτι 'that' reports what someone says and keeps the tense of the original words. ἐπεί means 'when' or 'since'.", "ex": [["λέγει ὅτι ὁ βασιλεὺς ἀπέθανεν", "he says that the king has died"]] },
+        { "h": "μέν and δέ", "p": "Greek loves balance. μέν marks the first half of a contrast and δέ the second. Neither can start a clause, so they come second. ὁ μέν ... ὁ δέ means 'one ... the other'.", "ex": [["ὁ μὲν γράφει, ὁ δὲ λέγει", "one writes, the other speaks"]] },
+        { "h": "Ready to read", "p": "You now know the main tenses, all the cases and the participle. Real texts are longer, but they are built from these same pieces." }
+      ],
+      "items": [
+        { "g": "γράψω", "t": "grapsō", "en": "I will write", "alt": ["I shall write"] },
+        { "g": "διδάξει", "t": "didaxei", "en": "will teach", "alt": ["he will teach", "she will teach"], "note": "Future of διδάσκω." },
+        { "g": "ἄρξει", "t": "arxei", "en": "will rule", "alt": ["he will rule", "she will rule"], "note": "Future of ἄρχω. The χ and the σ merge into ξ." },
+        { "g": "νικήσουσιν", "t": "nikēsousin", "en": "they will win", "alt": ["will win", "they will conquer"], "note": "Future of νικάω." },
+        { "g": "ὄψομαι", "t": "opsomai", "en": "I will see", "alt": ["I shall see"], "note": "Future of ὁράω, middle in form. Hence optics." },
+        { "g": "ἔσομαι", "t": "esomai", "en": "I will be", "alt": ["I shall be"] },
+        { "g": "ἔσται", "t": "estai", "en": "will be", "alt": ["he will be", "she will be", "it will be", "there will be"] },
+        { "g": "αὔριον", "t": "aurion", "en": "tomorrow" },
+        { "g": "ὅτι", "t": "hoti", "en": "that", "alt": ["because"], "note": "Also 'because'." },
+        { "g": "ἐπεί", "t": "epei", "en": "when", "alt": ["since", "after"] },
+        { "g": "μέν", "t": "men", "en": "on the one hand", "note": "Paired with δέ, and often left untranslated." },
+        { "g": "δέ", "t": "de", "en": "but", "alt": ["and", "while"], "note": "Never first in its clause." }
+      ],
+      "sentences": [
+        { "g": "αὔριον ἐπιστολὴν γράψω", "t": "aurion epistolēn grapsō", "en": "tomorrow I will write a letter", "alt": ["I will write a letter tomorrow", "tomorrow I shall write a letter", "I shall write a letter tomorrow"], "talt": ["epistolēn grapsō aurion", "aurion grapsō epistolēn"] },
+        { "g": "τί ἔσται", "t": "ti estai?", "en": "what will happen?", "alt": ["what will be?", "what will there be?"] },
+        { "g": "ὁ παῖς ἀνὴρ ἀγαθὸς ἔσται", "t": "ho pais anēr agathos estai", "en": "the boy will be a good man", "alt": ["the boy will become a good man", "the child will be a good man", "the boy will be a brave man"] },
+        { "g": "λέγει ὅτι ὁ βασιλεὺς ἀπέθανεν", "t": "legei hoti ho basileus apethanen", "en": "he says that the king has died", "alt": ["he says that the king died", "he says the king has died", "he says the king died", "she says that the king has died", "she says that the king died", "she says the king has died", "she says the king died", "he says that the king is dead", "he says the king is dead"] },
+        { "g": "ὁ μὲν γράφει ὁ δὲ λέγει", "t": "ho men graphei, ho de legei", "en": "one writes, the other speaks", "alt": ["one writes and the other speaks", "one writes, while the other speaks", "one writes, the other talks", "one is writing, the other is speaking", "one writes, the other says"] },
+        { "g": "οἱ Ἕλληνες νικήσουσιν", "t": "hoi Hellēnes nikēsousin", "en": "the Greeks will win", "alt": ["the Greeks will conquer", "the Greeks will be victorious"] },
+        { "g": "αὔριον τὴν θάλατταν ὄψομαι", "t": "aurion tēn thalattan opsomai", "en": "tomorrow I will see the sea", "alt": ["I will see the sea tomorrow", "tomorrow I shall see the sea", "I shall see the sea tomorrow"], "talt": ["tēn thalattan opsomai aurion", "aurion opsomai tēn thalattan"] },
+        { "g": "ὁ διδάσκαλος τὰ παιδία διδάξει", "t": "ho didaskalos ta paidia didaxei", "en": "the teacher will teach the children", "alt": ["the teacher will teach the little children"], "talt": ["ta paidia ho didaskalos didaxei", "ho didaskalos didaxei ta paidia"] },
+        { "g": "ἐπεὶ ὁ βασιλεὺς ἀπέθανεν ὁ παῖς ἄρξει", "t": "epei ho basileus apethanen, ho pais arxei", "en": "since the king has died, the boy will rule", "alt": ["since the king died, the boy will rule", "since the king has died, his son will rule", "since the king died, his son will rule", "since the king is dead, his son will rule", "since the king is dead, the boy will rule", "since the king has died, the son will rule", "since the king died, the son will rule", "now that the king has died, his son will rule"] }
+      ]
+    }
+  ]
+}

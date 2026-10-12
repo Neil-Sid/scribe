@@ -1,0 +1,321 @@
+{
+  "sounds": {
+    "intro": "No one recorded Old Norse as sound, but the Icelandic First Grammatical Treatise (mid-1100s), rhyme and alliteration in poetry, runic spellings and the modern Nordic languages let scholars reconstruct it closely. This guide follows the reconstructed Icelandic of the 1200s used in Gordon's and Byock's textbooks. It differs a good deal from modern Icelandic, which many Icelanders use when they read the sagas aloud.",
+    "groups": [
+      { "h": "Short vowels", "rows": [
+        { "t": "a", "g": "ᛅ", "ipa": "a", "like": "open a, as in Spanish 'casa' or German 'Mann'", "ex": "land, maðr" },
+        { "t": "e", "ipa": "e", "like": "as in 'bet', a little closer", "ex": "ek, gefr" },
+        { "t": "i", "g": "ᛁ", "ipa": "i", "like": "a short version of the vowel in 'machine'", "ex": "vinr, skip" },
+        { "t": "o", "ipa": "o", "like": "a short, close o, like French 'mot' said quickly", "ex": "kona, sonr" },
+        { "t": "u", "g": "ᚢ", "ipa": "u", "like": "as in 'put'", "ex": "hundr, gull" },
+        { "t": "y", "ipa": "y", "like": "i said with rounded lips, like a short French 'tu'", "ex": "Ymis" },
+        { "t": "ø", "ipa": "ø", "like": "like German ö in 'Hölle'", "ex": "ørlǫg" },
+        { "t": "ǫ", "ipa": "ɔ", "like": "open o, as in British 'hot'", "ex": "jǫtunn, fǫgr", "note": "ǫ and ø fell together as ö during the 1200s, which is how modern Icelandic spells both." }
+      ] },
+      { "h": "Long vowels", "rows": [
+        { "t": "á", "ipa": "aː", "like": "as in 'father'", "ex": "áss, á", "note": "Modern Icelandic says [au]." },
+        { "t": "é", "ipa": "eː", "like": "like German 'See'", "ex": "fé, hét", "note": "Modern [jɛ], as in 'yes'." },
+        { "t": "í", "ipa": "iː", "like": "as in 'machine'", "ex": "líf, Ísland" },
+        { "t": "ó", "ipa": "oː", "like": "like German 'so'", "ex": "móðir, Óðinn", "note": "Modern [ou]." },
+        { "t": "ú", "ipa": "uː", "like": "as in 'rule'", "ex": "þú, hús" },
+        { "t": "ý", "ipa": "yː", "like": "like German 'kühn'", "ex": "ýr" },
+        { "t": "æ", "ipa": "ɛː", "like": "like 'air' without the r", "ex": "æsir, sær", "note": "Modern [ai]." },
+        { "t": "œ", "ipa": "øː", "like": "like German 'schön'", "ex": "bœr, brœðr", "note": "Merged with æ around 1250." }
+      ] },
+      { "h": "Diphthongs", "rows": [
+        { "t": "ei", "ipa": "ei", "like": "as in 'day'", "ex": "heill, eigi" },
+        { "t": "au", "ipa": "au", "like": "as in 'now'", "ex": "kaun, dauðan", "note": "Modern Icelandic rounds it to [øy]." },
+        { "t": "ey", "ipa": "ey", "like": "ei said with rounded lips", "ex": "deyr, deyja" }
+      ] },
+      { "h": "Consonants", "rows": [
+        { "t": "þ", "g": "ᚦ", "ipa": "θ", "like": "th in 'thin'", "ex": "þú, Þórr", "note": "Only at the start of a word." },
+        { "t": "ð", "g": "ᚦ", "ipa": "ð", "like": "th in 'this'", "ex": "maðr, Óðinn", "note": "Only inside or at the end of a word." },
+        { "t": "f", "g": "ᚠ", "ipa": "f, v", "like": "f at the start of a word, v between vowels and at the end", "ex": "faðir, hafa, haf" },
+        { "t": "g", "g": "ᚴ", "ipa": "g, ɣ", "like": "hard g at the start and when doubled; between vowels a soft, throaty g, as in Spanish 'lago'", "ex": "gull, saga" },
+        { "t": "h", "g": "ᚼ", "ipa": "h, hw", "like": "as in English, and also before l, n, r; hv like the old 'wh' in 'what'", "ex": "hlíð, hvat", "note": "Modern Icelandic says hv as [kv]." },
+        { "t": "j", "ipa": "j", "like": "y in 'yes'", "ex": "jǫtunn, sjá" },
+        { "t": "r", "g": "ᚱ", "ipa": "r", "like": "rolled with the tip of the tongue, as in Spanish or Scots", "ex": "rúnar, Þórr" },
+        { "t": "s", "g": "ᛋ", "ipa": "s", "like": "always as in 'sea', never like z", "ex": "sverð, áss" },
+        { "t": "v", "ipa": "w, v", "like": "probably w in the Viking Age, moving towards v", "ex": "víkingr, vinr" },
+        { "t": "z", "ipa": "ts", "like": "ts in 'cats'", "ex": "beztr" },
+        { "t": "ng", "ipa": "ŋg", "like": "as in 'finger'", "ex": "konungr, víkingr" },
+        { "t": "ʀ", "g": "ᛦ", "ipa": "uncertain", "like": "an r-like sound that grew out of z; runologists write it ʀ", "ex": "kunukʀ", "note": "Only on runestones. In the west it had merged with r before the sagas were written." }
+      ] },
+      { "h": "Double consonants", "rows": [
+        { "t": "ll", "ipa": "lː", "like": "a long l, held as in 'full load'", "ex": "gull, heill", "note": "Modern Icelandic says [tl]." },
+        { "t": "nn", "ipa": "nː", "like": "held, as in 'unnamed'", "ex": "hann, minn", "note": "Modern [tn] after a long vowel." },
+        { "t": "rr", "ipa": "rː", "like": "a longer roll", "ex": "Þórr, hamarr" },
+        { "t": "tt, gg", "ipa": "tː, gː", "like": "held for a moment before release, as in Italian 'notte'", "ex": "hittask, Yggdrasill" }
+      ] }
+    ],
+    "tips": [
+      { "h": "Stress", "p": "Stress always falls on the first syllable: Óðinn, víkingr, jǫtunn. Compounds such as Miðgarðr take a lighter second stress on the second part." },
+      { "h": "Length", "p": "Vowel length and consonant length both change meaning: far 'ship' and fár 'few'; sin 'sinew' and sinn 'his own'. Poets counted long and short syllables, so length matters for metre too." },
+      { "h": "Final -r", "p": "In maðr, sonr and hestr the r follows the consonant with no vowel between. Around 1300 Icelanders began to insert u, which gives modern maður, sonur, hestur." },
+      { "h": "How sure we are", "p": "The First Grammatical Treatise describes Icelandic vowels precisely, including length and nasal vowels, and rhymes in skaldic verse confirm many details. The exact quality of v, au and runic ʀ is less certain." },
+      { "h": "Modern pronunciation", "p": "Many Icelanders read the sagas in modern pronunciation: á as [au], é as [jɛ], æ as [ai], ll as [tl], hv as [kv]. Both ways are legitimate. This course spells and describes the medieval forms." }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "Present tense: vera 'be' and heita 'be called'",
+      "unit": 2,
+      "note": "Prose keeps the pronoun. The plural forms come in unit 9.",
+      "head": ["", "vera", "heita"],
+      "rows": [
+        ["ek", "em", "heiti"],
+        ["þú", "ert", "heitir"],
+        ["hann, hon, þat", "er", "heitir"],
+        ["vér", "erum", "heitum"],
+        ["þér", "eruð", "heitið"],
+        ["þeir, þær, þau", "eru", "heita"]
+      ]
+    },
+    {
+      "title": "The article on the end",
+      "unit": 3,
+      "note": "-inn for masculine, -in for feminine, -it for neuter. A final -a drops, and so does the i after a vowel.",
+      "head": ["", "Without", "With the article"],
+      "rows": [
+        ["Masculine", "hundr", "hundrinn"],
+        ["Masculine", "bœr", "bœrinn"],
+        ["Feminine", "kona", "konan"],
+        ["Feminine", "hlíð", "hlíðin"],
+        ["Neuter", "hús", "húsit"]
+      ]
+    },
+    {
+      "title": "Subject and object",
+      "unit": 4,
+      "note": "The object (accusative) of a masculine in -r drops the -r, a weak feminine changes -a to -u, and a neuter does not change. Names follow suit: Þórr, Þór; Óðinn, Óðin.",
+      "head": ["", "Subject", "Object", "Subject + the", "Object + the"],
+      "rows": [
+        ["Masculine", "víkingr", "víking", "víkingrinn", "víkinginn"],
+        ["Masculine", "konungr", "konung", "konungrinn", "konunginn"],
+        ["Feminine", "kona", "konu", "konan", "konuna"],
+        ["Neuter", "skip", "skip", "skipit", "skipit"]
+      ]
+    },
+    {
+      "title": "Strong verbs, present: fara, koma, sjá",
+      "unit": 4,
+      "note": "Many strong verbs change their vowel in the singular. 'You' and 'he' share a form.",
+      "head": ["", "fara 'go'", "koma 'come'", "sjá 'see'"],
+      "rows": [
+        ["ek", "fer", "kem", "sé"],
+        ["þú", "ferr", "kemr", "sér"],
+        ["hann", "ferr", "kemr", "sér"],
+        ["vér", "fǫrum", "komum", "sjám"],
+        ["þér", "farið", "komið", "séð"],
+        ["þeir", "fara", "koma", "sjá"]
+      ]
+    },
+    {
+      "title": "hafa 'have' and gefa 'give', present",
+      "unit": 5,
+      "note": "Both take an object in the accusative. hafa is weak but irregular in the present.",
+      "head": ["", "hafa", "gefa"],
+      "rows": [
+        ["ek", "hefi", "gef"],
+        ["þú", "hefir", "gefr"],
+        ["hann", "hefir", "gefr"],
+        ["vér", "hǫfum", "gefum"],
+        ["þér", "hafið", "gefið"],
+        ["þeir", "hafa", "gefa"]
+      ]
+    },
+    {
+      "title": "Strong verbs, past: fara, gefa, vera",
+      "unit": 7,
+      "note": "No ending for 'I' and 'he', -t for 'you'. The plural often has a different vowel.",
+      "head": ["", "fara 'go'", "gefa 'give'", "vera 'be'"],
+      "rows": [
+        ["ek", "fór", "gaf", "var"],
+        ["þú", "fórt", "gaft", "vart"],
+        ["hann", "fór", "gaf", "var"],
+        ["vér", "fórum", "gáfum", "várum"],
+        ["þér", "fóruð", "gáfuð", "váruð"],
+        ["þeir", "fóru", "gáfu", "váru"]
+      ]
+    },
+    {
+      "title": "Weak verbs: kalla 'call'",
+      "unit": 7,
+      "note": "The past adds -að- (or -ð-, -d-, -t- in other verbs: hafði, sigldi). A u in the ending turns a into ǫ.",
+      "head": ["", "Present", "Past"],
+      "rows": [
+        ["ek", "kalla", "kallaða"],
+        ["þú", "kallar", "kallaðir"],
+        ["hann", "kallar", "kallaði"],
+        ["vér", "kǫllum", "kǫlluðum"],
+        ["þér", "kallið", "kǫlluðuð"],
+        ["þeir", "kalla", "kǫlluðu"]
+      ]
+    },
+    {
+      "title": "Principal parts of strong verbs",
+      "unit": 7,
+      "note": "Learn these five forms and you can build every tense. Forms as in Zoëga's dictionary.",
+      "head": ["Infinitive", "He (present)", "He (past)", "They (past)", "Participle"],
+      "rows": [
+        ["fara 'go'", "ferr", "fór", "fóru", "farinn"],
+        ["gefa 'give'", "gefr", "gaf", "gáfu", "gefinn"],
+        ["koma 'come'", "kemr", "kom", "kómu", "kominn"],
+        ["sjá 'see'", "sér", "sá", "sá", "sénn"],
+        ["nema 'take'", "nemr", "nam", "námu", "numinn"],
+        ["ríða 'ride'", "ríðr", "reið", "riðu", "riðinn"],
+        ["heita 'be called'", "heitir", "hét", "hétu", "heitinn"],
+        ["liggja 'lie'", "liggr", "lá", "lágu", "leginn"],
+        ["vera 'be'", "er", "var", "váru", "verit"]
+      ]
+    },
+    {
+      "title": "Strong masculine: hestr 'horse'",
+      "unit": 8,
+      "note": "konungr and víkingr follow the same pattern. maðr is irregular: mann, manni, manns; plural menn.",
+      "head": ["", "Singular", "Plural"],
+      "rows": [
+        ["Nominative", "hestr", "hestar"],
+        ["Accusative", "hest", "hesta"],
+        ["Dative", "hesti", "hestum"],
+        ["Genitive", "hests", "hesta"]
+      ]
+    },
+    {
+      "title": "Strong neuter and feminine: skip 'ship', hlíð 'slope'",
+      "unit": 8,
+      "note": "Neuters are the same in nominative and accusative, singular and plural. Strong feminines often end the genitive in -ar.",
+      "head": ["", "skip, sg.", "skip, pl.", "hlíð, sg.", "hlíð, pl."],
+      "rows": [
+        ["Nominative", "skip", "skip", "hlíð", "hlíðir"],
+        ["Accusative", "skip", "skip", "hlíð", "hlíðir"],
+        ["Dative", "skipi", "skipum", "hlíð", "hlíðum"],
+        ["Genitive", "skips", "skipa", "hlíðar", "hlíða"]
+      ]
+    },
+    {
+      "title": "Weak nouns: bogi 'bow', kona 'woman'",
+      "unit": 8,
+      "note": "Weak nouns end in a vowel and have one form for all the other singular cases. The genitive plural of kona is irregular.",
+      "head": ["", "bogi, sg.", "bogi, pl.", "kona, sg.", "kona, pl."],
+      "rows": [
+        ["Nominative", "bogi", "bogar", "kona", "konur"],
+        ["Accusative", "boga", "boga", "konu", "konur"],
+        ["Dative", "boga", "bogum", "konu", "konum"],
+        ["Genitive", "boga", "boga", "konu", "kvenna"]
+      ]
+    },
+    {
+      "title": "Nouns with the article, all cases",
+      "unit": 8,
+      "note": "Noun and article both decline. In the dative plural -um and -inum merge to -unum.",
+      "head": ["", "Masculine", "Neuter", "Feminine"],
+      "rows": [
+        ["Nominative sg.", "hestrinn", "skipit", "konan"],
+        ["Accusative sg.", "hestinn", "skipit", "konuna"],
+        ["Dative sg.", "hestinum", "skipinu", "konunni"],
+        ["Genitive sg.", "hestsins", "skipsins", "konunnar"],
+        ["Nominative pl.", "hestarnir", "skipin", "konurnar"],
+        ["Accusative pl.", "hestana", "skipin", "konurnar"],
+        ["Dative pl.", "hestunum", "skipunum", "konunum"],
+        ["Genitive pl.", "hestanna", "skipanna", "kvennanna"]
+      ]
+    },
+    {
+      "title": "Prepositions and their cases",
+      "unit": 8,
+      "note": "With á, í and yfir the dative says where something is and the accusative where it is going.",
+      "head": ["Preposition", "Case", "Meaning", "Example"],
+      "rows": [
+        ["til", "genitive", "to", "til Íslands"],
+        ["frá", "dative", "from", "frá Nóregi"],
+        ["ór", "dative", "out of", "ór hári þínu"],
+        ["af", "dative", "off, from", "af himni"],
+        ["með", "dative", "with", "með Óðni"],
+        ["undir", "dative", "under", "undir þeiri rót"],
+        ["á", "dative / accusative", "on / onto", "á skipinu"],
+        ["í", "dative / accusative", "in / into", "í húsinu, í víking"],
+        ["yfir", "dative / accusative", "over", "yfir himni"]
+      ]
+    },
+    {
+      "title": "Personal pronouns",
+      "unit": 9,
+      "note": "The genitive serves after some prepositions (til mín) and as 'his', 'her', 'their' (hans, hennar, þeira). The reflexive sik points back to the subject.",
+      "head": ["", "Nominative", "Accusative", "Dative", "Genitive"],
+      "rows": [
+        ["I", "ek", "mik", "mér", "mín"],
+        ["you (one)", "þú", "þik", "þér", "þín"],
+        ["he", "hann", "hann", "honum", "hans"],
+        ["she", "hon", "hana", "henni", "hennar"],
+        ["it", "þat", "þat", "því", "þess"],
+        ["we two", "vit", "okkr", "okkr", "okkar"],
+        ["you two", "þit", "ykkr", "ykkr", "ykkar"],
+        ["we", "vér", "oss", "oss", "vár"],
+        ["you (all)", "þér", "yðr", "yðr", "yðar"],
+        ["they (m.)", "þeir", "þá", "þeim", "þeira"],
+        ["they (f.)", "þær", "þær", "þeim", "þeira"],
+        ["they (n.)", "þau", "þau", "þeim", "þeira"],
+        ["oneself", "—", "sik", "sér", "sín"]
+      ]
+    },
+    {
+      "title": "Possessives: minn 'my'",
+      "unit": 9,
+      "note": "þinn 'your' and sinn 'his, her, their own' decline the same way. The possessive usually follows its noun: faðir minn.",
+      "head": ["", "Masculine", "Feminine", "Neuter"],
+      "rows": [
+        ["Nominative sg.", "minn", "mín", "mitt"],
+        ["Accusative sg.", "minn", "mína", "mitt"],
+        ["Dative sg.", "mínum", "minni", "mínu"],
+        ["Genitive sg.", "míns", "minnar", "míns"],
+        ["Nominative pl.", "mínir", "mínar", "mín"],
+        ["Accusative pl.", "mína", "mínar", "mín"],
+        ["Dative pl.", "mínum", "mínum", "mínum"],
+        ["Genitive pl.", "minna", "minna", "minna"]
+      ]
+    },
+    {
+      "title": "Modal verbs, present",
+      "unit": 10,
+      "note": "All take a bare infinitive: ek skal fara. The last row gives the past.",
+      "head": ["", "skulu 'shall'", "munu 'will'", "vilja 'want'", "kunna 'can'", "mega 'may'"],
+      "rows": [
+        ["ek", "skal", "mun", "vil", "kann", "má"],
+        ["þú", "skalt", "munt", "vilt", "kannt", "mátt"],
+        ["hann", "skal", "mun", "vill", "kann", "má"],
+        ["vér", "skulum", "munum", "viljum", "kunnum", "megum"],
+        ["þér", "skuluð", "munuð", "vilið", "kunnuð", "meguð"],
+        ["þeir", "skulu", "munu", "vilja", "kunnu", "megu"],
+        ["Past (he)", "skyldi", "mundi", "vildi", "kunni", "mátti"]
+      ]
+    },
+    {
+      "title": "The middle voice",
+      "unit": 11,
+      "note": "-sk replaces a final -r and follows other endings. Later manuscripts write -st or -z.",
+      "head": ["", "kallask (from kalla)", "hittask 'meet'", "berjask 'fight'"],
+      "rows": [
+        ["ek (present)", "kǫllumk", "hittumk", "berjumk"],
+        ["hann (present)", "kallask", "hittisk", "bersk"],
+        ["þeir (present)", "kallask", "hittask", "berjask"],
+        ["hann (past)", "kallaðisk", "hittisk", "barðisk"],
+        ["þeir (past)", "kǫlluðusk", "hittusk", "bǫrðusk"]
+      ]
+    },
+    {
+      "title": "Kennings and heiti",
+      "unit": 12,
+      "note": "From Snorri's Skáldskaparmál and Gylfaginning. A kenning joins a base word to a genitive; a heiti is a single poetic name.",
+      "head": ["Poetic name", "Literally", "Means"],
+      "rows": [
+        ["Ymis hauss", "Ymir's skull", "the sky"],
+        ["Ymis blóð", "Ymir's blood", "the sea"],
+        ["haddr Sifjar", "Sif's hair", "gold"],
+        ["Kvasis blóð", "Kvasir's blood", "poetry"],
+        ["Alfǫðr", "all-father", "Óðinn"],
+        ["Valfǫðr", "father of the slain", "Óðinn"]
+      ]
+    }
+  ]
+}

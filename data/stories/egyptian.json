@@ -1,0 +1,292 @@
+[
+  {
+    "id": "rosetta-cartouche",
+    "title": "ptwlmys ꜥnḫ ḏt",
+    "source": "Rosetta Stone, British Museum EA 24, hieroglyphic text: the cartouches of Ptolemy V",
+    "about": "A decree of the priests at Memphis for the young Ptolemy V, carved in 196 BC in hieroglyphs, demotic and Greek. The Greek names Ptolemy, so the ovals in the hieroglyphs had to spell his name, once in a short cartouche of eight signs and again followed by his titles, and matching those signs to sounds let Young and then Champollion crack the script.",
+    "unit": 6,
+    "badge": { "name": "Champollion", "about": "Read Ptolemy's cartouche on the Rosetta Stone" },
+    "lines": [
+      {
+        "t": "ptwlmys",
+        "g": "𓊪𓏏𓍯𓃭𓐝𓇋𓇋𓋴",
+        "en": "Ptolemy",
+        "gloss": ["Ptolemy"],
+        "q": { "prompt": "Why did Young expect this oval to spell Ptolemy?", "options": ["the Greek text on the stone names Ptolemy", "ovals always held the names of gods", "it is the longest word on the stone"], "answer": 0 }
+      },
+      {
+        "t": "ꜥnḫ ḏt",
+        "g": "𓋹 𓆓𓏏𓇾",
+        "en": "living forever",
+        "gloss": ["living", "forever"]
+      },
+      {
+        "t": "mrj-ptḥ",
+        "g": "𓊪𓏏𓎛𓌸𓇋𓇋",
+        "en": "beloved of Ptah",
+        "gloss": ["beloved of Ptah"],
+        "q": { "prompt": "Ptah's name is carved before the hoe for 'beloved', yet read after it. Why?", "options": ["out of respect, a god's name is written first", "the carver ran out of room", "the whole cartouche reads backwards"], "answer": 0 }
+      },
+      {
+        "t": "ptwlmys ꜥnḫ ḏt mrj-ptḥ",
+        "g": "𓊪𓏏𓍯𓃭𓐝𓇋𓇋𓋴 𓋹 𓆓𓏏𓇾 𓊪𓏏𓎛𓌸𓇋𓇋",
+        "en": "Ptolemy, living forever, beloved of Ptah",
+        "gloss": ["Ptolemy", "living", "forever", "beloved of Ptah"],
+        "q": { "prompt": "What did a Greek name spelled in hieroglyphs prove?", "options": ["many signs stand for sounds", "every sign is a whole word", "the signs were only decoration"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "stela-of-anku",
+    "title": "ḥtp dj nswt",
+    "source": "Stela of Anku, Vienna, Kunsthistorisches Museum ÄS 96 (late Middle Kingdom), lines 1–3, after Hein and Satzinger, CAA Wien 4 (1989) (trimmed)",
+    "about": "A small painted limestone stela made for Anku, an attendant of the royal household, with offering scenes carved below the text. Its three-line prayer is the classic offering formula, asking Osiris to keep Anku's ka supplied in the afterlife.",
+    "unit": 6,
+    "badge": { "name": "Offering Bearer", "about": "Read the offering formula on the stela of Anku" },
+    "lines": [
+      {
+        "t": "ḥtp-dj-nswt wsjr nb ꜣbḏw",
+        "g": "𓇓𓏏𓊵𓏙 𓊨𓁹 𓎟 𓍋𓈋𓃀𓊖𓏤",
+        "en": "An offering that the king gives to Osiris, lord of Abydos,",
+        "gloss": ["an offering the king gives", "Osiris", "lord", "of Abydos"],
+        "q": { "prompt": "Which god is asked to provide for the dead man?", "options": ["Osiris", "Amun", "Ptah"], "answer": 0 }
+      },
+      {
+        "t": "dj=f prt-ḫrw",
+        "g": "𓂞𓆑 𓉓𓏥",
+        "en": "so that he may give an invocation offering of bread and beer,",
+        "gloss": ["may he give", "invocation offering"]
+      },
+      {
+        "t": "kꜣw ꜣpdw šs mnḫt",
+        "g": "𓄀 𓅿𓏥 𓍱 𓋲",
+        "en": "oxen and fowl, alabaster and linen,",
+        "gloss": ["oxen", "fowl", "alabaster", "linen"],
+        "q": { "prompt": "What does the prayer ask for?", "options": ["food, drink and goods for the dead", "victory in battle", "a long reign for the king"], "answer": 0 }
+      },
+      {
+        "t": "ḫt nbt nfrt wꜥbt",
+        "g": "𓐍𓏏𓏝 𓎟 𓄤𓆑𓂋𓏏 𓃂𓏏",
+        "en": "and every good and pure thing,",
+        "gloss": ["thing", "every", "good", "pure"]
+      },
+      {
+        "t": "n kꜣ n s n pr-nswt ꜥnkw mꜣꜥ-ḫrw",
+        "g": "𓈖 𓂓 𓈖 𓊃𓀀 𓈖 𓇓𓏏𓈖𓉐 𓂝𓈖𓎡𓅱 𓐙𓊤",
+        "en": "for the ka of the palace attendant Anku, justified.",
+        "gloss": ["for", "the ka", "of", "man", "of", "the king's house", "Anku", "justified"],
+        "q": { "prompt": "Who receives the offerings?", "options": ["Anku, a palace attendant", "the king himself", "the god Osiris"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "shipwrecked-sailor",
+    "title": "ḏd jn šmsw jqr",
+    "source": "The Shipwrecked Sailor 1–10, Papyrus Hermitage 1115 (12th Dynasty), after Blackman, Middle-Egyptian Stories (1932)",
+    "about": "An expedition sails home from Nubia, and a follower cheers up his anxious commander before telling him the tale of his own shipwreck on a magical island. These opening lines are the classic first reading for students of Middle Egyptian.",
+    "unit": 6,
+    "badge": { "name": "Able Follower", "about": "Read the opening of The Shipwrecked Sailor" },
+    "lines": [
+      {
+        "t": "ḏd jn šmsw jqr: wḏꜣ jb=k ḥꜣtj-ꜥ",
+        "g": "𓆓𓂧 𓇋𓈖 𓌞𓅱𓀀 𓇋𓈎𓂋𓏛 𓅱𓍑𓄿𓏛 𓄣𓏤𓎡 𓄂𓂝𓀀",
+        "en": "An able follower said: 'Take heart, count!'",
+        "gloss": ["said", "by", "follower", "able", "be sound", "your heart", "count"],
+        "q": { "prompt": "Who is speaking?", "options": ["an able follower", "the count", "the king"], "answer": 0 }
+      },
+      {
+        "t": "mk pḥ.n=n ẖnw",
+        "g": "𓅓𓂝𓎡 𓄖𓂻𓈖𓈖𓏥 𓄚𓈖𓏌𓅱𓉐",
+        "en": "Look, we have reached home.",
+        "gloss": ["look", "we have reached", "home"]
+      },
+      {
+        "t": "šsp ḫrpw ḥw mnjt",
+        "g": "𓊏𓊪𓂝 𓐍𓂋𓊪𓏲𓆱 𓎛𓀝𓀜 𓏠𓈖𓇋𓏏𓊧𓆱",
+        "en": "The mallet has been taken up, the mooring post driven in,",
+        "gloss": ["taken up", "the mallet", "driven in", "the mooring post"]
+      },
+      {
+        "t": "ḥꜣtt rḏj.tj ḥr tꜣ",
+        "g": "𓄂𓏏𓏏𓍢 𓂋𓂝𓏏 𓁷𓏤 𓇾𓈇𓏤",
+        "en": "and the prow rope is set on land.",
+        "gloss": ["the prow rope", "is set", "on", "land"],
+        "q": { "prompt": "What are the sailors doing?", "options": ["mooring the ship", "loading cargo", "rowing out to sea"], "answer": 0 }
+      },
+      {
+        "t": "rḏj ḥknw dwꜣ-nṯr, s nb ḥr ḥpt snnw=f",
+        "g": "𓂋𓂝 𓎛𓎡𓈖𓏌𓏲𓀁 𓊹𓇼𓄿𓀢𓀁 𓊃𓀀𓏤 𓎟 𓁷𓏤 𓎛𓊪𓏏𓂘𓂝 𓌢𓈖𓏌𓅱𓀀𓏮𓆑",
+        "en": "Praise has been given and the god thanked; every man is embracing his fellow.",
+        "gloss": ["given", "praise", "god thanked", "man", "every", "is", "embracing", "his fellow"]
+      },
+      {
+        "t": "jswt=n jj.tj ꜥḏ.tj, nn nhw n mšꜥ=n",
+        "g": "𓇩𓅱𓏏𓀀𓏥𓏏𓈖𓏥 𓇍𓇋𓏏𓂻 𓎙𓂧𓏏𓏛 𓂜𓈖 𓈖𓉔𓅱𓅪 𓈖 𓀎𓀀𓏥𓈖𓏥",
+        "en": "Our crew has come back safe, with no loss to our troops.",
+        "gloss": ["our crew", "come back", "intact", "without", "loss", "to", "our troops"],
+        "q": { "prompt": "How many men did the expedition lose?", "options": ["none", "half the crew", "a single sailor"], "answer": 0 }
+      },
+      {
+        "t": "pḥ.n=n pḥwj wꜣwꜣt, sn.n=n snmwt",
+        "g": "𓄖𓂻𓈖𓈖𓏥 𓄖𓅱𓏭 𓍯𓍯𓏏𓈉 𓊃𓈖𓏕𓂻𓈖𓈖𓏥 𓊃𓈖𓅐𓏏𓈉",
+        "en": "We have reached the end of Wawat and passed Bigeh.",
+        "gloss": ["we reached", "the end", "of Wawat", "we passed", "Bigeh"],
+        "q": { "prompt": "Which way is the ship sailing?", "options": ["north, from Nubia back into Egypt", "south, from the Delta into Nubia", "east, across the Red Sea"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "sinuhe-death-of-the-king",
+    "title": "ꜥr nṯr r ꜣḫt=f",
+    "source": "The Story of Sinuhe R 6–9, Papyrus Berlin 10499 (late Middle Kingdom), after Koch, Die Erzählung des Sinuhe (1990); hieroglyphs as encoded by the Thesaurus Linguae Aegyptiae",
+    "about": "Sinuhe, an attendant of the royal women, opens his life story with a date: year 30 of King Amenemhat I. The old king has died, and the news will soon send Sinuhe fleeing abroad.",
+    "unit": 8,
+    "badge": { "name": "Courtier", "about": "Read the death of the king in The Story of Sinuhe" },
+    "lines": [
+      {
+        "t": "ꜥr nṯr r ꜣḫt=f",
+        "g": "𓂝𓂋𓈐 𓊹𓏤 𓂋 𓈌𓏏𓉐𓆑",
+        "en": "The god ascended to his horizon,",
+        "gloss": ["ascended", "the god", "to", "his horizon"],
+        "q": { "prompt": "Who is 'the god' here?", "options": ["the dead king", "the sun god Ra", "Sinuhe"], "answer": 0 }
+      },
+      {
+        "t": "nswt-bjtj sḥtp-jb-rꜥ",
+        "g": "𓇓𓏏𓆤𓏏 𓍹𓇳𓋴𓊵𓏏𓊪𓄣𓏤𓍺",
+        "en": "the King of Upper and Lower Egypt, Sehetepibre.",
+        "gloss": ["King of Upper and Lower Egypt", "Sehetepibre"]
+      },
+      {
+        "t": "sḥr=f r pt ẖnm m jtn",
+        "g": "𓋴𓁷𓂋𓇯𓆑 𓂋 𓊪𓏏𓇯 𓎸𓅓𓏛 𓅓 𓇋𓏏𓈖𓇳",
+        "en": "He flew up to the sky, united with the sun disc,",
+        "gloss": ["he flew up", "to", "the sky", "united", "with", "the sun disc"],
+        "q": { "prompt": "What do these images describe?", "options": ["the king's death", "a royal festival", "an eclipse of the sun"], "answer": 0 }
+      },
+      {
+        "t": "ḥꜥ-nṯr ꜣbḫ m jr sw",
+        "g": "𓎛𓂝𓄹𓊹 𓍋𓃀𓐍𓏴𓏛 𓅓 𓁹 𓇓𓏲",
+        "en": "the god's body merging with the one who made him.",
+        "gloss": ["the god's body", "merged", "with", "the one who made", "him"]
+      },
+      {
+        "t": "jw ẖnw m sgr",
+        "g": "𓇋𓏲 𓄚𓈖𓏌𓏲𓊖 𓅓 𓋴𓎼𓂋𓀁",
+        "en": "The Residence was in silence,",
+        "gloss": ["(statement)", "the Residence", "in", "silence"],
+        "q": { "prompt": "How did the royal court take the news?", "options": ["it fell silent in mourning", "it celebrated the new king", "it fled the city"], "answer": 0 }
+      },
+      {
+        "t": "jbw m gmw",
+        "g": "𓄣𓏥 𓅓 𓅠𓅓𓏲𓅪𓏥",
+        "en": "hearts were in mourning.",
+        "gloss": ["hearts", "in", "mourning"]
+      }
+    ]
+  },
+  {
+    "id": "shipwrecked-prophecy",
+    "title": "jw dpt r jjt",
+    "source": "The Shipwrecked Sailor 120–123 and 133–135, Papyrus Hermitage 1115 (12th Dynasty), after Blackman, Middle-Egyptian Stories (1932) (trimmed)",
+    "about": "Washed up on a magic island, the sailor meets a giant golden snake. Instead of eating him, it foretells his rescue by a boat whose sailors he knows, and his homecoming.",
+    "unit": 10,
+    "badge": { "name": "Castaway", "about": "Hear the snake's prophecy in The Shipwrecked Sailor" },
+    "lines": [
+      {
+        "t": "jw dpt r jjt m ẖnw",
+        "g": "𓇋𓅱 𓂧𓊪𓏏𓊛 𓂋 𓇍𓇋𓏏𓂻 𓅓 𓄚𓈖𓏌𓅱𓉐",
+        "en": "A boat will come from home,",
+        "gloss": ["(statement)", "a boat", "(will)", "come", "from", "home"],
+        "q": { "prompt": "What does the snake promise?", "options": ["a boat will come to rescue him", "an army will take the island", "the sea will dry up"], "answer": 0 }
+      },
+      {
+        "t": "šm=k ḥnꜥ=sn r ẖnw",
+        "g": "𓈝𓅓𓂻𓎢 𓎛𓈖𓂝𓋴𓈖𓏥 𓂋 𓄚𓈖𓏌𓅱𓉐",
+        "en": "you will go with them to the Residence,",
+        "gloss": ["you will go", "with them", "to", "the Residence"]
+      },
+      {
+        "t": "mwt=k m njwt=k",
+        "g": "𓅓𓏏𓏱𓎢 𓅓 𓊖𓏏𓏤𓎢",
+        "en": "and you will die in your own town.",
+        "gloss": ["you will die", "in", "your town"],
+        "q": { "prompt": "Why is dying in his own town good news?", "options": ["he will be buried properly in Egypt", "his town is rich", "it means he will die young"], "answer": 0 }
+      },
+      {
+        "t": "sn=k ḥmt=k",
+        "g": "𓋴𓈖𓂉𓀁𓎢 𓈞𓏏𓁐𓎢",
+        "en": "You will kiss your wife;",
+        "gloss": ["you will kiss", "your wife"]
+      },
+      {
+        "t": "nfr st r jḫt nbt",
+        "g": "𓄤𓆑𓂋 𓋴𓏏 𓂋 𓐍𓏏𓏛𓏥 𓎟𓏏",
+        "en": "that is better than anything.",
+        "gloss": ["good", "it", "more than", "thing", "any"],
+        "q": { "prompt": "What does the snake say is better than anything?", "options": ["coming home to his family", "the treasures of the island", "the king's reward"], "answer": 0 }
+      },
+      {
+        "t": "pḥ=k ẖnw",
+        "g": "𓊪𓎛𓄖𓂻𓎢 𓄚𓈖𓏌𓅱𓉐",
+        "en": "You will reach home.",
+        "gloss": ["you will reach", "home"]
+      }
+    ]
+  },
+  {
+    "id": "ptahhotep-maxim-1",
+    "title": "nn msy sꜣw",
+    "source": "The Instruction of Ptahhotep, Papyrus Prisse 5,6 and 5,8–10 (end of the prologue and maxim 1), Bibliothèque nationale de France, Paris (12th Dynasty), after Žába, Les Maximes de Ptahhotep (1956) (trimmed)",
+    "about": "The aged vizier Ptahhotep asks King Isesi to let him train his son to succeed him, and the king agrees, because no one is born wise. The first maxim warns against pride in one's learning.",
+    "unit": 12,
+    "badge": { "name": "Sage", "about": "Read the first maxim of Ptahhotep" },
+    "lines": [
+      {
+        "t": "nn msy sꜣw",
+        "g": "𓂜𓈖 𓄟𓋴𓇋𓇋𓁓 𓋴𓐟𓄿𓏲𓀁",
+        "en": "No one is born wise.",
+        "gloss": ["there is no one", "born", "wise"],
+        "q": { "prompt": "Why does the king agree that the son must be taught?", "options": ["wisdom has to be learned", "the son is already wise", "the king wants to retire"], "answer": 0 }
+      },
+      {
+        "t": "m ꜥꜣ jb=k ḥr rḫ=k",
+        "g": "𓅓 𓉻𓂝𓄿𓏛 𓄣𓏤𓎢 𓁷𓏤 𓂋𓐍𓏛𓎢",
+        "en": "Do not be proud of your knowledge,",
+        "gloss": ["do not", "be great", "your heart", "because of", "your knowledge"]
+      },
+      {
+        "t": "nḏnḏ r=k ḥnꜥ ḫm mj rḫ",
+        "g": "𓈖𓆓𓈖𓆓𓐩𓀁 𓂋𓎢 𓎛𓈖𓂝 𓐍𓅓𓂜𓀀 𓏇𓇋 𓂋𓐍𓏛𓂻",
+        "en": "but take counsel with the ignorant as with the wise.",
+        "gloss": ["take counsel", "for yourself", "with", "the ignorant", "as", "the wise"],
+        "q": { "prompt": "Whose advice should a learned man seek?", "options": ["the ignorant as well as the learned", "only other officials", "only the gods"], "answer": 0 }
+      },
+      {
+        "t": "n jn.tw ḏrw ḥmwt",
+        "g": "𓂜 𓏎𓈖𓏏𓅱 𓇥𓂋𓅱𓈐 𓍍𓏏𓏤𓏛",
+        "en": "The limits of craft are never reached;",
+        "gloss": ["not", "one reaches", "the limits", "of craft"]
+      },
+      {
+        "t": "nn ḥmww ꜥpr ꜣḫw=f",
+        "g": "𓂜𓈖 𓍍𓅱𓅱𓀀 𓂝𓊪𓂋𓐢𓏛 𓅜𓐍𓅱𓏛𓏥𓆑",
+        "en": "no craftsman's skill is ever complete.",
+        "gloss": ["there is no", "craftsman", "complete in", "his skill"],
+        "q": { "prompt": "What is Ptahhotep's point about craftsmen?", "options": ["no one ever masters a skill completely", "craftsmen are better than scribes", "art is a waste of time"], "answer": 0 }
+      },
+      {
+        "t": "dgꜣ mdt nfrt r wꜣḏ",
+        "g": "𓂧𓎼𓄿𓀄 𓌃𓂧𓏏𓀁 𓄤𓆑𓂋𓏏 𓂋 𓇆𓊌",
+        "en": "Good speech is more hidden than greenstone,",
+        "gloss": ["is hidden", "speech", "good", "more than", "greenstone"]
+      },
+      {
+        "t": "jw gm.tw=s m-ꜥ ḥmwt ḥr bnwt",
+        "g": "𓇋𓅱 𓅠𓅓𓏏𓋴 𓅓𓂝 𓍛𓏏𓏤𓁐𓏥 𓁷𓏤 𓃀𓈖𓏌𓅱𓏏𓊌𓏥",
+        "en": "yet it is found among the maids at the grindstones.",
+        "gloss": ["(statement)", "it is found", "with", "the maidservants", "at", "the grindstones"],
+        "q": { "prompt": "Where can good speech be found?", "options": ["even among servant girls grinding grain", "only in the palace", "only in temple books"], "answer": 0 }
+      }
+    ]
+  }
+]

@@ -1,0 +1,343 @@
+{
+  "sounds": {
+    "intro": "This is the restored pronunciation of educated Romans in Cicero's day, as set out by W. Sidney Allen in Vox Latina (2nd ed. 1978). The evidence is good: Roman grammarians describe the sounds, Greeks wrote Cicerō as Kikerōn and Caesar as Kaisar, misspellings on Pompeii's walls show how people really talked, and the Romance languages keep traces of the old vowels. The consonants and vowel length are secure; a few details, such as final m, are educated guesses.",
+    "groups": [
+      { "h": "Vowels", "rows": [
+        { "t": "a, ā", "ipa": "a, aː", "like": "short like 'cup' in southern British English, long like 'father'", "ex": "pater, māter" },
+        { "t": "e, ē", "ipa": "ɛ, eː", "like": "short like 'pet', long like 'hey' held without the glide", "ex": "bellum, rēx" },
+        { "t": "i, ī", "ipa": "ɪ, iː", "like": "short like 'pit', long like 'machine'", "ex": "vir, vīnum" },
+        { "t": "o, ō", "ipa": "ɔ, oː", "like": "short like British 'pot', long like French 'beau'", "ex": "bonus, Rōma" },
+        { "t": "u, ū", "ipa": "ʊ, uː", "like": "short like 'put', long like 'fool'", "ex": "puer, tū" }
+      ] },
+      { "h": "Diphthongs", "rows": [
+        { "t": "ae", "ipa": "ae̯", "like": "like 'eye'", "ex": "puellae, Caesar", "note": "It later flattened to e, as in Church Latin." },
+        { "t": "au", "ipa": "au̯", "like": "like 'how'", "ex": "Augustus, clausus" },
+        { "t": "oe", "ipa": "oe̯", "like": "like 'boy'", "ex": "poena" },
+        { "t": "ei, eu, ui", "ipa": "ei̯, eu̯, ui̯", "like": "two vowels in one syllable: 'day', e + oo, oo + ee", "ex": "deinde, heu, cui" }
+      ] },
+      { "h": "Consonants", "rows": [
+        { "t": "c", "ipa": "k", "like": "always hard, as in 'cat', even before e and i", "ex": "Cicerō, cibus" },
+        { "t": "g", "ipa": "ɡ", "like": "always hard, as in 'get'", "ex": "gladius, legiō" },
+        { "t": "v", "ipa": "w", "like": "like English 'w'", "ex": "vīnum, vēnī, vīdī, vīcī", "note": "V and U were one letter: Romans carved VENI VIDI VICI." },
+        { "t": "i before a vowel", "ipa": "j", "like": "like 'y' in 'yes'", "ex": "iuvat, Iuppiter", "note": "Between vowels it was doubled: maior sounded like mai-yor." },
+        { "t": "s", "ipa": "s", "like": "always hissed as in 'sing', never 'z'", "ex": "rosa, mīlitēs" },
+        { "t": "r", "ipa": "r", "like": "trilled, as in Italian", "ex": "rēx, soror" },
+        { "t": "qu", "ipa": "kʷ", "like": "as in 'quick'", "ex": "quis, quī" },
+        { "t": "x", "ipa": "ks", "like": "as in 'box'", "ex": "rēx, dux" },
+        { "t": "h", "ipa": "h", "like": "as in 'hat', but weak; country speech dropped it", "ex": "herī, habeō" },
+        { "t": "t", "ipa": "t", "like": "always 't', never 'sh' as in 'nation'", "ex": "tempus, nātiō" },
+        { "t": "gn", "ipa": "ŋn", "like": "probably 'ng' + 'n', as in 'hangnail'", "ex": "magnus, magna", "note": "A reconstruction, though a well-supported one." },
+        { "t": "bs, bt", "ipa": "ps, pt", "like": "b becomes 'p' before s and t", "ex": "urbs", "note": "Quintilian (1.7.7) says obtinuit is spelled with b by rule, but the ear hears p." }
+      ] },
+      { "h": "Greek letters", "rows": [
+        { "t": "ph, th, ch", "ipa": "pʰ, tʰ, kʰ", "like": "p, t and k with a puff of breath, as in 'pot', 'top', 'kit'; never 'f' or English 'th'", "ex": "philosophia, theātrum", "note": "Used only in Greek words. Ordinary speakers often said plain p, t, c." },
+        { "t": "y", "ipa": "y, yː", "like": "like French 'u' or German 'ü'", "ex": "lyra", "note": "Only in Greek words; many Romans probably said u or i." }
+      ] }
+    ],
+    "tips": [
+      { "h": "Vowel length", "p": "A long vowel lasts about twice as long as a short one, and length can change the word: mālum 'apple', malum 'evil'; līber 'free', liber 'book'; vēnit 'he came', venit 'he comes'." },
+      { "h": "Double consonants", "p": "Doubled letters are held, as in Italian: bel-lum, not belum. anus 'old woman' and annus 'year' differ only in the n." },
+      { "h": "Stress", "p": "Two-syllable words stress the first syllable: PA-ter. Longer words stress the second-to-last syllable if it is heavy, that is if it has a long vowel, a diphthong, or a vowel followed by two consonants (x counts as two): a-MĪ-cus, pu-EL-la. Otherwise the stress falls one syllable earlier: FĒ-mi-na, MĪ-li-tēs. It never goes further back than that." },
+      { "h": "Final m", "p": "A final -m was barely sounded. It probably just made the vowel nasal, so puellam came out close to French-style puellã, and in poetry it disappeared before a following vowel." },
+      { "h": "Church Latin", "p": "The Catholic Church and most choirs use an Italian-style pronunciation: c before e, i, ae and oe is 'ch' (Cicerō is 'Chichero'), g before e and i is 'j', v is English 'v', ae and oe are both 'e', ti before a vowel is 'tsi', sc before e and i is 'sh', gn is 'ny', and h is silent (mihi is often 'miki'). Vowel length is mostly ignored. It is a fine living tradition, just a later one than Cicero's." },
+      { "h": "How sure is this?", "p": "The consonants and the long and short vowels are secure. Still debated: the exact quality of the short vowels, final m, the Greek sounds, and whether the stressed syllable was louder or higher in pitch." }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "The cases",
+      "unit": 2,
+      "note": "Endings show each word's job, so word order is free. The lessons drill the nominative, accusative and ablative; the genitive and dative turn up in the stories.",
+      "head": ["Case", "Job", "Example"],
+      "rows": [
+        ["Nominative", "the subject", "puella ambulat 'the girl walks'"],
+        ["Accusative", "the object; 'to' after ad", "puellam videō 'I see the girl'"],
+        ["Genitive", "'of'", "nōmen puellae 'the girl's name'"],
+        ["Dative", "'to', 'for'", "mihi nōmen est 'to me the name is'"],
+        ["Ablative", "'by', 'with', 'from', 'in'", "in domō 'in the house'"],
+        ["Vocative", "calling someone", "et tū, Brūte 'you too, Brutus'"]
+      ]
+    },
+    {
+      "title": "First declension: puella 'girl'",
+      "unit": 2,
+      "note": "Most nouns in -a, nearly all feminine. A few that name men's jobs, like poēta 'poet', are masculine.",
+      "head": ["", "Singular", "Plural"],
+      "rows": [
+        ["Nominative", "puella", "puellae"],
+        ["Accusative", "puellam", "puellās"],
+        ["Genitive", "puellae", "puellārum"],
+        ["Dative", "puellae", "puellīs"],
+        ["Ablative", "puellā", "puellīs"]
+      ]
+    },
+    {
+      "title": "Second declension: amīcus 'friend'",
+      "unit": 2,
+      "note": "Mostly masculine. Calling someone uses -e: Brūte! puer and liber keep -er in the nominative: puer, puerum; liber, librum.",
+      "head": ["", "Singular", "Plural"],
+      "rows": [
+        ["Nominative", "amīcus", "amīcī"],
+        ["Accusative", "amīcum", "amīcōs"],
+        ["Genitive", "amīcī", "amīcōrum"],
+        ["Dative", "amīcō", "amīcīs"],
+        ["Ablative", "amīcō", "amīcīs"]
+      ]
+    },
+    {
+      "title": "Second declension neuter: vīnum 'wine'",
+      "unit": 3,
+      "note": "Neuters never change between subject and object, and their plural always ends in -a.",
+      "head": ["", "Singular", "Plural"],
+      "rows": [
+        ["Nominative", "vīnum", "vīna"],
+        ["Accusative", "vīnum", "vīna"],
+        ["Genitive", "vīnī", "vīnōrum"],
+        ["Dative", "vīnō", "vīnīs"],
+        ["Ablative", "vīnō", "vīnīs"]
+      ]
+    },
+    {
+      "title": "Third declension: rēx 'king'",
+      "unit": 4,
+      "note": "The nominative often hides the stem, so learn another form with the word: urbs, urbem; mīles, mīlitem; pāx, pācem. Some, like urbs, hostis and mare, have -ium in the genitive plural.",
+      "head": ["", "Singular", "Plural"],
+      "rows": [
+        ["Nominative", "rēx", "rēgēs"],
+        ["Accusative", "rēgem", "rēgēs"],
+        ["Genitive", "rēgis", "rēgum"],
+        ["Dative", "rēgī", "rēgibus"],
+        ["Ablative", "rēge", "rēgibus"]
+      ]
+    },
+    {
+      "title": "Present tense",
+      "unit": 5,
+      "note": "The ending is the pronoun. These are the four conjugations, plus sum. edit, bibit and vincit go like regit.",
+      "head": ["", "amō 'love'", "videō 'see'", "regō 'rule'", "veniō 'come'", "sum 'be'"],
+      "rows": [
+        ["I", "amō", "videō", "regō", "veniō", "sum"],
+        ["you", "amās", "vidēs", "regis", "venīs", "es"],
+        ["he, she, it", "amat", "videt", "regit", "venit", "est"],
+        ["we", "amāmus", "vidēmus", "regimus", "venīmus", "sumus"],
+        ["you (plural)", "amātis", "vidētis", "regitis", "venītis", "estis"],
+        ["they", "amant", "vident", "regunt", "veniunt", "sunt"],
+        ["to …", "amāre", "vidēre", "regere", "venīre", "esse"]
+      ]
+    },
+    {
+      "title": "Personal pronouns",
+      "unit": 5,
+      "note": "Used only for emphasis, since the verb ending already says who. cum 'with' goes on the end: mēcum 'with me', tēcum 'with you'.",
+      "head": ["", "I", "you", "we", "you (plural)"],
+      "rows": [
+        ["Nominative", "ego", "tū", "nōs", "vōs"],
+        ["Accusative", "mē", "tē", "nōs", "vōs"],
+        ["Genitive", "meī", "tuī", "nostrī, nostrum", "vestrī, vestrum"],
+        ["Dative", "mihi", "tibi", "nōbīs", "vōbīs"],
+        ["Ablative", "mē", "tē", "nōbīs", "vōbīs"]
+      ]
+    },
+    {
+      "title": "Commands",
+      "unit": 6,
+      "note": "The singular is the bare stem. dīcere, dūcere and facere drop the e: dīc, dūc, fac. To say 'don't', use nōlī with the infinitive: nōlī timēre 'don't be afraid'.",
+      "head": ["Verb", "To one person", "To several"],
+      "rows": [
+        ["amāre 'love'", "amā", "amāte"],
+        ["vidēre 'see'", "vidē", "vidēte"],
+        ["carpere 'seize'", "carpe", "carpite"],
+        ["venīre 'come'", "venī", "venīte"],
+        ["esse 'be'", "es", "este"]
+      ]
+    },
+    {
+      "title": "Perfect tense",
+      "unit": 7,
+      "note": "Every verb puts the same endings on its own perfect stem. Watch the vowel: venit 'he comes', vēnit 'he came'.",
+      "head": ["", "amāvī 'I loved'", "vīdī 'I saw'", "vēnī 'I came'", "fuī 'I was'"],
+      "rows": [
+        ["I", "amāvī", "vīdī", "vēnī", "fuī"],
+        ["you", "amāvistī", "vīdistī", "vēnistī", "fuistī"],
+        ["he, she, it", "amāvit", "vīdit", "vēnit", "fuit"],
+        ["we", "amāvimus", "vīdimus", "vēnimus", "fuimus"],
+        ["you (plural)", "amāvistis", "vīdistis", "vēnistis", "fuistis"],
+        ["they", "amāvērunt", "vīdērunt", "vēnērunt", "fuērunt"]
+      ]
+    },
+    {
+      "title": "Principal parts",
+      "unit": 7,
+      "note": "Dictionaries list a verb by these forms, plus a fourth, the participle. The perfect is often unpredictable, so learn them together.",
+      "head": ["Present", "Infinitive", "Perfect", "Meaning"],
+      "rows": [
+        ["amō", "amāre", "amāvī", "love"],
+        ["habitō", "habitāre", "habitāvī", "live"],
+        ["videō", "vidēre", "vīdī", "see"],
+        ["habeō", "habēre", "habuī", "have"],
+        ["regō", "regere", "rēxī", "rule"],
+        ["veniō", "venīre", "vēnī", "come"],
+        ["vincō", "vincere", "vīcī", "conquer"],
+        ["faciō", "facere", "fēcī", "make, do"],
+        ["dīcō", "dīcere", "dīxī", "say"],
+        ["scrībō", "scrībere", "scrīpsī", "write"],
+        ["dō", "dare", "dedī", "give"],
+        ["sum", "esse", "fuī", "be"]
+      ]
+    },
+    {
+      "title": "Plurals at a glance",
+      "unit": 8,
+      "note": "A plural subject takes a plural verb: est becomes sunt, amat becomes amant, vēnit becomes vēnērunt.",
+      "head": ["Singular", "Plural subject", "Plural object"],
+      "rows": [
+        ["puella", "puellae", "puellās"],
+        ["amīcus", "amīcī", "amīcōs"],
+        ["puer", "puerī", "puerōs"],
+        ["vīnum", "vīna", "vīna"],
+        ["mīles", "mīlitēs", "mīlitēs"],
+        ["corpus", "corpora", "corpora"]
+      ]
+    },
+    {
+      "title": "Third declension neuter: corpus 'body'",
+      "unit": 8,
+      "note": "Like all neuters, the same as subject and object, with a plural in -a. nōmen, tempus and flūmen work the same way: nōmina, tempora, flūmina.",
+      "head": ["", "Singular", "Plural"],
+      "rows": [
+        ["Nominative", "corpus", "corpora"],
+        ["Accusative", "corpus", "corpora"],
+        ["Genitive", "corporis", "corporum"],
+        ["Dative", "corporī", "corporibus"],
+        ["Ablative", "corpore", "corporibus"]
+      ]
+    },
+    {
+      "title": "Adjectives: bonus, bona, bonum 'good'",
+      "unit": 9,
+      "note": "Masculine goes like amīcus, feminine like puella, neuter like vīnum. magnus, parvus, longus, malus and sānus all work this way.",
+      "head": ["", "Masculine", "Feminine", "Neuter"],
+      "rows": [
+        ["Nominative", "bonus", "bona", "bonum"],
+        ["Accusative", "bonum", "bonam", "bonum"],
+        ["Genitive", "bonī", "bonae", "bonī"],
+        ["Dative", "bonō", "bonae", "bonō"],
+        ["Ablative", "bonō", "bonā", "bonō"],
+        ["Nominative plural", "bonī", "bonae", "bona"],
+        ["Accusative plural", "bonōs", "bonās", "bona"],
+        ["Genitive plural", "bonōrum", "bonārum", "bonōrum"],
+        ["Dative, ablative plural", "bonīs", "bonīs", "bonīs"]
+      ]
+    },
+    {
+      "title": "Adjectives: fortis, forte 'brave'",
+      "unit": 9,
+      "note": "Third-declension adjectives. Note the -ī in the ablative and -ium in the genitive plural. The accusative plural can also be fortīs.",
+      "head": ["", "Masculine and feminine", "Neuter"],
+      "rows": [
+        ["Nominative", "fortis", "forte"],
+        ["Accusative", "fortem", "forte"],
+        ["Genitive", "fortis", "fortis"],
+        ["Dative", "fortī", "fortī"],
+        ["Ablative", "fortī", "fortī"],
+        ["Nominative plural", "fortēs", "fortia"],
+        ["Accusative plural", "fortēs", "fortia"],
+        ["Genitive plural", "fortium", "fortium"],
+        ["Dative, ablative plural", "fortibus", "fortibus"]
+      ]
+    },
+    {
+      "title": "Comparison",
+      "unit": 9,
+      "note": "Comparatives decline in the third declension, with a neuter in -ius: longius, melius, maius. Superlatives go like bonus. 'Than' is quam.",
+      "head": ["Adjective", "Comparative", "Superlative"],
+      "rows": [
+        ["longus 'long'", "longior", "longissimus"],
+        ["fortis 'brave'", "fortior", "fortissimus"],
+        ["bonus 'good'", "melior", "optimus"],
+        ["malus 'bad'", "peior", "pessimus"],
+        ["magnus 'big'", "maior", "maximus"],
+        ["parvus 'small'", "minor", "minimus"],
+        ["multī 'many'", "plūrēs", "plūrimī"]
+      ]
+    },
+    {
+      "title": "Relative pronoun: quī, quae, quod",
+      "unit": 10,
+      "note": "Gender and number come from the noun it refers to, case from its job in its own clause: deus quem vidēs 'the god whom you see'.",
+      "head": ["", "Masculine", "Feminine", "Neuter"],
+      "rows": [
+        ["Nominative", "quī", "quae", "quod"],
+        ["Accusative", "quem", "quam", "quod"],
+        ["Genitive", "cuius", "cuius", "cuius"],
+        ["Dative", "cui", "cui", "cui"],
+        ["Ablative", "quō", "quā", "quō"],
+        ["Nominative plural", "quī", "quae", "quae"],
+        ["Accusative plural", "quōs", "quās", "quae"],
+        ["Genitive plural", "quōrum", "quārum", "quōrum"],
+        ["Dative, ablative plural", "quibus", "quibus", "quibus"]
+      ]
+    },
+    {
+      "title": "Prepositions",
+      "unit": 11,
+      "note": "City names drop the preposition: Rōmam 'to Rome', Rōmā 'from Rome'.",
+      "head": ["Preposition", "Case", "Meaning", "Example"],
+      "rows": [
+        ["ad", "accusative", "to, toward", "ad templum"],
+        ["in", "accusative", "into", "in urbem"],
+        ["in", "ablative", "in, on", "in vīllā"],
+        ["ex, ē", "ablative", "out of", "ex silvā"],
+        ["ab, ā", "ablative", "from, by", "ab īnsulā"],
+        ["cum", "ablative", "with", "cum amīcō"],
+        ["dē", "ablative", "down from, about", "dē caelō"],
+        ["sine", "ablative", "without", "sine vīnō"],
+        ["per", "accusative", "through", "per viam"],
+        ["post", "accusative", "after, behind", "post bellum"]
+      ]
+    },
+    {
+      "title": "Imperfect tense",
+      "unit": 11,
+      "note": "'Was doing' or 'used to do': the background of a story. The -ba- never changes.",
+      "head": ["", "amō", "videō", "regō", "veniō", "sum"],
+      "rows": [
+        ["I", "amābam", "vidēbam", "regēbam", "veniēbam", "eram"],
+        ["you", "amābās", "vidēbās", "regēbās", "veniēbās", "erās"],
+        ["he, she, it", "amābat", "vidēbat", "regēbat", "veniēbat", "erat"],
+        ["we", "amābāmus", "vidēbāmus", "regēbāmus", "veniēbāmus", "erāmus"],
+        ["you (plural)", "amābātis", "vidēbātis", "regēbātis", "veniēbātis", "erātis"],
+        ["they", "amābant", "vidēbant", "regēbant", "veniēbant", "erant"]
+      ]
+    },
+    {
+      "title": "Future tense",
+      "unit": 12,
+      "note": "amō and videō verbs use -b-; regō and veniō verbs use -a- then -e-. Careful: reget 'he will rule', regit 'he rules'.",
+      "head": ["", "amō", "videō", "regō", "veniō", "sum"],
+      "rows": [
+        ["I", "amābō", "vidēbō", "regam", "veniam", "erō"],
+        ["you", "amābis", "vidēbis", "regēs", "veniēs", "eris"],
+        ["he, she, it", "amābit", "vidēbit", "reget", "veniet", "erit"],
+        ["we", "amābimus", "vidēbimus", "regēmus", "veniēmus", "erimus"],
+        ["you (plural)", "amābitis", "vidēbitis", "regētis", "veniētis", "eritis"],
+        ["they", "amābunt", "vidēbunt", "regent", "venient", "erunt"]
+      ]
+    },
+    {
+      "title": "possum 'can' and volō 'want'",
+      "unit": 12,
+      "note": "Both take an infinitive: Rōmam vidēre volō 'I want to see Rome'. possum is pot- + sum.",
+      "head": ["", "possum", "volō"],
+      "rows": [
+        ["I", "possum", "volō"],
+        ["you", "potes", "vīs"],
+        ["he, she, it", "potest", "vult"],
+        ["we", "possumus", "volumus"],
+        ["you (plural)", "potestis", "vultis"],
+        ["they", "possunt", "volunt"],
+        ["to …", "posse", "velle"]
+      ]
+    }
+  ]
+}

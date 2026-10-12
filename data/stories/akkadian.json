@@ -1,0 +1,399 @@
+[
+  {
+    "id": "gilgamesh-prologue",
+    "title": "Ša naqba īmuru",
+    "source": "Epic of Gilgameš, Standard Babylonian version, Tablet I 1–8 (ed. A. R. George 2003; eBL edition, SB I)",
+    "about": "The epic opens by praising Gilgameš, king of Uruk, for the wisdom he won on his travels. This is Standard Babylonian, the later literary dialect, not Old Babylonian: the final -m has gone, so māti, not mātim.",
+    "unit": 5,
+    "badge": { "name": "He Who Saw the Deep", "about": "Read the opening lines of the Epic of Gilgameš" },
+    "lines": [
+      {
+        "t": "ša naqba īmuru išdī māti,",
+        "g": "𒃻 𒅘𒁀 𒄿𒈬𒊒 𒅖𒁲 𒈠𒀀𒋾",
+        "en": "He who saw the Deep, the foundation of the land,",
+        "gloss": ["he who", "the Deep", "saw", "the foundations", "of the land"],
+        "q": { "prompt": "What had the hero seen?", "options": ["the Deep, the foundation of the land", "the face of the sun god", "the walls of Babylon"], "answer": 0 }
+      },
+      {
+        "t": "alkakāti īdû kalāma ḫassu!",
+        "g": "𒀠𒅗𒅗𒋾 𒄿𒁺𒌑 𒅗𒆷𒈬 𒄩𒊍𒋢",
+        "en": "who knew all the ways, was wise in everything!",
+        "gloss": ["the ways", "who knew", "in everything", "was wise"]
+      },
+      {
+        "t": "Gilgāmeš ša naqba īmuru išdī māti,",
+        "g": "𒀭𒄑𒂆𒈦 𒃻 𒅘𒁀 𒄿𒈬𒊒 𒅖𒁲 𒈠𒀀𒋾",
+        "en": "Gilgameš, who saw the Deep, the foundation of the land,",
+        "gloss": ["Gilgameš", "who", "the Deep", "saw", "the foundations", "of the land"],
+        "q": { "prompt": "Who is the man who saw the Deep?", "options": ["Gilgameš", "Enkidu", "Hammurabi"], "answer": 0 }
+      },
+      {
+        "t": "alkakāti īdû kalāma ḫassu!",
+        "g": "𒀠𒅗𒅗𒋾 𒄿𒁺𒌑 𒅗𒆷𒈬 𒄩𒊍𒋢",
+        "en": "who knew all the ways, was wise in everything!",
+        "gloss": ["the ways", "who knew", "in everything", "was wise"]
+      },
+      {
+        "t": "iḫīṭma mitḫāriš parakkī,",
+        "g": "𒄿𒄭𒀉𒈠 𒁁𒄩𒊕 𒉺𒊩𒆠",
+        "en": "He explored the seats of power everywhere,",
+        "gloss": ["he explored", "everywhere", "the seats of power"]
+      },
+      {
+        "t": "napḫar nēmeqi ša kalāmi īde.",
+        "g": "𒀮𒄯 𒉌𒈨𒆠 𒊭 𒅗𒆷𒀀𒈪 𒄿𒁲",
+        "en": "he knew the sum of wisdom about all things.",
+        "gloss": ["the sum", "of wisdom", "about", "everything", "he knew"],
+        "q": { "prompt": "What did he come to know?", "options": ["the sum of wisdom about all things", "the names of all the gods", "the road to Babylon"], "answer": 0 }
+      },
+      {
+        "t": "niṣirta īmurma katimta ipte,",
+        "g": "𒉌𒈲𒋫 𒄿𒄯𒈠 𒅗𒋾𒅎𒋾 𒅁𒋼",
+        "en": "He saw the secret and uncovered the hidden;",
+        "gloss": ["the secret", "he saw, and", "the hidden", "he opened"]
+      },
+      {
+        "t": "ubla ṭēma ša lām abūbi.",
+        "g": "𒌒𒆷 𒉈𒂊𒈠 𒃻 𒆷𒄠 𒀀𒁍𒁉",
+        "en": "he brought back word from before the Flood.",
+        "gloss": ["he brought", "word", "of", "before", "the Flood"],
+        "q": { "prompt": "What did he bring back?", "options": ["word from before the Flood", "a cedar from the forest", "the plant of life"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "eye-for-an-eye",
+    "title": "Šumma awīlum īn mār awīlim",
+    "source": "Laws of Hammurabi §§ 196–198, 200, stele Louvre Sb 8, rev. xvii 45–59, 66–70 (CDLI P249253), c. 1750 BC (trimmed)",
+    "about": "Hammurabi's laws punish an injury with the same injury, but only between equals. Hurting a muškēnum, a commoner, costs silver instead.",
+    "unit": 6,
+    "badge": { "name": "Hammurabi's Clerk", "about": "Read the eye-for-an-eye laws on Hammurabi's stele" },
+    "lines": [
+      {
+        "t": "šumma awīlum īn mār awīlim uḫtappid,",
+        "g": "𒋳𒈠 𒀀𒉿𒈝 𒄿𒅔 𒌉 𒀀𒉿𒅆 𒌔𒋰𒁉𒀉",
+        "en": "If a man blinds the eye of another free man,",
+        "gloss": ["if", "a man", "the eye of", "a son of", "a man", "has blinded"]
+      },
+      {
+        "t": "īnšu uḫappadū.",
+        "g": "𒄿𒅔𒋗 𒌑𒄩𒀊𒉺𒁺",
+        "en": "they shall blind his eye.",
+        "gloss": ["his eye", "they shall blind"],
+        "q": { "prompt": "What happens to a man who blinds a free man's eye?", "options": ["his own eye is blinded", "he pays a mina of silver", "he is put to death"], "answer": 0 }
+      },
+      {
+        "t": "šumma eṣemti awīlim ištebir,",
+        "g": "𒋳𒈠 𒄊𒉻𒁺 𒀀𒉿𒅆 𒅖𒋼𒁉𒅕",
+        "en": "If he breaks a free man's bone,",
+        "gloss": ["if", "the bone of", "a man", "he has broken"]
+      },
+      {
+        "t": "eṣemtašu išebbirū.",
+        "g": "𒄊𒉻𒁺𒋗 𒄿𒊺𒅁𒁉𒊒",
+        "en": "they shall break his bone.",
+        "gloss": ["his bone", "they shall break"],
+        "q": { "prompt": "What is the rule behind these first two laws?", "options": ["the attacker suffers the same injury", "the attacker pays the victim's family", "the judges decide each case freely"], "answer": 0 }
+      },
+      {
+        "t": "šumma īn muškēnim uḫtappid u lū eṣemti muškēnim ištebir,",
+        "g": "𒋳𒈠 𒄿𒅔 𒈦𒂗𒆕 𒌔𒋰𒁉𒀉 𒅇 𒇻 𒄊𒉻𒁺 𒈦𒂗𒆕 𒅖𒋼𒁉𒅕",
+        "en": "If he blinds a commoner's eye or breaks a commoner's bone,",
+        "gloss": ["if", "the eye of", "a commoner", "he has blinded", "or", "else", "the bone of", "a commoner", "he has broken"]
+      },
+      {
+        "t": "1 mana kaspam išaqqal.",
+        "g": "𒁹 𒈠𒈾 𒆬𒌓 𒄿𒊭𒃲",
+        "en": "he shall pay one mina of silver.",
+        "gloss": ["one", "mina", "silver", "he shall weigh out"],
+        "q": { "prompt": "What is the penalty for injuring a commoner?", "options": ["a fine of one mina of silver", "the same injury in return", "death"], "answer": 0 }
+      },
+      {
+        "t": "šumma awīlum šinni awīlim meḫrišu ittadi,",
+        "g": "𒋳𒈠 𒀀𒉿𒈝 𒅆𒅔𒉌 𒀀𒉿𒅆 𒈨𒄴𒊑𒋗 𒀉𒋫𒁲",
+        "en": "If a man knocks out the tooth of a man who is his equal,",
+        "gloss": ["if", "a man", "the tooth of", "a man", "his equal", "has knocked out"]
+      },
+      {
+        "t": "šinnašu inaddû.",
+        "g": "𒅆𒅔𒈾𒋗 𒄿𒈾𒀜𒁺𒌑",
+        "en": "they shall knock out his tooth.",
+        "gloss": ["his tooth", "they shall knock out"],
+        "q": { "prompt": "Why does this law say 'his equal'?", "options": ["a tooth for a tooth applies only between equals", "only brothers are protected", "the victim must be older"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "letter-to-zinu",
+    "title": "Ana Zinû qibīma",
+    "source": "Letter of Iddin-Sîn to his mother Zinû, from Larsa, Louvre AO 8372 (TCL 18 111 = AbB 14 165; CDLI P387407), Old Babylonian (trimmed)",
+    "about": "A young man writes home to complain that other boys get finer clothes than he does, even the son of his father's employee, a boy whose mother had adopted him. It is the most famous family letter to survive from Babylonia.",
+    "unit": 6,
+    "badge": { "name": "Dear Mother", "about": "Read a son's complaining letter home" },
+    "lines": [
+      {
+        "t": "ana Zinû qibīma",
+        "g": "𒀀𒈾 𒍣𒉡𒌑 𒆠𒉈𒈠",
+        "en": "Say to Zinû:",
+        "gloss": ["to", "Zinû", "say"]
+      },
+      {
+        "t": "umma Iddin-Sînma",
+        "g": "𒌝𒈠 𒄿𒁷𒀭𒂗𒍪𒈠",
+        "en": "thus says Iddin-Sîn:",
+        "gloss": ["thus", "Iddin-Sîn (says)"],
+        "q": { "prompt": "Who is writing to whom?", "options": ["Iddin-Sîn, to his mother Zinû", "Zinû, to her son", "Hammurabi, to a governor"], "answer": 0 }
+      },
+      {
+        "t": "Šamaš Marduk u Ilabrat aššumīya ana dāriātim liballiṭūki.",
+        "g": "𒀭𒌓 𒀭𒀫𒌓 𒅇 𒀭𒎏𒋚 𒀸𒋳𒅀 𒀀𒈾 𒁕𒊑𒀀𒁴 𒇷𒁀𒀠𒇷𒁺𒆠",
+        "en": "May Šamaš, Marduk and Ilabrat keep you well forever for my sake.",
+        "gloss": ["Šamaš", "Marduk", "and", "Ilabrat", "for my sake", "for", "ever", "may they keep you well"]
+      },
+      {
+        "t": "ṣubāt awīlê šattam ana šattim idammiqū,",
+        "g": "𒌆𒍪𒁀𒀀𒀜 𒀀𒉿𒇷𒂊 𒊭𒀜𒌓 𒀀𒈾 𒊭𒀜𒁴 𒄿𒁕𒄠𒈪𒆪",
+        "en": "The gentlemen's clothes get better year after year,",
+        "gloss": ["the clothes of", "the gentlemen", "year", "after", "year", "get better"]
+      },
+      {
+        "t": "atti ṣubātī šattam ana šattim tuqallalī.",
+        "g": "𒀜𒋾 𒌆𒍪𒁀𒀀𒋾 𒊭𒀜𒌓 𒀀𒈾 𒊭𒀜𒁴 𒌅𒂵𒀠𒆷𒇷",
+        "en": "but you make my clothes worse year after year.",
+        "gloss": ["you", "my clothes", "year", "after", "year", "make worse"],
+        "q": { "prompt": "What is Iddin-Sîn complaining about?", "options": ["his clothes get worse every year", "he has no bread to eat", "his teacher beats him"], "answer": 0 }
+      },
+      {
+        "t": "kīma atti yâti tuldīnni,",
+        "g": "𒆠𒈠 𒀜𒋾 𒅀𒋾 𒌅𒌌𒁲𒅔𒉌",
+        "en": "While you gave birth to me,",
+        "gloss": ["while", "you", "me", "gave birth to me"]
+      },
+      {
+        "t": "šâti ummašu ana leqītim ilqēšu,",
+        "g": "𒊭𒀀𒋾 𒌝𒈠𒋗 𒀀𒈾 𒇷𒆠𒁴 𒅋𒆠𒂊𒋗",
+        "en": "his mother adopted him;",
+        "gloss": ["him", "his mother", "into", "adoption", "took him"],
+        "q": { "prompt": "How did the other boy come to his mother?", "options": ["she adopted him", "she gave birth to him", "she bought him as a slave"], "answer": 0 }
+      },
+      {
+        "t": "u kīma šâti ummašu irāmūšu,",
+        "g": "𒅇 𒆠𒈠 𒊭𒀀𒋾 𒌝𒈠𒋗 𒊏𒀀𒈬𒋗",
+        "en": "and while his mother loves him,",
+        "gloss": ["and", "while", "him", "his mother", "loves him"]
+      },
+      {
+        "t": "atti yâti ul tarammīnni.",
+        "g": "𒀜𒋾 𒅀𒀀𒋾 𒌑𒌌 𒋫𒊏𒄠𒈪𒅔𒉌",
+        "en": "you do not love me.",
+        "gloss": ["you", "me", "not", "love me"],
+        "q": { "prompt": "What does Iddin-Sîn finally accuse his mother of?", "options": ["not loving him", "giving his clothes away", "forgetting to write"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "atrahasis-opening",
+    "title": "Inūma ilū awīlum",
+    "source": "Atrahasis, Old Babylonian version, Tablet I 1–8, 12–13, from the Sippar copy BM 78941 (ed. W. G. Lambert and A. R. Millard 1969; eBL edition, OB I) (trimmed)",
+    "about": "The Babylonian flood story begins before people existed, when the junior gods, the Igigi, had to do all the hard work. Their revolt will lead to the creation of mankind, and later to the Flood. This is Old Babylonian, copied in the 17th century BC.",
+    "unit": 8,
+    "badge": { "name": "When the Gods Were Men", "about": "Read the opening of the Babylonian flood story" },
+    "lines": [
+      {
+        "t": "inūma ilū awīlum",
+        "g": "𒄿𒉡𒈠 𒄿𒇻 𒀀𒉿𒈝",
+        "en": "When the gods were like men,",
+        "gloss": ["when", "the gods", "(were) man"],
+        "q": { "prompt": "How does the poem picture the gods at the start?", "options": ["working like men", "sleeping in heaven", "ruling over people"], "answer": 0 }
+      },
+      {
+        "t": "ublū dulla izbilū šupšikka,",
+        "g": "𒌒𒇻 𒁺𒌌𒆷 𒄑𒁉𒇻 𒋗𒌒𒅆𒅅𒅗",
+        "en": "they bore the work and carried the labour basket.",
+        "gloss": ["they bore", "the work", "they carried", "the labour basket"]
+      },
+      {
+        "t": "šupšik ilī rabīma,",
+        "g": "𒋗𒌒𒅆𒅅 𒄿𒇷 𒊏𒁉𒈠",
+        "en": "The gods' labour basket was big,",
+        "gloss": ["the labour basket of", "the gods", "was big"]
+      },
+      {
+        "t": "dullum kabit mād šapšāqum.",
+        "g": "𒁺𒌌𒇻𒌝 𒅗𒁉𒀉 𒈠𒀀𒀜 𒊭𒀊𒊭𒄣",
+        "en": "the work was heavy, the hardship great.",
+        "gloss": ["the work", "was heavy", "was great", "the hardship"],
+        "q": { "prompt": "What was the work like?", "options": ["heavy and hard", "light and easy", "finished quickly"], "answer": 0 }
+      },
+      {
+        "t": "rabûtum Anunnakū sebettam",
+        "g": "𒊏𒁍𒌈 𒀭𒀀𒉣𒈾𒆪 𒋛𒁉𒀉𒌓",
+        "en": "The great Anunnaki, the Seven,",
+        "gloss": ["the great", "Anunnaki", "the seven"]
+      },
+      {
+        "t": "dullam ušazbalū Igigī.",
+        "g": "𒁺𒌌𒇴 𒌑𒊭𒊍𒁀𒇻 𒀭𒄿𒄀𒄀",
+        "en": "were making the Igigi bear the work.",
+        "gloss": ["the work", "made carry", "the Igigi"],
+        "q": { "prompt": "Who had to do the work?", "options": ["the Igigi gods", "the seven Anunnaki", "the people of Sippar"], "answer": 0 }
+      },
+      {
+        "t": "Anu abūšunu šarru,",
+        "g": "𒀀𒉡 𒀀𒁍𒋗𒉡 𒊬𒊒",
+        "en": "Anu, their father, was king,",
+        "gloss": ["Anu", "their father", "(was) king"]
+      },
+      {
+        "t": "mālikšunu qurādu Ellil.",
+        "g": "𒈠𒇷𒅅𒋗𒉡 𒆪𒊏𒁺 𒀭𒂗𒆤",
+        "en": "their counsellor was the warrior Enlil.",
+        "gloss": ["their counsellor", "the warrior", "Enlil"],
+        "q": { "prompt": "What was Enlil's role?", "options": ["counsellor of the gods", "builder of the canals", "king of the sea"], "answer": 0 }
+      },
+      {
+        "t": "isqam iddû ilū izzūzū,",
+        "g": "𒄑𒂵𒄠 𒀉𒁺𒌑 𒄿𒇻 𒄑𒍪𒍪",
+        "en": "They cast lots; the gods divided up their shares:",
+        "gloss": ["lots", "they cast", "the gods", "divided up"]
+      },
+      {
+        "t": "Anu īteli šamêša.",
+        "g": "𒀀𒉡 𒄿𒋼𒇷 𒊭𒈨𒂊𒊭",
+        "en": "Anu went up to heaven.",
+        "gloss": ["Anu", "went up", "to heaven"],
+        "q": { "prompt": "Which share fell to Anu?", "options": ["heaven", "the earth", "the sea"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "istar-descent",
+    "title": "Ištar mārat Sîn",
+    "source": "Descent of Ištar, Standard Babylonian version, lines 2 and 5–11, from the Nineveh tablet K 162 (eBL edition) (trimmed)",
+    "about": "Ištar, goddess of love and war, sets her mind on the land of the dead, and the poem describes the grim place she is heading for. This is Standard Babylonian, copied in Assyria in the 7th century BC, so the final -m has gone.",
+    "unit": 10,
+    "badge": { "name": "Land of No Return", "about": "Read how Ištar set out for the underworld" },
+    "lines": [
+      {
+        "t": "Ištar mārat Sîn uzunša iškun",
+        "g": "𒀭𒈹 𒌉𒊩 𒀭𒌍 𒌑𒍪𒌦𒃻 𒅖𒆲",
+        "en": "Ištar, daughter of Sîn, set her mind",
+        "gloss": ["Ištar", "the daughter of", "Sîn", "her mind", "set"],
+        "q": { "prompt": "Whose daughter is Ištar?", "options": ["Sîn, the moon god", "Šamaš, the sun god", "Anu, the sky god"], "answer": 0 }
+      },
+      {
+        "t": "ana bīti ša ēribūšu lā āṣû,",
+        "g": "𒀀𒈾 𒂍 𒊭 𒂊𒊑𒁍𒋙 𒆷 𒀀𒍮𒌑",
+        "en": "on the house that no one who enters ever leaves,",
+        "gloss": ["on", "the house", "which", "those who enter it", "not", "come out"],
+        "q": { "prompt": "What is special about this house?", "options": ["no one who enters ever leaves", "it has no door", "only kings may enter"], "answer": 0 }
+      },
+      {
+        "t": "ana ḫarrāni ša alaktaša lā tayyārat,",
+        "g": "𒀀𒈾 𒄯𒊏𒉌 𒊭 𒀀𒋃𒋫𒃻 𒆷 𒋫𒀀𒀀𒋥",
+        "en": "on the road whose journey has no return,",
+        "gloss": ["on", "the road", "which", "its journey", "not", "turns back"]
+      },
+      {
+        "t": "ana bīti ša ēribūšu zummû nūra,",
+        "g": "𒀀𒈾 𒂍 𒊭 𒂊𒊑𒁍𒋙 𒍪𒌝𒈬𒌑 𒉡𒌑𒊏",
+        "en": "on the house whose visitors are robbed of light,",
+        "gloss": ["on", "the house", "which", "those who enter it", "are deprived of", "light"]
+      },
+      {
+        "t": "ašar epru bubūssunu akalšunu ṭiṭṭu.",
+        "g": "𒀀𒊬 𒅖𒄭𒀀 𒁍𒁍𒊻𒋢𒉡 𒀀𒆗𒋗𒉡 𒁲𒀉𒂅",
+        "en": "where dust is their food and clay their bread.",
+        "gloss": ["where", "dust", "their food", "their bread", "clay"],
+        "q": { "prompt": "What do the dead eat?", "options": ["dust and clay", "bread and beer", "nothing at all"], "answer": 0 }
+      },
+      {
+        "t": "nūru ul immarū ina eṭûti ašbū,",
+        "g": "𒉡𒌑𒊒 𒌌 𒅎𒈠𒊒 𒀸 𒂊𒂅𒋾 𒀾𒁍",
+        "en": "They see no light; they live in darkness,",
+        "gloss": ["light", "not", "they see", "in", "darkness", "they dwell"]
+      },
+      {
+        "t": "labšūma kīma iṣṣūrī ṣubāt gappī,",
+        "g": "𒆗𒋗𒈠 𒁶 𒄑𒍮𒊑 𒍮𒁁 𒃮𒉿",
+        "en": "dressed like birds, in garments of wings,",
+        "gloss": ["they are clothed", "like", "birds", "in a garment of", "wings"],
+        "q": { "prompt": "What do the dead wear?", "options": ["wings, like birds", "royal robes", "the clothes they died in"], "answer": 0 }
+      },
+      {
+        "t": "eli dalti u sikkūri šabuḫ epru.",
+        "g": "𒌋𒅗 𒄑𒅅 𒌋 𒄑𒊕𒆰 𒃻𒁍𒄴 𒅁𒊒",
+        "en": "and dust lies over the door and the bolt.",
+        "gloss": ["over", "the door", "and", "the bolt", "is spread", "dust"]
+      }
+    ]
+  },
+  {
+    "id": "gilgamesh-flood",
+    "title": "Kikkiš kikkiš igār igār",
+    "source": "Epic of Gilgameš, Standard Babylonian version, Tablet XI 21–25, 27–28, 30–31 (ed. A. R. George 2003; eBL edition, SB XI); cuneiform after the Babylon copy BM 35380, and the Nineveh copy K 8517 for part of line 24 and lines 28–31 (trimmed)",
+    "about": "Ūta-napišti tells Gilgameš how he survived the Flood. The gods had sworn to keep their plan secret, so the god Ea spoke to the reed wall of Ūta-napišti's house, knowing he would hear. This is Standard Babylonian, from tablets of the first millennium BC, not Old Babylonian.",
+    "unit": 12,
+    "badge": { "name": "Survivor of the Flood", "about": "Read Ea's secret warning in Gilgameš Tablet XI" },
+    "lines": [
+      {
+        "t": "kikkiš kikkiš igār igār!",
+        "g": "𒆠𒅅𒆧 𒆠𒅅𒆧 𒄿𒃻 𒄿𒃻",
+        "en": "Reed wall, reed wall! Brick wall, brick wall!",
+        "gloss": ["reed wall", "reed wall", "brick wall", "brick wall"],
+        "q": { "prompt": "Who is Ea really speaking to?", "options": ["Ūta-napišti, through the wall of his house", "the other gods", "Gilgameš"], "answer": 0 }
+      },
+      {
+        "t": "kikkišu šimēma igāru ḫissas!",
+        "g": "𒆠𒅅𒆠𒋗 𒅆𒈨𒈠 𒄿𒂵𒊒 𒄭𒄑𒊓𒊍",
+        "en": "Listen, reed wall! Pay attention, brick wall!",
+        "gloss": ["O reed wall", "listen", "O brick wall", "pay attention"]
+      },
+      {
+        "t": "šuruppakû mār Ubār-Tutu,",
+        "g": "𒇽𒋗𒊒𒌒𒉺𒆪𒌑 𒌉 𒁹𒂬𒀭𒌅𒌅",
+        "en": "Man of Šuruppak, son of Ubār-Tutu,",
+        "gloss": ["man of Šuruppak", "son of", "Ubār-Tutu"]
+      },
+      {
+        "t": "uqur bīta bini eleppa!",
+        "g": "𒌑𒄥 𒂍 𒁉𒉌 𒄑𒈣",
+        "en": "tear down the house, build a boat!",
+        "gloss": ["tear down", "the house", "build", "a boat"],
+        "q": { "prompt": "What must he do with his house?", "options": ["tear it down and build a boat", "lock it and flee", "give it to the gods"], "answer": 0 }
+      },
+      {
+        "t": "muššir mešrâmma šeʾi napšāti!",
+        "g": "𒈲𒂡 𒃻𒌇𒈠 𒊺𒀪𒄿 𒍣𒎌",
+        "en": "Give up wealth and seek life!",
+        "gloss": ["abandon", "riches, and", "seek", "life"]
+      },
+      {
+        "t": "šūlīma zēr napšāti kalāma ana libbi eleppi!",
+        "g": "𒋗𒇷𒈠 𒆰 𒀮𒃻𒀀𒋾 𒅗𒆷𒈠 𒁹 𒊮 𒄑𒈣",
+        "en": "Load the seed of every living thing into the boat!",
+        "gloss": ["load", "the seed of", "living things", "all", "into", "the inside of", "the boat"],
+        "q": { "prompt": "What must go into the boat?", "options": ["the seed of every living thing", "the gold of the city", "the statues of the gods"], "answer": 0 }
+      },
+      {
+        "t": "eleppu ša tabannûši attā,",
+        "g": "𒄑𒈣 𒃻 𒋫𒉼𒉡𒅆 𒀜𒋫",
+        "en": "The boat that you are going to build,",
+        "gloss": ["the boat", "which", "you will build", "you"]
+      },
+      {
+        "t": "lū mitḫur rupussa u mūrakša,",
+        "g": "𒇻𒌑 𒁁𒄯 𒊒𒁍𒊻𒊓 𒅇 𒈬𒊩𒃻",
+        "en": "let her width and her length be equal,",
+        "gloss": ["let", "be equal", "her width", "and", "her length"],
+        "q": { "prompt": "What shape must the boat be?", "options": ["as wide as it is long", "long and narrow", "round like a basket"], "answer": 0 }
+      },
+      {
+        "t": "kīma apsî šâši ṣullilši!",
+        "g": "𒆠𒈠 𒍪𒀊 𒃻𒀀𒅆 𒍮𒌌𒇸𒅆",
+        "en": "roof her over like the Apsû!",
+        "gloss": ["like", "the Apsû", "her", "roof her over"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,293 @@
+[
+  {
+    "id": "rigveda-agni",
+    "title": "agnim īḷe purohitaṃ",
+    "source": "Ṛgveda 1.1.1 and 1.1.9 (trimmed)",
+    "about": "The first verse of the Ṛgveda, India's oldest text, praises Agni, the fire that carries offerings up to the gods, and the last verse of the same hymn asks him to stay close. Printed without the Vedic pitch accents: ḷ (ळ) is the old Vedic sound of ḍ between vowels, piteva fuses pitā + iva, and 'gne is agne with its a swallowed after e (ऽ).",
+    "unit": 5,
+    "badge": { "name": "First Verse", "about": "Read the opening of the Ṛgveda" },
+    "lines": [
+      {
+        "g": "अग्निम् ईळे पुरोहितं",
+        "t": "agnim īḷe purohitaṃ",
+        "en": "I praise Agni, the household priest,",
+        "gloss": ["Agni", "I praise", "the household priest"],
+        "q": { "prompt": "Whom does the poet praise?", "options": ["Agni, the fire", "Indra, the storm god", "Sūrya, the sun"], "answer": 0 }
+      },
+      {
+        "g": "यज्ञस्य देवम् ऋत्विजम्",
+        "t": "yajñasya devam ṛtvijam",
+        "en": "god of the sacrifice, the priest of the rite,",
+        "gloss": ["of the sacrifice", "god", "the ritual priest"]
+      },
+      {
+        "g": "होतारं रत्नधातमम्",
+        "t": "hotāraṃ ratnadhātamam",
+        "en": "the invoker, best bestower of treasure.",
+        "gloss": ["the invoker", "best giver of treasure"],
+        "q": { "prompt": "What gift is Agni praised for?", "options": ["treasure", "rain", "victory in war"], "answer": 0 }
+      },
+      {
+        "g": "स नः पितेव सूनवे ऽग्ने सूपायनो भव",
+        "t": "sa naḥ piteva sūnave 'gne sūpāyano bhava",
+        "en": "So, Agni, be easy to reach for us, as a father is for his son.",
+        "gloss": ["so you", "for us", "like a father", "for a son", "O Agni", "easy to approach", "be"],
+        "q": { "prompt": "How should Agni be towards his worshippers?", "options": ["easy to reach, like a father to his son", "fearsome, like a king", "far away, like the sun"], "answer": 0 }
+      },
+      {
+        "g": "सचस्वा नः स्वस्तये",
+        "t": "sacasvā naḥ svastaye",
+        "en": "Stay with us, for our well-being.",
+        "gloss": ["stay with", "us", "for well-being"]
+      }
+    ]
+  },
+  {
+    "id": "gita-2-47",
+    "title": "karmaṇy evādhikāras te",
+    "source": "Bhagavad Gītā 2.47 (Mahābhārata, book 6)",
+    "about": "On the battlefield of Kurukṣetra, Kṛṣṇa tells the warrior Arjuna to act without craving the result, the Gītā's most quoted verse. Words are printed apart: karmaṇy is karmaṇi with i turned to y before a vowel, evādhikāras fuses eva + adhikāraḥ (ḥ becomes s before t), and 'stv is astu, its a swallowed after o (ऽ) and its u turned to v.",
+    "unit": 6,
+    "badge": { "name": "Fruits of Action", "about": "Read Bhagavad Gītā 2.47" },
+    "lines": [
+      {
+        "g": "कर्मण्य् एवाधिकारस् ते",
+        "t": "karmaṇy evādhikāras te",
+        "en": "Your right is to action alone,",
+        "gloss": ["to action", "alone the right", "your"]
+      },
+      {
+        "g": "मा फलेषु कदाचन",
+        "t": "mā phaleṣu kadācana",
+        "en": "never to its fruits.",
+        "gloss": ["not", "to the fruits", "ever"],
+        "q": { "prompt": "What does Arjuna have no claim to?", "options": ["the results of his actions", "action itself", "his kingdom"], "answer": 0 }
+      },
+      {
+        "g": "मा कर्मफलहेतुर् भूर्",
+        "t": "mā karmaphalahetur bhūr",
+        "en": "Do not let the fruit of action be your motive,",
+        "gloss": ["do not", "driven by action's fruit", "be"]
+      },
+      {
+        "g": "मा ते सङ्गो ऽस्त्व् अकर्मणि",
+        "t": "mā te saṅgo 'stv akarmaṇi",
+        "en": "nor cling to doing nothing.",
+        "gloss": ["not", "your", "attachment", "let be", "to inaction"],
+        "q": { "prompt": "Does Kṛṣṇa tell Arjuna to stop acting?", "options": ["No, he must not cling to inaction", "Yes, he should give up all action", "Only once the battle is won"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "isha-upanishad",
+    "title": "īśā vāsyam idaṃ sarvaṃ",
+    "source": "Īśa Upaniṣad 1, 6 and 15, Kāṇva recension (trimmed)",
+    "about": "The Īśa, one of the shortest Upaniṣads, is the last chapter of the White Yajurveda. It claims the whole moving world for the Lord and ends with a prayer to Pūṣan, a sun god, to uncover the face of truth. Words are printed apart: īśā vāsyam is the Kāṇva reading (often run together as īśāvāsyam), bhūtāny and ātmany are bhūtāni and ātmani with i turned to y before a vowel, evānupaśyati fuses eva + anupaśyati, cātmānaṃ is ca + ātmānam, satyasyāpihitaṃ is satyasya + apihitam, and pūṣann doubles its n before a vowel.",
+    "unit": 8,
+    "badge": { "name": "Face of Truth", "about": "Read verses of the Īśa Upaniṣad" },
+    "lines": [
+      {
+        "g": "ईशा वास्यम् इदं सर्वं",
+        "t": "īśā vāsyam idaṃ sarvaṃ",
+        "en": "All this is to be dwelt in by the Lord,",
+        "gloss": ["by the Lord", "to be dwelt in", "this", "all"],
+        "q": { "prompt": "Who is to dwell in all this?", "options": ["the Lord", "the sages", "the sun"], "answer": 0 }
+      },
+      {
+        "g": "यत् किञ्च जगत्यां जगत्",
+        "t": "yat kiñca jagatyāṃ jagat",
+        "en": "whatever moves in this moving world.",
+        "gloss": ["whatever", "at all", "in the world", "moving thing"]
+      },
+      {
+        "g": "तेन त्यक्तेन भुञ्जीथा",
+        "t": "tena tyaktena bhuñjīthā",
+        "en": "Enjoy it by giving it up;",
+        "gloss": ["by that", "given up", "you should enjoy"],
+        "q": { "prompt": "How should one enjoy the world?", "options": ["by giving it up", "by owning as much as possible", "by fighting for it"], "answer": 0 }
+      },
+      {
+        "g": "मा गृधः कस्य स्विद् धनम्",
+        "t": "mā gṛdhaḥ kasya svid dhanam",
+        "en": "do not covet anyone's wealth.",
+        "gloss": ["do not", "covet", "of anyone", "at all", "wealth"]
+      },
+      {
+        "g": "यस् तु सर्वाणि भूतान्य् आत्मन्य् एवानुपश्यति",
+        "t": "yas tu sarvāṇi bhūtāny ātmany evānupaśyati",
+        "en": "One who sees all beings in himself",
+        "gloss": ["who", "but", "all", "beings", "in the self", "just sees"]
+      },
+      {
+        "g": "सर्वभूतेषु चात्मानं ततो न विजुगुप्सते",
+        "t": "sarvabhūteṣu cātmānaṃ tato na vijugupsate",
+        "en": "and himself in all beings no longer recoils from anything.",
+        "gloss": ["in all beings", "and the self", "then", "not", "recoils"],
+        "q": { "prompt": "What happens to someone who sees all beings in himself?", "options": ["he recoils from nothing", "he leaves the world", "he becomes a king"], "answer": 0 }
+      },
+      {
+        "g": "हिरण्मयेन पात्रेण सत्यस्यापिहितं मुखम्",
+        "t": "hiraṇmayena pātreṇa satyasyāpihitaṃ mukham",
+        "en": "The face of truth is hidden by a golden vessel.",
+        "gloss": ["golden", "by a vessel", "of truth hidden", "face"]
+      },
+      {
+        "g": "तत् त्वं पूषन्न् अपावृणु सत्यधर्माय दृष्टये",
+        "t": "tat tvaṃ pūṣann apāvṛṇu satyadharmāya dṛṣṭaye",
+        "en": "Uncover it, Pūṣan, so that I, whose law is truth, may see.",
+        "gloss": ["that", "you", "O Pūṣan", "uncover", "for one whose law is truth", "for seeing"],
+        "q": { "prompt": "What does the poet ask Pūṣan to do?", "options": ["uncover the face of truth", "bring rain", "defeat his enemies"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "old-tiger",
+    "title": "eko vṛddho vyāghraḥ",
+    "source": "Hitopadeśa 1 (Mitralābha), story 1 (trimmed)",
+    "about": "The Hitopadeśa, 'good advice', teaches princes through animal fables. In its first story a dove king warns his flock with this tale of an old tiger posing as a holy man: the kuśa grass in his paw is what priests hold during rites. Words are printed apart and compounds as one word: tāvan is tāvat before m, cintayann doubles its n before a vowel, and evāsau fuses eva + asau.",
+    "unit": 10,
+    "badge": { "name": "Good Counsel", "about": "Read the Hitopadeśa fable of the old tiger" },
+    "lines": [
+      {
+        "g": "एको वृद्धो व्याघ्रः स्नातः कुशहस्तः सरस्तीरे ब्रूते",
+        "t": "eko vṛddho vyāghraḥ snātaḥ kuśahastaḥ sarastīre brūte",
+        "en": "An old tiger, freshly bathed and holding kuśa grass, calls from the shore of a lake:",
+        "gloss": ["a certain", "old", "tiger", "bathed", "kuśa grass in hand", "on the lake shore", "says"],
+        "q": { "prompt": "How does the tiger present himself?", "options": ["as a holy man, bathed and holding sacred grass", "as a king, wearing gold", "as a traveller with a staff"], "answer": 0 }
+      },
+      {
+        "g": "भो भो पान्थाः इदं सुवर्णकङ्कणं गृह्यताम्",
+        "t": "bho bho pānthāḥ idaṃ suvarṇakaṅkaṇaṃ gṛhyatām",
+        "en": "'Ho there, travellers! Take this golden bracelet.'",
+        "gloss": ["ho", "ho", "travellers", "this", "golden bracelet", "be taken"]
+      },
+      {
+        "g": "ततो लोभाकृष्टेन केनचित् पान्थेन आलोचितम्",
+        "t": "tato lobhākṛṣṭena kenacit pānthena ālocitam",
+        "en": "Then a traveller, drawn by greed, thought it over.",
+        "gloss": ["then", "drawn by greed", "by a certain", "by a traveller", "it was considered"],
+        "q": { "prompt": "What draws the traveller to the tiger?", "options": ["greed for the gold", "pity for the old tiger", "thirst"], "answer": 0 }
+      },
+      {
+        "g": "कुत्र तव कङ्कणम्",
+        "t": "kutra tava kaṅkaṇam",
+        "en": "'Where is your bracelet?'",
+        "gloss": ["where", "your", "bracelet"]
+      },
+      {
+        "g": "व्याघ्रो हस्तं प्रसार्य दर्शयति",
+        "t": "vyāghro hastaṃ prasārya darśayati",
+        "en": "The tiger stretches out his paw and shows it.",
+        "gloss": ["the tiger", "paw", "stretching out", "shows"]
+      },
+      {
+        "g": "पान्थो ऽवदत् कथं मारात्मके त्वयि विश्वासः",
+        "t": "pāntho 'vadat kathaṃ mārātmake tvayi viśvāsaḥ",
+        "en": "The traveller said, 'How can anyone trust a killer like you?'",
+        "gloss": ["the traveller", "said", "how", "murderous", "in you", "trust"],
+        "q": { "prompt": "Why does the traveller hesitate?", "options": ["tigers kill people", "the bracelet looks fake", "he cannot swim"], "answer": 0 }
+      },
+      {
+        "g": "तद् अत्र सरसि स्नात्वा सुवर्णकङ्कणम् इदं गृहाण",
+        "t": "tad atra sarasi snātvā suvarṇakaṅkaṇam idaṃ gṛhāṇa",
+        "en": "'So bathe here in the lake and take this golden bracelet.'",
+        "gloss": ["so", "here", "in the lake", "having bathed", "golden bracelet", "this", "take"]
+      },
+      {
+        "g": "ततो यावद् असौ तद्वचःप्रतीतो लोभात् सरः स्नातुं प्रविष्टः",
+        "t": "tato yāvad asau tadvacaḥpratīto lobhāt saraḥ snātuṃ praviṣṭaḥ",
+        "en": "As soon as the man, trusting his words, went into the lake out of greed to bathe,",
+        "gloss": ["then", "as soon as", "he", "trusting those words", "out of greed", "the lake", "to bathe", "entered"]
+      },
+      {
+        "g": "तावन् महापङ्के निमग्नः पलायितुम् अक्षमः",
+        "t": "tāvan mahāpaṅke nimagnaḥ palāyitum akṣamaḥ",
+        "en": "he sank into deep mud and could not get away.",
+        "gloss": ["just then", "in deep mud", "sunk", "to escape", "unable"],
+        "q": { "prompt": "What happens in the lake?", "options": ["he sinks in deep mud", "he finds more gold", "the tiger drowns"], "answer": 0 }
+      },
+      {
+        "g": "इति चिन्तयन्न् एवासौ व्याघ्रेण धृत्वा व्यापादितः खादितश् च",
+        "t": "iti cintayann evāsau vyāghreṇa dhṛtvā vyāpāditaḥ khāditaś ca",
+        "en": "Still thinking this, he was seized by the tiger, killed and eaten.",
+        "gloss": ["thus", "thinking", "just he", "by the tiger", "seizing", "killed", "eaten", "and"],
+        "q": { "prompt": "What is the lesson of the fable?", "options": ["greed makes you trust a killer", "always bathe before taking a gift", "old tigers are harmless"], "answer": 0 }
+      }
+    ]
+  },
+  {
+    "id": "nala",
+    "title": "āsīd rājā nalo nāma",
+    "source": "Mahābhārata 3.50.1–5 and 10, critical edition (trimmed)",
+    "about": "In the forest, the sage Bṛhadaśva tells the exiled Yudhiṣṭhira about King Nala, who also lost his kingdom at dice. Damayantī is Bhīma's daughter, born after a sage's blessing. The tale has been a first reading for Western students since the early 1800s. Words are printed apart: iṣṭai is iṣṭaiḥ with its ḥ dropped before r, atiṣṭhan is atiṣṭhat with t turned to n before m, vedavic chūro is vedavit śūraḥ, tathaivāsīd fuses tathā + eva + āsīt, and cāprajaḥ is ca + aprajaḥ.",
+    "unit": 12,
+    "badge": { "name": "King of Niṣadha", "about": "Read the opening of the tale of Nala and Damayantī" },
+    "lines": [
+      {
+        "g": "आसीद् राजा नलो नाम वीरसेनसुतो बली",
+        "t": "āsīd rājā nalo nāma vīrasenasuto balī",
+        "en": "There was a king named Nala, the mighty son of Vīrasena,",
+        "gloss": ["there was", "a king", "Nala", "by name", "Vīrasena's son", "mighty"],
+        "q": { "prompt": "Who was Nala?", "options": ["a king, the son of Vīrasena", "a sage living in the forest", "a god of the sky"], "answer": 0 }
+      },
+      {
+        "g": "उपपन्नो गुणैर् इष्टै रूपवान् अश्वकोविदः",
+        "t": "upapanno guṇair iṣṭai rūpavān aśvakovidaḥ",
+        "en": "blessed with every virtue one could wish, handsome, and expert with horses.",
+        "gloss": ["endowed", "with virtues", "desired", "handsome", "expert in horses"]
+      },
+      {
+        "g": "अतिष्ठन् मनुजेन्द्राणां मूर्ध्नि देवपतिर् यथा",
+        "t": "atiṣṭhan manujendrāṇāṃ mūrdhni devapatir yathā",
+        "en": "He stood at the head of the lords of men like Indra, lord of the gods,",
+        "gloss": ["he stood", "of the lords of men", "at the head", "the lord of the gods", "like"],
+        "q": { "prompt": "Whom is Nala compared to among kings?", "options": ["Indra, lord of the gods", "a lion in the forest", "the moon among the stars"], "answer": 0 }
+      },
+      {
+        "g": "उपर्य् उपरि सर्वेषाम् आदित्य इव तेजसा",
+        "t": "upary upari sarveṣām āditya iva tejasā",
+        "en": "far above them all, like the sun in splendour.",
+        "gloss": ["above", "above", "of all", "the sun", "like", "in splendour"]
+      },
+      {
+        "g": "ब्रह्मण्यो वेदविच् छूरो निषधेषु महीपतिः",
+        "t": "brahmaṇyo vedavic chūro niṣadheṣu mahīpatiḥ",
+        "en": "Devoted to brahmins, learned in the Veda, a hero, he ruled the land of the Niṣadhas,",
+        "gloss": ["devoted to brahmins", "knowing the Veda", "a hero", "among the Niṣadhas", "lord of the earth"]
+      },
+      {
+        "g": "अक्षप्रियः सत्यवादी महान् अक्षौहिणीपतिः",
+        "t": "akṣapriyaḥ satyavādī mahān akṣauhiṇīpatiḥ",
+        "en": "fond of dice, true to his word, a great commander of armies.",
+        "gloss": ["fond of dice", "truthful", "great", "lord of armies"],
+        "q": { "prompt": "Which of Nala's traits hints at trouble to come?", "options": ["he loves dice", "he knows the Veda", "he is handsome"], "answer": 0 }
+      },
+      {
+        "g": "तथैवासीद् विदर्भेषु भीमो भीमपराक्रमः",
+        "t": "tathaivāsīd vidarbheṣu bhīmo bhīmaparākramaḥ",
+        "en": "Likewise, among the Vidarbhas there was Bhīma, of fearsome valour,",
+        "gloss": ["likewise there was", "among the Vidarbhas", "Bhīma", "of fearsome valour"]
+      },
+      {
+        "g": "शूरः सर्वगुणैर् युक्तः प्रजाकामः स चाप्रजः",
+        "t": "śūraḥ sarvaguṇair yuktaḥ prajākāmaḥ sa cāprajaḥ",
+        "en": "a hero with every virtue, who longed for children but had none.",
+        "gloss": ["a hero", "with all virtues", "endowed", "longing for children", "he", "and childless"],
+        "q": { "prompt": "What did King Bhīma lack?", "options": ["children", "courage", "wealth"], "answer": 0 }
+      },
+      {
+        "g": "दमयन्ती तु रूपेण तेजसा यशसा श्रिया",
+        "t": "damayantī tu rūpeṇa tejasā yaśasā śriyā",
+        "en": "Damayantī, through her beauty, radiance, glory and grace",
+        "gloss": ["Damayantī", "now", "by beauty", "by radiance", "by glory", "by grace"]
+      },
+      {
+        "g": "सौभाग्येन च लोकेषु यशः प्राप सुमध्यमा",
+        "t": "saubhāgyena ca lokeṣu yaśaḥ prāpa sumadhyamā",
+        "en": "and charm, won fame throughout the worlds, the slender-waisted girl.",
+        "gloss": ["by charm", "and", "in the worlds", "fame", "won", "slender-waisted"],
+        "q": { "prompt": "What did Damayantī win?", "options": ["fame throughout the worlds", "a kingdom of her own", "a game of dice"], "answer": 0 }
+      }
+    ]
+  }
+]
